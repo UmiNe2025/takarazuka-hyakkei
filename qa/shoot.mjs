@@ -38,6 +38,14 @@ const templeCount = await page.locator("#views-grid .view-card:visible").count()
 console.log("filter 'temple' visible cards:", templeCount);
 await page.click('#views-filters .chip[data-cat="all"]');
 
+// FAQ + opened episode element shots
+await page.locator("#faq").screenshot({ path: "faq-ja.png" });
+await page.evaluate(() => {
+  const epi = document.querySelector("#view-2 .view-epi");
+  if (epi) epi.setAttribute("open", "");
+});
+await page.locator("#view-2").screenshot({ path: "card-epi.png" });
+
 // EN version
 await page.click("#btn-en");
 await page.waitForTimeout(600);
