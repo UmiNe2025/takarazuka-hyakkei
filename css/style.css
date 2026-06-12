@@ -70,6 +70,12 @@ html[data-lang="en"] .ja { display: none !important; }
 html[data-lang="ja"] .en { display: none !important; }
 html[data-lang="en"] body { line-height: 1.75; }
 
+/* ---------- screen-reader only ---------- */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
 /* ---------- skip link ---------- */
 .skip-link {
   position: absolute; left: -9999px; top: 0; z-index: 100;
@@ -334,7 +340,7 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .map-card .sub-en { font-family: var(--serif-en); color: var(--ink-soft); font-size: .86rem; letter-spacing: .1em; margin: 0 0 12px; }
 .map-card p { font-size: .9rem; margin: 0 0 10px; }
 .map-card .meta { font-size: .78rem; color: var(--ink-soft); border-top: 1px dashed var(--paper-3); padding-top: 10px; }
-.map-hint { font-size: .8rem; color: color-mix(in srgb, var(--paper) 70%, transparent); margin-top: 12px; }
+.map-hint { font-size: .8rem; color: #c2bcd4; margin-top: 12px; }
 
 /* ---------- seasons ---------- */
 .seasons { background: var(--paper); }
@@ -396,7 +402,7 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
   padding: 10px 16px; border-radius: 999px; border: 1.5px solid var(--paper-3);
   font-family: inherit; font-size: .9rem; background: var(--white); color: var(--ink);
 }
-.views-search:focus { border-color: var(--gold); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 25%, transparent); }
+.views-search:focus-visible { border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 25%, transparent); }
 .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   border: 1.5px solid var(--paper-3); background: var(--white); border-radius: 999px;
@@ -475,8 +481,8 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .site-foot .foot-en { font-family: var(--serif-en); font-size: .72rem; letter-spacing: .4em; text-transform: uppercase; color: var(--gold); }
 .foot-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 26px 0; font-size: .82rem; }
 .foot-links a { color: var(--gold-pale); }
-.foot-note { font-size: .74rem; max-width: 640px; margin: 0 auto 18px; opacity: .75; line-height: 1.9; }
-.foot-credit { font-size: .72rem; opacity: .6; letter-spacing: .08em; }
+.foot-note { font-size: .74rem; max-width: 640px; margin: 0 auto 18px; color: #c9c3d8; line-height: 1.9; }
+.foot-credit { font-size: .72rem; color: #b7aed0; letter-spacing: .08em; }
 
 /* ---------- back to top ---------- */
 .to-top {

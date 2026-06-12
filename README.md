@@ -5,6 +5,12 @@
 
 **🌐 公開費用: ¥0**（GitHub Pages / 静的サイト / 外部依存なし）
 
+![宝塚百景 ヒーロー画面](docs/screenshot-hero.png)
+
+| 体感型市域マップ | 百景図鑑（検索・絞り込み） |
+|---|---|
+| ![舞台図](docs/screenshot-map.png) | ![百景一覧](docs/screenshot-views.png) |
+
 ---
 
 ## コンセプト
@@ -47,8 +53,10 @@ _takarazuka/
 ├── css/style.css      ← デザインシステム
 ├── js/main.js         ← 言語切替・マップ・百景フィルタ・演出
 ├── js/views-data.js   ← 百景データ（日英対訳100項目）
-├── assets/            ← オリジナルSVG（紋章・地図・挿絵・favicon・OGP）
+├── assets/            ← favicon.svg / ogp.png（make_ogp.py で生成）
 ├── research/          ← リサーチ資料（事実確認の根拠・出典URL付き）
+├── docs/              ← README用スクリーンショット
+├── qa/                ← 検証スクリプト（公開物には不要）
 └── .nojekyll          ← GitHub Pages用
 ```
 

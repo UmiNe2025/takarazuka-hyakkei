@@ -16,6 +16,13 @@
     htmlEl.setAttribute("lang", lang);
     btnJa.setAttribute("aria-pressed", String(lang === "ja"));
     btnEn.setAttribute("aria-pressed", String(lang === "en"));
+    const isJa = lang === "ja";
+    const citymap = document.getElementById("citymap");
+    if (citymap) citymap.setAttribute("lang", lang);
+    const toTopBtn = document.getElementById("to-top");
+    if (toTopBtn) toTopBtn.setAttribute("aria-label", isJa ? "ページの先頭へ" : "Back to top");
+    const langGroup = document.querySelector(".lang-toggle");
+    if (langGroup) langGroup.setAttribute("aria-label", isJa ? "言語切替" : "Language");
     try { localStorage.setItem("tkz-lang", lang); } catch (e) { /* private mode etc. */ }
   }
   let initial = null;
@@ -79,7 +86,7 @@
   const emptyEl = document.getElementById("views-empty");
   let activeCat = "all";
 
-  function bi(ja, en) { return '<span class="ja">' + ja + '</span><span class="en">' + en + "</span>"; }
+  function bi(ja, en) { return '<span class="ja" lang="ja">' + ja + '</span><span class="en" lang="en">' + en + "</span>"; }
 
   // filter chips
   const cats = [["all", { ja: "すべて", en: "All" }]].concat(Object.entries(TKZ_CATS));
@@ -273,6 +280,8 @@
     const s = MAP_SPOTS[id];
     if (!s) return;
     pins.forEach((p) => p.classList.toggle("active", p === pinEl));
+    const status = document.getElementById("mc-status");
+    if (status) status.textContent = htmlEl.getAttribute("lang") === "ja" ? s.ja : s.en;
     mapCard.cat.innerHTML = bi(s.cja, s.cen);
     mapCard.title.innerHTML = bi(s.ja, s.en);
     mapCard.sub.innerHTML = bi(s.en, s.ja);
