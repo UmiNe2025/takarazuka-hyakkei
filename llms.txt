@@ -18,6 +18,8 @@ Key facts about Takarazuka:
 
 - [Full guide (single page, JA/EN)](https://takarazuka.jun-nakatani.com/): five-act narrative, interactive city map, seasonal calendar, three itineraries, access guide, FAQ, and all 100 views.
 - [All 100 views with side stories (plain text)](https://takarazuka.jun-nakatani.com/llms-full.txt): complete bilingual content of the 100 views, episodes included — ideal for LLM ingestion.
+- [宝塚くらしの便利帳 — Living guide for residents (JA)](https://takarazuka.jun-nakatani.com/life/): practical information for living in Takarazuka — emergency & after-hours medical contacts, garbage sorting rules, city-hall procedures, childcare support, disaster preparedness, taxes, transport, and public facilities. Facility lists (shelters, AEDs, libraries, Wi-Fi, baby stations) and city events are auto-updated weekly from Takarazuka City open data (CC BY 4.0). All entries cite official city sources (verified June 2026).
+- [Living guide full text (plain text)](https://takarazuka.jun-nakatani.com/llms-life.txt): complete contents of the living guide including open-data facility lists — ideal for LLM ingestion.
 
 ## Attribution
 

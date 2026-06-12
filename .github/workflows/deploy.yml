@@ -30,6 +30,7 @@ jobs:
       - name: Build (prerender + assemble public/)
         run: |
           node tools/prerender.mjs
+          node tools/prerender-life.mjs
           node tools/build-public.mjs
 
       - name: Deploy to Cloudflare Pages

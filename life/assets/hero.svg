@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Everyday life in Takarazuka City</title>
+  <desc id="desc">A warm panorama with mountains, the Muko River, a red bridge, homes, civic buildings, a maroon train, residents, and violet flowers.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#f8f4ea"/>
+    </linearGradient>
+    <g id="cloud" fill="#fffdf7">
+      <circle cx="18" cy="18" r="18"/>
+      <circle cx="42" cy="12" r="26"/>
+      <circle cx="71" cy="20" r="19"/>
+      <rect x="18" y="18" width="53" height="20" rx="10"/>
+    </g>
+    <g id="sumire">
+      <path d="M0 24C-2 14 1 7 7 0" fill="none" stroke="#38766f" stroke-width="3" stroke-linecap="round"/>
+      <path d="M5 11C-2 8-7 10-9 15c6 2 11 0 14-4Z" fill="#6a8a4f"/>
+      <path d="M5 7c-8-2-11-9-7-14 6 0 9 5 7 14Z" fill="#5a3e8e"/>
+      <path d="M6 7c1-8 7-12 13-9 1 6-4 10-13 9Z" fill="#5a3e8e"/>
+      <path d="M5 7c8 1 11 7 8 12-6 1-9-4-8-12Z" fill="#b06a8c"/>
+      <circle cx="5" cy="7" r="3" fill="#e7bd55"/>
+    </g>
+    <g id="tree">
+      <rect x="-4" y="17" width="8" height="22" rx="4" fill="#38285c"/>
+      <circle cx="-10" cy="14" r="15" fill="#6a8a4f"/>
+      <circle cx="8" cy="12" r="17" fill="#38766f"/>
+      <circle cx="0" cy="0" r="17" fill="#6a8a4f"/>
+    </g>
+  </defs>
+
+  <!-- Sky, sun, and distant Rokko / Nagao mountains -->
+  <g id="sky-and-mountains">
+    <rect width="1200" height="480" fill="url(#sky)"/>
+    <circle cx="1035" cy="78" r="37" fill="#e7bd55"/>
+    <circle cx="1035" cy="78" r="49" fill="none" stroke="#e7bd55" stroke-width="3" opacity=".28"/>
+    <use href="#cloud" transform="translate(135 67) scale(.8)" opacity=".9"/>
+    <use href="#cloud" transform="translate(735 40) scale(.62)" opacity=".82"/>
+    <use href="#cloud" transform="translate(965 135) scale(.46)" opacity=".76"/>
+    <path d="M0 205 75 153l45 26 80-74 68 63 74-39 70 63 79-84 64 55 51-26 70 56 55-53 69 49 74-72 75 67 64-29 77 54 60-44v126H0Z"
+      fill="#5a3e8e" opacity=".18"/>
+    <path d="M0 225 86 172l57 34 69-50 67 50 72-67 75 70 75-47 62 44 78-61 70 67 67-26 58 38 67-63 72 71 81-46 64 39 70-50 70 58v89H0Z"
+      fill="#38766f" opacity=".42"/>
+    <path d="M0 244 64 205l58 29 67-48 58 44 65-27 52 39 83-61 68 53 75-30 65 49 76-44 69 47 68-21 61 29 74-47 71 44 68-25 78 42 59-32v68H0Z"
+      fill="#6a8a4f" opacity=".55"/>
+  </g>
+
+  <!-- Far riverbank: theater, homes, school, apartments, and shops -->
+  <g id="far-town" stroke="#241d31" stroke-width="3" stroke-linejoin="round">
+    <path d="M0 250C104 239 193 243 286 251s194 4 283-2 189-10 281 1 216 8 350-2v57H0Z"
+      fill="#f8f4ea" stroke="none"/>
+
+    <!-- Takarazuka Grand Theater -->
+    <g id="theater">
+      <path d="M22 255v-57h35c14-37 60-57 118-49 35 5 63 24 78 49h38v57Z" fill="#fffdf7"/>
+      <path d="M44 198c28-55 151-72 207 0" fill="none" stroke="#b06a8c" stroke-width="13" stroke-linecap="round"/>
+      <path d="M55 198c30-40 147-51 185 0" fill="none" stroke="#5a3e8e" stroke-width="5" stroke-linecap="round"/>
+      <path d="M76 198v57M257 198v57" fill="none"/>
+      <path d="M95 215h143v40H95Z" fill="#f8f4ea"/>
+      <path d="M112 215v40M132 215v40M152 215v40M172 215v40M192 215v40M212 215v40" fill="none" stroke="#c19a3f" stroke-width="4"/>
+      <path d="M20 255h273" fill="none" stroke="#38285c" stroke-width="6"/>
+    </g>
+
+    <!-- Houses -->
+    <g id="houses">
+      <g transform="translate(305)">
+        <path d="M0 216 43 184l43 32v40H0Z" fill="#fffdf7"/>
+        <path d="m-5 217 48-37 48 37" fill="none" stroke="#b6432e" stroke-width="8" stroke-linecap="round"/>
+        <rect x="13" y="226" width="19" height="30" rx="2" fill="#b06a8c"/>
+        <rect x="50" y="224" width="20" height="17" rx="2" fill="#e7bd55"/>
+      </g>
+      <g transform="translate(394)">
+        <path d="M0 222 37 192l37 30v34H0Z" fill="#f8f4ea"/>
+        <path d="m-4 223 41-35 41 35" fill="none" stroke="#5a3e8e" stroke-width="8" stroke-linecap="round"/>
+        <rect x="12" y="229" width="18" height="27" rx="2" fill="#38766f"/>
+        <rect x="45" y="228" width="16" height="14" rx="2" fill="#e7bd55"/>
+      </g>
+    </g>
+
+    <!-- School with clock -->
+    <g id="school">
+      <path d="M485 208h129v49H485Z" fill="#fffdf7"/>
+      <path d="M477 208h145" fill="none" stroke="#c19a3f" stroke-width="8" stroke-linecap="round"/>
+      <path d="M527 208v-27h44v27" fill="#f8f4ea"/>
+      <circle cx="549" cy="193" r="12" fill="#fffdf7" stroke="#5a3e8e" stroke-width="4"/>
+      <path d="M549 193v-7m0 7 6 3" fill="none" stroke="#241d31" stroke-width="2" stroke-linecap="round"/>
+      <g fill="#38766f" stroke="none">
+        <rect x="497" y="220" width="17" height="13" rx="2"/>
+        <rect x="525" y="220" width="17" height="13" rx="2"/>
+        <rect x="556" y="220" width="17" height="13" rx="2"/>
+        <rect x="585" y="220" width="17" height="13" rx="2"/>
+      </g>
+      <rect x="540" y="239" width="19" height="18" fill="#b06a8c"/>
+    </g>
+
+    <!-- Apartment building -->
+    <g id="apartments">
+      <path d="M640 162h100v96H640Z" fill="#fffdf7"/>
+      <path d="M634 162h112" fill="none" stroke="#38285c" stroke-width="8" stroke-linecap="round"/>
+      <path d="M656 176h68M656 197h68M656 218h68M656 239h68" fill="none" stroke="#c19a3f" stroke-width="5"/>
+      <path d="M668 166v84M705 166v84" fill="none" stroke="#5a3e8e" stroke-width="3"/>
+    </g>
+
+    <!-- Neighborhood shops -->
+    <g id="shops">
+      <g transform="translate(758)">
+        <path d="M0 205h82v52H0Z" fill="#fffdf7"/>
+        <path d="M-4 205h90l-9 22H5Z" fill="#b6432e"/>
+        <path d="M14 205v22M32 205v22M50 205v22M68 205v22" fill="none" stroke="#fffdf7" stroke-width="7"/>
+        <rect x="12" y="234" width="25" height="23" fill="#38766f"/>
+        <rect x="50" y="234" width="19" height="23" fill="#e7bd55"/>
+      </g>
+      <g transform="translate(845)">
+        <path d="M0 198h89v59H0Z" fill="#f8f4ea"/>
+        <path d="M-3 198h95l-8 23H5Z" fill="#5a3e8e"/>
+        <path d="M15 198v23M34 198v23M54 198v23M73 198v23" fill="none" stroke="#fffdf7" stroke-width="7"/>
+        <rect x="12" y="229" width="27" height="28" fill="#b06a8c"/>
+        <rect x="52" y="230" width="24" height="17" fill="#e7bd55"/>
+      </g>
+    </g>
+
+    <!-- Small homes and trees at right -->
+    <g id="right-homes">
+      <g transform="translate(955)">
+        <path d="M0 222 34 194l34 28v35H0Z" fill="#fffdf7"/>
+        <path d="m-4 223 38-33 38 33" fill="none" stroke="#b6432e" stroke-width="8" stroke-linecap="round"/>
+        <rect x="11" y="230" width="17" height="27" fill="#38766f"/>
+        <rect x="42" y="228" width="15" height="14" fill="#e7bd55"/>
+      </g>
+      <use href="#tree" transform="translate(1051 215) scale(.72)" stroke="none"/>
+      <g transform="translate(1081)">
+        <path d="M0 216 39 187l39 29v41H0Z" fill="#f8f4ea"/>
+        <path d="m-4 217 43-34 43 34" fill="none" stroke="#5a3e8e" stroke-width="8" stroke-linecap="round"/>
+        <rect x="13" y="226" width="19" height="31" fill="#b06a8c"/>
+        <rect x="49" y="225" width="17" height="15" fill="#e7bd55"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Muko River and iconic red arch bridge -->
+  <g id="river-and-bridge">
+    <path d="M0 260c160 10 272-8 420 1 151 9 244 15 390 2 148-13 250 7 390-2v119H0Z" fill="#38766f"/>
+    <path d="M0 282c147 11 267-7 400 2s261 13 395 1c149-13 266 8 405-3" fill="none" stroke="#fffdf7" stroke-width="5" opacity=".72"/>
+    <path d="M48 318c115 8 218-6 332 2m41 2c99 7 177 8 270 0m330 4c55-5 111-5 161-1"
+      fill="none" stroke="#fffdf7" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+    <path d="M120 350c94 6 176-4 266 1m-315-28 31 1m648 24c70-6 134-7 207-2"
+      fill="none" stroke="#e7bd55" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+
+    <g id="red-bridge" stroke="#b6432e" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M720 279h300" fill="none" stroke-width="11"/>
+      <path d="M746 279c34-112 214-112 248 0" fill="none" stroke-width="12"/>
+      <path d="M762 279c32-84 184-84 216 0" fill="none" stroke-width="5"/>
+      <path d="M773 226v53m30-82v82m34-98v98m34-104v104m34-97v97m34-82v82m30-53v53"
+        fill="none" stroke-width="4"/>
+      <path d="M712 291h316" fill="none" stroke="#38285c" stroke-width="7"/>
+      <path d="M731 292v32m278-32v32" fill="none" stroke="#38285c" stroke-width="8"/>
+    </g>
+  </g>
+
+  <!-- Near bank, rail line, and Hankyu-style train -->
+  <g id="near-bank">
+    <path d="M0 371c112-20 217-14 330-2 122 13 232 3 350-5 146-10 248 4 354 9 62 3 115-1 166-9v116H0Z" fill="#f8f4ea"/>
+    <path d="M0 378c123-23 231-14 340-2 117 13 226 4 338-4 152-11 252 3 357 9 69 4 136-1 205-13"
+      fill="none" stroke="#6a8a4f" stroke-width="13" stroke-linecap="round"/>
+
+    <g id="railway">
+      <path d="M363 386h472" fill="none" stroke="#241d31" stroke-width="7"/>
+      <path d="M363 397h472" fill="none" stroke="#38285c" stroke-width="5"/>
+      <path d="M382 383v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17m30-17v17"
+        fill="none" stroke="#c19a3f" stroke-width="5"/>
+
+      <g id="train" stroke="#241d31" stroke-width="3">
+        <path d="M430 327h294c21 0 38 14 42 34l4 21H415l4-40c1-8 5-13 11-15Z" fill="#6e2639"/>
+        <path d="M439 337h274c18 0 30 9 35 26H433Z" fill="#fffdf7"/>
+        <path d="M448 341h54v18h-54Zm66 0h54v18h-54Zm66 0h54v18h-54Zm66 0h54v18h-54Zm66 1c14 2 24 7 29 17h-29Z"
+          fill="#38766f" stroke="none"/>
+        <path d="M508 337v45m66-45v45m66-45v45m66-44v44" fill="none"/>
+        <path d="M421 371h346" fill="none" stroke="#e7bd55" stroke-width="5"/>
+        <circle cx="474" cy="384" r="13" fill="#241d31"/>
+        <circle cx="474" cy="384" r="5" fill="#c19a3f" stroke="none"/>
+        <circle cx="712" cy="384" r="13" fill="#241d31"/>
+        <circle cx="712" cy="384" r="5" fill="#c19a3f" stroke="none"/>
+        <circle cx="754" cy="370" r="4" fill="#e7bd55" stroke="none"/>
+      </g>
+    </g>
+
+    <use href="#tree" transform="translate(318 358) scale(.78)"/>
+    <use href="#tree" transform="translate(878 365) scale(.72)"/>
+    <use href="#tree" transform="translate(1158 352) scale(.9)"/>
+  </g>
+
+  <!-- Residents going about their day -->
+  <g id="people" stroke="#241d31" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Parent with stroller -->
+    <g transform="translate(100 360)">
+      <circle cx="0" cy="0" r="9" fill="#b06a8c" stroke="none"/>
+      <path d="M0 11v34m0-16-14 14m14-19 15 11M0 45-9 66m9-21 12 21" fill="none"/>
+      <path d="m11 35 19 5 9 21H16Z" fill="#5a3e8e"/>
+      <path d="M30 40c10-10 22-8 27 2" fill="none" stroke="#b06a8c" stroke-width="7"/>
+      <circle cx="22" cy="65" r="6" fill="#38285c"/>
+      <circle cx="43" cy="65" r="6" fill="#38285c"/>
+    </g>
+
+    <!-- Two children walking -->
+    <g transform="translate(238 382)">
+      <g>
+        <circle cx="0" cy="0" r="8" fill="#e7bd55" stroke="none"/>
+        <path d="M0 10v27m0-17-12 9m12-7 12 8M0 37-8 54m8-17 10 17" fill="none"/>
+        <path d="M-8 12h16l5 22h-26Z" fill="#b6432e" stroke="none"/>
+        <path d="M-8 16-18 21v16h8" fill="none" stroke="#5a3e8e" stroke-width="5"/>
+      </g>
+      <g transform="translate(46 7)">
+        <circle cx="0" cy="0" r="8" fill="#b06a8c" stroke="none"/>
+        <path d="M0 10v26m0-17-11 9m11-7 11 8M0 36-9 52m9-16 9 16" fill="none"/>
+        <path d="M-9 12H9l4 21h-26Z" fill="#38766f" stroke="none"/>
+        <path d="M9 17h10" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Shopper with bags -->
+    <g transform="translate(946 368)">
+      <circle cx="0" cy="0" r="9" fill="#5a3e8e" stroke="none"/>
+      <path d="M0 11v35m0-21-15 20m15-18 16 16M0 46-10 68m10-22 12 22" fill="none"/>
+      <path d="M-25 42h17l-2 21h-17Z" fill="#e7bd55" stroke="#c19a3f"/>
+      <path d="M9 40h19l2 22H11Z" fill="#b06a8c" stroke="#5a3e8e"/>
+      <path d="M-21 42c0-7 8-9 10 0m25-2c1-8 9-9 11 0" fill="none" stroke-width="3"/>
+    </g>
+
+    <!-- Elderly person with dog -->
+    <g transform="translate(1062 364)">
+      <circle cx="0" cy="0" r="9" fill="#c19a3f" stroke="none"/>
+      <path d="M0 11v38m0-24-12 18m12-15 12 15M0 49-6 70m6-21 9 20m7-34v38" fill="none"/>
+      <path d="M-9 13H8l6 30h-29Z" fill="#5a3e8e" stroke="none"/>
+      <path d="M13 42c19 0 29 12 40 18" fill="none" stroke="#b06a8c" stroke-width="3"/>
+      <g transform="translate(57 60)">
+        <path d="M0 0c8-9 25-8 31 2l11-8 1 14-10 2c-4 10-25 11-33 1Z" fill="#b06a8c" stroke="none"/>
+        <circle cx="37" cy="1" r="2.5" fill="#241d31" stroke="none"/>
+        <path d="M8 10v10m17-9v9M1 4l-9-8" fill="none"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Foreground grasses and sumire flowers -->
+  <g id="foreground">
+    <path d="M0 456c42-23 89-23 139 0 35 16 75 18 118 4 55-18 105-13 151 13H0Zm1200 0c-42-23-89-23-139 0-35 16-75 18-118 4-55-18-105-13-151 13h408Z"
+      fill="#6a8a4f"/>
+    <path d="M0 470c52-22 105-18 158 10H0Zm1200 0c-52-22-105-18-158 10h158Z" fill="#38766f"/>
+    <path d="M25 466c7-21 10-35 8-48m24 48c1-24 8-39 19-50m46 54c-1-22-8-38-20-48m1020 47c-5-21-5-37 0-51m29 47c-2-23 3-39 15-52"
+      fill="none" stroke="#38766f" stroke-width="4" stroke-linecap="round"/>
+    <use href="#sumire" transform="translate(42 443) scale(1.35)"/>
+    <use href="#sumire" transform="translate(91 459) scale(.95) rotate(-12)"/>
+    <use href="#sumire" transform="translate(151 450) scale(1.1) rotate(8)"/>
+    <use href="#sumire" transform="translate(1160 445) scale(1.4) rotate(8)"/>
+    <use href="#sumire" transform="translate(1105 458) scale(1.05) rotate(-10)"/>
+    <use href="#sumire" transform="translate(1055 451) scale(.9)"/>
+    <circle cx="183" cy="465" r="4" fill="#e7bd55"/>
+    <circle cx="1025" cy="466" r="4" fill="#e7bd55"/>
+  </g>
+</svg>

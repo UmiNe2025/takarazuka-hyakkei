@@ -1,0 +1,120 @@
+{
+ "id": "wifi",
+ "title": "公衆無線LAN（フリーWi-Fi）スポット",
+ "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成",
+ "fetched": "2026-06-13",
+ "sourcePage": "https://www.geospatial.jp/ckan/dataset/takarazuka-wifi",
+ "type": "table",
+ "map": true,
+ "columns": [
+  {
+   "key": "name",
+   "label": "施設名",
+   "name": true
+  },
+  {
+   "key": "address",
+   "label": "所在地"
+  },
+  {
+   "key": "ssid",
+   "label": "SSID"
+  },
+  {
+   "key": "note",
+   "label": "備考"
+  }
+ ],
+ "items": [
+  {
+   "name": "手塚治虫記念館",
+   "address": "武庫川町7番65号",
+   "ssid": "+USEN_FREE_Wi-Fi",
+   "note": "館内"
+  },
+  {
+   "name": "中央図書館",
+   "address": "清荒神1丁目2番18号",
+   "ssid": "Takarazuka-T1_2.4G 及びTakarazuka-T2_2.4G",
+   "note": "館内"
+  },
+  {
+   "name": "西図書館",
+   "address": "小林2丁目7番30号",
+   "ssid": "NISHITOSYOKAN2_2.4G及びNISHITOSYOKAN2_5G",
+   "note": "館内"
+  },
+  {
+   "name": "中央公民館",
+   "address": "末広町3番53号",
+   "ssid": "Takarazuka_Kominkan_WiFi",
+   "note": "館内"
+  },
+  {
+   "name": "市立スポーツセンター",
+   "address": "小浜1丁目1番11号",
+   "ssid": "suposen-free",
+   "note": "周辺"
+  },
+  {
+   "name": "市立花屋敷グラウンド",
+   "address": "花屋敷荘園4丁目2番35号",
+   "ssid": "FREESPOT",
+   "note": "周辺"
+  },
+  {
+   "name": "地域利用施設御殿山会館",
+   "address": "御殿山2丁目1番81号",
+   "ssid": "Aterm-cf3a9b-gx",
+   "note": "館内"
+  },
+  {
+   "name": "文化芸術センター",
+   "address": "武庫川町7番64号",
+   "ssid": "Takarazuka_City_WiFi",
+   "note": "館内"
+  },
+  {
+   "name": "国際・文化センター",
+   "address": "南口2丁目14番1号ー3",
+   "ssid": "メッシュWi-Fi",
+   "note": "館内"
+  },
+  {
+   "name": "総合福祉センター",
+   "address": "安倉西2丁目1番1号",
+   "ssid": "fukushicenter",
+   "note": "館内"
+  },
+  {
+   "name": "男女共同参画センター",
+   "address": "栄町2丁目1番2号「ソリオ2」4階",
+   "ssid": "Buffalo-A-5910 Buffalo-G−5910",
+   "note": "館内"
+  },
+  {
+   "name": "ピピアめふ公益施設",
+   "address": "売布2丁目5番1号",
+   "ssid": "+USEN_SPOT_free +USEN_SPOT_free_s",
+   "note": "館内"
+  },
+  {
+   "name": "さらら仁川公益施設",
+   "address": "仁川北2丁目5番1号",
+   "ssid": "+USEN_FREE_Wi-Fi",
+   "note": "館内"
+  },
+  {
+   "name": "宝塚市立病院",
+   "address": "小浜4丁目5番1号",
+   "ssid": "Takarazukacityhp-Free-WiFi",
+   "note": "院内"
+  },
+  {
+   "name": "健康センター",
+   "address": "小浜4丁目4番1号",
+   "ssid": "guest",
+   "note": "館内"
+  }
+ ]
+}

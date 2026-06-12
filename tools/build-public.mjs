@@ -12,10 +12,12 @@ fs.mkdirSync(PUB, { recursive: true });
 
 const files = [
   "index.html", "privacy.html", "404.html", "_headers",
-  "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml",
+  "llms.txt", "llms-full.txt", "llms-life.txt", "robots.txt", "sitemap.xml",
   "css/style.css", "css/policy.css",
   "js/views-data.js", "js/main.js", "js/consent.js", "js/lang-lite.js",
-  "assets/favicon.svg", "assets/ogp.png"
+  "assets/favicon.svg", "assets/ogp.png",
+  "life/index.html", "life/life.css", "life/life.js",
+  "life/assets/hero.svg", "life/assets/ogp.png"
 ];
 
 for (const rel of files) {

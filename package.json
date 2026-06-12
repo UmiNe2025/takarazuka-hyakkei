@@ -1,0 +1,19 @@
+{
+  "name": "elegant-engelbart-38677b",
+  "version": "1.0.0",
+  "description": "世界中の人に宝塚市を「隅々まで」知ってもらい、「来てみたい」と思ってもらうための、完全オリジナル・バイリンガル（日英）Webサイト。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

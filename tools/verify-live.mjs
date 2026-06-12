@@ -1,19 +1,23 @@
-/* 本番検証: pages.dev とカスタムドメインの双方で 200 / CSP / カード100枚を確認。
+/* 本番検証: pages.dev とカスタムドメインの双方で 200 / CSP / コンテンツ量を確認。
+   - /        : 宝塚百景（view-card が100枚）
+   - /life/   : くらしの便利帳（item-card が50枚以上）
    Run: node tools/verify-live.mjs   （失敗時 exit 1） */
-const URLS = [
-  "https://takarazuka.pages.dev/",
-  "https://takarazuka.jun-nakatani.com/"
+const CHECKS = [
+  { url: "https://takarazuka.pages.dev/", pat: /class="view-card"/g, min: 100, label: "views" },
+  { url: "https://takarazuka.jun-nakatani.com/", pat: /class="view-card"/g, min: 100, label: "views" },
+  { url: "https://takarazuka.pages.dev/life/", pat: /class="item-card"/g, min: 50, label: "items" },
+  { url: "https://takarazuka.jun-nakatani.com/life/", pat: /class="item-card"/g, min: 50, label: "items" },
 ];
 
 let fail = false;
-for (const url of URLS) {
+for (const { url, pat, min, label } of CHECKS) {
   try {
     const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (verify-live)" } });
     const body = await r.text();
-    const cards = (body.match(/class="view-card"/g) || []).length;
+    const count = (body.match(pat) || []).length;
     const csp = Boolean(r.headers.get("content-security-policy"));
-    const ok = r.status === 200 && cards === 100 && csp;
-    console.log(`${ok ? "✓" : "✗"} ${url} status=${r.status} cards=${cards} CSP=${csp} ${(body.length / 1024).toFixed(0)}KB`);
+    const ok = r.status === 200 && count >= min && csp;
+    console.log(`${ok ? "✓" : "✗"} ${url} status=${r.status} ${label}=${count} CSP=${csp} ${(body.length / 1024).toFixed(0)}KB`);
     if (!ok) fail = true;
   } catch (e) {
     console.log(`✗ ${url} → ${e.message.split("\n")[0]}`);

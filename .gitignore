@@ -5,3 +5,8 @@ qa/package*.json
 Thumbs.db
 public/
 .wrangler/
+
+node_modules/
+qa/city_event_raw.js
+qa/probe-*.mjs
+qa/shot-*.png

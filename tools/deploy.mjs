@@ -19,6 +19,7 @@ function run(cmd, opts = {}) {
 
 console.log("=== 宝塚百景 deploy ===");
 run("node tools/prerender.mjs");
+run("node tools/prerender-life.mjs");
 run("node tools/build-public.mjs");
 run(`npx wrangler pages deploy public --project-name=${PROJECT} --branch=main --commit-dirty=true`);
 
