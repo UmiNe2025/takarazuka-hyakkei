@@ -1,0 +1,5 @@
+qa/node_modules/
+qa/*.png
+qa/package*.json
+.DS_Store
+Thumbs.db
