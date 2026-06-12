@@ -3,3 +3,5 @@ qa/*.png
 qa/package*.json
 .DS_Store
 Thumbs.db
+public/
+.wrangler/

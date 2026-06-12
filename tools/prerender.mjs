@@ -9,7 +9,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const BASE = "https://umine2025.github.io/takarazuka-hyakkei/";
+const BASE = "https://takarazuka.jun-nakatani.com/";
 
 const src = fs.readFileSync(path.join(ROOT, "js", "views-data.js"), "utf8");
 const { TKZ_VIEWS, TKZ_CATS } = new Function(src + "; return {TKZ_VIEWS, TKZ_CATS};")();

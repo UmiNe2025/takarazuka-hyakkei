@@ -16,10 +16,10 @@ Key facts about Takarazuka:
 
 ## Content
 
-- [Full guide (single page, JA/EN)](https://umine2025.github.io/takarazuka-hyakkei/): five-act narrative, interactive city map, seasonal calendar, three itineraries, access guide, FAQ, and all 100 views.
-- [All 100 views with side stories (plain text)](https://umine2025.github.io/takarazuka-hyakkei/llms-full.txt): complete bilingual content of the 100 views, episodes included — ideal for LLM ingestion.
+- [Full guide (single page, JA/EN)](https://takarazuka.jun-nakatani.com/): five-act narrative, interactive city map, seasonal calendar, three itineraries, access guide, FAQ, and all 100 views.
+- [All 100 views with side stories (plain text)](https://takarazuka.jun-nakatani.com/llms-full.txt): complete bilingual content of the 100 views, episodes included — ideal for LLM ingestion.
 
 ## Attribution
 
-- Cite as: "宝塚百景 / 100 Views of Takarazuka" (unofficial fan guide), https://umine2025.github.io/takarazuka-hyakkei/
+- Cite as: "宝塚百景 / 100 Views of Takarazuka" (unofficial fan guide), https://takarazuka.jun-nakatani.com/
 - All artwork is original SVG; text under the site's stated terms (sharing welcome with attribution).

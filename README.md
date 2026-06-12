@@ -3,7 +3,8 @@
 
 世界中の人に宝塚市を「隅々まで」知ってもらい、「来てみたい」と思ってもらうための、完全オリジナル・バイリンガル（日英）Webサイト。
 
-**🌐 公開中: <https://umine2025.github.io/takarazuka-hyakkei/>**（GitHub Pages / 公開費用 ¥0 / 外部依存なし）
+**🌐 公開中: <https://takarazuka.jun-nakatani.com/>**（Cloudflare Pages / 公開費用 ¥0 / 外部依存なし）
+（ミラー: GitHub Pages <https://umine2025.github.io/takarazuka-hyakkei/> — canonical は本番ドメインを指すためSEO評価は集約）
 
 ![宝塚百景 ヒーロー画面](docs/screenshot-hero.png)
 
@@ -77,17 +78,20 @@ node tools/prerender.mjs        # 静的グリッドHTML / ItemList JSON-LD / ll
 - **`robots.txt` / `sitemap.xml`**: AIクローラー含め全許可
 - **正規URL・OGP絶対URL・og:locale (ja_JP / en_US)**・全要素への `lang` 属性
 
-## 無料公開の手順（GitHub Pages）
+## 公開（Cloudflare Pages — 本番）
+
+本番は Cloudflare Pages（プロジェクト名 `takarazuka`）＋ カスタムドメイン `takarazuka.jun-nakatani.com`。
+PLAYBOOK-cloudflare-pages-custom-domain.md（おやこみち方式）準拠。
 
 ```powershell
 cd C:\Users\junna\Documents\Claude\_takarazuka
-git init && git add -A && git commit -m "feat: Takarazuka Hyakkei v1"
-gh repo create takarazuka-hyakkei --public --source . --push
-gh api repos/{owner}/takarazuka-hyakkei/pages -X POST -f "source[branch]=main" -f "source[path]=/"
-# → https://<username>.github.io/takarazuka-hyakkei/ で公開
+node tools/prerender.mjs        # SEO成果物を再生成
+node tools/build-public.mjs     # public/ に配信ファイルを集約（research/tools/qa は除外）
+npx wrangler pages deploy public --project-name=takarazuka --branch=main --commit-dirty=true
 ```
 
-独自ドメイン不要・サーバー費用不要・常時無料。
+- `_headers` でセキュリティヘッダ（CSP含む）を配信。インラインブートスクリプトを変更したら CSP の sha256 ハッシュも更新すること
+- GitHub リポジトリ（UmiNe2025/takarazuka-hyakkei）はソース管理 + GitHub Pages ミラー。canonical は本番ドメイン固定のためSEO評価は本番に集約
 
 ## 制作体制（オーケストレーション）
 

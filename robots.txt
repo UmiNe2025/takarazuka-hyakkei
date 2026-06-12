@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://umine2025.github.io/takarazuka-hyakkei/sitemap.xml
+Sitemap: https://takarazuka.jun-nakatani.com/sitemap.xml
