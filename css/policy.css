@@ -1,0 +1,10 @@
+/* privacy.html 専用の小さなレイアウト */
+.policy { max-width: 860px; margin: 0 auto; padding: 130px 20px 80px; }
+.policy h1 { font-family: var(--serif-ja); font-size: 1.7rem; letter-spacing: .12em; margin: 0 0 8px; }
+.policy .updated { color: var(--ink-soft); font-size: .8rem; margin-bottom: 36px; }
+.policy h2 {
+  font-family: var(--serif-ja); font-size: 1.15rem; letter-spacing: .08em; margin: 38px 0 10px;
+  border-left: 4px solid var(--gold); padding-left: 12px;
+}
+.policy p, .policy li { font-size: .9rem; color: var(--ink-soft); line-height: 2; }
+.policy .back { display: inline-block; margin-top: 40px; }

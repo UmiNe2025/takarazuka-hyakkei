@@ -503,8 +503,13 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .site-foot .crest { width: 64px; height: 64px; margin: 0 auto 18px; opacity: .95; }
 .site-foot .foot-title { font-family: var(--serif-ja); font-size: 1.3rem; letter-spacing: .3em; color: var(--gold-pale); margin: 0 0 6px; }
 .site-foot .foot-en { font-family: var(--serif-en); font-size: .72rem; letter-spacing: .4em; text-transform: uppercase; color: var(--gold); }
-.foot-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 26px 0; font-size: .82rem; }
+.foot-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; align-items: baseline; margin: 26px 0; font-size: .82rem; }
 .foot-links a { color: var(--gold-pale); }
+.foot-btn {
+  background: none; border: 0; padding: 0; font: inherit; font-size: .82rem;
+  color: var(--gold-pale); cursor: pointer; text-decoration: none;
+}
+.foot-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 .foot-note { font-size: .74rem; max-width: 640px; margin: 0 auto 18px; color: #c9c3d8; line-height: 1.9; }
 .foot-credit { font-size: .72rem; color: #b7aed0; letter-spacing: .08em; }
 

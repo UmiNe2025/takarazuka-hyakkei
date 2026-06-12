@@ -1,0 +1,45 @@
+# push → Cloudflare Pages 自動デプロイ
+# 必要なシークレット（リポジトリ Settings → Secrets and variables → Actions）:
+#   CLOUDFLARE_API_TOKEN : Cloudflareダッシュボード → My Profile → API Tokens →
+#                          「Create Token」→ テンプレート「Cloudflare Pages — Edit」で作成
+# アカウントIDは秘密情報ではないため下記に直書き。
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "research/**"
+      - "qa/**"
+      - "docs/**"
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build (prerender + assemble public/)
+        run: |
+          node tools/prerender.mjs
+          node tools/build-public.mjs
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: c21ad8845d498ac46b0f464ccbb2f937
+          command: pages deploy public --project-name=takarazuka --branch=main --commit-dirty=true
+
+      - name: Verify production
+        run: |
+          sleep 10
+          node tools/verify-live.mjs

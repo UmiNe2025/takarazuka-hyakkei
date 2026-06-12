@@ -93,6 +93,24 @@ npx wrangler pages deploy public --project-name=takarazuka --branch=main --commi
 - `_headers` でセキュリティヘッダ（CSP含む）を配信。インラインブートスクリプトを変更したら CSP の sha256 ハッシュも更新すること
 - GitHub リポジトリ（UmiNe2025/takarazuka-hyakkei）はソース管理 + GitHub Pages ミラー。canonical は本番ドメイン固定のためSEO評価は本番に集約
 
+### ワンコマンドデプロイ / 自動デプロイ
+
+```powershell
+node tools/deploy.mjs          # prerender → public/集約 → wrangler deploy → 本番2URL検証
+node tools/deploy.mjs --push   # ↑に加えて git commit & push（GitHubミラー更新）
+node tools/verify-live.mjs     # 検証だけ再実行
+```
+
+さらに `.github/workflows/deploy.yml` により **main への push で GitHub Actions が自動デプロイ**します。
+有効化はリポジトリ Settings → Secrets → Actions に `CLOUDFLARE_API_TOKEN`（Cloudflare「Pages — Edit」テンプレートで作成）を1回登録するだけ。
+
+### 解析・広告（GA4 / AdSense）
+
+- 同意バナー（`js/consent.js`・Consent Mode v2・オプトイン）経由で読み込み。未同意時は広告Cookie/計測とも denied
+- AdSense（client: ca-pub-6214118528662072）設置済み。ads.txt はルートドメイン側で管理
+- GA4 は `js/consent.js` 冒頭の `GA_ID` に測定ID（G-…）を設定すると有効化
+- プライバシーポリシー: [privacy.html](privacy.html)（広告Cookie・オプトアウト開示済み）
+
 ## 制作体制（オーケストレーション）
 
 | 役割 | 担当 | モデル/エフォート |
