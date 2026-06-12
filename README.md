@@ -3,7 +3,7 @@
 
 世界中の人に宝塚市を「隅々まで」知ってもらい、「来てみたい」と思ってもらうための、完全オリジナル・バイリンガル（日英）Webサイト。
 
-**🌐 公開費用: ¥0**（GitHub Pages / 静的サイト / 外部依存なし）
+**🌐 公開中: <https://umine2025.github.io/takarazuka-hyakkei/>**（GitHub Pages / 公開費用 ¥0 / 外部依存なし）
 
 ![宝塚百景 ヒーロー画面](docs/screenshot-hero.png)
 
