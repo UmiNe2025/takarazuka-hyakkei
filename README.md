@@ -60,6 +60,23 @@ _takarazuka/
 └── .nojekyll          ← GitHub Pages用
 ```
 
+## ビルド（コンテンツ更新時のみ）
+
+百景データ（`js/views-data.js`）を更新したら、SEO/LLMO成果物を再生成:
+
+```powershell
+node tools/merge-episodes.mjs   # research/episodes/*.verified.json → views-data.js に統合
+node tools/prerender.mjs        # 静的グリッドHTML / ItemList JSON-LD / llms-full.txt / sitemap.xml を再生成
+```
+
+## SEO / LLMO 対策一覧
+
+- **静的プリレンダリング**: 百景100件＋エピソードを index.html に直接埋め込み（JS不要で全文クロール可能、JSは絞り込みのみ担当）
+- **構造化データ**: TouristDestination / WebSite / FAQPage / ItemList（100×TouristAttraction、`#view-N` ディープリンク付き）
+- **LLMO**: `llms.txt`（サイト要約・主要事実）+ `llms-full.txt`（百景全文Markdown）— llmstxt.org 規約準拠
+- **`robots.txt` / `sitemap.xml`**: AIクローラー含め全許可
+- **正規URL・OGP絶対URL・og:locale (ja_JP / en_US)**・全要素への `lang` 属性
+
 ## 無料公開の手順（GitHub Pages）
 
 ```powershell

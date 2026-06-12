@@ -106,26 +106,34 @@
     filtersBox.appendChild(b);
   });
 
-  // cards
-  const cards = TKZ_VIEWS.map((v, i) => {
-    const li = document.createElement("li");
-    li.className = "view-card";
-    li.dataset.cat = v.cat;
-    const cat = TKZ_CATS[v.cat];
-    li.innerHTML =
-      '<span class="view-num" aria-hidden="true">' + toKanji(i + 1) + "</span>" +
-      '<div class="view-body">' +
-        "<h3>" + bi(v.ja, v.en) + '<span class="v-en">' + bi(v.en, v.ja) + "</span></h3>" +
-        "<p>" + bi(v.dja, v.den) + "</p>" +
-        '<div class="view-tags">' +
-          '<span class="vtag">' + bi(cat.ja, cat.en) + "</span>" +
-          '<span class="vtag area">' + bi(v.aj, v.ae) + "</span>" +
-        "</div>" +
-      "</div>";
-    li.dataset.search = (v.ja + " " + v.en + " " + v.dja + " " + v.den + " " + v.aj + " " + v.ae).toLowerCase();
-    grid.appendChild(li);
-    return li;
-  });
+  // cards — hydrate prerendered HTML (SEO build) or render from data as fallback
+  let cards = Array.from(grid.querySelectorAll(".view-card"));
+  if (cards.length === 0) {
+    cards = TKZ_VIEWS.map((v, i) => {
+      const li = document.createElement("li");
+      li.className = "view-card";
+      li.id = "view-" + (i + 1);
+      li.dataset.cat = v.cat;
+      const cat = TKZ_CATS[v.cat];
+      const epi = v.eja && v.een
+        ? '<details class="view-epi"><summary>' + bi("こぼれ話", "Side story") + "</summary><p>" + bi(v.eja, v.een) + "</p></details>"
+        : "";
+      li.innerHTML =
+        '<span class="view-num" aria-hidden="true">' + toKanji(i + 1) + "</span>" +
+        '<div class="view-body">' +
+          "<h3>" + bi(v.ja, v.en) + '<span class="v-en">' + bi(v.en, v.ja) + "</span></h3>" +
+          "<p>" + bi(v.dja, v.den) + "</p>" +
+          epi +
+          '<div class="view-tags">' +
+            '<span class="vtag">' + bi(cat.ja, cat.en) + "</span>" +
+            '<span class="vtag area">' + bi(v.aj, v.ae) + "</span>" +
+          "</div>" +
+        "</div>";
+      li.dataset.search = (v.ja + " " + v.en + " " + v.dja + " " + v.den + " " + (v.eja || "") + " " + (v.een || "") + " " + v.aj + " " + v.ae).toLowerCase();
+      grid.appendChild(li);
+      return li;
+    });
+  }
 
   function applyFilter() {
     const q = (searchInput.value || "").trim().toLowerCase();

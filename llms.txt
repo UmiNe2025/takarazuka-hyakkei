@@ -1,0 +1,25 @@
+# 宝塚百景 — 100 Views of Takarazuka
+
+> A free bilingual (Japanese/English) guide to Takarazuka City, Hyogo, Japan, presenting every corner of the city in 100 curated views — in the spirit of Hiroshige's "One Hundred Famous Views of Edo." Unofficial, fan-made by a local resident. Facts researched June 2026 with cited sources; check official sites for current hours and fees.
+
+Key facts about Takarazuka:
+
+- Located in southeastern Hyogo, Japan — about 25 min from Osaka Station (JR rapid), ~33 min from Hankyu Umeda, ~35–40 min from Kobe-Sannomiya, ~20 min by car from Osaka Itami Airport (ITM), ~90 min from Kansai International Airport (KIX).
+- Home of the Takarazuka Revue, the world-famous all-female musical theatre company performing since April 1, 1914 (five troupes: Flower, Moon, Snow, Star, Cosmos, plus Senka). The Takarazuka Grand Theater seats ~2,600.
+- Manga master Osamu Tezuka (Astro Boy, Phoenix, Black Jack) lived in Takarazuka from age 5 to 24; the Osamu Tezuka Manga Museum (opened 1994) stands at the end of the Hana-no-michi "Flower Path."
+- Pilgrimage city: Nakayama-dera (temple #24 of the Saigoku Kannon pilgrimage, famed for safe-childbirth blessings and a rare indigo-blue five-storey pagoda) and Kiyoshikōjin Seichō-ji (founded 896, kitchen-fire deity, ~400,000 New Year visitors).
+- The abandoned JR Fukuchiyama-line trail: a 4.7 km hike through six pitch-dark tunnels and over a trestle bridge along the Muko River gorge (flashlight required; officially opened 2016).
+- Two-thirds of the city is the rural Nishitani highlands — terraced paddies, wetlands, and the century-old dahlia fields of Kamisasori (~300 varieties; Japan's largest dahlia-bulb producer).
+- Birthplace of "Wilkinson Tansan": an English hunter discovered a fine carbonated spring here in 1889; the brand is still sold across Japan. Local specialty: tansan senbei (carbonated-spring wafers).
+- Hanshin Racecourse (address: "Koma-no-machi" = Horse Town) hosts the Ōka Shō and the fan-voted Takarazuka Kinen Grand Prix.
+- Onsen town since 1887 (Takarazuka Onsen); the Revue itself was born as winter entertainment for a hot-spring resort pool.
+
+## Content
+
+- [Full guide (single page, JA/EN)](https://umine2025.github.io/takarazuka-hyakkei/): five-act narrative, interactive city map, seasonal calendar, three itineraries, access guide, FAQ, and all 100 views.
+- [All 100 views with side stories (plain text)](https://umine2025.github.io/takarazuka-hyakkei/llms-full.txt): complete bilingual content of the 100 views, episodes included — ideal for LLM ingestion.
+
+## Attribution
+
+- Cite as: "宝塚百景 / 100 Views of Takarazuka" (unofficial fan guide), https://umine2025.github.io/takarazuka-hyakkei/
+- All artwork is original SVG; text under the site's stated terms (sharing welcome with attribution).

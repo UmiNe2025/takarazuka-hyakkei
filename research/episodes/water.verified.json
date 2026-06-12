@@ -1,0 +1,53 @@
+{
+  "cat": "water",
+  "episodes": [
+    {
+      "i": 32,
+      "eja": "武庫川の水源は丹波篠山にあり、三田盆地を経て武庫川渓谷の断層を抜けると、初めて宝塚の街へ姿を現します。流域面積は約500km²——この川が運んできた砂や礫が、長い年月をかけて宝塚の平地そのものをつくりました。川は今も、春には花見の宴席を、夏には子どもたちの声を、市民の日常とともに受け止めています。",
+      "een": "The Muko River is born in the mountains of Tamba-Sasayama and travels roughly 500 square kilometres of watershed before breaking free of its gorge to spread across the Takarazuka plain — a plain the river itself built, grain by grain, over the centuries. Today its banks host cherry-blossom picnics in spring and the laughter of children in summer, a living commons in the heart of the city.",
+      "src": "R2-16 武庫川の流れと宝塚市街地の地形"
+    },
+    {
+      "i": 33,
+      "eja": "宝塚温泉が正式開業した明治20年（1887年）当初、鉄道もなく客足は伸びず、明治25年には一度閉鎖に追い込まれました。その温泉を息吹き返させたのが、小林一三による阪急電鉄の開通と「宝塚新温泉」の整備です。やがてプールの冬季活用として生まれた歌劇が温泉の名を世界に広め、二つの湯——金宝泉と銀宝泉——は「歌劇を産んだ温泉」として今も流れ続けています。",
+      "een": "When Takarazuka Onsen formally opened in 1887, there was no railway and visitors were scarce — it actually shut its doors in 1892 before being revived. It was Kobayashi Ichizō's Hankyu Railway and his new resort facilities that gave the waters a second life. The Revue born from the resort's idle winter pool eventually carried the onsen's name around the world; its twin springs, the \"gold\" and \"silver\" sources, still flow today.",
+      "src": "R3 宝塚温泉 / R1-26 小林一三と阪急電鉄"
+    },
+    {
+      "i": 34,
+      "eja": "1889年、神戸在住の英国人実業家ジョン・クリフォード・ウィルキンソンが武庫川沿いで狩猟中に泡立つ湧き水を見つけ、サンプルを英国に送ったところ世界的に良質な飲料水と判明しました。翌年、宝塚市小林の紅葉谷に工場を構えてボトリングを開始し、やがて「TANSAN」の名で27地域に輸出される飲料へと育てました。偶然の発見がコンビニに並ぶロングセラーになるまでの道のりは、この渓谷の水が刻んだもう一つの歴史です。",
+      "een": "In 1889, British businessman John Clifford Wilkinson was hunting along the Muko River when he stumbled upon a bubbling spring; a sample sent to England came back certified world-class. He built a bottling plant in Kobayashi the following year, and the fizzy water eventually reached twenty-seven markets abroad under the name \"TANSAN.\" That chance encounter in the valley — hunter meets spring — is another history written in this river's water.",
+      "src": "R3 ウィルキンソン タンサン誕生の地 / R4-03"
+    },
+    {
+      "i": 35,
+      "eja": "「タンサン」という言葉はもともと化学用語の「炭酸」ですが、ウィルキンソンが英国領事と相談しながらブランド名として広めたことで、炭酸水そのものを指す日常語として日本全土に定着したという説があります。コンビニで何気なく手にする「タンサン」の呼び名は、宝塚の山あいに湧いた一杯の水から始まったかもしれません。",
+      "een": "\"Tansan\" is technically the Japanese scientific term for carbonic acid, but one intriguing account suggests Wilkinson — in consultation with the British consul — popularised it as a brand name until it became the everyday word for sparkling water across Japan. The name your hand reaches for at a convenience store may have bubbled up first from a spring in these hills.",
+      "src": "R4-03 ウィルキンソン タンサン発祥地（「タンサン」命名説）"
+    },
+    {
+      "i": 36,
+      "eja": "武庫川渓谷は、六甲山地と長尾山地がぶつかる「有馬—高槻構造線」の断層が川の流れに削り取られてできた谷です。花崗岩と古い地層が接するこの地質の境目こそが、川底を深く落とし込み、鉄道さえ迂回させた急峻な渓谷美を生み出しました。旧国鉄が廃線とした線路跡が今もそのまま遊歩道になっているのは、この断層が鉄道にも負けなかった証です。",
+      "een": "The Muko River Gorge was carved along the Arima-Takatsuki Fault, where the granite of the Rokko range meets the older Arima rock formation — a geological boundary that forced the river deep and the old national railway into a detour. When the line was abandoned and rerouted through new tunnels in 1986, the original trackbed was left intact, now a hiking trail: proof that the fault outlasted the railway.",
+      "src": "R2-16 武庫川の流れと宝塚市街地の地形 / R2-01 旧国鉄福知山線廃線"
+    },
+    {
+      "i": 37,
+      "eja": "夕暮れ時、武庫川に架かる橋の上に立つと、六甲の山稜が茜色に縁取られ、川面がその色を静かに映し返します。歌劇のフィナーレが劇場で幕を閉じる頃、川はいつもこの無料の夕景を上演しています。",
+      "een": "At dusk, stand on any of the bridges across the Muko and watch the Rokko ridgeline turn amber against the sky, the river holding its reflection below. Around the time the Revue's finale curtain falls inside the theatre, the river is staging its own, free of charge.",
+      "src": "general（リサーチに固有の逸話なし、情緒的描写）"
+    },
+    {
+      "i": 38,
+      "eja": "武庫川河畔に立つホテル若水は、「金宝泉」と「銀宝泉」の二源泉を引き、130年以上前にウィルキンソンが発見した炭酸鉱泉ゆかりの展示もそっと並べています。温泉に浸かりながら、かつて英国人が猟銃を置いて泡の湧く水を掬い上げた瞬間を想像するのも、この湯処ならではの愉しみです。",
+      "een": "Hotel Wakamizu on the Muko riverbank draws from both the \"gold\" and \"silver\" springs and quietly displays mementos of the Wilkinson story — the English businessman who put down his hunting rifle and tasted the bubbling water more than a century ago. Soaking in the same mineral-rich source while imagining that moment of discovery is a pleasure unique to this inn.",
+      "src": "R4-14 ホテル若水 / R3 宝塚温泉 / R4-03 ウィルキンソン展示"
+    },
+    {
+      "i": 39,
+      "eja": "慶長19年（1614年）、小浜の山中清直はこの井戸の水で酒を仕込み、灘五郷に先駆ける大酒造業地「小浜流」を興しました。18世紀に灘の台頭とともに酒蔵は姿を消しましたが、「玉の井」だけは小浜宿資料館の旧家の床下にひっそりと残り、その水脈を今も守っています。",
+      "een": "In 1614, a brewer named Yamanaka Kiyonao used water from this well to launch what became the \"Kohama-ryū\" sake tradition — a school of brewing that flourished here before the famous Nada district rose to prominence. The breweries are long gone, but the Tamanoi well itself survives beneath the floor of the old merchant house now housing the Kohama-juku Museum, still keeping its secret.",
+      "src": "R3 小浜宿 / R3 小浜の酒造文化「小浜流」 / R4-16 小浜宿と清酒の歴史"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# 宝塚百景 — 100 Views of Takarazuka
+# All crawlers welcome, including AI assistants — please read llms.txt too.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://umine2025.github.io/takarazuka-hyakkei/sitemap.xml

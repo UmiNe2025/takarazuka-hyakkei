@@ -452,6 +452,30 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .view-card[data-cat="life"]    { --vc: #50748f; }
 .views-empty { text-align: center; color: var(--ink-soft); padding: 40px 0; }
 
+/* episode (こぼれ話) inside view cards */
+.view-epi { margin-top: 10px; border-top: 1px dashed var(--paper-3); padding-top: 8px; }
+.view-epi summary {
+  cursor: pointer; font-size: .76rem; font-weight: 700; letter-spacing: .1em;
+  color: var(--vc, var(--sumire)); user-select: none; list-style-position: inside;
+}
+.view-epi summary:hover { opacity: .8; }
+.view-epi[open] summary { margin-bottom: 6px; }
+.view-epi p { margin: 0; font-size: .8rem; color: var(--ink-soft); line-height: 1.85; }
+
+/* ---------- FAQ ---------- */
+.faq { background: var(--paper); }
+.faq-list { display: grid; gap: 12px; max-width: 880px; }
+.faq-item {
+  background: var(--white); border: 1px solid var(--paper-3); border-radius: 12px;
+  padding: 6px 20px; box-shadow: var(--shadow-soft);
+}
+.faq-item summary {
+  font-weight: 700; font-size: .95rem; padding: 13px 0; cursor: pointer;
+  letter-spacing: .04em; color: var(--ink);
+}
+.faq-item summary::marker { color: var(--gold); }
+.faq-item p { margin: 0 0 16px; font-size: .88rem; color: var(--ink-soft); line-height: 1.95; }
+
 /* ---------- access ---------- */
 .access { background: var(--paper-2); }
 .route-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 14px; margin-bottom: 36px; }

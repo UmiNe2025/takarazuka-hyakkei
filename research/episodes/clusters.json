@@ -1,0 +1,720 @@
+{
+ "stage": [
+  {
+   "i": 0,
+   "ja": "宝塚大劇場",
+   "en": "Takarazuka Grand Theater",
+   "dja": "1914年から夢を上演し続ける歌劇の殿堂。約2,600の客席がほぼ連日埋まる。",
+   "den": "The Revue's 2,600-seat home, filling almost nightly since 1914."
+  },
+  {
+   "i": 1,
+   "ja": "大階段",
+   "en": "The Grand Staircase",
+   "dja": "26段、踏み面はわずか23cm。フィナーレ、光をまとった全員がここを降りてくる。",
+   "den": "Twenty-six steps just 23 cm deep — the entire cast descends in light for the finale."
+  },
+  {
+   "i": 2,
+   "ja": "銀橋",
+   "en": "The Silver Bridge",
+   "dja": "オーケストラの前に弧を描く幅約1.2mの橋舞台。スターと客席が最も近づく場所。",
+   "den": "A 1.2-metre arc in front of the orchestra — the closest you will ever be to a star."
+  },
+  {
+   "i": 3,
+   "ja": "五つの組と専科",
+   "en": "The Five Troupes & Senka",
+   "dja": "花・月・雪・星・宙。組ごとに色と気風があり、ファンは「組」で恋に落ちる。",
+   "den": "Flower, Moon, Snow, Star, Cosmos — each troupe has its own colour and soul."
+  },
+  {
+   "i": 4,
+   "ja": "男役と娘役",
+   "en": "Otokoyaku & Musumeyaku",
+   "dja": "女性が演じる理想の紳士と、隣で輝く娘役。百年磨かれてきた様式美。",
+   "den": "Women playing ideal gentlemen, and the heroines who shine beside them — a century-polished art."
+  },
+  {
+   "i": 5,
+   "ja": "宝塚音楽学校",
+   "en": "Takarazuka Music School",
+   "dja": "「清く 正しく 美しく」。1913年創立。狭き門を越えた者だけが舞台に立つ。",
+   "den": "\"Be pure, proper, beautiful.\" Founded 1913 — only those who pass its narrow gate reach the stage."
+  },
+  {
+   "i": 6,
+   "ja": "すみれの花咲く頃",
+   "en": "\"When the Violets Bloom\"",
+   "dja": "1930年のレビュー『パリゼット』から歌い継がれるテーマソング。原曲は欧州の流行歌。",
+   "den": "The Revue's anthem since the 1930 revue Parisette — born from a European hit song."
+  },
+  {
+   "i": 7,
+   "ja": "ベルサイユのばら",
+   "en": "The Rose of Versailles",
+   "dja": "1974年初演。空前のブームを起こした不滅の代表作。花のみちに像も立つ。",
+   "den": "The 1974 mega-hit that defined the Revue — find Oscar's statue on the Flower Path."
+  },
+  {
+   "i": 8,
+   "ja": "日本初のレビュー『モン・パリ』",
+   "en": "Mon Paris — Japan's First Revue",
+   "dja": "1927年9月1日初演。16段の大階段とラインダンスがこの日に始まった。",
+   "den": "Premiered Sept 1, 1927 — the day Japan met the revue, the staircase and the line dance."
+  },
+  {
+   "i": 9,
+   "ja": "宝塚バウホール",
+   "en": "Bow Hall",
+   "dja": "約500席の小劇場。明日のトップスターに最初に出会える場所。",
+   "den": "A 500-seat studio theatre where tomorrow's top stars make their debuts."
+  },
+  {
+   "i": 10,
+   "ja": "パラダイス劇場の伝説",
+   "en": "The Pool That Became a Stage",
+   "dja": "冬に使えない温泉プールを劇場に改装——それが1914年、歌劇の始まりだった。",
+   "den": "The Revue began in 1914 on a converted swimming pool that had failed as a pool."
+  },
+  {
+   "i": 11,
+   "ja": "宝塚歌劇の殿堂",
+   "en": "The Revue Hall of Fame",
+   "dja": "劇場内の展示空間。煌めく衣装と資料で110年の歴史を一望する。",
+   "den": "Costumes and archives inside the theatre — 110 years of history at a glance."
+  },
+  {
+   "i": 12,
+   "ja": "入り待ち・出待ち",
+   "en": "Iri-machi & De-machi",
+   "dja": "楽屋口で静かにスターを見送るファンの礼法。街の朝夕の風物詩。",
+   "den": "Fans' quiet, ritualised greetings at the stage door — daily theatre in itself."
+  }
+ ],
+ "story": [
+  {
+   "i": 13,
+   "ja": "手塚治虫記念館",
+   "en": "Osamu Tezuka Manga Museum",
+   "dja": "1994年開館。直筆原稿にアニメ制作体験。世界中のファンが巡礼に訪れる聖地。",
+   "den": "Opened 1994 — manuscripts, an animation workshop, and manga pilgrims from around the world."
+  },
+  {
+   "i": 14,
+   "ja": "火の鳥のモニュメント",
+   "en": "The Phoenix Monument",
+   "dja": "記念館前で翼を広げる高さ4.4mのブロンズ。「生命とは何か」という問いの象徴。",
+   "den": "A 4.4-metre bronze phoenix spreads its wings — Tezuka's lifelong question about life itself."
+  },
+  {
+   "i": 15,
+   "ja": "少年・手塚治虫の20年",
+   "en": "Tezuka's Twenty Years Here",
+   "dja": "5歳から24歳までを宝塚で。歌劇好きの母と通った劇場が、すべての原点になった。",
+   "den": "He lived here from age 5 to 24 — theatre trips with his Revue-loving mother seeded everything."
+  },
+  {
+   "i": 16,
+   "ja": "『リボンの騎士』と歌劇",
+   "en": "Princess Knight & the Revue",
+   "dja": "男装の麗人サファイア誕生の裏に宝塚の男役の記憶。少女マンガはここから始まった。",
+   "den": "Sapphire, the girl raised as a prince, was born of Takarazuka's otokoyaku — and shōjo manga began."
+  },
+  {
+   "i": 17,
+   "ja": "昆虫少年の雑木林",
+   "en": "The Insect Boy's Woods",
+   "dja": "ペンネームの「虫」は昆虫好きから。少年・治は宝塚の野山で虫を追いかけた。",
+   "den": "The \"mushi\" (insect) in his pen name came from boyhood bug-hunts in these very hills."
+  },
+  {
+   "i": 18,
+   "ja": "宝塚映画製作所の記憶",
+   "en": "Memory of the Film Studio",
+   "dja": "昭和の一時代、東洋屈指と謳われた撮影所がこの街にあり、銀幕の夢を量産した。",
+   "den": "For a Shōwa-era moment, one of Asia's most modern film studios stood here, mass-producing dreams."
+  },
+  {
+   "i": 19,
+   "ja": "鉄斎美術館「聖光殿」",
+   "en": "The Tessai Museum",
+   "dja": "清荒神が半世紀かけて集めた文人画の巨匠・富岡鉄斎の作品2,000点余。",
+   "den": "Over 2,000 works by literati master Tomioka Tessai, collected by the temple across half a century."
+  }
+ ],
+ "temple": [
+  {
+   "i": 20,
+   "ja": "中山寺",
+   "en": "Nakayama-dera",
+   "dja": "西国三十三所第24番。聖徳太子創建と伝わる、安産祈願の大本山。",
+   "den": "Temple #24 of the Saigoku pilgrimage, founded — legend says — by Prince Shōtoku. Japan's safe-birth temple."
+  },
+  {
+   "i": 21,
+   "ja": "青い五重塔「青龍塔」",
+   "en": "The Indigo Pagoda",
+   "dja": "2017年、約400年ぶりに再建。日本でも稀な、深い青をまとう五重塔。",
+   "den": "Rebuilt in 2017 after 400 years — a five-storey pagoda in rare, deep indigo blue."
+  },
+  {
+   "i": 22,
+   "ja": "中山観音公園の梅林",
+   "en": "The Plum Grove",
+   "dja": "約1,000本の紅白梅が2月下旬から3月に香る。散策は無料。",
+   "den": "A thousand red and white plum trees perfume late winter — free to wander."
+  },
+  {
+   "i": 23,
+   "ja": "戌の日の安産祈願",
+   "en": "Dog-Day Blessings",
+   "dja": "妊娠5ヶ月の戌の日に腹帯「鐘の緒」を授かる。エスカレーターまで備えた優しい古刹。",
+   "den": "Expectant parents receive the famed sash on Dog Days — at an ancient temple kind enough to have escalators."
+  },
+  {
+   "i": 24,
+   "ja": "中山寺奥之院への道",
+   "en": "Path to the Okunoin",
+   "dja": "一丁ごとの丁石をたどって湧水「大悲水」へ。参拝とハイキングがひとつになる。",
+   "den": "Follow the ancient milestones up to a sacred spring — prayer and hiking become one."
+  },
+  {
+   "i": 25,
+   "ja": "清荒神清澄寺",
+   "en": "Kiyoshikōjin Seichō-ji",
+   "dja": "896年開創、「日本第一清荒神」。台所と火を守る「荒神さん」。",
+   "den": "Founded in 896 as \"Japan's first Kōjin\" — guardian deity of every kitchen's fire."
+  },
+  {
+   "i": 26,
+   "ja": "参道「龍の道」",
+   "en": "The Dragon Path",
+   "dja": "駅から約1.2km、店の連なる坂の門前町。歩くほどに縁日の匂いが濃くなる。",
+   "den": "A 1.2 km climb of shops and stalls — the festival scent thickens with every step."
+  },
+  {
+   "i": 27,
+   "ja": "売布神社",
+   "en": "Mefu Shrine",
+   "dja": "推古天皇18年（610年）創建と伝わる式内社。機織りを教えた女神を祀る。",
+   "den": "A shrine traced to the year 610, honouring the goddess who taught the people weaving."
+  },
+  {
+   "i": 28,
+   "ja": "伊和志津神社",
+   "en": "Iwashizu Shrine",
+   "dja": "延喜式の式内大社。加藤清正が朝鮮から連れ帰った虎を飼ったという伝承も残る。",
+   "den": "An ancient shrine where, legend says, a samurai general once kept a tiger from his campaigns."
+  },
+  {
+   "i": 29,
+   "ja": "宝塚神社の初日の出",
+   "en": "First Sunrise at Takarazuka Shrine",
+   "dja": "高台の境内から大阪平野を一望。元日は初日の出を拝む人で賑わう。",
+   "den": "From its hilltop, the year's first sunrise floods the Osaka plain below."
+  },
+  {
+   "i": 30,
+   "ja": "平林寺",
+   "en": "Heirin-ji",
+   "dja": "聖徳太子創建と伝わる古刹。阪急今津線の電車が阿弥陀堂のすぐ横を走り抜ける。",
+   "den": "An ancient temple where Hankyu trains brush right past the Amida hall."
+  },
+  {
+   "i": 31,
+   "ja": "毫摂寺（小浜御坊）",
+   "en": "Gōshō-ji Temple",
+   "dja": "小浜寺内町の中核。秀吉と千利休が有馬への道中に立ち寄ったと伝わる。",
+   "den": "Heart of the Kohama temple town — Hideyoshi and tea master Rikyū are said to have stayed."
+  }
+ ],
+ "water": [
+  {
+   "i": 32,
+   "ja": "武庫川",
+   "en": "The Muko River",
+   "dja": "渓谷から市街へ、街の真ん中を流れる母なる川。河川敷は市民の舞台。",
+   "den": "From gorge to city centre — the riverbanks are Takarazuka's open-air commons."
+  },
+  {
+   "i": 33,
+   "ja": "宝塚温泉",
+   "en": "Takarazuka Onsen",
+   "dja": "1887年正式開業。金宝泉・銀宝泉、二つの湯を持つ「歌劇を生んだ温泉」。",
+   "den": "Formally opened 1887, with twin \"gold\" and \"silver\" springs — the onsen that gave birth to the Revue."
+  },
+  {
+   "i": 34,
+   "ja": "ウィルキンソン タンサン発祥",
+   "en": "Birthplace of Wilkinson Tansan",
+   "dja": "1889年、英国人狩猟家が良質な炭酸鉱泉を発見。武庫川沿いの工場から世界27地域へ。",
+   "den": "In 1889 an English hunter found a sparkling spring here; bottled by the river, it reached 27 regions worldwide."
+  },
+  {
+   "i": 35,
+   "ja": "「タンサン」という言葉",
+   "en": "The Word \"Tansan\"",
+   "dja": "日本語で炭酸水を指す「タンサン」は、この地のブランドが広めたという説がある。",
+   "den": "The everyday Japanese word for soda water arguably spread from this very valley's brand."
+  },
+  {
+   "i": 36,
+   "ja": "武庫川渓谷",
+   "en": "Muko River Gorge",
+   "dja": "六甲と長尾、二つの山系がぶつかる断層が刻んだ景勝。鉄道さえ迂回した深い谷。",
+   "den": "Carved along the fault where two mountain ranges meet — a gorge so deep the railway gave up on it."
+  },
+  {
+   "i": 37,
+   "ja": "川辺の夕暮れ",
+   "en": "Dusk on the Riverbank",
+   "dja": "橋の上から望む山並みのシルエットと茜空。毎日上演される無料の名作。",
+   "den": "Hill silhouettes and a crimson sky from the river bridges — a free masterpiece, performed nightly."
+  },
+  {
+   "i": 38,
+   "ja": "ホテル若水と湯の記憶",
+   "en": "Hotel Wakamizu & Onsen Memories",
+   "dja": "武庫川河畔の温泉宿。ウィルキンソンゆかりの展示が湯のまちの歴史を伝える。",
+   "den": "A riverside onsen inn that keeps the Wilkinson story — and the bathing town's memory — alive."
+  },
+  {
+   "i": 39,
+   "ja": "名水「玉の井」",
+   "en": "Tamanoi Spring",
+   "dja": "小浜の酒造りを支えた名水。その井戸はいまも資料館の中に残る。",
+   "den": "The famed well that powered Kohama's sake brewing — still standing inside the museum."
+  }
+ ],
+ "path": [
+  {
+   "i": 40,
+   "ja": "武庫川渓谷廃線敷",
+   "en": "The Abandoned Railway Trail",
+   "dja": "旧国鉄福知山線跡を歩く約4.7km。枕木の道は2016年に正式開放された。",
+   "den": "Hike 4.7 km of the old national railway — sleepers and all. Officially opened to walkers in 2016."
+  },
+  {
+   "i": 41,
+   "ja": "真っ暗なトンネル",
+   "en": "The Dark Tunnels",
+   "dja": "照明なしのトンネルが6本、最長は400m超。懐中電灯の灯りだけで闇を抜ける。",
+   "den": "Six unlit tunnels, the longest over 400 m — you cross by flashlight alone."
+  },
+  {
+   "i": 42,
+   "ja": "渓谷に架かる鉄橋",
+   "en": "The Trestle Bridge",
+   "dja": "武庫川の急流の真上を渡る旧鉄橋。コース随一の撮影名所。",
+   "den": "Cross the rapids on the old steel trestle — the trail's most photographed moment."
+  },
+  {
+   "i": 43,
+   "ja": "桜の園・亦楽山荘",
+   "en": "Sakura-no-en",
+   "dja": "桜博士・笹部新太郎が品種保存に生涯を捧げた山。春は山ごと薄紅に染まる。",
+   "den": "The mountain where Sasabe Shintarō devoted his life to saving Japan's cherry varieties."
+  },
+  {
+   "i": 44,
+   "ja": "武田尾温泉",
+   "en": "Takedao Onsen",
+   "dja": "1639年、猿に導かれて見つかったと伝わる渓谷の隠れ湯。廃線歩きの締めに。",
+   "den": "A hidden gorge spring — found, legend says, by following a monkey in 1639. The perfect post-hike soak."
+  },
+  {
+   "i": 45,
+   "ja": "大峰山",
+   "en": "Mt. Ōmine",
+   "dja": "標高約552m、宝塚の最高峰。廃線敷から静かな山道が続く。",
+   "den": "At about 552 m, the city's highest point — a quiet climb continuing from the rail trail."
+  },
+  {
+   "i": 46,
+   "ja": "中山連山縦走",
+   "en": "Nakayama Ridge Traverse",
+   "dja": "中山観音から清荒神へ、寺から寺へと尾根を歩く。所要3〜4時間の祈りの道。",
+   "den": "Temple-to-temple ridgewalk from Nakayama-dera to Kiyoshikōjin — three to four prayerful hours."
+  },
+  {
+   "i": 47,
+   "ja": "六甲全山縦走路の東端",
+   "en": "Eastern End of the Rokkō Traverse",
+   "dja": "全長56kmの縦走路は、駅の上の小さな寺・塩尾寺で終わる——あるいは始まる。",
+   "den": "The 56 km Rokkō traverse ends — or begins — at little Enpei-ji above the station."
+  },
+  {
+   "i": 48,
+   "ja": "行者山東観峰",
+   "en": "Gyōja-yama Lookout",
+   "dja": "住宅地から登ること約30分で、大阪平野と空港滑走路まで見渡す大展望。",
+   "den": "Thirty minutes up from suburbia to a panorama of the Osaka plain and airport runways."
+  },
+  {
+   "i": 49,
+   "ja": "小浜宿",
+   "en": "Kohama-juku",
+   "dja": "有馬街道の宿場にして寺内町。堀と土塁の「総構え」の面影が路地に残る。",
+   "den": "A moated temple-and-post town on the old Arima highway — its defences still trace the lanes."
+  },
+  {
+   "i": 50,
+   "ja": "小浜宿資料館",
+   "en": "Kohama-juku Museum",
+   "dja": "名水の井戸を抱く旧家で、宿場と酒造りの歴史を学ぶ。",
+   "den": "Post-town and sake history inside an old merchant house, famous well included."
+  },
+  {
+   "i": 51,
+   "ja": "首地蔵",
+   "en": "The Head Jizō",
+   "dja": "街道の出入口を見守る、首だけの大地蔵。その来歴はいまも謎のまま。",
+   "den": "A giant Jizō head watches the old town gate — its origin still a mystery."
+  },
+  {
+   "i": 52,
+   "ja": "祈りの道ハイキング",
+   "en": "The Prayer Path",
+   "dja": "中山寺から奥之院、清荒神へ。寺社と山をつなぐ全長7〜8kmの公認コース。",
+   "den": "From Nakayama-dera over the ridge to Kiyoshikōjin — the city's signature 7–8 km hike of faith and forest."
+  }
+ ],
+ "field": [
+  {
+   "i": 53,
+   "ja": "西谷 — 市域の3分の2",
+   "en": "Nishitani, Two-Thirds of the City",
+   "dja": "棚田と雑木林の北部高原。市の面積の約2/3を占め、住むのは市民の約1%。",
+   "den": "Highland farms and woods cover two-thirds of Takarazuka — home to barely 1% of its people."
+  },
+  {
+   "i": 54,
+   "ja": "宝塚ダリア園",
+   "en": "Takarazuka Dahlia Garden",
+   "dja": "上佐曽利に約300品種・10万本。摘み取りは1本100円から、入園は無料。",
+   "den": "300 varieties and 100,000 blooms in Kamisasori — pick your own from ¥100; entry is free."
+  },
+  {
+   "i": 55,
+   "ja": "ダリア球根、海を渡る",
+   "en": "Dahlia Bulbs Across the Sea",
+   "dja": "最盛期は年300万球を北米へ輸出。いまも全国シェア約4分の1を誇る里。",
+   "den": "At its peak this village shipped 3 million bulbs a year to North America — still a quarter of Japan's crop."
+  },
+  {
+   "i": 56,
+   "ja": "市の花、すみれとダリア",
+   "en": "Two City Flowers",
+   "dja": "すみれ（1968年制定）とダリア（2021年制定）。舞台と里、二つの宝塚を映す。",
+   "den": "Violet (1968) and dahlia (2021) — one flower for the stage, one for the fields."
+  },
+  {
+   "i": 57,
+   "ja": "長谷牡丹園",
+   "en": "Nagatani Peony Garden",
+   "dja": "全国から「里帰り」した牡丹を含む約2,000株が、4月末から初夏を彩る。",
+   "den": "Two thousand peonies — many \"returned home\" from across Japan — bloom from late April."
+  },
+  {
+   "i": 58,
+   "ja": "丸山湿原",
+   "en": "Maruyama Wetlands",
+   "dja": "県天然記念物の湿原群。夏、サギソウが舞い、日本最小のトンボが飛ぶ。",
+   "den": "A protected marsh where egret orchids dance and Japan's smallest dragonfly hovers in summer."
+  },
+  {
+   "i": 59,
+   "ja": "松尾湿原",
+   "en": "Matsuo Wetland",
+   "dja": "宝塚自然の家に守られた、てのひらほどの原生湿原。市民の手で保全が続く。",
+   "den": "A palm-sized primeval wetland inside the Nature House grounds, tended by volunteers."
+  },
+  {
+   "i": 60,
+   "ja": "県立宝塚西谷の森公園",
+   "en": "Nishitani Forest Park",
+   "dja": "田植えや収穫を体験できる里山公園。入園も駐車も無料。",
+   "den": "A free satoyama park for rice-planting days and harvest hands-on fun."
+  },
+  {
+   "i": 61,
+   "ja": "西谷夢市場",
+   "en": "Yume Ichiba Farm Market",
+   "dja": "朝採れの西谷野菜と米が並ぶ直売所。里の味の玄関口。",
+   "den": "Morning-picked Nishitani vegetables and rice — the gateway to highland flavours."
+  },
+  {
+   "i": 62,
+   "ja": "宝塚北サービスエリア",
+   "en": "Takarazuka-Kita Service Area",
+   "dja": "「宝塚モダン」を掲げる西日本最大級のSA。一般道からも歩いて入れる。",
+   "den": "One of west Japan's largest expressway stops, themed on Takarazuka glamour — walk in from local roads."
+  },
+  {
+   "i": 63,
+   "ja": "植木のまち・山本",
+   "en": "Yamamoto, Town of Gardeners",
+   "dja": "数百年の伝統を誇る日本有数の植木産地。今も園芸店と苗木畑が連なる。",
+   "den": "One of Japan's storied garden-tree districts — working nurseries line the lanes to this day."
+  },
+  {
+   "i": 64,
+   "ja": "木接太夫の伝説",
+   "en": "Legend of Kitsugi-dayū",
+   "dja": "接ぎ木の技を確立し、太閤秀吉に讃えられたと伝わる名人の里。",
+   "den": "Home of the legendary grafting master honoured, they say, by Hideyoshi himself."
+  },
+  {
+   "i": 65,
+   "ja": "茅葺きと棚田の風景",
+   "en": "Thatched Roofs & Terraced Paddies",
+   "dja": "大阪から1時間で出会える「日本の原風景」。季節ごとに色を変える。",
+   "den": "Japan's storybook countryside, one hour from Osaka — repainted by every season."
+  }
+ ],
+ "taste": [
+  {
+   "i": 66,
+   "ja": "炭酸せんべい",
+   "en": "Tansan Senbei",
+   "dja": "温泉の炭酸水で焼き上げる、厚さ約1mmの淡雪のような銘菓。",
+   "den": "Feather-thin wafers baked with carbonated spring water — the onsen town's signature sweet."
+  },
+  {
+   "i": 67,
+   "ja": "黄金家の手焼き",
+   "en": "Koganeya, Hand-Baked Since 1897",
+   "dja": "明治30年創業の本家。いまも店先で一枚ずつ焼く姿に出会える。",
+   "den": "The original shop, founded 1897 — still baking sheet by sheet before your eyes."
+  },
+  {
+   "i": 68,
+   "ja": "たからづか西谷太ねぎ",
+   "en": "Nishitani Fat Leeks",
+   "dja": "冬の寒さが甘みに変わる。緑の先まで食べられる、12月〜2月だけの名物。",
+   "den": "Winter cold turns these leeks sweet — edible to the very tip, December to February only."
+  },
+  {
+   "i": 69,
+   "ja": "丹波系黒大豆の枝豆",
+   "en": "Black Soybean Edamame",
+   "dja": "9月末から10月だけ出回る、香り高い大粒の里の味。",
+   "den": "Plump, fragrant beans from the highlands — on sale for a few autumn weeks only."
+  },
+  {
+   "i": 70,
+   "ja": "幻の酒「小浜流」",
+   "en": "The Lost Sake of Kohama",
+   "dja": "灘五郷より先に栄えた酒どころ。古い醸造書に名を残し、歴史の中に消えた。",
+   "den": "A sake school that flourished before Nada's fame, then vanished — its name survives in old brewing manuals."
+  },
+  {
+   "i": 71,
+   "ja": "参道の食べ歩き",
+   "en": "Temple-Road Snacking",
+   "dja": "清荒神参道のかたやき煎餅、飴、漬物。坂を上るほどおいしくなる。",
+   "den": "Crackers, candies and pickles up the Kiyoshikōjin slope — tastier with every step of the climb."
+  },
+  {
+   "i": 72,
+   "ja": "宝塚ホテルのアフタヌーンティー",
+   "en": "Afternoon Tea at the Grand Hotel",
+   "dja": "1926年創業のホテルで観劇の余韻を一皿に。五つの組をイメージしたカクテルも。",
+   "den": "Savour the after-show glow at the 1926 hotel — troupe-themed cocktails included."
+  },
+  {
+   "i": 73,
+   "ja": "阪神間モダニズムの洋菓子",
+   "en": "Hanshinkan Pâtisserie",
+   "dja": "鉄道と郊外文化が育てた洋菓子の伝統。駅前の名店で一世紀の甘さを。",
+   "den": "A century-old suburban tradition of Western sweets, alive in shops by the station."
+  }
+ ],
+ "festival": [
+  {
+   "i": 74,
+   "ja": "清荒神の初詣",
+   "en": "New Year at Kiyoshikōjin",
+   "dja": "三が日で約40万人が参道を埋める、関西屈指の初詣。",
+   "den": "Some 400,000 pilgrims fill the path in three days — one of Kansai's great New Year scenes."
+  },
+  {
+   "i": 75,
+   "ja": "宝のえびす",
+   "en": "Takara Ebisu",
+   "dja": "1月9〜11日、商売繁盛を祈る宝塚神社の祭礼。黄色い御朱印が人気。",
+   "den": "Jan 9–11 blessings for prosperity at Takarazuka Shrine — famous for its golden seal stamps."
+  },
+  {
+   "i": 76,
+   "ja": "宝塚きずな花火",
+   "en": "Kizuna Fireworks",
+   "dja": "大正から続いた花火の灯を、2024年から市民の手で春に再点火。",
+   "den": "The city's century-old fireworks tradition, relit each spring by its own citizens since 2024."
+  },
+  {
+   "i": 77,
+   "ja": "桜花賞",
+   "en": "Ōka Shō — Cherry Blossom Stakes",
+   "dja": "4月、3歳牝馬のクラシックレースが阪神競馬場で開かれる。",
+   "den": "April's classic for three-year-old fillies, run at Hanshin Racecourse — right here in town."
+  },
+  {
+   "i": 78,
+   "ja": "宝塚記念",
+   "en": "Takarazuka Kinen Grand Prix",
+   "dja": "6月のグランプリ。ファン投票で出走馬が決まる、街の名を冠した夢のレース。",
+   "den": "June's Grand Prix, its field chosen by millions of fan votes — and it carries the city's name."
+  },
+  {
+   "i": 79,
+   "ja": "小浜のだんじり",
+   "en": "Kohama Danjiri",
+   "dja": "10月、皇大神社の例大祭に山車が走る。市内には19台のだんじりが受け継がれる。",
+   "den": "Festival floats charge through Kohama each October — the city keeps nineteen of them alive."
+  },
+  {
+   "i": 80,
+   "ja": "毎月27・28日の縁日",
+   "en": "The 27th–28th Fair",
+   "dja": "清荒神の月並三宝例祭。毎月二日間、参道に縁日が立つ。",
+   "den": "A temple fair brightens the Dragon Path two days every single month."
+  },
+  {
+   "i": 81,
+   "ja": "六甲全山縦走大会",
+   "en": "Rokkō Traverse Event",
+   "dja": "11月、56kmを歩き切ったハイカーたちが次々と宝塚にゴールする。",
+   "den": "Each November, 56-kilometre trekkers stagger triumphantly into Takarazuka."
+  }
+ ],
+ "life": [
+  {
+   "i": 82,
+   "ja": "花のみち",
+   "en": "Hana-no-michi",
+   "dja": "駅から劇場へ続く約420mの花道。命名は小林一三。春は桜のトンネルに。",
+   "den": "The 420-metre \"flower path\" from station to theatre — a cherry tunnel each spring."
+  },
+  {
+   "i": 83,
+   "ja": "オスカルとアンドレの像",
+   "en": "Oscar & André Statues",
+   "dja": "花のみちで永遠に寄り添う『ベルばら』の二人。待ち合わせの定番。",
+   "den": "The Rose of Versailles lovers, forever side by side on the Flower Path."
+  },
+  {
+   "i": 84,
+   "ja": "小林一三像",
+   "en": "Statue of Kobayashi Ichizō",
+   "dja": "彫刻家・朝倉文夫の作。この街をつくった男が、いまも花のみちを見守る。",
+   "den": "By sculptor Asakura Fumio — the man who invented this town still watches his flower path."
+  },
+  {
+   "i": 85,
+   "ja": "宝塚ホテル",
+   "en": "Takarazuka Hotel",
+   "dja": "1926年開業、2026年に100周年。劇場の隣で、夢の続きを過ごす場所。",
+   "den": "Opened 1926, a century old in 2026 — where the dream continues, right beside the theatre."
+  },
+  {
+   "i": 86,
+   "ja": "文化芸術センター「たからば」",
+   "en": "Arts & Culture Center",
+   "dja": "遊園地の跡地に2020年開館。ギャラリーと庭園、市民の創作の庭。",
+   "den": "Opened 2020 on the old funfair site — galleries and gardens, free to roam."
+  },
+  {
+   "i": 87,
+   "ja": "ファミリーランドの記憶",
+   "en": "Memory of Family Land",
+   "dja": "1911年の新温泉から92年続いた遊園地。最盛期は年354万人が訪れた。",
+   "den": "The amusement park that ran 92 years from 1911 — 3.5 million visitors in its best year."
+  },
+  {
+   "i": 88,
+   "ja": "阪神競馬場（駒の町）",
+   "en": "Hanshin Racecourse",
+   "dja": "住所はその名も「宝塚市駒の町」。場内には家族で遊べる公園エリアも。",
+   "den": "Its address literally reads \"Horse Town, Takarazuka\" — with a free family park inside the grounds."
+  },
+  {
+   "i": 89,
+   "ja": "阪急電車と小林一三モデル",
+   "en": "The Hankyu Model",
+   "dja": "鉄道＋住宅＋娯楽をセットで育てる日本型私鉄経営は、この沿線から始まった。",
+   "den": "Railway + homes + entertainment — Japan's private-railway business model started on this line."
+  },
+  {
+   "i": 90,
+   "ja": "今津線の車窓",
+   "en": "The Imazu Line Window",
+   "dja": "武庫川を渡り、寺の軒先をかすめる小さな電車旅。各駅に物語がある。",
+   "den": "A little train ride over the river, brushing past temple eaves — every stop has a story."
+  },
+  {
+   "i": 91,
+   "ja": "「宝塚」という名",
+   "en": "The Name \"Takarazuka\"",
+   "dja": "「宝の塚」のそばで物を拾えば幸せが訪れる——1701年の地誌が伝える由来。",
+   "den": "\"Treasure mound\" — a 1701 gazetteer says fortune found those who passed the old tomb."
+  },
+  {
+   "i": 92,
+   "ja": "200基の古墳のまち",
+   "en": "City of 200 Burial Mounds",
+   "dja": "市内には古代の墳墓が200基以上。名前の通り、ここは「塚」の街。",
+   "den": "More than 200 ancient kofun dot the city — it is, true to its name, a town of mounds."
+  },
+  {
+   "i": 93,
+   "ja": "長尾山古墳",
+   "en": "Nagaoyama Kofun",
+   "dja": "4世紀初頭・未盗掘の粘土槨が残る、猪名川流域最古の前方後円墳。",
+   "den": "An untouched early-4th-century chieftain's tomb — the oldest in the region."
+  },
+  {
+   "i": 94,
+   "ja": "中山荘園古墳",
+   "en": "Nakayama Sōen Kofun",
+   "dja": "天皇陵級の八角形墳が住宅地の中に。全国でも十数基の希少な国史跡。",
+   "den": "An octagonal tomb — a form reserved for emperors — sits quietly in suburbia. A national historic site."
+  },
+  {
+   "i": 95,
+   "ja": "万籟山古墳",
+   "en": "Banraizan Kofun",
+   "dja": "大陸渡来と伝わる四獣鏡が出土した、尾根上の前方後円墳。",
+   "den": "A ridge-top tomb linked to a four-beast bronze mirror from the continent."
+  },
+  {
+   "i": 96,
+   "ja": "阪神間モダニズム",
+   "en": "Hanshinkan Modernism",
+   "dja": "大正・昭和初期、鉄道沿線に花開いた洋風郊外文化。宝塚はその頂点のひとつ。",
+   "den": "The early-20th-century flowering of Western suburban culture along the railways — Takarazuka was its crown jewel."
+  },
+  {
+   "i": 97,
+   "ja": "ソリオとソリオホール",
+   "en": "Sorio Takarazuka",
+   "dja": "駅直結の商業施設と、青を基調にした小さなホール。雨の日も舞台はある。",
+   "den": "Station-side shopping and a little blue concert hall — culture, rain or shine."
+  },
+  {
+   "i": 98,
+   "ja": "すみれ色の日常",
+   "en": "Everyday in Violet",
+   "dja": "ポスター、駅の発車メロディ、街角の像——暮らしの隅々に歌劇が滲む。",
+   "den": "Posters, station chimes, statues on corners — the Revue seeps into everyday life."
+  },
+  {
+   "i": 99,
+   "ja": "第百景 — あなたの一景",
+   "en": "View No. 100 — Your Own",
+   "dja": "百番目の景は、あなたが見つける番。この街は何度でも幕を上げる。",
+   "den": "The hundredth view is yours to find — this city will raise its curtain for you, again and again."
+  }
+ ]
+}

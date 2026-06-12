@@ -1,0 +1,53 @@
+{
+  "cat": "taste",
+  "episodes": [
+    {
+      "i": 66,
+      "eja": "炭酸せんべいの生地は、天然の炭酸水でこねることで独特の淡い黄色になります。小麦粉・片栗粉・砂糖・塩だけのシンプルな材料なのに、炭酸の泡が生地を軽く膨らませ、厚さ約1mmの淡雪のような食感を生み出すのです。",
+      "een": "The batter owes its pale golden hue entirely to natural carbonated spring water — no dye, no leavening agent, just the bubbles doing the work. A handful of simple ingredients: flour, potato starch, sugar, salt, and the spring itself.",
+      "src": "R4-01 炭酸せんべい（材料・製法）"
+    },
+    {
+      "i": 67,
+      "eja": "黄金家は明治30年（1897年）、宝塚温泉の湯本町に湧く天然炭酸水を使って炭酸せんべいを考案した本家中の本家です。現在も店先でひとつひとつ手焼きされる姿は変わらず、焼きたての香ばしさは百年を超える歳月を感じさせません。",
+      "een": "Koganeya was there from the start — founded in 1897 by the proprietor who first mixed the local spring water into the batter and pressed it flat. Step inside today and you will still find someone baking each wafer by hand, one by one, just as the shop always has.",
+      "src": "R4-02 黄金家（1897年創業・手焼き）"
+    },
+    {
+      "i": 68,
+      "eja": "宝塚市北部の西谷地区は宝塚市街地より夏でも気温が2〜3度低く、その寒暖差が太ねぎに甘みを凝縮させます。葉先まで食べられるのが「西谷太ねぎ」の自慢で、12月から2月の短い旬だけ西谷夢市場などに並びます。",
+      "een": "Nishitani sits two or three degrees cooler than the city even in summer, and that mountain chill concentrates sweetness all the way to the leaf tips — which you can eat, unlike most leeks. The harvest window is just three months, December through February.",
+      "src": "R4-12 西谷太ねぎ（寒暖差・葉先まで食用）/ R2-15 西谷夢市場"
+    },
+    {
+      "i": 69,
+      "eja": "丹波系の黒大豆は粒が大きく、枝豆として食べられる時季は9月下旬から10月下旬のわずか一か月ほど。西谷の昼夜の寒暖差がその大粒と香りを育て、京阪神の市場では「宝塚の黒枝豆」として秋の声とともに待ちわびられます。",
+      "een": "丹波-lineage black soybeans are prized enough that their brief window as edamame — late September to late October — is circled on calendars across Osaka and Kobe. Nishitani's cool mountain nights coax out the deep, nutty fragrance that makes these beans stand apart.",
+      "src": "R4-12 丹波黒大豆枝豆（旬・産地）/ R2-15 西谷夢市場"
+    },
+    {
+      "i": 70,
+      "eja": "江戸時代前半、小浜は灘五郷より早く日本屈指の酒どころとして知られ、「小浜流」と呼ばれる辛口の醸造技術が全国に広まりました。慶長19年（1614年）に山中清直が名水「玉の井」で仕込みを始めたのが発端で、その技術は今も醸造書「童蒙酒造記」に記録が残っています。",
+      "een": "Long before Nada became Japan's sake capital, the town of Kohama had its own school of brewing — the Kohama-ryū style, known for its dry, sharp character and documented in the Edo-period manual Dōmō Shuzōki. It began in 1614 when a man named Yamanaka Kiyonao drew water from the Tamanoi spring and started fermenting.",
+      "src": "R4-16 小浜宿・小浜流酒造（慶長19年・童蒙酒造記）/ R3-小浜の酒造文化"
+    },
+    {
+      "i": 71,
+      "eja": "清荒神への参道「龍の道」には約100軒が軒を連ねますが、なかでも名物はかたやき煎餅。石のように硬く焼き締めたこの煎餅は、坂を登るうちに噛み続けてちょうど口の中でほぐれてくる——参道の長さに合わせて食べ頃が訪れる不思議な銘菓です。",
+      "een": "The hardest snack on the Kiyoshikōjin slope may be the katayaki senbei — crackers baked so firmly they need serious chewing. Regulars say the trick is to start one at the bottom of the 1.2-kilometre climb; by the time you reach the temple gate, it has finally surrendered.",
+      "src": "R4-28 清荒神参道グルメ（かたやき煎餅）/ R3-清荒神清澄寺（参道約100軒）"
+    },
+    {
+      "i": 72,
+      "eja": "宝塚ホテルは大正15年（1926年）に宝塚大劇場の隣に開業し、2026年に100周年を迎えました。ラウンジ「ルネサンス」では、花・月・雪・星・宙の五つの組をイメージしたオリジナルカクテルが並び、観劇の余韻を一口ずつ味わうように設えられています。",
+      "een": "Takarazuka Hotel opened in 1926 right beside the Grand Theater — the building and the stage have been neighbours for a full century. In the Renaissance lounge, five original cocktails are named for the five troupes, each colour-matched to its troupe's hue, so you can toast whichever one you just watched.",
+      "src": "R4-13 宝塚ホテルアフタヌーンティー（五組カクテル）/ R1-19 宝塚ホテル（1926年・2026年100周年）"
+    },
+    {
+      "i": 73,
+      "eja": "明治末から昭和初期、阪急電鉄の沿線開発が宝塚を富裕な郊外住宅地に育てると、洋菓子の文化もともに根付きました。モロゾフ（1931年神戸創立）のような先駆けが阪急線沿いに店を広げ、駅前の洋菓子店が「阪神間モダニズム」の甘い断片を今も伝えています。",
+      "een": "When Hankyu Railways developed the suburbs in the early twentieth century, it brought a taste for Western sweets along the tracks. Morozoff, founded in Kobe in 1931, was among the pioneers — and that Hanshinkan Modernism tradition of fine pâtisseries by the station survives to this day.",
+      "src": "R4-17 阪神間モダニズムと洋菓子（モロゾフ1931年・阪急沿線）/ R3-小林一三と阪急電鉄"
+    }
+  ]
+}
