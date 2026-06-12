@@ -7,7 +7,7 @@
    - GA_ID が空文字のあいだは GA4 を読み込まない（測定IDを設定したら有効化）。 */
 (function () {
   "use strict";
-  var GA_ID = ""; // ← GA4測定ID（G-XXXXXXXXXX）をここに設定すると計測が有効になる
+  var GA_ID = "G-WSB1G5WE15"; // GA4測定ID（空文字にすると計測停止）
   var KEY = "tkz_consent_v1";
 
   window.dataLayer = window.dataLayer || [];
