@@ -10,3 +10,4 @@ node_modules/
 qa/city_event_raw.js
 qa/probe-*.mjs
 qa/shot-*.png
+qa/serve.mjs

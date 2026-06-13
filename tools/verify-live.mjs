@@ -1,13 +1,15 @@
 /* 本番検証: pages.dev とカスタムドメインの双方で 200 / CSP / コンテンツ量を確認。
-   - /        : 宝塚百景（view-card が100枚）
-   - /life/   : くらしの便利帳（item-card が50枚以上）
+   - /                  : 宝塚百景（view-card が100枚）
+   - /life/             : くらしの便利帳ハブ（カテゴリカードが12枚）
+   - /life/garbage/     : 代表カテゴリページ（item-card が5枚以上）
    Run: node tools/verify-live.mjs   （失敗時 exit 1） */
-const CHECKS = [
-  { url: "https://takarazuka.pages.dev/", pat: /class="view-card"/g, min: 100, label: "views" },
-  { url: "https://takarazuka.jun-nakatani.com/", pat: /class="view-card"/g, min: 100, label: "views" },
-  { url: "https://takarazuka.pages.dev/life/", pat: /class="item-card"/g, min: 50, label: "items" },
-  { url: "https://takarazuka.jun-nakatani.com/life/", pat: /class="item-card"/g, min: 50, label: "items" },
+const HOSTS = ["https://takarazuka.pages.dev", "https://takarazuka.jun-nakatani.com"];
+const PATHS = [
+  { path: "/", pat: /class="view-card"/g, min: 100, label: "views" },
+  { path: "/life/", pat: /class="cat-card"/g, min: 12, label: "cat-cards" },
+  { path: "/life/garbage/", pat: /class="item-card"/g, min: 5, label: "items" },
 ];
+const CHECKS = HOSTS.flatMap((h) => PATHS.map((p) => ({ url: h + p.path, pat: p.pat, min: p.min, label: p.label })));
 
 let fail = false;
 for (const { url, pat, min, label } of CHECKS) {

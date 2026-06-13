@@ -1,14 +1,20 @@
-/* 宝塚くらしの便利帳 — 静的プリレンダ
-   life/data/guide.json + life/data/opendata/*.json → life/index.html（マーカー間に挿入）
-   さらに llms-life.txt（LLM向け全文）を生成する。
-   Run: node tools/prerender-life.mjs   （tools/prerender.mjs とは独立） */
+/* 宝塚くらしの便利帳 — 静的プリレンダ（マルチページ）
+   life/data/guide.json + life/data/opendata/*.json から
+     - life/index.html              … ハブ（トップ）
+     - life/<id>/index.html          … カテゴリ別ページ（12ページ）
+     - life/search-index.json        … 全ページ横断検索インデックス
+     - llms-life.txt（ROOT）          … LLM向け全文
+     - sitemap.xml へ /life/ 系URLを反映
+   を生成する。tools/prerender.mjs（宝塚百景）とは独立。
+   Run: node tools/prerender-life.mjs */
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LIFE = path.join(ROOT, "life");
-const BASE = "https://takarazuka.jun-nakatani.com/life/";
+const SITE = "https://takarazuka.jun-nakatani.com";
+const LIFEBASE = SITE + "/life/";
 
 const guide = JSON.parse(fs.readFileSync(path.join(LIFE, "data", "guide.json"), "utf8"));
 const odDir = path.join(LIFE, "data", "opendata");
@@ -20,12 +26,12 @@ if (fs.existsSync(odDir)) {
   }
 }
 
+/* ---------- helpers ---------- */
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-/* href に入れるURLは http(s) のみ許可（javascript: 等のスキーム混入を防ぐ防御層） */
 const safeUrl = (u) => (/^https?:\/\//i.test(String(u ?? "")) ? String(u) : "");
-/* tel: URI は RFC 3966 上 # * + が有効。encodeURIComponent で #7119→%237119 と化けるのを避け、
-   ダイヤル可能文字だけを残す（救急ダイヤル #7119 / #8000 の正常発信のため）。 */
 const telHref = (p) => "tel:" + String(p).normalize("NFKC").replace(/[^\d#+*]/g, "");
+const safeJson = (obj) => JSON.stringify(obj).replace(/</g, "\\u003C").replace(/>/g, "\\u003E");
+const catUrl = (id) => `/life/${id}/`;
 
 /* ---------- icons (24x24 stroke) ---------- */
 const I = {
@@ -47,12 +53,91 @@ const I = {
   pin: '<path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/>',
   external: '<path d="M14 4h6v6M20 4l-9 9M19 13v6H5V5h6"/>',
   list: '<path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/>',
+  home: '<path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/>',
+  arrowR: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/>',
 };
 const icon = (name, cls) =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"${cls ? ` class="${cls}"` : ""}>${I[name] || I.list}</svg>`;
 
-/* ---------- SOS strip ---------- */
-const sosHtml = `
+/* ---------- updated date ---------- */
+const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
+const updatedDates = [guide.updated, ...Object.values(od).map((b) => b.fetched)].filter(Boolean).sort();
+const newest = updatedDates[updatedDates.length - 1] || today;
+
+/* ==========================================================================
+   shared layout
+   ========================================================================== */
+function docStart(o) {
+  const ogTitle = o.ogTitle || o.title;
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(o.title)}</title>
+<meta name="description" content="${esc(o.desc)}">
+<link rel="canonical" href="${esc(o.canonical)}">
+<meta name="theme-color" content="#241d3f">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="宝塚くらしの便利帳">
+<meta property="og:title" content="${esc(ogTitle)}">
+<meta property="og:description" content="${esc(o.desc)}">
+<meta property="og:url" content="${esc(o.canonical)}">
+<meta property="og:image" content="${SITE}/life/assets/ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/life/life.css">
+${o.ld || ""}
+</head>
+<body${o.bodyClass ? ` class="${o.bodyClass}"` : ""}>
+<a class="skip-link" href="#main">本文へスキップ</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/life/">
+      <span class="b-main">宝塚くらしの便利帳</span>
+      <span class="b-sub">TAKARAZUKA LIVING GUIDE</span>
+    </a>
+    <nav class="head-links" aria-label="関連サイト">
+      <a href="/">宝塚百景（観光・魅力）</a>
+      <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="tb-home" href="/life/">${icon("home")}<span>便利帳トップ</span></a>
+    <div class="tb-search" role="search">
+      <label class="sr-only" for="q">生活情報を検索</label>
+      ${icon("search")}
+      <input id="q" type="search" placeholder="例: ごみ / 引越し / 休日診療 / 児童手当" autocomplete="off" aria-controls="q-results">
+      <button id="q-clear" class="tb-clear" type="button" aria-label="検索をクリア" hidden>✕</button>
+    </div>
+  </div>
+  <div class="search-results" id="q-results" role="listbox" aria-label="検索結果" hidden></div>
+</div>`;
+}
+
+function breadcrumb(trail) {
+  const lis = trail.map((t, i) =>
+    i === trail.length - 1
+      ? `<li aria-current="page">${esc(t.name)}</li>`
+      : `<li><a href="${esc(t.url)}">${esc(t.name)}</a></li>`
+  ).join("");
+  return `<nav class="breadcrumb" aria-label="パンくずリスト"><div class="wrap"><ol>${lis}</ol></div></nav>`;
+}
+
+/* full SOS card (hub + emergency page) */
+function sosFull() {
+  return `
 <section class="sos" aria-labelledby="sos-title">
   <div class="sos-card">
     <h2 class="sos-title" id="sos-title">${icon("siren")} ${esc(guide.sos.title)}</h2>
@@ -62,17 +147,67 @@ ${guide.sos.buttons.map((b) => `      <a class="sos-btn" href="${telHref(b.tel)}
     <p class="sos-note">${esc(guide.sos.note)}</p>
   </div>
 </section>`;
+}
 
-/* ---------- nav chips ---------- */
-const navHtml = guide.categories.map((c) =>
-  `    <a class="catchip" style="--chip: var(--c-${c.color})" href="#${c.id}" data-target="${c.id}">${icon(c.icon)} ${esc(c.title)}</a>`
-).join("\n");
+/* slim emergency strip (category pages other than emergency) */
+function sosStrip() {
+  return `<div class="sos-strip"><div class="wrap">
+  <span class="ss-label">${icon("siren")} 緊急</span>
+  <a href="tel:119"><b>119</b> 火事・救急</a>
+  <a href="tel:110"><b>110</b> 事件・事故</a>
+  <a href="tel:#7119"><b>#7119</b> 救急相談</a>
+  <a class="ss-more" href="/life/emergency/">緊急の連絡先一覧 ${icon("arrowR")}</a>
+</div></div>`;
+}
 
-/* ---------- item card ---------- */
+function footer() {
+  return `
+<div class="page-notice">
+  <div class="page-notice-box">
+    <b>ご利用にあたって:</b> 本サイトは宝塚市在住の個人が制作した<b>非公式</b>の案内ページです。掲載内容は出典ページをもとに確認していますが、制度・時間・連絡先は変更されることがあります。<b>最新・正確な情報は必ず各項目のリンク先（宝塚市公式サイト等）でご確認ください。</b>緊急時は迷わず 119（火事・救急）・110（事件・事故）へ。
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h2>宝塚くらしの便利帳</h2>
+        <p>宝塚市で暮らす人のための生活情報ポータル。市公式情報への「入口の地図」として、要点と連絡先をテーマ別にまとめています。</p>
+      </div>
+      <div>
+        <h2>データについて</h2>
+        <p>施設・避難所・イベント等の一覧は<a href="https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html" rel="noopener">宝塚市オープンデータ</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）を加工して作成し、定期的に自動更新しています。最終データ取得日: ${newest}。</p>
+      </div>
+      <div>
+        <h2>関連リンク</h2>
+        <p>
+          <a href="/">宝塚百景 — 100 Views of Takarazuka</a><br>
+          <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a><br>
+          <a href="/privacy.html">プライバシーポリシー</a>
+        </p>
+      </div>
+    </div>
+    <p class="foot-small">本サイトは非公式の個人制作サイトであり、宝塚市とは関係ありません。掲載情報の利用は自己責任でお願いします。出典: 宝塚市オープンデータ（CC BY 4.0）ほか、各項目に記載。</p>
+  </div>
+</footer>
+
+<button id="to-top" class="to-top" type="button" aria-label="ページ上部へ戻る">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m5 14 7-7 7 7"/></svg>
+</button>
+
+<script src="/life/life.js" defer></script>
+</body>
+</html>`;
+}
+
+/* ==========================================================================
+   content renderers
+   ========================================================================== */
 function factRow(ic, label, html) {
   return `<div class="i-fact">${icon(ic)}<span class="f-label">${label}</span><span>${html}</span></div>`;
 }
-function renderItem(it) {
+function renderItem(it, catId, idx) {
   const facts = [];
   if (it.phone) facts.push(factRow("phone", "電話",
     `<a class="tel-link" href="${telHref(it.phone)}">${esc(it.phone)}</a>${it.phoneNote ? ` <small>（${esc(it.phoneNote)}）</small>` : ""}`));
@@ -84,7 +219,7 @@ function renderItem(it) {
     ? `<a class="i-link" href="${esc(safeUrl(it.url))}" rel="noopener">${esc(it.urlLabel || "市公式ページで詳しく")} ${icon("external")}</a>` : "";
   const tags = it.tags && it.tags.length
     ? `<span class="i-tags">${it.tags.map((t) => `<span class="i-tag">${esc(t)}</span>`).join("")}</span>` : "";
-  return `<article class="item-card">
+  return `<article class="item-card" id="${catId}-${idx + 1}">
   <h3>${it.important ? '<span class="badge-imp">重要</span>' : ""}${esc(it.title)}</h3>
   <p class="i-sum">${esc(it.summary)}</p>
   ${facts.length ? `<div class="i-facts">${facts.join("")}</div>` : ""}${steps}
@@ -92,7 +227,6 @@ function renderItem(it) {
 </article>`;
 }
 
-/* ---------- open data blocks ---------- */
 function mapLink(itm) {
   const q = encodeURIComponent(`${itm.name} ${itm.address || ""} 宝塚市`.trim());
   return `<a class="od-map-link" href="https://www.google.com/maps/search/?api=1&query=${q}" rel="noopener">地図</a>`;
@@ -118,23 +252,25 @@ ${rows}
   </tbody></table></div>
 </div>`;
 }
-function renderOdEvents(b) {
-  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
-  /* 開催前→開催日順、開催中（長期）→後ろに回して「開催中」表示 */
+function upcomingEvents(b, limit) {
   const items = b.items
     .filter((e) => (e.dateEnd || e.date) >= today)
     .map((e) => ({ ...e, ongoing: e.date < today, sortKey: e.date < today ? `${e.dateEnd}~` : e.date }))
-    .sort((a, z) => (a.ongoing - z.ongoing) || a.sortKey.localeCompare(z.sortKey))
-    .slice(0, 60);
-  const fmt = (d) => { const [, m, dd] = d.split("-"); return `${Number(m)}/${Number(dd)}`; };
-  const lis = items.map((e, i) => {
-    const dateTxt = e.ongoing
-      ? `開催中<br>〜${fmt(e.dateEnd)}`
-      : e.dateEnd && e.dateEnd !== e.date ? `${fmt(e.date)}<br>〜${fmt(e.dateEnd)}` : fmt(e.date);
-    const body = `<p class="ev-t">${safeUrl(e.url) ? `<a href="${esc(safeUrl(e.url))}" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</p>` +
-      (e.desc || e.place ? `<p class="ev-d">${esc([e.place, e.desc].filter(Boolean).join(" — "))}</p>` : "");
-    return `<li class="ev-item"${i >= 12 ? " hidden" : ""}><span class="ev-date">${dateTxt}</span><div class="ev-body">${body}</div></li>`;
-  }).join("\n");
+    .sort((a, z) => (a.ongoing - z.ongoing) || a.sortKey.localeCompare(z.sortKey));
+  return limit ? items.slice(0, limit) : items;
+}
+const fmtMd = (d) => { const [, m, dd] = d.split("-"); return `${Number(m)}/${Number(dd)}`; };
+function eventLi(e, hidden) {
+  const dateTxt = e.ongoing
+    ? `開催中<br>〜${fmtMd(e.dateEnd)}`
+    : e.dateEnd && e.dateEnd !== e.date ? `${fmtMd(e.date)}<br>〜${fmtMd(e.dateEnd)}` : fmtMd(e.date);
+  const body = `<p class="ev-t">${safeUrl(e.url) ? `<a href="${esc(safeUrl(e.url))}" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</p>` +
+    (e.desc || e.place ? `<p class="ev-d">${esc([e.place, e.desc].filter(Boolean).join(" — "))}</p>` : "");
+  return `<li class="ev-item"${hidden ? " hidden" : ""}><span class="ev-date">${dateTxt}</span><div class="ev-body">${body}</div></li>`;
+}
+function renderOdEvents(b) {
+  const items = upcomingEvents(b, 60);
+  const lis = items.map((e, i) => eventLi(e, i >= 12)).join("\n");
   const more = items.length > 12
     ? `<p class="ev-more"><button id="ev-more-btn" class="catchip" type="button">すべてのイベントを表示（あと${items.length - 12}件）</button></p>` : "";
   return `<div class="od-block" data-odfilter id="od-${b.id}">
@@ -152,119 +288,243 @@ const renderOd = (id) => {
   return b.type === "events" ? renderOdEvents(b) : renderOdTable(b);
 };
 
-/* ---------- sections ---------- */
-const sectionsHtml = guide.categories.map((c) => {
-  const items = `<div class="item-grid">\n${c.items.map(renderItem).join("\n")}\n</div>`;
+function faqBlock(faqs) {
+  if (!faqs || !faqs.length) return "";
+  return `<div class="faq-block"><h3>${icon("chat")} よくある質問</h3>${faqs.map((f) =>
+    `<details class="faq-item"><summary>${esc(f.q)}</summary><div class="faq-a">${esc(f.a)}</div></details>`).join("\n")}</div>`;
+}
+
+/* category card (hub grid + other-categories nav) */
+function categoryCard(c) {
+  const n = c.items.length + (c.opendata || []).length;
+  return `<a class="cat-card" href="${catUrl(c.id)}" style="--cat: var(--c-${c.color})">
+  <span class="cc-icon">${icon(c.icon)}</span>
+  <span class="cc-body">
+    <span class="cc-en">${esc(c.en)}</span>
+    <span class="cc-title">${esc(c.title)}</span>
+    <span class="cc-desc">${esc(c.tagline)}</span>
+    <span class="cc-meta">${n}件の案内</span>
+  </span>
+  <span class="cc-arrow">${icon("arrowR")}</span>
+</a>`;
+}
+
+/* ==========================================================================
+   page: category
+   ========================================================================== */
+function categoryDescription(c) {
+  const names = c.items.slice(0, 4).map((it) => it.title.split(/[ —（(]/)[0]).join("・");
+  return `宝塚市の${c.title}に関する生活情報。${c.tagline} ${names} など、窓口・連絡先・手続きを出典付きでまとめています。`;
+}
+function categoryPage(c) {
+  const canonical = LIFEBASE + c.id + "/";
+  const title = `${c.title}｜宝塚くらしの便利帳（宝塚市の生活情報）`;
+  const desc = categoryDescription(c);
+
+  const ld = [
+    { "@type": "WebPage", "@id": canonical, url: canonical, name: `${c.title}｜宝塚くらしの便利帳`, description: desc, inLanguage: "ja", dateModified: today, isPartOf: { "@type": "WebSite", name: "宝塚くらしの便利帳", url: LIFEBASE }, about: { "@type": "City", name: "宝塚市", sameAs: "https://www.city.takarazuka.hyogo.jp/" } },
+    { "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: "宝塚百景", item: SITE + "/" },
+      { "@type": "ListItem", position: 2, name: "宝塚くらしの便利帳", item: LIFEBASE },
+      { "@type": "ListItem", position: 3, name: c.title, item: canonical },
+    ] },
+    ...(c.faq && c.faq.length ? [{ "@type": "FAQPage", mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }] : []),
+    ...(c.opendata || []).filter((id) => od[id]).map((id) => {
+      const b = od[id];
+      return { "@type": "Dataset", name: `宝塚市オープンデータ: ${b.title}`, description: b.note, url: b.sourcePage, license: "https://creativecommons.org/licenses/by/4.0/deed.ja", creator: { "@type": "GovernmentOrganization", name: "宝塚市" }, dateModified: b.fetched };
+    }),
+  ];
+  const ldTag = `<script type="application/ld+json">${safeJson({ "@context": "https://schema.org", "@graph": ld })}</script>`;
+
+  const isEmergency = c.id === "emergency";
+  const others = guide.categories.filter((x) => x.id !== c.id);
+
+  const items = `<div class="item-grid">\n${c.items.map((it, i) => renderItem(it, c.id, i)).join("\n")}\n</div>`;
   const odBlocks = (c.opendata || []).map(renderOd).join("\n");
-  const faq = c.faq && c.faq.length
-    ? `<div class="faq-block"><h3>${icon("chat")} よくある質問</h3>${c.faq.map((f) =>
-        `<details class="faq-item"><summary>${esc(f.q)}</summary><div class="faq-a">${esc(f.a)}</div></details>`).join("\n")}</div>`
-    : "";
-  return `<section class="cat-section" id="${c.id}" style="--cat: var(--c-${c.color})" aria-labelledby="h-${c.id}">
-  <div class="cat-head">
+
+  const body = `${isEmergency ? "" : sosStrip()}
+${breadcrumb([
+    { name: "宝塚百景", url: "/" },
+    { name: "くらしの便利帳", url: "/life/" },
+    { name: c.title },
+  ])}
+
+<div class="cat-hero" style="--cat: var(--c-${c.color})">
+  <div class="wrap">
     <span class="cat-icon">${icon(c.icon)}</span>
-    <h2 id="h-${c.id}"><span class="cat-en">${esc(c.en)}</span>${esc(c.title)}</h2>
+    <div class="cat-hd-text">
+      <span class="cat-en">${esc(c.en)}</span>
+      <h1>${esc(c.title)}</h1>
+      <p class="cat-tagline">${esc(c.tagline)}</p>
+    </div>
   </div>
-  <p class="cat-tagline">${esc(c.tagline)}</p>
-  ${items}
+</div>
+
+<main id="main">
+  <div class="wrap">
+    <section class="cat-section" style="--cat: var(--c-${c.color})">
+      ${items}
 ${odBlocks}
-${faq}
-</section>`;
-}).join("\n\n");
+${faqBlock(c.faq)}
+${isEmergency ? sosFull() : ""}
+    </section>
 
-/* ---------- JSON-LD ---------- */
-const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
-const faqAll = guide.categories.flatMap((c) => c.faq || []);
-const graph = [
-  {
-    "@type": "WebPage",
-    "@id": BASE,
-    url: BASE,
-    name: "宝塚くらしの便利帳 — 宝塚市の生活情報まとめ",
-    description: "兵庫県宝塚市で暮らす人のための生活情報ポータル。ごみ・手続き・医療・子育て・防災・交通の窓口と連絡先を一覧化。",
-    inLanguage: "ja",
-    dateModified: today,
-    isPartOf: { "@type": "WebSite", name: "宝塚百景 / 宝塚くらしの便利帳", url: "https://takarazuka.jun-nakatani.com/" },
-    about: { "@type": "City", name: "宝塚市", sameAs: "https://www.city.takarazuka.hyogo.jp/" },
-  },
-  {
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "宝塚百景", item: "https://takarazuka.jun-nakatani.com/" },
-      { "@type": "ListItem", position: 2, name: "宝塚くらしの便利帳", item: BASE },
-    ],
-  },
-  ...(faqAll.length ? [{
-    "@type": "FAQPage",
-    mainEntity: faqAll.map((f) => ({
-      "@type": "Question", name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
-  }] : []),
-  ...Object.values(od).map((b) => ({
-    "@type": "Dataset",
-    name: `宝塚市オープンデータ: ${b.title}`,
-    description: b.note,
-    url: b.sourcePage,
-    license: "https://creativecommons.org/licenses/by/4.0/deed.ja",
-    creator: { "@type": "GovernmentOrganization", name: "宝塚市" },
-    dateModified: b.fetched,
-  })),
-];
-/* `</script>` によるタグ脱出を防ぐため `<` `>` をUnicodeエスケープ（JSONとしては同値） */
-const safeJson = (obj) => JSON.stringify(obj).replace(/</g, "\\u003C").replace(/>/g, "\\u003E");
-const ldBlock = `<script type="application/ld+json">${safeJson({ "@context": "https://schema.org", "@graph": graph })}</script>`;
+    <nav class="othercat" aria-label="他のカテゴリ">
+      <h2>ほかのテーマをみる</h2>
+      <div class="cat-card-grid compact">
+${others.map(categoryCard).join("\n")}
+      </div>
+    </nav>
+  </div>
+</main>`;
 
-/* ---------- inject into index.html ---------- */
-const updatedDates = [guide.updated, ...Object.values(od).map((b) => b.fetched)].filter(Boolean).sort();
-const newest = updatedDates[updatedDates.length - 1] || today;
-const inject = (html, tag, content) =>
-  html.replace(new RegExp(`(<!--${tag}:START-->)[\\s\\S]*?(<!--${tag}:END-->)`),
-    (_, a, z) => `${a}\n${content}\n${z}`);
+  return docStart({ title, desc, canonical, ld: ldTag, bodyClass: "page-cat" }) + body + footer();
+}
 
-let html = fs.readFileSync(path.join(LIFE, "index.html"), "utf8");
-html = inject(html, "SOS", sosHtml);
-html = inject(html, "NAV", navHtml);
-html = inject(html, "GUIDE", sectionsHtml);
-html = inject(html, "LD", ldBlock);
-html = inject(html, "UPDATED", `データ更新日: <b>${newest}</b>（オープンデータは毎週自動更新）`);
-html = inject(html, "FOOT-META", `最終データ取得日: ${newest}。`);
-fs.writeFileSync(path.join(LIFE, "index.html"), html);
+/* ==========================================================================
+   page: hub
+   ========================================================================== */
+function hubPage() {
+  const canonical = LIFEBASE;
+  const title = "宝塚くらしの便利帳 — 宝塚市の生活情報まとめ（ごみ・手続き・医療・子育て・防災）";
+  const desc = "兵庫県宝塚市で暮らす人のための生活情報ポータル。ごみの分別・収集日、市役所の手続き、休日・夜間診療、子育て支援、避難所、税金、交通、公共施設まで——必要な窓口と連絡先をテーマ別に。宝塚市オープンデータで定期自動更新。";
+
+  const ld = [
+    { "@type": "WebSite", "@id": LIFEBASE + "#website", url: LIFEBASE, name: "宝塚くらしの便利帳", inLanguage: "ja", publisher: { "@type": "Person", name: "宝塚市在住の制作者" } },
+    { "@type": "CollectionPage", "@id": canonical, url: canonical, name: title, description: desc, inLanguage: "ja", dateModified: newest, isPartOf: { "@id": LIFEBASE + "#website" }, about: { "@type": "City", name: "宝塚市", sameAs: "https://www.city.takarazuka.hyogo.jp/" } },
+    { "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: "宝塚百景", item: SITE + "/" },
+      { "@type": "ListItem", position: 2, name: "宝塚くらしの便利帳", item: LIFEBASE },
+    ] },
+    { "@type": "ItemList", name: "宝塚くらしの便利帳 カテゴリ一覧", itemListElement: guide.categories.map((c, i) => ({
+      "@type": "ListItem", position: i + 1, name: c.title, url: LIFEBASE + c.id + "/",
+    })) },
+  ];
+  const ldTag = `<script type="application/ld+json">${safeJson({ "@context": "https://schema.org", "@graph": ld })}</script>`;
+
+  /* events teaser */
+  const evb = od.events;
+  const evTeaser = evb ? (() => {
+    const items = upcomingEvents(evb, 6);
+    if (!items.length) return "";
+    const lis = items.map((e) => eventLi(e, false)).join("\n");
+    return `<section class="hub-events">
+      <div class="sec-head"><h2>${icon("calendar")} 直近のイベント</h2><a class="sec-more" href="/life/events/">すべて見る ${icon("arrowR")}</a></div>
+      <ul class="ev-list">
+${lis}
+      </ul>
+    </section>`;
+  })() : "";
+
+  const body = `
+<div class="hero">
+  <div class="hero-inner">
+    <h1>
+      <span class="hero-kicker">TAKARAZUKA LIVING GUIDE</span>
+      宝塚くらしの便利帳
+    </h1>
+    <p class="hero-lede">ごみの出し方から夜間の救急まで。宝塚市で暮らすのに必要な情報の「入口」を、テーマ別にまとめました。上の検索か、下のカテゴリからお探しください。</p>
+    <p class="hero-updated">データ更新日: <b>${newest}</b>（オープンデータは毎週自動更新）</p>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <img src="/life/assets/hero.svg" alt="" width="1200" height="480" loading="eager">
+  </div>
+</div>
+
+${sosFull()}
+
+<main id="main">
+  <div class="wrap">
+    <section class="cat-cards" aria-labelledby="cats-h">
+      <div class="sec-head"><h2 id="cats-h">${icon("list")} カテゴリから探す</h2></div>
+      <div class="cat-card-grid">
+${guide.categories.map(categoryCard).join("\n")}
+      </div>
+    </section>
+
+    ${evTeaser}
+  </div>
+</main>`;
+
+  return docStart({ title, desc, canonical, ld: ldTag, bodyClass: "page-hub" }) + body + footer();
+}
+
+/* ==========================================================================
+   write pages
+   ========================================================================== */
+fs.writeFileSync(path.join(LIFE, "index.html"), hubPage());
+for (const c of guide.categories) {
+  const dir = path.join(LIFE, c.id);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, "index.html"), categoryPage(c));
+}
+
+/* ---------- search index (cross-page) ---------- */
+const searchIndex = [];
+for (const c of guide.categories) {
+  c.items.forEach((it, i) => {
+    searchIndex.push({
+      t: it.title,
+      s: it.summary,
+      g: [...(it.tags || []), it.phone || "", it.address || ""].join(" "),
+      c: c.title,
+      color: c.color,
+      u: `${catUrl(c.id)}#${c.id}-${i + 1}`,
+    });
+  });
+}
+fs.writeFileSync(path.join(LIFE, "search-index.json"), JSON.stringify(searchIndex));
 
 /* ---------- llms-life.txt（LLM向け全文） ---------- */
-let md = `# 宝塚くらしの便利帳 — Takarazuka Living Guide (Residents' Practical Information)
+let mdtxt = `# 宝塚くらしの便利帳 — Takarazuka Living Guide (Residents' Practical Information)
 
 > 兵庫県宝塚市で暮らす人のための生活情報まとめ（非公式・個人制作）。各項目は宝塚市公式サイト等の出典に基づく（${guide.updated} 確認）。最新情報は必ず各出典URLで確認のこと。施設一覧は宝塚市オープンデータ（CC BY 4.0）を加工、毎週自動更新。
-> URL: ${BASE}
+> ハブ: ${LIFEBASE} ／ 各テーマは ${LIFEBASE}<id>/ に分割（id一覧: ${guide.categories.map((c) => c.id).join(", ")}）。
 
 `;
 for (const c of guide.categories) {
-  md += `## ${c.title} (${c.en})\n\n`;
+  mdtxt += `## ${c.title} (${c.en}) — ${LIFEBASE}${c.id}/\n\n`;
   for (const it of c.items) {
-    md += `### ${it.title}\n${it.summary}\n`;
-    if (it.phone) md += `- 電話: ${it.phone}${it.phoneNote ? `（${it.phoneNote}）` : ""}\n`;
-    if (it.hours) md += `- 時間: ${it.hours}\n`;
-    if (it.address) md += `- 場所: ${it.address}\n`;
-    if (it.steps) it.steps.forEach((s, i) => { md += `- 手順${i + 1}: ${s}\n`; });
-    if (it.url) md += `- 詳細: ${it.url}\n`;
-    md += "\n";
+    mdtxt += `### ${it.title}\n${it.summary}\n`;
+    if (it.phone) mdtxt += `- 電話: ${it.phone}${it.phoneNote ? `（${it.phoneNote}）` : ""}\n`;
+    if (it.hours) mdtxt += `- 時間: ${it.hours}\n`;
+    if (it.address) mdtxt += `- 場所: ${it.address}\n`;
+    if (it.steps) it.steps.forEach((s, i) => { mdtxt += `- 手順${i + 1}: ${s}\n`; });
+    if (it.url) mdtxt += `- 詳細: ${it.url}\n`;
+    mdtxt += "\n";
   }
-  for (const f of c.faq || []) md += `Q: ${f.q}\nA: ${f.a}\n\n`;
+  for (const f of c.faq || []) mdtxt += `Q: ${f.q}\nA: ${f.a}\n\n`;
   for (const id of c.opendata || []) {
     const b = od[id];
     if (!b) continue;
-    md += `### ${b.title}（オープンデータ・${b.fetched}時点・${b.items.length}件）\n`;
+    mdtxt += `### ${b.title}（オープンデータ・${b.fetched}時点・${b.items.length}件）\n`;
     if (b.type === "events") {
-      for (const e of b.items.slice(0, 40)) md += `- ${e.date}${e.dateEnd && e.dateEnd !== e.date ? `〜${e.dateEnd}` : ""}: ${e.title}${e.place ? `（${e.place}）` : ""}\n`;
+      for (const e of b.items.slice(0, 40)) mdtxt += `- ${e.date}${e.dateEnd && e.dateEnd !== e.date ? `〜${e.dateEnd}` : ""}: ${e.title}${e.place ? `（${e.place}）` : ""}\n`;
     } else {
-      for (const itm of b.items) md += `- ${itm.name}${itm.address ? `（${itm.address}）` : ""}${itm.kind ? ` [${itm.kind}]` : ""}\n`;
+      for (const itm of b.items) mdtxt += `- ${itm.name}${itm.address ? `（${itm.address}）` : ""}${itm.kind ? ` [${itm.kind}]` : ""}\n`;
     }
-    md += `出典: 宝塚市オープンデータ ${b.sourcePage}（CC BY 4.0）\n\n`;
+    mdtxt += `出典: 宝塚市オープンデータ ${b.sourcePage}（CC BY 4.0）\n\n`;
   }
 }
-md += `---\n出典・ライセンス: 宝塚市オープンデータ（CC BY 4.0、出典: 宝塚市）を加工。その他の記述は宝塚市公式サイト等を${guide.updated}に確認して作成。本ガイドは非公式であり、緊急時は 119 / 110 へ。\n`;
-fs.writeFileSync(path.join(ROOT, "llms-life.txt"), md);
+mdtxt += `---\n出典・ライセンス: 宝塚市オープンデータ（CC BY 4.0、出典: 宝塚市）を加工。その他の記述は宝塚市公式サイト等を${guide.updated}に確認して作成。本ガイドは非公式であり、緊急時は 119 / 110 へ。\n`;
+fs.writeFileSync(path.join(ROOT, "llms-life.txt"), mdtxt);
 
-console.log(`life prerendered: ${guide.categories.length} sections, ` +
+/* ---------- sitemap.xml に /life/ 系URLを反映 ---------- */
+const sitemapPath = path.join(ROOT, "sitemap.xml");
+if (fs.existsSync(sitemapPath)) {
+  let sm = fs.readFileSync(sitemapPath, "utf8");
+  /* 既存の life 系 <url> ブロックを除去（再生成のため・冪等化） */
+  sm = sm.replace(/\s*<url>(?:(?!<\/url>)[\s\S])*?\/life\/[\s\S]*?<\/url>/g, "");
+  const lifeUrls = [
+    `  <url>\n    <loc>${LIFEBASE}</loc>\n    <lastmod>${newest}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>`,
+    ...guide.categories.map((c) =>
+      `  <url>\n    <loc>${LIFEBASE}${c.id}/</loc>\n    <lastmod>${newest}</lastmod>\n    <changefreq>${(c.opendata || []).length ? "weekly" : "monthly"}</changefreq>\n    <priority>0.8</priority>\n  </url>`),
+  ].join("\n");
+  sm = sm.replace(/\s*<\/urlset>\s*$/, "\n" + lifeUrls + "\n</urlset>\n");
+  fs.writeFileSync(sitemapPath, sm);
+}
+
+console.log(`life prerendered: hub + ${guide.categories.length} category pages, ` +
   `${guide.categories.reduce((n, c) => n + c.items.length, 0)} items, ` +
-  `${Object.keys(od).length} opendata blocks, llms-life.txt ${(md.length / 1024).toFixed(1)} KB, updated=${newest}`);
+  `${Object.keys(od).length} opendata blocks, search-index ${searchIndex.length} entries, ` +
+  `llms-life.txt ${(mdtxt.length / 1024).toFixed(1)} KB, updated=${newest}`);

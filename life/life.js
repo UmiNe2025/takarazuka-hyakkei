@@ -1,5 +1,10 @@
-/* 宝塚くらしの便利帳 — progressive enhancement
-   ページは JS なしで全文閲覧可能。ここでは検索・絞り込み・ナビ連動のみ追加する。 */
+/* 宝塚くらしの便利帳 — progressive enhancement（マルチページ）
+   ページは JS なしで全文閲覧可能。ここでは
+     - 全ページ横断検索（/life/search-index.json を読み込み、結果を該当ページ#項目へリンク）
+     - オープンデータ表の絞り込み
+     - イベント「もっと見る」
+     - ページ上部へ戻る
+   のみを追加する。 */
 (function () {
   "use strict";
 
@@ -11,77 +16,101 @@
       .replace(/[ァ-ヶ]/g, function (ch) { return String.fromCharCode(ch.charCodeAt(0) - 0x60); })
       .replace(/\s+/g, " ");
   }
+  function escHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
 
-  /* ---------- global search ---------- */
+  /* ==========================================================================
+     cross-page search
+     ========================================================================== */
   var input = document.getElementById("q");
   var clearBtn = document.getElementById("q-clear");
-  var meta = document.getElementById("q-meta");
-  var cards = Array.prototype.slice.call(document.querySelectorAll(".item-card"));
-  var sections = Array.prototype.slice.call(document.querySelectorAll(".cat-section"));
+  var resultsBox = document.getElementById("q-results");
 
-  cards.forEach(function (c) { c.setAttribute("data-norm", norm(c.textContent)); });
+  if (input && clearBtn && resultsBox) {
+    var index = null;          // lazy-loaded search index
+    var loading = false;
+    var debounce = null;
 
-  function runSearch() {
-    var q = norm(input.value.trim());
-    var on = q.length >= 1;
-    document.body.classList.toggle("search-active", on);
-    clearBtn.classList.toggle("on", on);
-    if (!on) {
-      cards.forEach(function (c) { c.removeAttribute("data-hidden"); c.classList.remove("hit"); });
-      sections.forEach(function (s) { s.removeAttribute("data-empty"); });
-      meta.textContent = "";
-      return;
+    function ensureIndex(cb) {
+      if (index) { cb(); return; }
+      if (loading) return;
+      loading = true;
+      fetch("/life/search-index.json", { cache: "force-cache" })
+        .then(function (r) { return r.ok ? r.json() : []; })
+        .then(function (data) {
+          index = (data || []).map(function (e) {
+            return { e: e, hay: norm(e.t + " " + e.s + " " + e.g + " " + e.c) };
+          });
+          loading = false; cb();
+        })
+        .catch(function () { loading = false; index = []; cb(); });
     }
-    var terms = q.split(" ").filter(Boolean);
-    var hits = 0;
-    cards.forEach(function (c) {
-      var t = c.getAttribute("data-norm");
-      var ok = terms.every(function (w) { return t.indexOf(w) !== -1; });
-      c.setAttribute("data-hidden", ok ? "0" : "1");
-      c.classList.toggle("hit", ok);
-      if (ok) hits++;
-    });
-    sections.forEach(function (s) {
-      var any = s.querySelector('.item-card[data-hidden="0"]');
-      s.setAttribute("data-empty", any ? "0" : "1");
-    });
-    meta.innerHTML = hits
-      ? "<b>" + hits + "件</b>ヒットしました"
-      : "見つかりませんでした — 別の言葉でお試しください（例: ごみ、引越し、夜間）";
-  }
 
-  if (input && clearBtn && meta) {
-    var t = null;
-    input.addEventListener("input", function () {
-      clearTimeout(t); t = setTimeout(runSearch, 120);
-    });
+    function closeResults() {
+      resultsBox.hidden = true;
+      resultsBox.innerHTML = "";
+    }
+
+    function render(q) {
+      var terms = norm(q).split(" ").filter(Boolean);
+      if (!terms.length) { closeResults(); return; }
+      var hits = index.filter(function (row) {
+        return terms.every(function (w) { return row.hay.indexOf(w) !== -1; });
+      }).slice(0, 12);
+
+      if (!hits.length) {
+        resultsBox.innerHTML = '<p class="sr-empty">「' + escHtml(q.trim()) +
+          '」は見つかりませんでした。別の言葉でお試しください（例: ごみ、引越し、夜間、児童手当）。</p>';
+        resultsBox.hidden = false;
+        return;
+      }
+      resultsBox.innerHTML = hits.map(function (row) {
+        var e = row.e;
+        return '<a class="sr-item" href="' + escHtml(e.u) + '" role="option" style="--cat: var(--c-' + escHtml(e.color) + ')">' +
+          '<span class="sr-cat">' + escHtml(e.c) + "</span>" +
+          '<span class="sr-t">' + escHtml(e.t) + "</span>" +
+          '<span class="sr-s">' + escHtml(e.s) + "</span>" +
+          "</a>";
+      }).join("");
+      resultsBox.hidden = false;
+    }
+
+    function onInput() {
+      var q = input.value;
+      clearBtn.hidden = !q;
+      clearTimeout(debounce);
+      if (!q.trim()) { closeResults(); return; }
+      debounce = setTimeout(function () {
+        ensureIndex(function () { render(q); });
+      }, 120);
+    }
+
+    input.addEventListener("input", onInput);
+    input.addEventListener("focus", function () { if (input.value.trim() && index) render(input.value); });
     clearBtn.addEventListener("click", function () {
-      input.value = ""; runSearch(); input.focus();
+      input.value = ""; clearBtn.hidden = true; closeResults(); input.focus();
+    });
+    /* Enter → 先頭の結果へ */
+    input.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter") {
+        var first = resultsBox.querySelector(".sr-item");
+        if (first) { ev.preventDefault(); window.location.href = first.getAttribute("href"); }
+      } else if (ev.key === "Escape") {
+        closeResults();
+      }
+    });
+    /* クリック外で閉じる */
+    document.addEventListener("click", function (ev) {
+      if (!resultsBox.contains(ev.target) && ev.target !== input && !input.contains(ev.target)) closeResults();
     });
   }
 
-  /* ---------- catnav scrollspy ---------- */
-  var chips = Array.prototype.slice.call(document.querySelectorAll(".catchip[data-target]"));
-  var byId = {};
-  chips.forEach(function (ch) { byId[ch.getAttribute("data-target")] = ch; });
-  if ("IntersectionObserver" in window && chips.length) {
-    var current = null;
-    var io = new IntersectionObserver(function (ents) {
-      ents.forEach(function (e) {
-        if (e.isIntersecting) {
-          if (current) current.removeAttribute("aria-current");
-          current = byId[e.target.id];
-          if (current) {
-            current.setAttribute("aria-current", "true");
-            current.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
-          }
-        }
-      });
-    }, { rootMargin: "-20% 0px -70% 0px" });
-    sections.forEach(function (s) { io.observe(s); });
-  }
-
-  /* ---------- open-data table filters ---------- */
+  /* ==========================================================================
+     open-data table / event filters
+     ========================================================================== */
   Array.prototype.slice.call(document.querySelectorAll("[data-odfilter]")).forEach(function (box) {
     var f = box.querySelector("input");
     var sel = box.querySelector("select");
@@ -106,7 +135,9 @@
     apply();
   });
 
-  /* ---------- events: show more ---------- */
+  /* ==========================================================================
+     events: show more
+     ========================================================================== */
   var evMore = document.getElementById("ev-more-btn");
   if (evMore) {
     evMore.addEventListener("click", function () {
@@ -117,7 +148,9 @@
     });
   }
 
-  /* ---------- back to top ---------- */
+  /* ==========================================================================
+     back to top
+     ========================================================================== */
   var top = document.getElementById("to-top");
   if (top) {
     var onScroll = function () { top.classList.toggle("on", window.scrollY > 900); };

@@ -97,14 +97,9 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>${BASE}life/</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
 </urlset>
 `);
+/* 注: /life/ 系のURLは tools/prerender-life.mjs が後段で追記する（deploy順: prerender → prerender-life）。 */
 
 console.log(`prerendered: ${TKZ_VIEWS.length} cards (${(cardsHtml.length / 1024).toFixed(1)} KB), ` +
   `JSON-LD ${(ldBlock.length / 1024).toFixed(1)} KB, llms-full.txt ${(md.length / 1024).toFixed(1)} KB, sitemap lastmod ${today}`);

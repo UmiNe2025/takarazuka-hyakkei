@@ -13,7 +13,7 @@
 
 ## コンセプト
 
-> 困ったとき・調べたいときに「まずここを開けば入口が見つかる」一枚のページ。
+> 困ったとき・調べたいときに「まずここを開けば入口が見つかる」テーマ別ポータル。
 
 市公式サイトは情報が深い階層に分かれていて、目的のページに辿り着くまでが大変。
 本サイトは **「入口の地図」** に徹する — 各テーマの要点（連絡先・時間・費用・手順）を一覧化し、正確な詳細は必ず市公式ページへリンクで誘導する。
@@ -21,10 +21,12 @@
 ### 設計原則
 
 1. **正確性最優先** — 全項目に市公式サイト等の出典URLを付与。電話番号・緊急情報は複数ソースで照合。不確実な情報は載せない。
-2. **緊急情報は最短距離** — 救急・防災はページ最上部。3タップ以内で電話番号に到達。
-3. **自動更新** — 宝塚市オープンデータ（CC BY 4.0）を GitHub Actions が定期取得し、避難所・AED・施設・イベント情報を自動で再生成・再デプロイ。
-4. **静的プリレンダ** — 全コンテンツをHTMLに焼き込み（SEO/LLMO）。JSは検索・絞り込みの強化のみ。
-5. **モバイルファースト** — 外出先のスマホ利用を第一に。
+2. **テーマ別マルチページ** — ハブ（`/life/`）＋カテゴリ別12ページ（`/life/<id>/`）に分割。1ページが長くなりすぎず、検索流入はトピックの専用URLへ直接着地（SEO/LLMO最適）。
+3. **緊急情報は最短距離** — 全ページ上部に緊急バナー。3タップ以内で 119/110/#7119 に到達。
+4. **横断検索** — 全ページ共通の検索バーが `search-index.json` を読み、どのページからでも該当ページ#該当項目へ直接リンク。
+5. **自動更新** — 宝塚市オープンデータ（CC BY 4.0）を GitHub Actions が定期取得し、避難所・AED・施設・イベント情報を自動で再生成・再デプロイ。
+6. **静的プリレンダ** — 全コンテンツをHTMLに焼き込み（JS不要で全文閲覧可）。JSは横断検索・絞り込みの強化のみ。
+7. **モバイルファースト** — 外出先のスマホ利用を第一に。
 
 ## コンテンツ構成
 
@@ -46,24 +48,31 @@
 ## アーキテクチャ
 
 ```
-life/
-├── README.md            ← このファイル
-├── index.html           ← ポータル本体（プリレンダ済み静的HTML）
-├── life.css             ← デザインシステム（百景ブランドの実用版）
-├── life.js              ← 検索・絞り込み・地区選択（プログレッシブ強化）
-└── data/                ← 自動生成データ（手動編集しない）
-    ├── opendata/*.json  ← オープンデータ変換結果（避難所/AED/施設/イベント…）
-    └── guide.json       ← 編集コンテンツ（リサーチ済み・出典付き）
+life/                       ← *.html と search-index.json は prerender-life.mjs が生成（手動編集しない）
+├── README.md               ← このファイル
+├── index.html              ← ハブ（トップ）: ヒーロー＋検索＋緊急＋カテゴリカード＋イベント抜粋
+├── <id>/index.html         ← カテゴリ別ページ ×12（emergency, medical, disaster, garbage,
+│                              procedure, childcare, welfare, tax, lifeline, transport, facility, events）
+├── search-index.json       ← 全ページ横断検索インデックス（69項目）
+├── life.css                ← デザインシステム（百景ブランドの実用版）
+├── life.js                 ← 横断検索・絞り込み（プログレッシブ強化／JSなしでも全文閲覧可）
+├── assets/                 ← hero.svg / ogp.png
+└── data/                   ← ビルド入力（公開物には含めない）
+    ├── guide.json          ← 編集コンテンツ（リサーチ済み・出典付き・唯一の手編集対象）
+    └── opendata/*.json     ← オープンデータ変換結果（避難所/AED/施設/イベント…）
 
 tools/
-├── fetch-opendata.mjs   ← 市オープンデータ取得 → JSON 変換
-└── prerender-life.mjs   ← guide.json + opendata → life/index.html へ静的描画
-                            + llms.txt / sitemap.xml 更新
+├── fetch-opendata.mjs      ← 市オープンデータ取得 → life/data/opendata/*.json
+├── prerender-life.mjs      ← guide.json + opendata → ハブ＋12ページ＋search-index＋llms-life.txt＋sitemap追記
+└── build-public.mjs        ← public/ へ life/ をまるごと収集（data/・README は除外）
 
 .github/workflows/
-├── deploy.yml           ← 既存: push → ビルド → Cloudflare Pages
-└── update-data.yml      ← 新設: 週次cron → データ取得 → 差分あれば再ビルド&デプロイ&コミット
+├── deploy.yml              ← push → prerender → prerender-life → build-public → Cloudflare Pages
+└── update-data.yml         ← 週次cron → データ取得 → 差分あれば再ビルド&デプロイ&コミット
 ```
+
+> ルーティング: 全ページがサイトルート絶対パス（`/life/...`・`/`）でアセット/リンクを参照。
+> Cloudflare Pages は `/life/<id>/` を `life/<id>/index.html` として自動配信。
 
 ### 自動更新フロー
 
@@ -79,9 +88,10 @@ tools/
 ## SEO / LLMO
 
 - 全データを**静的HTML**として配信（JS不要で全文読める）
-- JSON-LD: `WebPage` + `FAQPage` + `BreadcrumbList` + `Dataset`（オープンデータ出典明記）
-- `llms.txt` に /life/ セクション追加、`llms-life.txt`（全文プレーンテキスト版）を生成
-- `sitemap.xml` へ追加、canonical / OGP / 日本語メタデータ整備
+- ページ単位の最適化: カテゴリごとに専用 `title` / `description` / `canonical` / OGP を生成
+- JSON-LD: ハブは `WebSite` + `CollectionPage` + `BreadcrumbList` + `ItemList`、各カテゴリは `WebPage` + `BreadcrumbList` + `FAQPage` + `Dataset`（オープンデータ出典明記）
+- `llms.txt` に /life/ セクション、`llms-life.txt`（全文プレーンテキスト版・各テーマのURL付き）を生成
+- `sitemap.xml` へハブ＋12カテゴリURLを反映（オープンデータ系は `weekly`）
 - 見出しは住民の検索語そのまま（「宝塚市 ごみ 分別」「宝塚市 休日診療」等）に対応する構成
 
 ## デザイン

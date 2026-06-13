@@ -16,8 +16,6 @@ const files = [
   "css/style.css", "css/policy.css",
   "js/views-data.js", "js/main.js", "js/consent.js", "js/lang-lite.js",
   "assets/favicon.svg", "assets/ogp.png",
-  "life/index.html", "life/life.css", "life/life.js",
-  "life/assets/hero.svg", "life/assets/ogp.png"
 ];
 
 for (const rel of files) {
@@ -27,6 +25,20 @@ for (const rel of files) {
   fs.mkdirSync(path.dirname(dst), { recursive: true });
   fs.copyFileSync(srcPath, dst);
 }
+
+/* life/ はマルチページ（ハブ + カテゴリ別 + 検索インデックス + assets）を
+   まるごとコピー。編集元データ(data/)・READMEは公開物に含めない。 */
+const LIFE_EXCLUDE = new Set(["data", "README.md"]);
+(function copyLife(srcDir, dstDir) {
+  fs.mkdirSync(dstDir, { recursive: true });
+  for (const e of fs.readdirSync(srcDir, { withFileTypes: true })) {
+    if (LIFE_EXCLUDE.has(e.name)) continue;
+    const s = path.join(srcDir, e.name);
+    const d = path.join(dstDir, e.name);
+    if (e.isDirectory()) copyLife(s, d);
+    else fs.copyFileSync(s, d);
+  }
+})(path.join(ROOT, "life"), path.join(PUB, "life"));
 
 const list = [];
 (function walk(d) {
