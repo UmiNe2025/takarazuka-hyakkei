@@ -1,0 +1,70 @@
+# 宝塚市オープンデータの週次自動更新
+# 毎週月曜 6:23 JST にデータを取得し、差分があれば再ビルド → Cloudflare Pages デプロイ → main へ自動コミット。
+# 必要なシークレット: CLOUDFLARE_API_TOKEN（deploy.yml と共通）
+name: Update open data (weekly)
+
+on:
+  schedule:
+    - cron: "23 21 * * 0" # 日曜 21:23 UTC = 月曜 6:23 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install deps (xlsx for open data parsing)
+        run: npm install --no-audit --no-fund
+
+      - name: Fetch Takarazuka open data
+        run: node tools/fetch-opendata.mjs
+
+      - name: Detect changes
+        id: diff
+        run: |
+          git add life/data/opendata
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes — skipping rebuild."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --cached --stat
+          fi
+
+      - name: Rebuild site
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          node tools/prerender.mjs
+          node tools/prerender-life.mjs
+          node tools/build-public.mjs
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.diff.outputs.changed == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: c21ad8845d498ac46b0f464ccbb2f937
+          command: pages deploy public --project-name=takarazuka --branch=main --commit-dirty=true
+
+      - name: Verify production
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          sleep 10
+          node tools/verify-live.mjs
+
+      - name: Commit updated data back to main
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898024+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(data): weekly Takarazuka open data update [bot]"
+          git push

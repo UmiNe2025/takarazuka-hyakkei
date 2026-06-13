@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "takarazuka-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "-p", "8410", "-c-1", "."],
+      "port": 8410
+    },
+    {
+      "name": "takarazuka-life",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "-p", "8411", "-c-1", "life"],
+      "port": 8411
+    }
+  ]
+}

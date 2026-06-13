@@ -97,6 +97,12 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>${BASE}life/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
 `);
 

@@ -1,0 +1,975 @@
+{
+  "updated": "2026-06-13",
+  "sos": {
+    "title": "緊急のとき — まずここ",
+    "buttons": [
+      { "num": "119", "label": "火事・救急・救助", "tel": "119" },
+      { "num": "110", "label": "事件・事故", "tel": "110" },
+      { "num": "#7119", "label": "救急相談（24時間）", "tel": "#7119" },
+      { "num": "#8000", "label": "子ども医療相談（夜間休日）", "tel": "#8000" },
+      { "num": "0797-73-1119", "label": "受診先案内（24時間自動音声）", "tel": "0797-73-1119" },
+      { "num": "0797-81-0003", "label": "休日応急診療所（内科）", "tel": "0797-81-0003" }
+    ],
+    "note": "※ #7119・#8000 はダイヤル回線・IP電話等からつながらない場合があります（#7119→078-331-7119、#8000→078-304-8899）。迷ったら、ためらわず119へ。"
+  },
+  "categories": [
+    {
+      "id": "emergency",
+      "en": "EMERGENCY",
+      "title": "緊急・救急",
+      "tagline": "命に関わるとき・判断に迷うときの連絡先。スマホに登録しておきましょう。",
+      "color": "emergency",
+      "icon": "siren",
+      "items": [
+        {
+          "title": "119番 — 火事・救急・救助",
+          "important": true,
+          "summary": "火事・救急・救助は119番へ。固定・携帯のほかFAXやスマートフォンのWeb通報も利用できます。携帯からは安全な場所に止まってかけ、場所がわからないときは電柱の住居表示・交差点名・自動販売機の住所表示が手がかりになります。通報後は折り返しがあるため電源を切らないでください。",
+          "phone": "119",
+          "phoneNote": "24時間365日",
+          "url": "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008515/1009034/index.html",
+          "urlLabel": "119番のかけ方（市公式）",
+          "tags": ["火事", "救急車"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008515/1009034/index.html"]
+        },
+        {
+          "title": "110番 — 事件・事故（宝塚警察署）",
+          "important": true,
+          "summary": "事件・事故の緊急通報は110番へ。急ぎでない相談・問い合わせは宝塚警察署（0797-85-0110）へ。市内には宝塚駅前・逆瀬川・武庫川・小浜・安倉・山本・小林・仁川・清荒神・中山台の各交番と大原野駐在所があります。",
+          "phone": "0797-85-0110",
+          "phoneNote": "宝塚警察署（緊急は110）",
+          "url": "https://www.police.pref.hyogo.lg.jp/ps/21takaraduka/index3.htm",
+          "urlLabel": "宝塚警察署（兵庫県警）",
+          "tags": ["警察", "交番"],
+          "sources": ["https://www.police.pref.hyogo.lg.jp/ps/21takaraduka/index3.htm"]
+        },
+        {
+          "title": "救急安心センターひょうご #7119 — 救急車を呼ぶか迷ったら",
+          "important": true,
+          "summary": "「救急車を呼ぶべき？」「今すぐ受診すべき？」と迷ったとき、看護師等が電話で緊急性を判断してくれる兵庫県の窓口です（宝塚市も対象・相談無料）。つながらない場合は直通 078-331-7119 へ。多言語対応あり。服薬・治療方針・介護・育児の相談は対象外です。",
+          "phone": "#7119",
+          "phoneNote": "24時間365日／直通 078-331-7119",
+          "url": "https://web.pref.hyogo.lg.jp/kk43/7119.html",
+          "urlLabel": "救急安心センターひょうご（兵庫県）",
+          "tags": ["救急相談"],
+          "sources": ["https://web.pref.hyogo.lg.jp/kk43/7119.html"]
+        },
+        {
+          "title": "子ども医療電話相談 #8000 — 夜間・休日の子どもの急病",
+          "important": true,
+          "summary": "夜間・休日に子どもの急病やけがで受診を迷ったとき、看護師に相談できる兵庫県の窓口です（相談無料）。ダイヤル回線・IP電話などからは 078-304-8899 へ。",
+          "phone": "#8000",
+          "phoneNote": "代替 078-304-8899",
+          "hours": "平日・土曜 18:00〜翌朝8:00／日祝・年末年始 8:00〜翌朝8:00",
+          "url": "https://web.pref.hyogo.lg.jp/kf15/hw11_000000013.html",
+          "urlLabel": "子ども医療電話相談（兵庫県）",
+          "tags": ["小児救急", "子ども"],
+          "sources": ["https://web.pref.hyogo.lg.jp/kf15/hw11_000000013.html"]
+        },
+        {
+          "title": "救急医療テレホンガイド — 今すぐ診てもらえる病院を探す",
+          "important": true,
+          "summary": "「今すぐ受診できる病院」を24時間いつでも自動音声・FAXで案内する宝塚市のサービス。夜間や休日に受診先がわからないときの最初の確認手段です。",
+          "phone": "0797-73-1119",
+          "phoneNote": "24時間・自動音声",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
+          "urlLabel": "休日・夜間の救急診療（市公式）",
+          "tags": ["受診先案内"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+        },
+        {
+          "title": "夜間の急病 — 市内の救急告示病院（5院）",
+          "summary": "入院や手術が必要かもしれない夜間の急病・けがは、市内5つの救急告示病院が受け入れ先です。当日の対応科は日によって異なるため、必ず事前に電話で確認してから受診してください。迷ったら #7119 へ。",
+          "steps": [
+            "宝塚市立病院（小浜4-5-1）0797-87-1161",
+            "宝塚病院（野上2-1-2）0797-71-3111",
+            "宝塚第一病院（向月町19-5）0797-84-8811",
+            "こだま病院（御殿山1-3-2）0797-87-2525",
+            "東宝塚さとう病院（長尾町2-1）0797-88-2200"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000064/5001087.html",
+          "urlLabel": "救急告示病院一覧（市公式FAQ）",
+          "tags": ["夜間救急", "病院"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000064/5001087.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "救急車を呼ぶべきか迷ったらどうすればいい？",
+          "a": "救急安心センターひょうご「#7119」（24時間365日・相談無料）へ。看護師等が症状を聞いて緊急性を判断し、受診先を案内してくれます。明らかに重篤なときはためらわず119へ。"
+        },
+        {
+          "q": "夜中に子どもが急に熱を出したら？",
+          "a": "まず「#8000」（子ども医療電話相談）で看護師に相談を。受診が必要な場合、15歳以下の夜間・休日診療は阪神北広域こども急病センター（伊丹市昆陽池2-10、072-770-9988）が受け皿です。"
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "en": "MEDICAL & HEALTH",
+      "title": "医療・健康",
+      "tagline": "休日・夜間の診療先と、ふだんの医療機関探し。",
+      "color": "medical",
+      "icon": "medcross",
+      "items": [
+        {
+          "title": "宝塚市立休日応急診療所（内科・15歳以上）",
+          "important": true,
+          "summary": "かかりつけ医が休みの日曜・祝日・年末年始に、内科（15歳以上）の応急処置を行う市の診療所です。健康センター内（市立病院の西隣）。応急処置が目的なので、翌日は必ずかかりつけ医を受診してください。15歳以下は阪神北広域こども急病センターへ。",
+          "phone": "0797-81-0003",
+          "address": "宝塚市小浜4丁目4番1号（市立健康センター内）",
+          "hours": "日曜・祝日 10:00〜12:30／年末年始 10:00〜14:30",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
+          "urlLabel": "休日・夜間の救急診療（市公式）",
+          "tags": ["休日診療", "内科"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+        },
+        {
+          "title": "阪神北広域こども急病センター（15歳以下・夜間休日）",
+          "important": true,
+          "summary": "15歳以下（中学生まで）の夜間・休日の急病に対応する小児救急の拠点（伊丹市）。宝塚市民の小児救急はここが受診先です。受診前の電話相談は 072-770-9981 でも受け付けています。",
+          "phone": "072-770-9988",
+          "phoneNote": "電話相談 072-770-9981",
+          "address": "伊丹市昆陽池2丁目10番地",
+          "hours": "平日 19:30〜翌6:30／土曜 14:30〜翌6:30／日祝 8:30〜翌6:30",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
+          "urlLabel": "休日・夜間の救急診療（市公式）",
+          "tags": ["小児救急", "子ども"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+        },
+        {
+          "title": "休日の歯科診療（市立歯科診療所）",
+          "summary": "日曜・祝日・年末年始に、歯の急な痛みなどへ応急対応する市の歯科診療所。休日応急診療所と同じ健康センター内にあります。後日かかりつけ歯科医の受診を。",
+          "phone": "0797-84-0118",
+          "address": "宝塚市小浜4丁目4番1号（市立健康センター内）",
+          "hours": "日曜・祝日・年末年始 10:00〜12:30",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
+          "urlLabel": "休日・夜間の救急診療（市公式）",
+          "tags": ["歯科", "休日診療"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+        },
+        {
+          "title": "夜間・休日の眼科・耳鼻咽喉科（尼崎市立休日夜間急病診療所）",
+          "summary": "宝塚市内に夜間休日の眼科・耳鼻咽喉科の応急診療所はなく、市公式サイトでは尼崎市立休日夜間急病診療所が案内されています。土曜夜間は耳鼻咽喉科のみ。受診前に必ず電話で確認を。",
+          "phone": "06-6480-9500",
+          "address": "尼崎市西難波町6丁目1番9号",
+          "hours": "土曜 18:00〜20:30（耳鼻のみ）／日祝 9:00〜16:00／年末年始 9:00〜翌朝5:30",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
+          "urlLabel": "休日・夜間の救急診療（市公式）",
+          "tags": ["眼科", "耳鼻科"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+        },
+        {
+          "title": "宝塚市立病院",
+          "summary": "市の中核となる公立総合病院（地域医療支援病院）。救急外来は夕方から翌朝（17:00〜8:30）に対応。健康センター・休日応急診療所のすぐ近くです。",
+          "phone": "0797-87-1161",
+          "address": "宝塚市小浜4丁目5番1号",
+          "hours": "救急外来 17:00〜翌8:30",
+          "url": "https://www.takarazukacity-hp.com/",
+          "urlLabel": "宝塚市立病院 公式サイト",
+          "tags": ["総合病院"],
+          "sources": ["https://www.takarazukacity-hp.com/"]
+        },
+        {
+          "title": "かかりつけ医・専門医を探す（医療情報ネット）",
+          "summary": "診療科目・診療日・対応疾患などから全国の医療機関・薬局を検索できる厚生労働省のシステム。従来の兵庫県医療機関情報システムは2024年3月末で廃止され、こちらに移行しました。",
+          "url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2310/initialize?pref=28",
+          "urlLabel": "医療情報ネット（兵庫県の検索入口）",
+          "tags": ["病院検索", "薬局"],
+          "sources": ["https://web.pref.hyogo.lg.jp/kf15/hw11_000000044.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "休日に体調を崩したら、どこを受診すればいい？",
+          "a": "大人（15歳以上）の内科は宝塚市立休日応急診療所（0797-81-0003、日祝10:00〜12:30）。子どもは阪神北広域こども急病センター（072-770-9988）。受診先に迷ったら24時間の救急医療テレホンガイド（0797-73-1119）か #7119 へ。"
+        }
+      ],
+      "opendata": ["aed"]
+    },
+    {
+      "id": "disaster",
+      "en": "DISASTER PREP",
+      "title": "防災",
+      "tagline": "武庫川と山に囲まれた宝塚。水害・土砂災害・地震への備えを平時のうちに。",
+      "color": "disaster",
+      "icon": "shield",
+      "items": [
+        {
+          "title": "たからづか防災マップ（ハザードマップ）",
+          "important": true,
+          "summary": "洪水・土砂災害・活断層・ため池の4種類のリスクをWeb上で確認できます（住所検索可）。紙版は市役所第二庁舎2階の総合防災課、各サービスセンター・ステーション、各公民館などで無償配布。まず自宅と職場・学校のリスクを確認しておきましょう。",
+          "phone": "0797-77-2078",
+          "phoneNote": "総合防災課",
+          "url": "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html",
+          "urlLabel": "たからづか防災マップ（市公式）",
+          "tags": ["ハザードマップ", "洪水", "土砂災害"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html"]
+        },
+        {
+          "title": "安心メール・ひょうご防災ネット — 避難情報を受け取る",
+          "important": true,
+          "summary": "気象警報・避難情報・避難所開設情報をメール／アプリで受け取れます。",
+          "steps": [
+            "メール: takarazuka@bosai.net へ空メールを送信 → 返信メールのURLから登録",
+            "アプリ: App Store / Google Play で「ひょうご防災ネット」を検索してインストール（プッシュ通知・GPSで最寄り避難場所表示・12言語対応）",
+            "あわせて市公式X（旧Twitter）・Facebookもフォローしておくと確実"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html",
+          "urlLabel": "安心メールの登録方法（市公式）",
+          "tags": ["防災メール", "アプリ"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html"]
+        },
+        {
+          "title": "防災行政無線「すみれ防災スピーカー」— 聞き逃したら再聴取ダイヤル",
+          "summary": "市内45か所の屋外スピーカーが気象警報・避難情報等を放送します。聞き取れなかったときは再聴取ダイヤル（0797-77-4001／0797-77-4002）へ。FM宝塚（83.5MHz）やアプリ「CosmoCast」、テレビのデータ放送でも同内容を確認できます。",
+          "phone": "0797-77-4001",
+          "phoneNote": "放送内容の再聴取",
+          "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025909/1023299.html",
+          "urlLabel": "すみれ防災スピーカー（市公式）",
+          "tags": ["防災無線", "FM宝塚"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025909/1023299.html"]
+        },
+        {
+          "title": "避難所のしくみ — 指定避難所・予備避難所・避難地",
+          "summary": "「指定避難所」は災害時に市が優先的に開設する施設（主に小・中学校）。「予備避難所」は高齢者・障害者など要援護者向けに二次的に開設、「避難地」は火災等から一時的に身を守る空地です。下の一覧（自動更新）で最寄りの避難場所を確認しておきましょう。",
+          "url": "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1001112.html",
+          "urlLabel": "避難所・避難地一覧（市公式）",
+          "tags": ["避難所"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1001112.html"]
+        },
+        {
+          "title": "断水・災害時の給水拠点（耐震性貯水槽8か所）",
+          "summary": "市内8か所に100トン規模の飲料水兼用耐震性貯水槽があり、約1万人×3リットル×3日分の供給能力があります。問い合わせは消防本部警防課（0797-73-1946）。",
+          "steps": [
+            "良元小学校校庭（小林5-2-42）／市立スポーツセンター駐車場（小浜1-1-11）",
+            "御殿山中学校校庭（御殿山1-3-1）／中山台コミュニティセンター臨時駐車場（中山桜台5-8-8）",
+            "山本新池公園（山本東3-1）／伊孑志せせらぎ広場（伊孑志2-15）",
+            "自然休養村センター（大原野字南宮）／末広中央公園（末広町3）"
+          ],
+          "phone": "0797-73-1946",
+          "phoneNote": "消防本部警防課",
+          "url": "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008505/1017911.html",
+          "urlLabel": "耐震性貯水槽（市公式）",
+          "tags": ["給水", "断水"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008505/1017911.html"]
+        },
+        {
+          "title": "消防署への問い合わせ（緊急でないとき）",
+          "summary": "火災予防・防火設備・救急講習などの一般問い合わせは各署の代表番号へ（緊急時は119）。市内は西消防署・東消防署の2署体制です。",
+          "steps": [
+            "消防本部（伊孑志3-14-61）0797-73-1141",
+            "西消防署（伊孑志3-14-61）0797-73-1969 — 中州・伊孑志・小浜・安倉ほか",
+            "東消防署（山本南2-5-1）0797-88-0119 — 山本・平井・山手台ほか"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/1008153/",
+          "urlLabel": "宝塚市消防本部",
+          "tags": ["消防"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1008153/index.html", "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1052854.html", "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1042611.html"]
+        },
+        {
+          "title": "住まいの地震対策 — 耐震診断3,150円・改修補助",
+          "summary": "1981年5月31日以前着工の木造戸建て住宅は、自己負担3,150円で簡易耐震診断を受けられます。診断で「安全性低」の場合、耐震改修工事費の補助（戸建て上限115万円等）も。2026年度受付は5月7日開始・先着順。補助金の交付決定前に契約すると対象外になるため、必ず事前に相談を。",
+          "phone": "0797-77-2082",
+          "phoneNote": "建築指導課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1003865.html",
+          "urlLabel": "簡易耐震診断推進事業（市公式）",
+          "tags": ["耐震", "補助金"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1003865.html", "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1000400.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "避難情報はどうやって受け取ればいい？",
+          "a": "宝塚市の「安心メール」（takarazuka@bosai.net へ空メールで登録）、アプリ「ひょうご防災ネット」、緊急速報メール、FM宝塚（83.5MHz）、市公式SNSなど複数の手段を組み合わせるのが確実です。"
+        }
+      ],
+      "opendata": ["shelters"]
+    },
+    {
+      "id": "garbage",
+      "en": "GARBAGE & RECYCLING",
+      "title": "ごみ・リサイクル",
+      "tagline": "分け方・出し方・収集日。迷ったら分別検索かアプリ「さんあ〜る」で。",
+      "color": "garbage",
+      "icon": "trash",
+      "items": [
+        {
+          "title": "ごみの分別 — 6区分",
+          "important": true,
+          "summary": "家庭ごみは6区分。袋はすべて透明または半透明（黒い袋は収集不可）。指定有料袋はありません。",
+          "steps": [
+            "燃やすごみ（週2回）— 台所ごみ・紙くず・布くず など",
+            "プラスチック類（週1回）— 食品容器・ボトル・発泡スチロール など",
+            "かん・びん（月2回）— 缶と瓶は同じ袋でOK",
+            "紙・布（月2回）— 新聞・段ボール・雑紙は種類ごとに束ねる",
+            "ペットボトル（月2回）— キャップ・ラベルを外して中を洗う",
+            "小型不燃ごみ（月2回）— 陶磁器・金属類・一辺30cm以下の小型家電 など"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002043.html",
+          "urlLabel": "ごみの出し方・分け方（市公式）",
+          "tags": ["分別", "可燃ごみ", "プラ"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002043.html"]
+        },
+        {
+          "title": "収集日の調べ方（地区別カレンダー）",
+          "important": true,
+          "summary": "収集曜日は町名ごと（全18地区）に異なります。市サイトの「ごみ収集カレンダー」で自分の町名を選んで確認を。2026年度からWebの隔月カレンダー掲載は終了予定のため、アプリ「さんあ〜る」や市公式LINEの収集日通知の利用がおすすめです。出すのは収集日の朝8時までに、決められたごみステーションへ。",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html",
+          "urlLabel": "ごみ収集カレンダー（市公式）",
+          "tags": ["収集日", "カレンダー"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html"]
+        },
+        {
+          "title": "粗大ごみ — 申込制（電話・ネット）",
+          "important": true,
+          "summary": "一番長い部分が30cmを超えるもの、または5kg以上のものは粗大ごみ。事前申込制です。料金は品目ごとに300円〜2,700円（300円刻み）。例: 折りたたみいす300円、2人掛けソファー1,200円、自転車1,500円、食器棚（大）2,700円。",
+          "phone": "0797-87-3363",
+          "phoneNote": "受付 9:00〜17:00・年末年始以外無休",
+          "steps": [
+            "電話（0797-87-3363）またはネット（sodai-takarazuka.jp ※初回は電話登録が必要）で申込 — 収集希望日の前日正午まで（月曜希望は前週金曜正午まで）",
+            "コンビニ・スーパー・市役所など市内100か所以上で「粗大ごみ処理券」を購入し、受付番号か名前を書いて貼る",
+            "収集日の朝8時までに指定場所へ出す"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html",
+          "urlLabel": "粗大ごみの出し方（市公式）",
+          "tags": ["粗大ごみ"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002046.html"]
+        },
+        {
+          "title": "クリーンセンターへの持ち込み（粗大ごみのみ）",
+          "summary": "家庭ごみの持ち込みは粗大ごみのみ受付（燃やすごみ等は不可）。料金は10kgあたり90円・現金払い。市役所の川向かい、高い煙突が目印です。",
+          "phone": "0797-87-4844",
+          "address": "宝塚市小浜1丁目2番15号",
+          "hours": "月〜金（祝日含む）・毎月第3土曜 8:00〜11:00／12:00〜15:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/index.html",
+          "urlLabel": "クリーンセンター（市公式）",
+          "tags": ["持ち込み"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/notice/1054460.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html"]
+        },
+        {
+          "title": "家電4品目・パソコンは市で処理できません",
+          "summary": "エアコン・テレビ・冷蔵庫/冷凍庫・洗濯機/衣類乾燥機は家電リサイクル法対象で、購入店への引き取り依頼か指定引取場所への持ち込みが必要（リサイクル料金＋収集運搬料金）。パソコンはメーカー回収（PCリサイクルマーク付きは無料）、リネットジャパン宅配回収（PC本体を含む回収は無料）、または市内9か所の小型家電回収ボックス（ノートPC・タブレット可）へ。",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002039.html",
+          "urlLabel": "家電リサイクル（市公式）",
+          "tags": ["家電", "パソコン"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002039.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002037.html"]
+        },
+        {
+          "title": "小型家電回収ボックス（市内9か所・無料）",
+          "summary": "携帯電話・デジカメ・ゲーム機・ドライヤーなど400品目以上を無料で回収（投入口 横30cm×縦20cm以内）。設置場所: クリーンセンター管理課／市役所本庁1階／西谷庁舎／消費生活センター（ピピアめふ1・5階）／あいあいパーク／仁川駅前サービスステーション／宝塚駅前サービスステーション（ソリオ1・3階）／ダイエー宝塚中山店／西図書館2階。",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1001131.html",
+          "urlLabel": "小型家電リサイクル（市公式）",
+          "tags": ["小型家電", "リサイクル"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1001131.html"]
+        },
+        {
+          "title": "分別に迷ったら — 分別検索・アプリ・ハンドブック",
+          "summary": "市サイトの「ごみ分別検索」では約1,500品目以上の分別区分を品目名から調べられます。アプリ「さんあ〜る」（無料）は収集日カレンダー・前日通知・品目検索に対応。保存版の「家庭ごみの減量と出し方・分け方ハンドブック」（2026年4月改訂）は英語・中国語・韓国語・ポルトガル語版もあります。",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/index.html",
+          "urlLabel": "ごみ分別検索・ハンドブック（市公式）",
+          "tags": ["分別検索", "さんあ〜る"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/index.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1014257.html"]
+        },
+        {
+          "title": "きずな収集 — ごみ出しが困難な方への戸別収集",
+          "summary": "ごみステーションまでの持ち出しが難しい高齢者や障害のある方を対象に、自宅玄関前などで収集する制度です。申込みは随時受付。",
+          "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1000651.html",
+          "urlLabel": "きずな収集（市公式）",
+          "tags": ["高齢者", "戸別収集"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1000651.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "宝塚市に指定ごみ袋はありますか？",
+          "a": "ありません。中身の見える透明または半透明の袋であれば市販のものでOKです。黒い袋は収集されません。"
+        },
+        {
+          "q": "ごみは何時までに出せばいい？",
+          "a": "収集日の朝8時までに、決められたごみステーションへ出してください。"
+        },
+        {
+          "q": "引越しなどで一度に大量のごみが出るときは？",
+          "a": "粗大ごみ受付センター（0797-87-3363）に申し込むか、クリーンセンター（小浜1-2-15）へ粗大ごみを直接持ち込めます（10kgあたり90円・平日と第3土曜）。"
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "en": "CITY HALL",
+      "title": "届出・手続き",
+      "tagline": "引越し・証明書・マイナンバー。窓口は平日17時まで（2026年1月から変更）。",
+      "color": "procedure",
+      "icon": "stamp",
+      "items": [
+        {
+          "title": "宝塚市役所 本庁舎",
+          "important": true,
+          "summary": "各種手続きの中心窓口。2026年1月5日から受付終了時間が17時30分→17時に変わりました。最寄りは阪急逆瀬川駅（徒歩約15分）またはバス「宝塚市役所前」。混雑しやすいのは11時〜14時、月曜・金曜・連休前後・3月下旬〜4月上旬です。",
+          "phone": "0797-71-1141",
+          "phoneNote": "代表",
+          "address": "〒665-8665 宝塚市東洋町1番1号",
+          "hours": "平日 9:00〜17:00（土日祝・12/29〜1/3 休み）",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/annnai/index.html",
+          "urlLabel": "市役所案内（市公式）",
+          "tags": ["市役所", "開庁時間"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/annnai/index.html"]
+        },
+        {
+          "title": "サービスセンター・サービスステーション（市内7か所の出先窓口）",
+          "important": true,
+          "summary": "住民票などの証明書交付や届出の受付ができる出先窓口。平日9:00〜17:00。宝塚駅前のみ土曜（年末年始除く）も9:00〜17:00に証明書交付など一部業務を扱います。マイナンバーカード関連手続きは長尾・宝塚駅前・仁川駅前・西谷の4か所で対応。",
+          "steps": [
+            "宝塚駅前サービスステーション（栄町2-1-1 ソリオ1・3F）0797-81-3251 ★土曜も開庁",
+            "長尾サービスセンター（山本東2-2-1）0797-88-0101",
+            "売布神社駅前サービスステーション（売布2-5-1 ピピアめふ1・5F）0797-81-4150",
+            "仁川駅前サービスステーション（仁川北2-5-1 さらら仁川北館2F）0798-52-7000",
+            "中山台サービスステーション（中山桜台2-2-5）0797-89-8894",
+            "雲雀丘サービスステーション（雲雀丘1-1-1）072-759-2062",
+            "西谷サービスセンター（大原野字南宮2-7）0797-91-0001"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1000162.html",
+          "urlLabel": "出先窓口一覧（市公式）",
+          "tags": ["サービスセンター", "窓口"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1000162.html"]
+        },
+        {
+          "title": "引越しの手続き — 転入・転出・転居",
+          "important": true,
+          "summary": "市外から越してきたら「転入届」を引越しから14日以内に（転出証明書またはマイナンバーカード、本人確認書類を持参）。市外へ出るときの「転出届」は約14日前から手続きでき、窓口のほか郵送・マイナポータルのオンライン申請も可能。市内の引越しは「転居届」を14日以内に。手数料はいずれも無料。窓口は本庁舎2階窓口サービス課または各サービスセンター・ステーション。",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060694/1061544/1060199/1000158.html",
+          "urlLabel": "引越しの手続き（市公式）",
+          "tags": ["転入", "転出", "引越し"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060679/1060694/1061544/1060199/1000158.html", "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1060199/1000157.html"]
+        },
+        {
+          "title": "住民票・戸籍・印鑑証明（窓口での取得）",
+          "summary": "本庁舎2階窓口サービス課または各サービスセンター・ステーションで取得できます。手数料: 住民票300円／戸籍謄抄本450円（除籍・改製原戸籍750円）／印鑑登録証明書300円。本人確認書類が必要、代理人は委任状も。",
+          "phone": "0797-77-2050",
+          "phoneNote": "窓口サービス課",
+          "hours": "平日 9:00〜17:00（宝塚駅前は土曜も一部対応）",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/index.html",
+          "urlLabel": "証明書の取得（市公式）",
+          "tags": ["住民票", "戸籍", "印鑑証明"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043500/1043584.html"]
+        },
+        {
+          "title": "コンビニ交付 — 窓口より安く、夜23時まで",
+          "summary": "マイナンバーカードがあれば、全国のコンビニのマルチコピー機で住民票・印鑑証明・戸籍謄抄本・課税証明などを取得できます。手数料は窓口より安く、住民票・印鑑証明200円、戸籍謄抄本350円。利用時間は6:30〜23:00（年末年始・メンテナンス日除く）。※2026年10月に手数料改定の予定が告知されています。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1015691.html",
+          "urlLabel": "コンビニ交付（市公式）",
+          "tags": ["コンビニ交付", "住民票"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1015691.html"]
+        },
+        {
+          "title": "マイナンバーカード — 申請・受け取り",
+          "summary": "申請はオンライン・郵送・本庁舎2階窓口サービス課で（窓口では無料の顔写真撮影サービスあり）。約1〜1.5か月で交付通知書が届いたら本庁舎で受け取り（西谷地区の方は西谷サービスセンター）。平日に来られない場合は原則毎月第4土曜 9:00〜12:00 の休日臨時窓口（完全予約制・約1か月前から予約）。",
+          "phone": "0797-78-6075",
+          "phoneNote": "マイナンバーコールセンター（平日9:00〜17:00）",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1042552.html",
+          "urlLabel": "マイナンバーカード（市公式）",
+          "tags": ["マイナンバー"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1042552.html", "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1013581.html"]
+        },
+        {
+          "title": "印鑑登録",
+          "summary": "本庁舎2階窓口サービス課または各サービスセンター・ステーションで。顔写真付き本人確認書類（マイナンバーカード・運転免許証等）があれば即日登録できます。転入すると前住所の印鑑登録は無効になる（宝塚から転出すると自動抹消される）ため、引越し後は再登録が必要です。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000067/1000170.html",
+          "urlLabel": "印鑑登録（市公式）",
+          "tags": ["印鑑登録"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1000067/1000170.html"]
+        },
+        {
+          "title": "パスポート — 市役所では取り扱いなし",
+          "summary": "宝塚市役所ではパスポートの申請・受け取りはできません。兵庫県旅券事務所（神戸市・078-222-8700）または尼崎出張所（06-6428-7600）で申請します。申請書は外務省サイトからダウンロードできます。",
+          "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5001056/5000012/5000492.html",
+          "urlLabel": "パスポートの申請先（市公式FAQ）",
+          "tags": ["パスポート"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5001056/5000012/5000492.html"]
+        },
+        {
+          "title": "オンラインでできる手続き — スマート申請・混雑確認",
+          "summary": "マイナンバーカードがあれば戸籍謄抄本・課税証明などの証明書をオンラインで郵送請求できます（クレジット払い・郵送料実費）。住民票はコンビニ交付を利用。窓口サービス課のリアルタイム混雑状況も市サイトから確認できます。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043117.html",
+          "urlLabel": "スマート申請（市公式）",
+          "tags": ["オンライン申請"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043117.html", "https://www.city.takarazuka.hyogo.jp/1060679/1060693/1045353.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "住民票はコンビニで取れますか？",
+          "a": "マイナンバーカード（利用者証明用電子証明書付き）があれば、全国のコンビニで6:30〜23:00に取得できます。手数料200円と窓口（300円）より安いです。"
+        },
+        {
+          "q": "市役所は土日も開いていますか？",
+          "a": "基本は平日9:00〜17:00のみです。ただし宝塚駅前サービスステーション（ソリオ1・3階）は土曜も証明書交付など一部業務を行っています。マイナンバーカードの受け取りは原則毎月第4土曜に予約制の臨時窓口があります。"
+        }
+      ]
+    },
+    {
+      "id": "childcare",
+      "en": "CHILDCARE & EDUCATION",
+      "title": "子育て・教育",
+      "tagline": "妊娠から18歳まで。迷ったら総合相談窓口「あのね」へ。",
+      "color": "childcare",
+      "icon": "child",
+      "items": [
+        {
+          "title": "たからっ子総合相談センター「あのね」",
+          "important": true,
+          "summary": "妊娠中から18歳までの子どもに関するあらゆる相談に対応する市の総合窓口。子育ての悩み・発達相談・家庭の相談（虐待を含む）まで、「相談したい内容がはっきりしなくても」利用できます。",
+          "phone": "0797-80-8171",
+          "address": "宝塚市東洋町1番1号 第二庁舎1階",
+          "hours": "平日 9:00〜18:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1049741/index.html",
+          "urlLabel": "あのね（市公式）",
+          "tags": ["子育て相談", "発達相談"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1049741/index.html"]
+        },
+        {
+          "title": "妊娠届・母子健康手帳の交付",
+          "summary": "妊娠がわかったら妊娠届出書を提出すると母子健康手帳が交付されます。窓口は健康推進課（健康センター／小浜4-4-1）と子ども総合相談課（第二庁舎1階）の2か所。窓口・郵送・電子申請（ぴったりサービス）が選べます。転入の方は前住所地の手帳も持参を。",
+          "phone": "0797-86-0056",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kodomokenko/1039269.html",
+          "urlLabel": "母子健康手帳（市公式）",
+          "tags": ["妊娠", "母子手帳"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kodomokenko/1039269.html"]
+        },
+        {
+          "title": "こども医療費助成 — 中学3年生まで自己負担0円",
+          "important": true,
+          "summary": "保険診療分の医療費は、0歳から中学3年生まで自己負担がゼロです（2024年1月から所得制限も廃止）。小3までは「乳幼児等医療費助成」、小4からは「こども医療費助成」に自動的に切り替わります。健康診断・予防接種・入院時食事代などは対象外。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1041227/1040013.html",
+          "urlLabel": "こども医療費助成（市公式）",
+          "tags": ["医療費", "助成"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1041227/1040013.html"]
+        },
+        {
+          "title": "児童手当",
+          "summary": "高校修了年代（18歳到達後最初の3/31）までの子を養育する方が対象。月額は0〜3歳未満: 第1・2子 15,000円／3歳〜高校修了: 第1・2子 10,000円、第3子以降は一律30,000円。偶数月24日に2か月分振込。出生後15日以内の申請がおすすめ。オンライン（マイナポータル）・郵送も可。",
+          "phone": "0797-77-2196",
+          "phoneNote": "子育て応援課（本庁舎2階）",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/teate/1000197.html",
+          "urlLabel": "児童手当（市公式）",
+          "tags": ["児童手当"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/teate/1000197.html"]
+        },
+        {
+          "title": "保育所・認定こども園の入所申込",
+          "summary": "申込は市役所本庁舎1階の保育事業課窓口のみ（サービスセンター・郵送では受付不可）。毎年秋〜冬ごろに翌年度4月入所の1次申込時期があります。3歳以上は幼児教育・保育の無償化対象です。",
+          "phone": "0797-77-2037",
+          "phoneNote": "保育事業課",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1027922/index.html",
+          "urlLabel": "保育所の入所申込（市公式）",
+          "tags": ["保育所", "こども園"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1027922/index.html"]
+        },
+        {
+          "title": "幼稚園（市立・私立）",
+          "summary": "市立幼稚園は3〜5歳児対象で、長尾・西谷・仁川幼稚園は3年保育（3歳〜）を実施。申込は市役所3階の学事課で受付（各園では受付しません）。市立・私立とも3歳以上は無償化の対象です。",
+          "phone": "0797-77-2366",
+          "phoneNote": "学事課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1042410/index.html",
+          "urlLabel": "幼稚園のご案内（市公式）",
+          "tags": ["幼稚園"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1042410/1056724.html"]
+        },
+        {
+          "title": "学童保育（地域児童育成会）",
+          "summary": "小学1〜6年生対象。保護者の就労等で放課後に保育できない場合に利用できます。申込は本庁舎3階アフタースクール課または各小学校の育成会（13〜17時）。毎年11月ごろから翌年度の申請書配布が始まります。民間の放課後児童クラブも市内に複数あります。",
+          "phone": "0797-77-2030",
+          "phoneNote": "アフタースクール課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1009267/1059137.html",
+          "urlLabel": "学童保育（市公式）",
+          "tags": ["学童", "育成会"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1009267/1059137.html"]
+        },
+        {
+          "title": "小・中学校の転校手続き",
+          "summary": "市外から転入する場合: 転入届の提出時に「就学に関する通知書」を受け取り、前の学校の在学証明書・教科用図書給与証明書と合わせて転校先へ提出。市内転居の場合は在籍校で転校届を受け取ってから市役所で手続きを。窓口は本庁舎3階の教育委員会学事課。",
+          "phone": "0797-77-2366",
+          "phoneNote": "学事課（就学担当）",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoikuiinkai/1045390/1047592.html",
+          "urlLabel": "転校手続き（市公式）",
+          "tags": ["転校", "小学校", "中学校"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoikuiinkai/1045390/1047592.html"]
+        },
+        {
+          "title": "親子の居場所 — きらきらひろば・児童館",
+          "summary": "フレミラ宝塚内の「きらきらひろば」は0〜3歳の親子の遊び場で、保育士が常駐し育児相談もできます（月〜金 10:00〜12:00／13:00〜17:00）。市内には地域児童館・子ども館が10館（高司・野上・御殿山・安倉・中筋・山本山手・中山台・ひばり・西谷・平井）あり、多くは月〜土 10:00〜17:00 開館。",
+          "phone": "0797-85-3862",
+          "phoneNote": "子ども家庭支援センター",
+          "address": "宝塚市売布東の町12番8号（フレミラ宝塚内）",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html",
+          "urlLabel": "きらきらひろば（市公式）",
+          "tags": ["児童館", "親子"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html", "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/1009372/1009339.html"]
+        },
+        {
+          "title": "子育て情報の集め方 — ガイド「たからばこ」・公式LINE",
+          "summary": "子育てガイド「たからばこ」は母子健康手帳交付時や転入手続き時に配布（電子版は「わが街辞典」アプリで無料閲覧可）。子ども家庭支援センターの公式LINEで月2回程度イベント・講座情報が届くほか、Instagram（@takarazuka_kosodate）でも発信しています。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateinfo/1000570.html",
+          "urlLabel": "子育て情報（市公式）",
+          "tags": ["たからばこ", "LINE"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateinfo/1000570.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "子どもの医療費は何歳まで無料ですか？",
+          "a": "中学3年生（15歳到達後最初の3月31日）まで、保険診療分の自己負担は0円です。所得制限はありません（2024年1月廃止）。"
+        },
+        {
+          "q": "保育所の入所申込はどこでできますか？",
+          "a": "市役所本庁舎1階の保育事業課窓口のみで受け付けています（0797-77-2037）。サービスセンターや郵送では申し込めません。翌年度4月入所の1次申込は毎年秋〜冬ごろです。"
+        }
+      ],
+      "opendata": ["babystations", "kindergartens"]
+    },
+    {
+      "id": "welfare",
+      "en": "SENIOR & WELFARE",
+      "title": "高齢者・福祉",
+      "tagline": "介護・障害・生活のこまりごと。まず地域の相談窓口へ。",
+      "color": "welfare",
+      "icon": "heart",
+      "items": [
+        {
+          "title": "地域包括支援センター（市内7か所）— 高齢者のなんでも相談",
+          "important": true,
+          "summary": "高齢者の介護・医療・生活に関するあらゆる相談を無料で受け付ける窓口。住んでいる地区ごとに担当センターが決まっています。",
+          "steps": [
+            "小林（仁川・末成・高司・良元・光明ほか）光明町10-24／0797-74-3863",
+            "逆瀬川（宝塚第一・西山・逆瀬台ほか）中州1-9-16／0797-76-2830",
+            "御殿山（宝塚・すみれガ丘・売布の一部ほか）御殿山2-31-17／0797-83-1336",
+            "小浜（小浜・美座の一部・安倉ほか）小浜4-5-6／0797-86-3707",
+            "長尾（長尾南・丸橋ほか）山本東2-8-20／0797-80-2941",
+            "花屋敷（山手台・長尾台・中山台ほか）切畑字長尾山5-321／072-740-3555",
+            "西谷（西谷地区）大原野字南穴虫1-253／0797-83-5080"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/kenkofukushi/koreisha/1053174/1000636.html",
+          "urlLabel": "地域包括支援センター一覧（市公式）",
+          "tags": ["高齢者", "介護相談"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kenkofukushi/koreisha/1053174/1000636.html"]
+        },
+        {
+          "title": "介護保険 — 要介護認定の申請",
+          "summary": "要介護・要支援認定の申請は本庁舎2階の介護保険課へ（介護保険被保険者証を持参）。地域包括支援センターや居宅介護支援事業所に申請代行を頼むこともできます。",
+          "phone": "0797-77-2038",
+          "phoneNote": "認定担当",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/kenkofukushi/kaigohoken/1008582/1000283.html",
+          "urlLabel": "要介護認定（市公式）",
+          "tags": ["介護保険", "要介護認定"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kenkofukushi/kaigohoken/1008582/1000283.html"]
+        },
+        {
+          "title": "障害者手帳・障害福祉サービス",
+          "summary": "身体障害者手帳・療育手帳・精神障害者保健福祉手帳の申請や、障害福祉サービス・補装具・各種手当の手続きは本庁舎1階の障碍福祉課へ。手帳・自立支援医療は 0797-77-9110、基幹相談支援センターは 0797-77-2287。",
+          "phone": "0797-77-9110",
+          "phoneNote": "手帳・自立支援医療",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001503/1001908.html",
+          "urlLabel": "障碍福祉課（市公式）",
+          "tags": ["障害者手帳", "障害福祉"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001503/1001908.html"]
+        },
+        {
+          "title": "生活にこまったら — せいかつ応援センター",
+          "summary": "収入・仕事・家計・住まいなど生活の困りごとは、市役所1階の「せいかつ応援センター」（予約優先）へ。生活保護の相談は本庁舎1階の生活援護課（0797-77-2079）。ひとりで抱え込まず、早めの相談を。",
+          "phone": "0797-77-1822",
+          "phoneNote": "せいかつ応援センター",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060706/seikatsushien/1051449/index.html",
+          "urlLabel": "生活困窮の相談（市公式）",
+          "tags": ["生活困窮", "生活保護"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060682/1060706/seikatsushien/1051449/index.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "親の介護について、まずどこに相談すればいい？",
+          "a": "お住まいの地区を担当する地域包括支援センター（市内7か所・相談無料）へ。要介護認定の申請は市役所介護保険課（0797-77-2038）ですが、包括支援センターに代行を頼むこともできます。"
+        }
+      ]
+    },
+    {
+      "id": "tax",
+      "en": "TAX & INSURANCE",
+      "title": "税・保険・年金",
+      "tagline": "納付はコンビニ・スマホ決済・口座振替に対応。窓口は本庁舎2階に集中。",
+      "color": "tax",
+      "icon": "yen",
+      "items": [
+        {
+          "title": "市・県民税（住民税）/ 軽自動車税 — 市民税課",
+          "summary": "個人の市・県民税は市民税課（本庁舎2階）が担当。普通徴収 0797-77-2056、特別徴収 0797-77-2057、軽自動車税・法人市民税等 0797-77-2055。",
+          "phone": "0797-77-2056",
+          "phoneNote": "普通徴収担当",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001866.html",
+          "urlLabel": "市民税課（市公式）",
+          "tags": ["住民税", "軽自動車税"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001866.html"]
+        },
+        {
+          "title": "固定資産税・都市計画税 — 資産税課",
+          "summary": "固定資産税・都市計画税は資産税課（本庁舎2階）が担当（土地担当 0797-77-2058）。納付方法は市・県民税と同じくコンビニ・スマホ決済・口座振替などが使えます。",
+          "phone": "0797-77-2058",
+          "phoneNote": "土地担当",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001867.html",
+          "urlLabel": "資産税課（市公式）",
+          "tags": ["固定資産税"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001867.html"]
+        },
+        {
+          "title": "市税の納付方法 — コンビニ・スマホ決済・口座振替",
+          "summary": "市税（市県民税・固定資産税・軽自動車税・国民健康保険税）は、①金融機関・市役所窓口、②コンビニ（30万円以下のバーコード付き納付書）、③スマホアプリ決済（eL-QR・原則24時間）、④クレジット・ネットバンキング（地方税お支払サイト・利用料あり）、⑤口座振替——で納付できます。口座振替の申込は市税収納課または金融機関窓口で。",
+          "phone": "0797-77-9101",
+          "phoneNote": "市税収納課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000029/1000077/1039355/index.html",
+          "urlLabel": "市税の納付方法（市公式）",
+          "tags": ["納付", "スマホ決済"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1000029/1000077/1039355/index.html"]
+        },
+        {
+          "title": "国民健康保険",
+          "summary": "加入・脱退・給付・保険税の手続きは国民健康保険課（本庁舎2階）へ。資格・賦課 0797-77-2065、給付 0797-77-2063、保険税収納 0797-77-2122。会社を辞めたとき・入ったときは14日以内に手続きを。",
+          "phone": "0797-77-2065",
+          "phoneNote": "資格・賦課担当",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/kokuho/index.html",
+          "urlLabel": "国民健康保険（市公式）",
+          "tags": ["国保"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/kokuho/1029717/1029725/1000503.html"]
+        },
+        {
+          "title": "後期高齢者医療制度（75歳以上）",
+          "summary": "75歳以上（一定の障害がある方は65歳以上）の医療制度。保険証の交付や高額療養費の申請は医療助成課（本庁舎2階）へ。",
+          "phone": "0797-77-9103",
+          "phoneNote": "後期高齢者医療担当",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1000081/1000519.html",
+          "urlLabel": "後期高齢者医療（市公式）",
+          "tags": ["後期高齢者"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1000081/1000519.html"]
+        },
+        {
+          "title": "国民年金",
+          "summary": "第1号被保険者の加入・脱退、保険料の免除・猶予申請は本庁舎2階窓口サービス課の年金担当（0797-77-2066）へ。年金額の試算・受給相談・厚生年金は西宮年金事務所（0798-33-2944、西宮市津門大塚町8-26）が担当。阪急西宮北口駅前の「街角の年金相談センター西宮」も利用できます（要予約推奨）。",
+          "phone": "0797-77-2066",
+          "phoneNote": "年金担当（市役所）",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000080/1000514.html",
+          "urlLabel": "国民年金（市公式）",
+          "tags": ["年金"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001499/1001871.html", "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000003/5001258/5000522.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "市税はスマホやコンビニで払えますか？",
+          "a": "払えます。スマホアプリ決済（eL-QR読み取り・原則24時間）、コンビニ（バーコード付き納付書・30万円以下）、クレジットカード（地方税お支払サイト経由・利用料あり）、口座振替が利用できます。"
+        }
+      ]
+    },
+    {
+      "id": "lifeline",
+      "en": "HOUSING & UTILITIES",
+      "title": "住まい・ライフライン",
+      "tagline": "水道・電気・ガスの手続きと、住まいの相談先。",
+      "color": "lifeline",
+      "icon": "droplet",
+      "items": [
+        {
+          "title": "水道の開始・中止（引越しのとき）",
+          "important": true,
+          "summary": "引越しに伴う水道の開栓・閉栓は、上下水道局お客さまセンターへ電話するか、Webの専用フォームから手続きします。住所・氏名・引越し日・お客様番号（検針票に記載）を用意するとスムーズです。",
+          "phone": "0797-73-3988",
+          "phoneNote": "お客さまセンター",
+          "hours": "平日 9:00〜17:30（土日祝・年末年始休）",
+          "url": "https://www.city.takarazuka.hyogo.jp/suido/",
+          "urlLabel": "上下水道局（市公式）",
+          "tags": ["水道", "引越し"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/suido/1062732/1062736/index.html"]
+        },
+        {
+          "title": "漏水・水道トラブルの連絡先",
+          "important": true,
+          "summary": "道路上や水道メーター付近の漏水を見つけたら上下水道局工務課（0797-73-3687）へ。メーターより家側（宅内）の漏水は、市の排水設備指定業者に修理を依頼します（指定業者一覧は市サイトに掲載）。",
+          "phone": "0797-73-3687",
+          "phoneNote": "工務課",
+          "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000073/5000355.html",
+          "urlLabel": "漏水のとき（市公式FAQ）",
+          "tags": ["漏水", "緊急"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000073/5000355.html"]
+        },
+        {
+          "title": "電気・ガスの手続き",
+          "summary": "宝塚市域の電気は主に関西電力、都市ガスは大阪ガスが供給しています（自由化により他事業者も選択可）。引越し時の使用開始・停止は各事業者のWebサイトかコールセンターで手続きします。",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1000381.html",
+          "urlLabel": "住宅関連リンク集（市公式）",
+          "tags": ["電気", "ガス"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1000381.html"]
+        },
+        {
+          "title": "市営住宅・県営住宅",
+          "summary": "市営住宅の入居者募集は年2回（上期・下期）の公募抽選。申込は宝塚市営住宅管理センター（阪急宝塚駅前 ソリオ2・5階）の窓口のみ（郵送不可）。担当は住まいづくり推進課（0797-77-2018）。県営住宅は兵庫県住宅供給公社のサイトで募集情報を確認できます。",
+          "phone": "0797-77-2018",
+          "phoneNote": "住まいづくり推進課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1008342/index.html",
+          "urlLabel": "市営住宅の募集（市公式）",
+          "tags": ["市営住宅", "県営住宅"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1008342/index.html", "https://www.hyogo-jk.or.jp/"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "引越しのとき水道の手続きはどうすればいい？",
+          "a": "上下水道局お客さまセンター（0797-73-3988・平日9:00〜17:30）への電話か、市サイトのWebフォームで開栓・閉栓を申し込めます。電気は契約中の電力会社、ガスは大阪ガスなどへそれぞれ連絡してください。"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "en": "TRANSPORT",
+      "title": "交通",
+      "tagline": "3つの鉄道路線とバス網。大阪・神戸へ30分圏内。",
+      "color": "transport",
+      "icon": "train",
+      "items": [
+        {
+          "title": "鉄道 — 阪急2路線とJR宝塚線",
+          "summary": "市内には3路線・10駅。阪急宝塚線（宝塚・清荒神・売布神社・中山観音・山本）、阪急今津線（宝塚・宝塚南口・逆瀬川・小林・仁川）、JR宝塚線＝福知山線（宝塚・中山寺・武田尾）。宝塚駅は阪急・JR共通のターミナルで、大阪梅田へ阪急約33分・JR快速約25分です。時刻・運賃は各社サイトで確認を。",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/profile/1001191.html",
+          "urlLabel": "宝塚への交通（市公式）",
+          "tags": ["阪急", "JR", "駅"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/profile/1001191.html"]
+        },
+        {
+          "title": "バス — 阪急バス・阪神バス・ランランバス",
+          "summary": "市内の主な路線バスは阪急バス（市内一円）・阪神バス（宝塚〜尼崎・甲子園方面）・伊丹市営バス（JR中山寺〜伊丹）。コミュニティバス「ランランバス」は宝塚駅〜月見山・長寿ガ丘を運行（大人230円・小人110円）。※ランランバスは2026年5月から日曜・祝日運休、平日・土曜のみ運行です。",
+          "phone": "0797-77-2096",
+          "phoneNote": "交通政策課",
+          "url": "https://www.city.takarazuka.hyogo.jp/anzen/1009510/1017015/1017013.html",
+          "urlLabel": "市内のバス一覧（市公式）",
+          "tags": ["バス", "ランランバス"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/1009510/1017015/1055942.html"]
+        },
+        {
+          "title": "市立駐輪場（自転車等駐車場）",
+          "summary": "各駅周辺に市立の自転車等駐車場があります。定期利用は各駐輪場の管理事務所へ直接申込（郵送不可）。生活保護受給者・各種障害者手帳をお持ちの方は定期使用料が半額になります。料金一覧は市サイトでPDF公開中。",
+          "phone": "0797-77-2020",
+          "phoneNote": "防犯交通安全課",
+          "url": "https://www.city.takarazuka.hyogo.jp/anzen/1009491/1009710/1049759.html",
+          "urlLabel": "市立自転車駐車場（市公式）",
+          "tags": ["駐輪場", "自転車"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/1009491/1009710/1049759.html"]
+        }
+      ],
+      "faq": []
+    },
+    {
+      "id": "facility",
+      "en": "FACILITIES",
+      "title": "図書館・公共施設",
+      "tagline": "本を借りる、部屋を借りる、運動する。市民の日常を支える施設。",
+      "color": "facility",
+      "icon": "building",
+      "items": [
+        {
+          "title": "中央図書館",
+          "summary": "市立図書館の中心館。図書館利用券は市内在住・在勤・在学の方などが作れます。中山桜台に中山台分室もあります。",
+          "phone": "0797-84-6121",
+          "address": "宝塚市清荒神1丁目2番18号",
+          "hours": "9:30〜18:00（金曜・7〜8月の土曜は19:00まで）／水曜・第2金曜・年末年始休館",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004491.html",
+          "urlLabel": "中央図書館（市公式）",
+          "tags": ["図書館"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004491.html"]
+        },
+        {
+          "title": "西図書館",
+          "summary": "西部エリアの図書館。西公民館と同じ建物にあります。",
+          "phone": "0797-77-1222",
+          "address": "宝塚市小林2丁目7番30号",
+          "hours": "9:30〜18:00（金曜・7〜8月の土曜は19:00まで）／水曜・毎月1日・年末年始休館",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004509.html",
+          "urlLabel": "西図書館（市公式）",
+          "tags": ["図書館"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004509.html"]
+        },
+        {
+          "title": "公民館（中央・東・西）— 部屋を借りる",
+          "summary": "学習・文化活動のための部屋を借りられます。開館はいずれも9:00〜21:00。",
+          "steps": [
+            "中央公民館（末広町3-53）0797-73-6600 ／ 休館: 毎月21日・年末年始",
+            "東公民館（山本南2-5-2）0797-89-1567 ／ 休館: 毎月11日・年末年始",
+            "西公民館（小林2-7-30）0797-77-1200 ／ 休館: 毎月1日・年末年始"
+          ],
+          "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kominkan/index.html",
+          "urlLabel": "公民館（市公式）",
+          "tags": ["公民館", "貸室"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1010939/1023261.html"]
+        },
+        {
+          "title": "市立スポーツセンター",
+          "summary": "アリーナ・トレーニング室・武道場・弓道場・テニスコート・野球場・屋内外プールを備える総合スポーツ施設。利用には事前の利用者登録が必要（屋外プール等は不要）。予約はネット予約システム（5:00〜23:45）で。",
+          "phone": "0797-87-5911",
+          "address": "宝塚市小浜1丁目1番11号",
+          "url": "https://www.shisetsu.city.takarazuka.hyogo.jp/",
+          "urlLabel": "施設予約システム",
+          "tags": ["スポーツ", "プール", "体育館"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/sports/1021828/1003519.html"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "図書館の休館日はいつですか？",
+          "a": "中央図書館は毎週水曜と第2金曜、西図書館は毎週水曜と毎月1日（1日が水曜の場合は2日）。どちらも年末年始も休館です。開館は9:30〜18:00（金曜と夏の土曜は19:00まで）。"
+        }
+      ],
+      "opendata": ["libraries", "wifi", "toilets"]
+    },
+    {
+      "id": "events",
+      "en": "EVENTS & CONSULT",
+      "title": "イベント・相談窓口",
+      "tagline": "市のイベント情報（自動更新）と、こまったときの相談先。",
+      "color": "events",
+      "icon": "calendar",
+      "items": [
+        {
+          "title": "消費生活センター — 契約トラブル・悪質商法の相談",
+          "summary": "商品・サービスの契約トラブル、悪質商法、製品事故などを専門相談員に無料で相談できます。全国共通の消費者ホットライン「188」からもつながります。場所は阪急売布神社駅前のピピアめふ1・5階。",
+          "phone": "0797-81-0999",
+          "phoneNote": "相談専用（または188）",
+          "address": "宝塚市売布2丁目5番1号 ピピアめふ1・5階",
+          "hours": "平日 9:00〜17:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001506/1001923.html",
+          "urlLabel": "消費生活センター（市公式）",
+          "tags": ["消費生活", "悪質商法"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001506/1001923.html"]
+        },
+        {
+          "title": "無料法律相談（弁護士）・市民相談",
+          "summary": "市民相談課（本庁舎2階）で弁護士による無料法律相談を実施（毎週月・水・金曜と第1火曜の13:00〜16:00、1回30分）。予約は相談当日の朝9時から電話先着順です。行政・人権・労働・DV・こころの相談など、テーマ別の相談窓口も市民相談課が案内してくれます。",
+          "phone": "0797-77-2003",
+          "phoneNote": "市民相談課（予約は当日9:00〜）",
+          "hours": "相談: 月・水・金・第1火 13:00〜16:00",
+          "url": "https://www.city.takarazuka.hyogo.jp/1060678/1059162/1059163.html",
+          "urlLabel": "市民相談・法律相談（市公式）",
+          "tags": ["法律相談", "無料相談"],
+          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1059162/1059163.html"]
+        }
+      ],
+      "faq": [],
+      "opendata": ["events"]
+    }
+  ]
+}

@@ -6,6 +6,8 @@
 **🌐 公開中: <https://takarazuka.jun-nakatani.com/>**（Cloudflare Pages / 公開費用 ¥0 / 外部依存なし）
 （ミラー: GitHub Pages <https://umine2025.github.io/takarazuka-hyakkei/> — canonical は本番ドメインを指すためSEO評価は集約）
 
+> 🏠 **姉妹ページ: [宝塚くらしの便利帳](life/README.md)** — 市民向け生活情報ポータル（<https://takarazuka.jun-nakatani.com/life/>）。緊急連絡先・ごみ・手続き・子育て・防災などの実用情報を一枚に集約し、宝塚市オープンデータ（CC BY 4.0）を **GitHub Actions で週次自動更新**。
+
 ![宝塚百景 ヒーロー画面](docs/screenshot-hero.png)
 
 | 体感型市域マップ | 百景図鑑（検索・絞り込み） |
