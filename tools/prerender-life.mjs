@@ -21,7 +21,11 @@ if (fs.existsSync(odDir)) {
 }
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const telHref = (p) => "tel:" + encodeURIComponent(String(p).replace(/[‐－―ー]/g, "-").replace(/[^\d#+*-]/g, "")).replace(/-/g, "");
+/* href に入れるURLは http(s) のみ許可（javascript: 等のスキーム混入を防ぐ防御層） */
+const safeUrl = (u) => (/^https?:\/\//i.test(String(u ?? "")) ? String(u) : "");
+/* tel: URI は RFC 3966 上 # * + が有効。encodeURIComponent で #7119→%237119 と化けるのを避け、
+   ダイヤル可能文字だけを残す（救急ダイヤル #7119 / #8000 の正常発信のため）。 */
+const telHref = (p) => "tel:" + String(p).normalize("NFKC").replace(/[^\d#+*]/g, "");
 
 /* ---------- icons (24x24 stroke) ---------- */
 const I = {
@@ -76,8 +80,8 @@ function renderItem(it) {
   if (it.address) facts.push(factRow("pin", "場所", esc(it.address)));
   const steps = it.steps && it.steps.length
     ? `<ol class="i-steps">${it.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>` : "";
-  const link = it.url
-    ? `<a class="i-link" href="${esc(it.url)}" rel="noopener">${esc(it.urlLabel || "市公式ページで詳しく")} ${icon("external")}</a>` : "";
+  const link = safeUrl(it.url)
+    ? `<a class="i-link" href="${esc(safeUrl(it.url))}" rel="noopener">${esc(it.urlLabel || "市公式ページで詳しく")} ${icon("external")}</a>` : "";
   const tags = it.tags && it.tags.length
     ? `<span class="i-tags">${it.tags.map((t) => `<span class="i-tag">${esc(t)}</span>`).join("")}</span>` : "";
   return `<article class="item-card">
@@ -127,7 +131,7 @@ function renderOdEvents(b) {
     const dateTxt = e.ongoing
       ? `開催中<br>〜${fmt(e.dateEnd)}`
       : e.dateEnd && e.dateEnd !== e.date ? `${fmt(e.date)}<br>〜${fmt(e.dateEnd)}` : fmt(e.date);
-    const body = `<p class="ev-t">${e.url ? `<a href="${esc(e.url)}" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</p>` +
+    const body = `<p class="ev-t">${safeUrl(e.url) ? `<a href="${esc(safeUrl(e.url))}" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</p>` +
       (e.desc || e.place ? `<p class="ev-d">${esc([e.place, e.desc].filter(Boolean).join(" — "))}</p>` : "");
     return `<li class="ev-item"${i >= 12 ? " hidden" : ""}><span class="ev-date">${dateTxt}</span><div class="ev-body">${body}</div></li>`;
   }).join("\n");
@@ -207,7 +211,9 @@ const graph = [
     dateModified: b.fetched,
   })),
 ];
-const ldBlock = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": graph })}</script>`;
+/* `</script>` によるタグ脱出を防ぐため `<` `>` をUnicodeエスケープ（JSONとしては同値） */
+const safeJson = (obj) => JSON.stringify(obj).replace(/</g, "\\u003C").replace(/>/g, "\\u003E");
+const ldBlock = `<script type="application/ld+json">${safeJson({ "@context": "https://schema.org", "@graph": graph })}</script>`;
 
 /* ---------- inject into index.html ---------- */
 const updatedDates = [guide.updated, ...Object.values(od).map((b) => b.fetched)].filter(Boolean).sort();

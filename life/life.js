@@ -50,7 +50,7 @@
       : "見つかりませんでした — 別の言葉でお試しください（例: ごみ、引越し、夜間）";
   }
 
-  if (input) {
+  if (input && clearBtn && meta) {
     var t = null;
     input.addEventListener("input", function () {
       clearTimeout(t); t = setTimeout(runSearch, 120);
