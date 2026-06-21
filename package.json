@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "wrangler": "^3.90.0",
     "xlsx": "^0.18.5"
   }
 }
