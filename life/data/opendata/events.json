@@ -12,7 +12,15 @@
    "title": "バイオガス発電設備導入可能性調査結果説明会&意見交換会を開催しました",
    "place": "中央公民館 ホール",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060714/1061609/energy/1014263/1038698.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060714/1061609/energy/1014263/1038698.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2020-09-29"
   },
   {
    "date": "2022-06-23",
@@ -20,7 +28,15 @@
    "title": "宝塚市立幼稚園合同説明会のお知らせ",
    "place": "中央公民館 大ホール",
    "desc": "・ 親子遊び ・ 食育パフォーマンス・ 合同説明会※ 質問タイムもあります。※ お子さんはコーナー遊びができます",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/kyoikuiinkai/1020796/1043680/1045865/1045928.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/kyoikuiinkai/1020796/1043680/1045865/1045928.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2022-09-10",
@@ -28,7 +44,15 @@
    "title": "3館おさんぽラリー 2022",
    "place": "手塚治虫記念館、文化芸術センター、宝塚文化創造館",
    "desc": "文化芸術センター庭園に隠れている手塚治虫のキャラクターを探したり、3つの施設をめぐりながらクイズに挑戦しよう。回答者にはもれなく記念品をプレゼント。さらに、抽選で素敵な景品が当たる",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051316/1039279/1046488.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051316/1039279/1046488.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2023-08-27",
@@ -36,7 +60,15 @@
    "title": "【イベント】宝塚朝市",
    "place": "武庫川河川敷公園",
    "desc": "宝塚朝市は毎月第4日曜日、市役所横の武庫川河川敷公園にて、午前9時から11時に開催しております。(イベント開催時等には変更あり)宝塚西谷産の新鮮野菜を生産者自らが対面販売いたします",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061601/1043599/1015980.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061601/1043599/1015980.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2023-10-09",
@@ -44,7 +76,15 @@
    "title": "スポーツの日イベント",
    "place": "メインアリーナ、サブアリーナ、柔道場、剣道場、多目的グラウンド、屋外プール",
    "desc": "【総合体育館・メインアリーナ】◆新体力測定 時間:13時30分~15時00分(受付終了は14時30分) 対象:小学生以上 申込:当日メインアリーナ入口前にて順次受付 内容:握力、上",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1046589.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1046589.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-01-13",
@@ -52,7 +92,15 @@
    "title": "「ひょうご安全の日」阪神北地域のつどい",
    "place": "アピアさかせがわ アピア1",
    "desc": "「ゆるCAMP×防災」グッズ展時間:13時00分~16時00分場所:ふれあい広場(2F)「災害時の衣食住」をテーマに、災害時に応用できるアウトドアのノウハウを解説するとともに、あん",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1039542/1039554/1054975.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1039542/1039554/1054975.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-01-19",
@@ -60,7 +108,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039515/1054857.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039515/1054857.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-01-21",
@@ -68,7 +124,15 @@
    "title": "令和5年度第2回『歯の無料健診と相談』のお知らせ",
    "place": "口腔保健相談センター(逆瀬川1丁目13番1号 アピア3-2階)",
    "desc": "口腔内診査、歯および口腔に関する相談・指導",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039515/1054987.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039515/1054987.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2024-01-19"
   },
   {
    "date": "2024-02-16",
@@ -76,7 +140,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039514/1055063.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039514/1055063.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-03-02",
@@ -84,7 +156,15 @@
    "title": "市民歯の健康講座",
    "place": "西公民館2階ホール",
    "desc": "演題『歯を残す!歯の痛みや不調を解消!根管治療のすべて』&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039513/1055040.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039513/1055040.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2024-03-01"
   },
   {
    "date": "2024-03-15",
@@ -92,7 +172,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039513/1055340.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039513/1055340.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-04-19",
@@ -100,7 +188,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039512/1056018.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039512/1056018.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-04-30",
@@ -108,7 +204,15 @@
    "title": "「朝活ウォーク 山崎市長と歩こう!」を開催しました!",
    "place": "宝塚大劇場側 武庫川河川敷",
    "desc": "手軽に取り組める「ウォーキング」を健康づくりのきっかけにしてみましょう♪♪コース等:宝塚大劇場側 武庫川河川敷 約1.5Kmを山﨑市長と歩こう!申込方法:★申込の受付は終了していま",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039511/1055786.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039511/1055786.html",
+   "target": [
+    "4"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-04-30",
@@ -116,7 +220,15 @@
    "title": "第1回 山崎市長と歩こう!ウォーキング",
    "place": "宝塚市役所前 武庫川河川敷",
    "desc": "手軽に取り組める「ウォーキング」を健康づくりのきっかけにしてみましょう♪♪コース等:武庫川河川敷約3Kmを山﨑市長と歩こう!申込方法:申込用紙に記入の上、高齢福祉課に持参又は ファ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039512/1055785.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039512/1055785.html",
+   "target": [
+    "4"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2024-04-15"
   },
   {
    "date": "2024-05-17",
@@ -124,7 +236,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039511/1056297.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039511/1056297.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-06-01",
@@ -132,7 +252,15 @@
    "title": "紙芝居によるホタルの説明と成虫ホタルの観賞会",
    "place": "内畑緑地公園内 ホタルの里ピカピカランド",
    "desc": "宝塚エコネットが世話をしているホタルの里ピカピカランドで、手作りの紙芝居でホタルの説明、幼虫の観察、ホタルクイズなどを行い、その後、網戸から建屋内で飛翔しているホタルの観賞を行う。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031331/1056538.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031331/1056538.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-06-21",
@@ -140,7 +268,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039510/1056695.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039510/1056695.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-06-29",
@@ -148,7 +284,16 @@
    "title": "こどもまんなかフェスタ",
    "place": "6月29日(土曜日)東公民館6月30日(日曜日)中央公民館",
    "desc": "市立中学校の吹奏楽部・コーラス部による演奏と、茶道部による茶席",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031331/1056727.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031331/1056727.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-07-13",
@@ -156,7 +301,15 @@
    "title": "TAKARAZUKA創業塾2024",
    "place": "宝塚商工会議所",
    "desc": "7月13日(土曜日)ガイダンス / 自己紹介 /創業・起業について起業のアイデアの起点/ビジネスアイデアのグループワーク&nbsp;7月20日(土曜日)ビジネスモデル作成ビジネスモ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1039542/1039548/1056704.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1039542/1039548/1056704.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2024-06-30"
   },
   {
    "date": "2024-07-15",
@@ -164,7 +317,15 @@
    "title": "「ウィルキンソンの日」制定記念セレモニー",
    "place": "ソリオ宝塚G階メインプラザ",
    "desc": "令和6年度から、毎年7月15日は「ウィルキンソンの日」に制定されましたこれは、本市発祥の「ウィルキンソン タンサン」がブランド創設120周年を迎えたことをきっかけに、アサヒ飲料株式",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1056726.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1056726.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-07-20",
@@ -172,7 +333,16 @@
    "title": "宝塚のダリアを使ってお花のお家を作ろう!~自然に触れ、心の豊かさを育む花育~",
    "place": "宝塚文化芸術センター",
    "desc": "お菓子の家ならぬお花のお家を作りませんか?トップフローリストによる装花の実演を見た後、みんなでお花のお家を作りましょう。中に入って頂き記念撮影も可能です。観覧は自由ですのでぜひ見に",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030648/1056925.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030648/1056925.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-08-03",
@@ -180,7 +350,15 @@
    "title": "宝塚市大使委嘱式",
    "place": "ソリオ宝塚GF・メインプラザ",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039560/1057012.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039560/1057012.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-08-03",
@@ -188,7 +366,15 @@
    "title": "ブーケを並べて新たな世界記録(ギネス世界記録TM町おこしニッポン)に挑戦しよう!",
    "place": "花のみちエリア",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1056298.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1056298.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-08-25",
@@ -196,7 +382,15 @@
    "title": "ピピアめふ公益施設「親子で学ぶ キッズマネー講座」開催のお知らせ",
    "place": "ピピアめふ公益施設 5階 会議室AB",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030647/1056746.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030647/1056746.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2024-08-24"
   },
   {
    "date": "2024-08-31",
@@ -204,7 +398,15 @@
    "title": "【中止】ゆめ・まち 大人の社会科見学in宝塚2024「魅力あふれる武庫川とボタニーペインティング!」」",
    "place": "中央公民館",
    "desc": "宝塚の代表的な景観であり、かかせない資源である武庫川。たくさんの魅力が詰まった武庫川を守り、育て、活かす活動を知り、様々な角度からまちと自然の関係性について考えます。ワークショップ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031314/1057036.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031314/1057036.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2024-08-23"
   },
   {
    "date": "2024-09-14",
@@ -212,7 +414,15 @@
    "title": "ゆめ・まち 大人の社会科見学in宝塚2024「宝塚で刻むカホン de リズム!」",
    "place": "中央公民館",
    "desc": "宝塚では、こども達の創造性・自主性の育成や居場所づくり、若者就労支援への取組みが積極的に行われています。「人と場」そして「人と人」のつながりを大切にしている活動を紹介します。ワーク",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031313/1057042.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031313/1057042.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2024-09-06"
   },
   {
    "date": "2024-09-21",
@@ -220,7 +430,15 @@
    "title": "宝塚花のみちセルカ&武庫川河川敷 コスプレ撮影会イベント",
    "place": "花のみち武庫川河川敷",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1056644.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1056644.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-10-13",
@@ -228,7 +446,15 @@
    "title": "2024ふれあいフェスティバル",
    "place": "すみれガ丘中央公園",
    "desc": "展示 防災関連情報、人権ポスター展示 模擬店 唐揚げ、フライドポテト、焼きそば、おにぎり、缶ビール、ソフトドリンク等 ゲーム 昔遊び、ナインフープス、ストライクナイン、グラウンドゴ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039558/1057183.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039558/1057183.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-10-14",
@@ -236,7 +462,20 @@
    "title": "スポーツの日事業・宝塚市民大運動会",
    "place": "多目的グラウンド(雨天時はスポーツセンター総合体育館メインアリーナ)",
    "desc": "宝塚市大使の間寛平さんを迎え、誰もが一緒に楽しめる種目を集めた昔ながらの運動会を楽しもう!会場にはキッチンカーもやってきます。ご家族やご友人など奮ってご参加ください。&nbsp; ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1016968.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1016968.html",
+   "target": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-10-19",
@@ -244,7 +483,15 @@
    "title": "市制70周年記念事業 宝塚ゆったり里山キャンプ~自然の時間を味わう秋の一日~",
    "place": "宝塚自然の家",
    "desc": "宝塚自然の家で、芋掘り、天体観測、飯盒体験など、たき火を囲んで里山でのんびりテント泊の体験をしよう!&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031312/1057594.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031312/1057594.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-10-20",
@@ -252,7 +499,15 @@
    "title": "市民公開講座 in 西宮「腎移植という選択」",
    "place": "なでしこホール(西宮市高松町5-39)",
    "desc": "腎移植についての講座詳細は添付ファイルをご覧ください。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039506/1057543.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039506/1057543.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2024-10-15"
   },
   {
    "date": "2024-11-03",
@@ -260,7 +515,15 @@
    "title": "ひょうご里山フェスタ2024",
    "place": "宝塚市立西谷中学校グラウンド(宝塚市大原野字石保46)",
    "desc": "式典(10:00~12:00)ステージイベント(12:10~14:40)出展ブース(9:30~15:00)サテライト会場として、兵庫県立宝塚西谷の森公園で里山をテーマとしたブースな",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1026322/1057837.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1026322/1057837.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-11-03",
@@ -268,7 +531,15 @@
    "title": "音あそびの先生といっしょに!みんなでつくるコンサート♪",
    "place": "宝塚市立西公民館 ホール",
    "desc": "”みんなでつくるコンサート”をコンセプトとして、(1)コンサート前の準備と題した様々なワークショップを行い、家にある廃材で楽器を作ったり、簡単なダンス練習をしたり、様々な世代間の交",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031311/1057219.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031311/1057219.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2024-10-27"
   },
   {
    "date": "2024-11-04",
@@ -276,7 +547,16 @@
    "title": "市制70周年記念たからっ子フェスタ「小島よしおトークショー」を開催しました【11月4日(月曜日・休日)】",
    "place": "総合体育館メイン・アリーナ※公共交通機関や徒歩でご来場ください。・阪神バス小浜 下車徒歩5分(始発 JR宝塚駅前)・阪急バススポーツセンター前 下車すぐ(始発 阪急逆瀬川駅前)・阪急逆瀬川駅から宝塚市役所方向へ徒歩15分[市立スポーツセンター]",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031326/1056281/1056282.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1031324/1031326/1056281/1056282.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "10"
+   ],
+   "application": false,
+   "deadline": "2024-10-14"
   },
   {
    "date": "2024-11-08",
@@ -284,7 +564,15 @@
    "title": "税に関する作品の展示をします(会場:アピア1)",
    "place": "",
    "desc": "アピア1 2階ふれあい広場にて、市内の小・中・高校生の税に関する作文や書道作品等の展示を実施します。※同展示は、下記施設でも実施します。&nbsp;&nbsp; 施設:宝塚市立文化",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030644/1013329.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030644/1013329.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-11-09",
@@ -292,7 +580,16 @@
    "title": "宝塚のお宝発見!謎解きスタンプラリー",
    "place": "スタンプ設置場所=宝塚神社、伊孑志の渡し、首地蔵(小浜)、中山壮園古墳、木接太夫彰徳碑(山本)参加賞引き換え場所=花のみちさくら橋公園",
    "desc": "市内の名所を巡り、市の歴史や文化を学ぼう。5か所すべてのスタンプを集めて解くと先着で250人に参加賞あり。スタンプ台紙は、10月中旬から市民協働推進課(市役所2階)、各公民館、図書",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031311/1057764.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1031309/1031311/1057764.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-11-16",
@@ -300,7 +597,15 @@
    "title": "税に関する作品の展示をします(会場:宝塚市立文化芸術センター)",
    "place": "",
    "desc": "宝塚市立文化芸術センター 1階ライブラリーにて、市内の小・中・高校生の税に関する作文や書道作品等の展示を実施します。※同展示は、下記施設でも実施します。&nbsp;&nbsp; 施",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030644/1057770.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1030642/1030644/1057770.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-11-16",
@@ -308,7 +613,15 @@
    "title": "第25回秋のガイドウォーク",
    "place": "市内(平井・山本地区)を散策します。",
    "desc": "宝塚の文化財について継続的に学習を行い、実際に案内をする「宝塚文化財ガイドソサエティ」が、年1回市民などを対象に、テーマを決めて市内の文化財などを案内し、ともに学ぶ機会をつくります",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1057521.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1057521.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-11-24",
@@ -316,7 +629,15 @@
    "title": "霜秋の茶会",
    "place": "宝塚市立東公民館",
    "desc": "どなたでも気軽に茶道に親しんでいただけるように茶会を開催します。抹茶とともに静かな時間を過ごしましょう。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055915.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055915.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2024-11-24"
   },
   {
    "date": "2024-11-25",
@@ -324,7 +645,15 @@
    "title": "消費者力パワーアップ講座を開催します(令和6年度の募集は終了しました)",
    "place": "宝塚市売布2丁目5番1号(阪急売布神社駅となり)ピピアめふ1 5階会議室",
    "desc": "(1)令和6年11月25日(月曜日)13:30~15:30 「特定商取引法の基礎知識 ~消費者として知っておくべきポイント~」 &nbsp; 講師:兵庫県弁護士会 弁護士 浦本 真",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039556/1043493.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039556/1043493.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2024-11-15"
   },
   {
    "date": "2024-11-30",
@@ -332,7 +661,16 @@
    "title": "すぐ実践できる!健康ライフレッスン",
    "place": "宝塚ウェルネスアカデミー",
    "desc": "宝塚市と包括連携協定を締結している企業による、”健康”にまつわる講座を開催します!午前の部は子育て世代向け、午後はアクティブシニア向けの2部制です。広報誌では午前がシニアの部、午後",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039505/1057605.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1039503/1039505/1057605.html",
+   "target": [
+    "3",
+    "4"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2024-11-22"
   },
   {
    "date": "2024-12-08",
@@ -340,7 +678,15 @@
    "title": "【終了しました】令和6年度 宝塚歌劇市民貸切公演",
    "place": "宝塚大劇場",
    "desc": "公演内容宝塚大劇場 月組公演&nbsp;ミュージカル・クエスト『ゴールデン・リバティ』作・演出/大野 拓史&nbsp;Takarazuka Spectacular『PHOENIX ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1056946.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1056946.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2024-10-30"
   },
   {
    "date": "2024-12-12",
@@ -348,7 +694,15 @@
    "title": "大相撲宝塚場所が開催されます。",
    "place": "メインアリーナ",
    "desc": "6年ぶりに「大相撲宝塚場所」が開催されます。公益財団法人日本相撲協会冬巡業「大相撲宝塚場所」が市立スポーツセンター総合体育館で開催されます。巡業では、総勢約150人の力士たちが参加",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1057262.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1057262.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-12-15",
@@ -356,7 +710,15 @@
    "title": "あっちょんぶりけ宝塚市制70周年お祝いコンサート",
    "place": "",
    "desc": "曲目 宝塚市歌 宮川彬良作曲 吹奏楽のためのソナタ「ブラック・ジャック」 すみれの花咲く頃 「宇宙戦艦ヤマト」よりほか",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039556/1057563.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1039555/1039556/1057563.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2024-12-21",
@@ -364,7 +726,15 @@
    "title": "宝塚イルミネーション",
    "place": "末広中央公園",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1056986.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1056986.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-01-13",
@@ -372,7 +742,16 @@
    "title": "宝塚自然の家イベント",
    "place": "宝塚自然の家(宝塚市大原野字松尾1番地)",
    "desc": "〇内容(1)大とんどと餅つき(11時~13時、雨天中止)(2)冬の森ほっこりアートクラフト(11時~14時、雨天延期) 先着30人、小学生以上、一人1500円",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057920/1058536.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057920/1058536.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-01-12"
   },
   {
    "date": "2025-01-23",
@@ -380,7 +759,15 @@
    "title": "障碍(がい)セミナー映画上映会「僕が跳びはねる理由」",
    "place": "",
    "desc": "〇内容 映画上映会「僕が跳びはねる理由」〇要約筆記 あり〇申し込み 令和7年1月6日(月曜日)9時から 申込フォーム、電話、ファクスにて",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057920/1058535.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057920/1058535.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-01-21"
   },
   {
    "date": "2025-01-26",
@@ -388,7 +775,15 @@
    "title": "【終了しました】阪神・淡路大震災から30年~震災の教訓をともに未来に繋ぐ~",
    "place": "",
    "desc": "◆講演会(石田裕之氏)◆防災川柳表彰式(やすみりえ氏) ※詳細は上記のとおり ※手話通訳者・要約筆記者あり",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013225/1011510/1001475/1057110.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013225/1011510/1001475/1057110.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-02-09",
@@ -396,7 +791,16 @@
    "title": "宝塚ふぁみりぃ劇場第353回例会 ほんわかシアター「おしいれのぼうけん」",
    "place": "東公民館",
    "desc": "こどもたちに大人気のたばたせいいち原作の絵本「おしいれのぼうけん」の人形劇はらはらどきどき、わくわくの冒険劇&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057908/1058451.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057908/1058451.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-02-15",
@@ -404,7 +808,15 @@
    "title": "令和6年度自立就職支援セミナー「ひきこもりの子の心の声を聴く~家族にできること~」",
    "place": "宝塚市栄町2-1-2「ソリオ2」4階",
    "desc": "(要申込み) ひきこもりの居場所を担当する専門家からの実例を交えた家族の関わりや連携先などの情報提供 ゲートキーパーの視点から考える「心の声を聴く」ことについての講義 予約者を対象",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1059113.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1059113.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-02-17",
@@ -412,7 +824,15 @@
    "title": "宝塚市フレイル予防イベント@ピピアめふ",
    "place": "ピピアめふ1(宝塚市売布2-5-1)1階 コープめふ生活用品売場前",
    "desc": "(1)武庫川女子大学学生によるウォーキング講座(2)健康状態チェック(フレイルチェック・血管年齢測定・握力測定)(3)保健師によるフレイル予防個別相談(4)栄養士によるフレイル予防",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000081/1058661.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000081/1058661.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-02-20",
@@ -420,7 +840,15 @@
    "title": "異文化相互事業「であいの場」パネル展",
    "place": "こくさいぶんかセンター国際・文化センター(阪急宝塚南口駅下車すぐ サンビオラ1番館3F)Takarazuka International and Cultural Center(Hankyu Imazu Line, get off at Takarazuka-Minamiguchi sta, 3rd floor of Sunviola 1-bankan)",
    "desc": "~日本列島へ そして 宝塚地域には~・展示パネル/展示品 「知っておきたい知識」「越鳥南枝石碑」「ハングル」 「移民と日本」「ピースマスク」「ヌビ」「ポジャギ」・ワークショップ 2",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1059323.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1059323.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-02-23",
@@ -428,7 +856,15 @@
    "title": "草萌の茶会",
    "place": "宝塚市立東公民館",
    "desc": "どなたでも気軽に茶道に親しんでいただけるように茶会を開催します。抹茶とともに静かな時間を過ごしましょう。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1059100.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1059100.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-02-23"
   },
   {
    "date": "2025-02-26",
@@ -436,7 +872,15 @@
    "title": "令和6年度たからづか学校応援団 第2回ボランティア研修会",
    "place": "西公民館2階 ホール",
    "desc": "テーマ「ボランティア活動は素晴らしい」【シンポジウム】登壇者・宝塚第一小学校 ボランティア 清水 梨江 さん・長尾台小学校 コーディネーター 前田 幸夫 さん・すみれガ丘小学校 コ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1058574.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057921/1058574.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-02-25"
   },
   {
    "date": "2025-03-01",
@@ -444,7 +888,16 @@
    "title": "お絵描きワークショップを開催します(武庫川女子大学包括連携事業)",
    "place": "1階 講堂",
    "desc": "私たちのまち「宝塚」を楽しくお絵描きするワークショップです。完成した作品を宝塚市立文化芸術センターのアトリエへお持ちいただくと、同日に開催中の「移り変わる宝塚のまち展」で展示します",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059190.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059190.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-02-28"
   },
   {
    "date": "2025-03-01",
@@ -452,7 +905,15 @@
    "title": "「移り変わる宝塚のまち展」を開催します(武庫川女子大学包括連携事業)",
    "place": "宝塚市立文化芸術センター1階アトリエ[文化芸術センター(たからば)]",
    "desc": "武庫川女子大学教育学部 藤井教授ゼミの学生が描いた絵を展示します。「まちの移り変わり」をテーマに、宝塚市ならではの様々なスポットをご覧いただけます。同日、宝塚文化創造館で開催するお",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059198.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059198.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-04",
@@ -460,7 +921,15 @@
    "title": "「火の鳥」タイムカプセル収納メッセージの募集について",
    "place": "支所7か所(※専用の募集箱を設置しますので、そちらに投函してください。)",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1000113/1028466/1055896/1059135.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1000113/1028466/1055896/1059135.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-09",
@@ -468,7 +937,16 @@
    "title": "宝塚防災ラジオdeウォーク 2025",
    "place": "受付場所:宝塚ゆめ広場有馬街道~川面自治会館~清荒神参道~巡礼道~清荒神自治会館~売布小学校(売布神社)~プラザこむ1~旧和田家住宅~宝塚市立中央公民館",
    "desc": "10:00~12:30 宝塚防災ラジオdeウォーク13:00~15:00 宝塚市長、阪神北県民局長挨拶 防災トーク 矢守克也さん(京都大学防災研究所) 「希望の凧」制作、凧あげ&n",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1059074.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1059074.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-13",
@@ -476,7 +954,15 @@
    "title": "メタバース空間 宝塚e-Park",
    "place": "オンライン上",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057890/1058503.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057890/1058503.html",
+   "target": [
+    "2"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-03-12"
   },
   {
    "date": "2025-03-15",
@@ -484,7 +970,16 @@
    "title": "「古民家で楽しいおひな祭り」を開催します",
    "place": "宝塚市立歴史民俗資料館 旧東家住宅(宝塚自然の家内)[宝塚市立歴史民俗資料館 旧東家住宅]",
    "desc": "古民家ならではの趣ある空間で、ひな祭りの意味やひな人形の飾り方について、地元の方や民俗学の先生の楽しいお話を聞きます。みんなでひな人形を飾った後は、地元で作られたお菓子や温かいお茶",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059744.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059744.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-03-14"
   },
   {
    "date": "2025-03-15",
@@ -492,7 +987,15 @@
    "title": "市制70周年記念 市民活動支援補助金表彰式を開催します",
    "place": "",
    "desc": "今年度、本市が市制施行70周年を迎えたことを記念し市民活動支援補助金を活用して活動をしてくださった70団体に対し、事業の功績を讃えるため表彰式を開催します。 当日は、劇作家・演出家",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057922/1059695.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057922/1059695.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-22",
@@ -500,7 +1003,15 @@
    "title": "宝塚ゆったり里山キャンプ~自然の時間を味わう一日~",
    "place": "宝塚自然の家",
    "desc": "薪割りをしたりごはんを炊いたり、里山の魅力を体感できるテント泊体験。夜は焚き火を囲んでのんびりと過ごせます。&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057896/1059308.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057896/1059308.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-22",
@@ -508,7 +1019,15 @@
    "title": "「古民家で聴く落語」を開催します",
    "place": "宝塚市立歴史民俗資料館 旧和田家住宅[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "古民家ならではの趣ある空間で、落語家 林家染左さんの落語を楽しみませんか?",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059756.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059756.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-03-14"
   },
   {
    "date": "2025-03-26",
@@ -516,7 +1035,15 @@
    "title": "「春の鋳造体験講座」を開催します",
    "place": "3月26日(水曜日)西公民館 造形室3月27日(木曜日)中央図書館 集会室3月29日(土曜日)東公民館 造形室",
    "desc": "弥生時代の銅鐸(どうたく)・銅鏃(どうぞく)、古墳時代の銅鏡(どうきょう)、古代のお金「富本銭(ふほんせん)」のミニチュアを作ってみませんか?銅鐸・銅鏃・銅鏡は、宝塚市で出土のもの",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059752.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059752.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-29",
@@ -524,7 +1051,15 @@
    "title": "早春の女神!ギフチョウの放蝶会",
    "place": "宝塚自然の家",
    "desc": "ギフチョウを間近で観察した後、自然に放蝶します。市自然保護協会による紙芝居の解説もあります。&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057896/1059310.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057896/1059310.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-03-29",
@@ -532,7 +1067,16 @@
    "title": "「古民家で茶道をやってみよう!」を開催します",
    "place": "宝塚市立歴史民俗資料館 旧和田家住宅[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "古民家ならではの趣ある空間で、楽しく茶道を体験してみませんか?まずは先生が点てたお茶をいただき、その後は先生と一緒に保護者の方に美味しいお茶を点ててみましょう。季節にちなんだお菓子",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059748.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057909/1059748.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-03-28"
   },
   {
    "date": "2025-03-29",
@@ -540,7 +1084,15 @@
    "title": "ギネス世界記録TM町おこしニッポン「最大の炭酸飲料パーティー~Largest carbonated beverage party~」に挑戦!",
    "place": "末広中央公園",
    "desc": "【当日スケジュール(予定)】13時~14時 &nbsp; &nbsp; 受付14時~14時15分 主催者挨拶・公式認定員ルール説明・ 炭酸飲料受け取り14時15分~14時35分 お",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1058425.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1058425.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-02-28"
   },
   {
    "date": "2025-03-29",
@@ -548,7 +1100,15 @@
    "title": "第2回 湯のまち宝塚 タンサンフェス",
    "place": "末広中央公園",
    "desc": "飲食・物販エリアキッチンカーをはじめ、雑貨やゲームのテントなど、全66店が出店予定!お気に入りのお店が見つかるかも...!&nbsp;【開催時間】午前10時~午後5時&nbsp; ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1059039.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1059039.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-05",
@@ -556,7 +1116,15 @@
    "title": "陸上自衛隊 伊丹駐屯地 創立74周年記念行事",
    "place": "陸上自衛隊 伊丹駐屯地(伊丹市緑ヶ丘7-1-1)",
    "desc": "陸上自衛隊 伊丹駐屯地を一般開放して、音楽演奏、装備品展示、体験試乗、野外売店などが行われます。音楽イベント 音楽コラボ演奏(中部方面音楽隊、兵庫県立伊丹高校吹奏楽部) 1回目:1",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059970.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059970.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-12",
@@ -564,7 +1132,15 @@
    "title": "第24回宝塚オープンガーデンフェスタを開催します",
    "place": "宝塚市内でオープンガーデンに参加している個人、事業者、団体のお庭",
    "desc": "市内約70か所で日ごろ丹精を込めて作り上げたお庭や庭先をオープンガーデンとして公開しています。4月上旬からあいあいパーク他にて配布する無料ガイドマップを片手に花と緑あふれる宝塚を是",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045253/1015018.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045253/1015018.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-12",
@@ -572,7 +1148,16 @@
    "title": "知的障碍者(児)親子体操教室",
    "place": "毎月第2土曜日13時~14時に開催します。月によってスポーツセンター内の実施場所が変わります。詳しくは下記の年間予定表をご確認ください。",
    "desc": "スポーツ推進員によるボール遊びやボッチャなどを月替わりで実施",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059871.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059871.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "1",
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-13",
@@ -580,7 +1165,16 @@
    "title": "春の野草を知って食べよう!",
    "place": "宝塚自然の家",
    "desc": "みんなで歩きながら春の野草を摘み、学んで食べてみましょう!お昼は摘み菜でピザを作ってみましょう!大人だけの参加、お一人での参加もOKです。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059869.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059869.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-26",
@@ -588,7 +1182,15 @@
    "title": "宝塚温泉まつり",
    "place": "武庫川河川敷右岸",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1049842.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1049842.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-04-27",
@@ -596,7 +1198,16 @@
    "title": "~移動博物館ゆめはく~ソリオ宝塚に博物館がやってくる!",
    "place": "ソリオ1 GFメインプラザ",
    "desc": "珍しい標本や化石等が見れます。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059961.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057897/1059961.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-03",
@@ -604,7 +1215,16 @@
    "title": "宝塚自然の家イベント",
    "place": "宝塚自然の家",
    "desc": "【5月3日】かおりの森~eat&amp;coffe&amp;natural~スパイスカレーやコーヒーの販売、ワークショップの出店など【5月31日】にしたに先生!チャンバラ大会と西谷",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1060153.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1060153.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-10",
@@ -612,7 +1232,16 @@
    "title": "新緑の里山でアートクラフト",
    "place": "宝塚自然の家",
    "desc": "野菜を触ったり匂ったりして、感じたままにアートで表現しよう。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1059870.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1059870.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-10",
@@ -620,7 +1249,15 @@
    "title": "消費者月間パネル展示",
    "place": "宝塚市立中央公民館 1階 ホワイエ",
    "desc": "持続可能な社会を将来世代に引き継いでいくためには、私たち消費者が、自身の消費行動は地球環境の持続可能性に影響を及ぼし得ることを自覚した上で、環境に配慮した消費行動を選択していくこと",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057937/1026142.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057937/1026142.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-16",
@@ -628,7 +1265,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057851/1059835.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057851/1059835.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-16",
@@ -636,7 +1281,15 @@
    "title": "国登録有形文化財旧山田家住宅を一般公開します",
    "place": "国登録有形文化財旧山田家住宅(宝塚市南口2丁目12-37)",
    "desc": "通常は公開していない国登録有形文化財旧山田家住宅を一般公開します。各日、午前11時から午後4時まで予約不要で自由見学ができます。お気軽にお越しください。同日に解説付き見学も実施しま",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057911/1059964.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057911/1059964.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-18",
@@ -644,7 +1297,15 @@
    "title": "合唱交歓会",
    "place": "",
    "desc": "宝塚合唱連盟加盟団体が出演し、歌声を披露します。【ゲスト】声楽アンサンブル NOSTOS(ノストス)※全席自由※当日直接会場へお越しください。午後1時開演予定でしたが、午後1時半開",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057911/1059894.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057911/1059894.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-05-24",
@@ -652,7 +1313,15 @@
    "title": "【体験講座】歩こう!食べよう!フレイル予防ランチサロン",
    "place": "宝塚市立中央公民館 住所:宝塚市末広町3番53号※ウォーキングは武庫川河川敷で実施します(雨天は中央公民館)。",
    "desc": "(1)武庫川女子大学によるウォーキング講座(2)兵庫県栄養士会管理栄養士の河内清美さんによる栄養講話(3)宝塚料理店提供フレイル予防弁当(管理栄養士監修)の会食、食後の珈琲、お菓子",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000081/1059689.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000081/1059689.html",
+   "target": [
+    "4"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2025-05-08"
   },
   {
    "date": "2025-05-31",
@@ -660,7 +1329,15 @@
    "title": "【5/17→5/31に延期】オオキンケイギク駆除~仁川OKGKOオオキンケイギクノックアウトー~",
    "place": "仁川、蓬莱橋~百合野橋の左岸(仁川駅から十数分)",
    "desc": "集合:阪急仁川駅 山側改札 9時45分(現地集合 10時)申し込み:mukogawaken.net@gmail.com(5月30日まで) 件名:仁川駆除会OKGKO 電話問い合わせ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057937/1060212.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057937/1060212.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-05-30"
   },
   {
    "date": "2025-06-07",
@@ -668,7 +1345,18 @@
    "title": "宝塚自然の家イベント(6月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!伝統のちまき作り(10時~13時)宝塚西谷地域に伝わる伝統文化のちまき。今回は昔ながらの方法で、餅つきをして作る地域の方に教わりながら体験します。ちまきとお昼ご",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1060355.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1060355.html",
+   "target": [
+    "1",
+    "2",
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-10",
@@ -676,7 +1364,15 @@
    "title": "市民のためのオルガンコンサート~16ft(フィート)✕16ft(フィート)",
    "place": "ベガ・ホール",
    "desc": "弦楽器の最低音を奏でるコントラバスと、管楽器では最も広い音域を持つオルガン。16フィートのコラボレーションをお楽しみください。16フィートについては、コンサートでのお話をお楽しみに",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057912/1059897.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057912/1059897.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-14",
@@ -684,7 +1380,15 @@
    "title": "宝塚バル2025",
    "place": "10地域(阪急電鉄市内全駅界隈)",
    "desc": "クーポンがついたマップ付ガイドマップを持って市内の様々な飲食店を巡ってみよう!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1059974.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1059974.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-17",
@@ -692,7 +1396,15 @@
    "title": "NPO・コミュニティビジネスなんでも相談日",
    "place": "認定NPO法人 宝塚NPOセンター 宝塚市栄町2-1-1 ソリオ1-3F",
    "desc": "NPO法人やコミュニティビジネスの立ち上げを考えている人向けの個別相談です。NPO、コミュニティビジネスってなに?という方から、NPOを作りたい、コミュニティビジネスをはじめたいと",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057925/1016357.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057925/1016357.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-22",
@@ -700,7 +1412,16 @@
    "title": "ひらりん宝塚フェスティバル",
    "place": "平林寺、アピア3",
    "desc": "~こども落語高座体験募集(6月8日募集締切)~対象年齢:小学1年生~(字の読める人)ワークショップ参加料:1,500円会場:平林寺境内当日までに落語家の桂九雀さんにより一人ずつのマ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1060072.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057899/1060072.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-25",
@@ -708,7 +1429,15 @@
    "title": "子育て支援スキルアップ講座2025",
    "place": "宝塚市きずなの家ほっとサロン・宝塚市立中央公民館・宝塚市立西公民館等",
    "desc": "計10回の講座がございます。開催日が未定のものもありますので、日時や内容の詳細は、宝塚市助産師会「令和7年度独立行政法人福祉医療機構社会福祉振興助成事業」専用ホームページ(http",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1060207.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1060207.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-06-30",
@@ -716,7 +1445,15 @@
    "title": "初めてのスマホ 消費生活 利活用講座(令和7年度の募集は終了しました)",
    "place": "ピピアめふ1 5階",
    "desc": "1.基本編:◆スマートフォンとは? ◆基本操作・・・など&nbsp;2.活用編:◆インターネット ◆安心・安全便利なアプリ活用 ◆不当請求 ◆災害対策アプリ他紹介・・・など",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057938/1042292.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057938/1042292.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-06-13"
   },
   {
    "date": "2025-07-05",
@@ -724,7 +1461,15 @@
    "title": "TAKARAZUKA創業塾2025",
    "place": "宝塚商工会議所",
    "desc": "7月5日(土曜日)ガイダンス / 自己紹介 /生成AIゲーム講師による講義(アイデア)/生成AI活用とグループワーク/ビジネス交流会&nbsp;7月12日(土曜日)講師による講義(",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057926/1060315.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057926/1060315.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2025-06-30"
   },
   {
    "date": "2025-07-12",
@@ -732,7 +1477,19 @@
    "title": "宝塚自然の家イベント(7月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!エビ&小魚すくい(7月12日、20日 10時~12時半)生き物に触れて遊んで、お昼はカレーを食べよう!(2)にしたに野菜のバーベキュー(7月13日、26日 11",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057900/1060548.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057900/1060548.html",
+   "target": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-12",
@@ -740,7 +1497,15 @@
    "title": "令和7年7月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "各公民館、西谷会館",
    "desc": "テーマについて参加者と市長が語り合います。7月のテーマは「ひとりひとりにやさしい、ささえあいのまち宝塚について」です。申し込みは不要ですので、当日会場までお越しください。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057926/1060247.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057926/1060247.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-13",
@@ -748,7 +1513,15 @@
    "title": "文化芸術センターにて「たからの市イベントに併せたダリア装飾イベント」を開催します",
    "place": "宝塚市立文化芸術センター",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1060430.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1060430.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-13",
@@ -756,7 +1529,15 @@
    "title": "宝塚歌謡選手権",
    "place": "アピアホール",
    "desc": "本年も「宝塚歌謡選手権2025」を開催します。歌謡曲、シャンソン、アニメ・ミュージカル・宝塚歌劇ソングを中心とする様々な楽曲を出場者の方々が披露します。ぜひ会場で観覧・応援ください",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1060490.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1060490.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-25",
@@ -764,7 +1545,15 @@
    "title": "【終了しました】第7回 つながりカフェTaCoLAB",
    "place": "アピア北3Fコープ内レストスペース",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1060573.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1060573.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-26",
@@ -772,7 +1561,15 @@
    "title": "夏の鋳造(ちゅうぞう)体験講座",
    "place": "7月26日(土曜日)西公民館 造形室7月29日(火曜日)中央図書館 集会室8月1日(金曜日)文化芸術センター キューブホール8月4日(月曜日)中央公民館 203・204学習室8月6日(水曜日)東公民館 造形室",
    "desc": "低い温度で溶ける合金(低融点合金)を鋳型に流して古代の青銅器のミニチュアを作ります。弥生時代の「銅鐸(どうたく)」・「銅鏃(どうぞく)」、古墳時代の「銅鏡(どうきょう)」、古代のお",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057913/1060417.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057913/1060417.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-26",
@@ -780,7 +1577,15 @@
    "title": "宝塚ベガ音楽コンクール1位入賞記念演奏会 ベガ・ウィナーズコンサート",
    "place": "",
    "desc": "2024年6月に開催された宝塚ベガ音楽コンクールの1位入賞記念演奏会。出演は森永冬香 (ピアノ)、山田知加(ソプラノ)、友田航太郎(ファゴット)。託児サービスがあります。7月15日",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057913/1059895.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057913/1059895.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-27",
@@ -788,7 +1593,15 @@
    "title": "第16回 健康まつり(主催:宝塚医療生活協同組合)",
    "place": "宝塚市立中央公民館",
    "desc": "展示ブースミニゲームコーナー健康チェックセミナーコーナー&nbsp;詳細は、健康まつり実行委員会(宝塚医療生活協同組合)へお問い合わせください。電話番号 0797-69-6121",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057858/1060432.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057858/1060432.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-07-31",
@@ -796,7 +1609,15 @@
    "title": "ゆめ広場ふれあい夏まつり",
    "place": "宝塚ゆめ広場一帯",
    "desc": "ステージでは千吉踊りやフラダンス・タップダンスなどを行います。本部では、枝豆や焼き鳥なども販売していますよ。一夜限りの夏の時間を一緒に楽しみましょう!&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057900/1060071.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057900/1060071.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-08-01",
@@ -804,7 +1625,15 @@
    "title": "子ども人権ミュージカル",
    "place": "",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/kyoikuiinkai/1002552/1012182/1012185.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/kyoikuiinkai/1002552/1012182/1012185.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-07-15"
   },
   {
    "date": "2025-08-01",
@@ -812,7 +1641,15 @@
    "title": "令和7年8月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "各公民館、西谷会館",
    "desc": "テーマについて参加者と市長が語り合います。8月のテーマは「建て替えがせまる宝塚市立病院の未来について」です。申し込みは不要ですので、当日会場までお越しください。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057927/1060319.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057927/1060319.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-08-02",
@@ -820,7 +1657,15 @@
    "title": "かんたん牛乳パックでホイッスルつくり&ホットケーキdeデコ防災食作ろう!",
    "place": "市立中央公民館(レクルームD・調理室)",
    "desc": "災害時に役立つホイッスルをエコ環境のため牛乳パックで作る工作と、災害時でも元気を出してもらうための工夫した防災食の紹介",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1060666.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1060666.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-07-29"
   },
   {
    "date": "2025-08-06",
@@ -828,7 +1673,15 @@
    "title": "千僧駐屯地盆踊り大会",
    "place": "陸上自衛隊 千僧駐屯地(伊丹市広畑1-1)",
    "desc": "駐屯地南側グラウンドを一般開放して、売店を多数出店します、皆様のご来場をお待ちしております。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057901/1060877.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057901/1060877.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-08-08",
@@ -836,7 +1689,16 @@
    "title": "【観光大使サファイア】出張!ソーマトロープワークショップ",
    "place": "兵庫県立美術館 ギャラリー棟 3階ギャラリー(神戸市中央区脇浜海岸通1-1-1)",
    "desc": "手塚キャラクターが描かれたソーマトロープの台紙に色を塗り、輪ゴムをつけて完成です。事前の申込みは不要ですので、お気軽にお越しください。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1028490/1043069/1053362.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1028490/1043069/1053362.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-08-16",
@@ -844,7 +1706,21 @@
    "title": "宝塚自然の家イベント(8月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)夕涼み会~きもだめしと小さな縁日~(8月16日(土曜日)17時~19時30分(雨天中止)) 昔ながらのちょっぴりドキドキなきもだめしや、かき氷・軽食などが楽しめる、小さな縁日",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057901/1060853.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057901/1060853.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-08-21",
@@ -852,7 +1728,15 @@
    "title": "【終了しました】第8回 つながりカフェTaCoLAB",
    "place": "まちかど農園POSTo3Fフリースペース住所:宝塚市野上1丁目1-8※3Fまでのアクセスは階段のみとなっております。",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1060577.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1060577.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-09-07",
@@ -860,7 +1744,21 @@
    "title": "宝塚自然の家イベント(9月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!エビ&小魚すくい(9月7日(日曜日)10時~12時30分(小雨決行、雨天中止)(2)にしたに先生!竹筒ごはん作り(9月27日(土曜日)10時~12時30分(小雨",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057902/1061050.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057902/1061050.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-09-27",
@@ -868,7 +1766,15 @@
    "title": "令和7年度「保育士として働くための講座」(令和7年9月27日(土曜日)10時~12時)",
    "place": "宝塚市立中央公民館 203.204会議室(宝塚市末広町3番53号)[令和7年度「保育士として働くための講座」(令和7年9月27日(土曜日)10時~12時)]",
    "desc": "保育士のお仕事に興味がある方、保育士として働くことを考えていらっしゃる方を対象に、保育士の専門性や保育士としての心得、保育士の役割等について学ぶ研修会を開催します。近々又は、来年度",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1036222/1036896.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1036222/1036896.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-09-26"
   },
   {
    "date": "2025-09-28",
@@ -876,7 +1782,15 @@
    "title": "令和7年度阪神くすの木学級宝塚教室",
    "place": "9/28 宝塚市立東公民館10/19 文化芸術センター、手塚治虫記念館11/30 宝塚市立中央公民館",
    "desc": "阪神くすの木学級は、聴覚・言語に障碍のある方を対象に、日常生活に役立つ知識や技能を習得したり、教養を高めたりするとともに、多くの人たちとの交流を通して、相互に理解を深め、仲間づくり",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/1061570/1051518/1060854.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/1061570/1051518/1060854.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-08-29"
   },
   {
    "date": "2025-09-29",
@@ -884,7 +1798,15 @@
    "title": "令和7年度阪神青い鳥学級三田教室",
    "place": "9月29日(月曜日) 三田市総合文化センター(郷の音ホール)11月14日(金曜日) 三田市ガラス工芸館12月11日(木曜日) 兵庫県立人と自然の博物館集合場所:JR宝塚駅 ※マイクロバスで会場に向かいます。集合時間:各日とも8時45分集合し9時00分出発",
    "desc": "【第1回】開講式、音楽鑑賞会(マリンバ奏者 多田 駿介)、落語鑑賞【第2回】ガラス細工体験【第3回】博物館体験(アンモナイトづくり、ミュージアムボックス、自由観覧)、閉講式&nbs",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/1061570/1051518/1060855.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/1061570/1051518/1060855.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-08-20"
   },
   {
    "date": "2025-09-29",
@@ -892,7 +1814,15 @@
    "title": "終活講座「遺言・相続・終活にまつわる賢い選択」(令和7年度の募集は終了しました)",
    "place": "ピピアめふ1 5階会議室宝塚市売布2丁目5番1号 阪急宝塚線「売布神社駅」下車 南に徒歩1分",
    "desc": "自ら考え行動する賢い消費者となるために。消費生活センター主催の消費生活講座。遺言・相続・終活に必要な手続きや費用について、人生最後の大イベントで失敗しないために今しておくことは?講",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057941/1046515.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057941/1046515.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-09-12"
   },
   {
    "date": "2025-09-30",
@@ -900,7 +1830,15 @@
    "title": "【終了しました】第9回 つながりカフェTaCoLAB",
    "place": "ピピアめふ 2Fフリースペース",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061213.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061213.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-03",
@@ -908,7 +1846,16 @@
    "title": "秋の鋳造(ちゅうぞう)体験講座",
    "place": "10月3日(金曜日)西公民館 造形室10月5日(日曜日)中央公民館 203・204学習室10月6日(月曜日)中央図書館 集会室",
    "desc": "低い温度で溶ける合金(低融点合金)を鋳型に流して古代の青銅器のミニチュアを作ります。弥生時代の「銅鐸(どうたく)」・「銅鏃(どうぞく)」、古墳時代の「銅鏡(どうきょう)」、古代のお",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1060913.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1060913.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-04",
@@ -916,7 +1863,15 @@
    "title": "サンドイッチとコーヒーのすすめ",
    "place": "宝塚料理店",
    "desc": "TOBERAと宝塚料理店が「お月見」をイメージしたサンドイッチやコーヒーなどを販売します。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1061241.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1061241.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-05",
@@ -924,7 +1879,15 @@
    "title": "村野藤吾建築の魅力とガイドツアー",
    "place": "カトリック宝塚教会",
    "desc": "京都工芸繊維大学准教授の笠原一人さん案内で、宝塚市ゆかりの建築家「村野藤吾」の作品である宝塚市庁舎とカトリック宝塚教会を解説付きで巡ります。市内に残る歴史的建造物にご興味がある方は",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057903/1060665.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057903/1060665.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-05",
@@ -932,7 +1895,15 @@
    "title": "【参加者募集】講演会「野鳥を通して自然を考える」",
    "place": "宝塚市立南口会館(サンビオラ5番館3階)",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057942/1060934.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057942/1060934.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-09",
@@ -940,7 +1911,15 @@
    "title": "令和7年度たからづか学校応援団 第1回ボランティア研修会",
    "place": "第二庁舎1階 会議室A・B",
    "desc": "たからっ子総合相談センター「あのね」職員の講演やグループ交流を通して、地域の子どもとの関わり方について日頃のお悩みを共有します。【タイムテーブル】10時00分~10時10分:開会、",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057929/1060874.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057929/1060874.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-10-08"
   },
   {
    "date": "2025-10-10",
@@ -948,7 +1927,16 @@
    "title": "第143回宝塚植木まつりを開催します! (第64回兵庫県・宝塚観賞植物品評会も同時開催)",
    "place": "山本新池公園(阪急宝塚線山本駅より徒歩5分)※開催期間中、会場周辺は混雑いたします。ご来場には公共交通機関の利用をお勧めします※自動車をご利用の方は、あいあいパーク駐車場(1時間超は有料)、または山本園芸流通センター臨時駐車場(無料)をご利用ください。あいあいパーク駐車場は会場内(山本新池公園内に限る)で1店舗1,000円以上のお買い上げで合計2時間まで無料となります",
    "desc": "植木やお花の展示販売市内の花き植木業者が大集合して、こだわりの品を販売します!お店の雰囲気や取扱商品もお店によってさまざまですぜひ会場内をぐるっと回ってみてください&nbsp; お",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1047479.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1047479.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-11",
@@ -956,7 +1944,16 @@
    "title": "第143回宝塚植木まつりにて、寄せ植え体験会を開催します!",
    "place": "宝塚植木まつり会場内 イベントブースにて(山本新池公園 ※阪急山本駅から徒歩5分程度)",
    "desc": "1.指定する用土と鉢で寄せ植えを作成いただきます。&nbsp;2.花材は会場内で販売している商品をご使用ください。 ※会場内で花材購入用の引換券(2,000円分)をお渡しします。 ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1057082.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1057082.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-09-15"
   },
   {
    "date": "2025-10-13",
@@ -964,7 +1961,21 @@
    "title": "宝塚スポーツフェスティバル",
    "place": "メインアリーナほか",
    "desc": "「スポーツの日は、スポセンへ集まれ!!」市立スポーツセンターにて、「宝塚スポーツフェスティバル」を開催いたします。野球やバスケットボールのほか、アーチェリー初心者の方でも楽しめる「",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1061281.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1061281.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "category": [
+    "1",
+    "2",
+    "10"
+   ],
+   "application": false,
+   "deadline": "2025-10-10"
   },
   {
    "date": "2025-10-13",
@@ -972,7 +1983,17 @@
    "title": "新体力測定",
    "place": "メインアリーナ",
    "desc": "【実施種目】 20歳から64歳まで 握力 上体起こし 長座体前屈 反復横とび 急歩 20mシャトルラン 立ち幅とび ※20歳以下の方についても同種目を実施いたしますが、参考記録とな",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1047845.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1047845.html",
+   "target": [
+    "2",
+    "3",
+    "4"
+   ],
+   "category": [
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-13",
@@ -980,7 +2001,16 @@
    "title": "宝塚植木まつりで「ダリアフラワーアレンジメント体験会」を開催します!",
    "place": "山本新池公園 宝塚植木まつり会場内(山本東3丁目)",
    "desc": "宝塚市花「ダリア」を使ったフラワーアレンジメントを作成し、お持ち帰りいただくことができます。ぜひ、たくさんの方の申込をお待ちしています!",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1028284.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1017467/1045252/1028284.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-09-15"
   },
   {
    "date": "2025-10-15",
@@ -988,7 +2018,15 @@
    "title": "(10/15)シニアワークフェア",
    "place": "",
    "desc": "6社(午前3社・午後3社)が参加予定の、予約不要の就職面接会です。 その場で企業の採用担当者と面接ができます。 相談だけの参加も可能です。&nbsp;【参加予定企業】 午前・新明和",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1059112.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1059112.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-15",
@@ -996,7 +2034,15 @@
    "title": "阪急沿線まちがたり「タンサンと湯のまちのルーツを辿る」",
    "place": "",
    "desc": "阪急交通社の人気添乗員である園田 昌代さんが、海外添乗日数約4,000日の中で得た様々な経験や情報から、宝塚と世界の炭酸水・温泉事情を比較して、「タンサンと湯のまち宝塚」のルーツを",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1061046.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1061046.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-10-08"
   },
   {
    "date": "2025-10-19",
@@ -1004,7 +2050,16 @@
    "title": "古民家であそぼ!~絵本の読み聞かせ・伝承あそび体験~",
    "place": "市立歴史民俗資料館 旧和田家住宅(宝塚市米谷1丁目8番25号)[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "宝塚市で最も古い住宅である旧和田家住宅。古民家ならではのゆったりとした空間で、図書館司書による読み聞かせや、昔から伝わるあそびを体験しませんか?手あそび、わらべ唄、折り紙、トントン",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1060989.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1060989.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-10-17"
   },
   {
    "date": "2025-10-23",
@@ -1012,7 +2067,15 @@
    "title": "【終了しました】第10回 つながりカフェTaCoLAB",
    "place": "まちのつどいば ここぉる住所:宝塚市鶴の荘19-15",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061215.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061215.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-24",
@@ -1020,7 +2083,15 @@
    "title": "宝塚ランタン2025",
    "place": "宝塚市立文化芸術センター(みんなの広場)",
    "desc": "【タイムスケジュール】 午後4時~午後6時 受付 午後5時30分~午後6時40分 ランタン引渡時間 午後7時頃 ランタン一斉リリース 午後7時30分 終了予定 &nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1054283.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1054283.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-25",
@@ -1028,7 +2099,15 @@
    "title": "ソリオ宝塚にて「秋のダリアアート」を開催します",
    "place": "ソリオ宝塚 メインプラザ周辺(宝塚市栄町2丁目1-1)",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1030273.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1030273.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-25",
@@ -1036,7 +2115,15 @@
    "title": "古民家で聴く和楽器",
    "place": "市立歴史民俗資料館 旧和田家住宅(宝塚市米谷1丁目8番25号)[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "宝塚市で最も古い住宅である旧和田家住宅。古民家ならではのゆったりとした空間で、和の音色に親しみませんか?",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1061004.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1061004.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-10-24"
   },
   {
    "date": "2025-10-25",
@@ -1044,7 +2131,15 @@
    "title": "こうみんかん宵まちコンサート 歌謡レビュー 乾杯タカラヅカCity!",
    "place": "中央公民館",
    "desc": "月1回、第4土曜日の宵待ち時間、誰もが気軽に鑑賞できる無料コンサート。今月は宝塚を題材に昭和時代を描くレビューショー。&nbsp;出演者:さくらさくらカンパニー 〇申込不要(当日会",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1061219.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057916/1061219.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-10-29",
@@ -1052,7 +2147,15 @@
    "title": "クレジットカードの仕組みと賢い使い方講座",
    "place": "ピピアめふ1 5階会議室宝塚市売布2丁目5番1号阪急宝塚線「売布神社駅」下車 南に徒歩1分",
    "desc": "自ら考え行動する賢い消費者となるために。消費生活センター主催の消費生活講座。クレジットカードの仕組みやメリット、利用時の注意点などについて、クレジットに関する知識の専門家「クレカウ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057942/1060876.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057942/1060876.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-10-17"
   },
   {
    "date": "2025-10-31",
@@ -1060,7 +2163,15 @@
    "title": "ジャパンコーヒーフェスティバル2025 in宝塚",
    "place": "宝塚市立文化芸術センター、宝塚市立手塚治虫記念館、花のみち・さくら橋公園",
    "desc": "▶宝塚市国際観光協会SNS(Instagram・X)をフォローして、ハッシュタグ「#ジャパンコーヒーフェスティバル2025宝塚」をつけて投稿すると、イベント会場(観光PRブース)で",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1052976.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1052976.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-01",
@@ -1068,7 +2179,15 @@
    "title": "中央・西公民館まつり",
    "place": "中央・西公民館",
    "desc": "公民館登録グループが日ごろの活動成果を発表します。絵画や陶芸、工作品などの作品展示のほか、合唱やダンス、日本舞踊などの実技発表を行います。囲碁対局や小物づくり、手話などの体験コーナ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061218.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061218.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-01",
@@ -1076,7 +2195,15 @@
    "title": "子どもいけばな体験",
    "place": "国登録有形文化財旧山田家住宅(宝塚市南口2丁目12-37)",
    "desc": "国登録有形文化財旧山田家で日本の伝統文化である「いけばな」を体験しませんか?先生が丁寧に教えてくれますので、初めての方も安心してご参加ください。いけたお花はお持ち帰りいただけます♪",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061002.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061002.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-10-21"
   },
   {
    "date": "2025-11-02",
@@ -1084,7 +2211,15 @@
    "title": "「いい歯の日」イベントのお知らせ",
    "place": "中央図書館2階ホール(阪急清荒神駅下車すぐ)",
    "desc": "無料歯科健診・相談、往診相談、矯正相談、歯みがき指導、栄養指導、歯医者さんに変身コーナー、歯によい食べ物の展示他☆来館者の方には、歯ブラシ、歯みがき粉などのプレゼントがあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057871/1061252.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1057840/1057871/1061252.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-07",
@@ -1092,7 +2227,15 @@
    "title": "税に関する作品の展示をします(会場:アピア1)",
    "place": "",
    "desc": "アピア1 2階ふれあい広場にて、市内の小・中・高校生の税に関する作文や書道作品等の展示を実施します。※同展示は、下記施設でも実施します。&nbsp;&nbsp; 施設:宝塚市立文化",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061704.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061704.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-07",
@@ -1100,7 +2243,15 @@
    "title": "国登録有形文化財旧山田家住宅 一般公開(解説付き見学追加募集中)",
    "place": "国登録有形文化財旧山田家住宅(宝塚市南口2丁目12-37)",
    "desc": "通常は公開していない国登録有形文化財旧山田家住宅を一般公開します。各日、午前11時から午後4時まで予約不要で自由見学ができます。お気軽にお越しください。同日に解説付き見学も実施しま",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061001.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061001.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-08",
@@ -1108,7 +2259,15 @@
    "title": "アピア1・2名店会にて「秋のダリアフェス」を開催します",
    "place": "アピア1 2階「ふれあい広場」内",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1061000.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1045248/1061000.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-08",
@@ -1116,7 +2275,15 @@
    "title": "11月8日開催「第28回人形劇フェスタ宝塚」の動画を市公式YouTubeにアップしました",
    "place": "宝塚市売布東の町12-83階大会議室",
    "desc": "市内で活動するグループや小学生、高校生、大学生が、人形劇や手遊びなどをします。プログラムの詳細は、添付ファイルのチラシをご覧ください。※広報たからづか10月号にも掲載しています。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057891/1014225.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057891/1014225.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2025-10-06"
   },
   {
    "date": "2025-11-08",
@@ -1124,7 +2291,21 @@
    "title": "宝塚自然の家イベント(11月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!たるころがしとにしたにカレー(11月8日(土曜日)10時~12時30分(小雨決行、雨天中止)(2)にしたに先生!紙ヒコーキ飛ばしとにしたにカレー(11月23日(",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061497.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061497.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-09",
@@ -1132,7 +2313,21 @@
    "title": "ごはんフェス",
    "place": "宝塚市立宝塚自然の家",
    "desc": "5月~10月に開催した農業体験イベント「100人お米づくりプロジェクト」で、参加者の皆さんが育てた西谷のお米を味わえます。新米ご飯のほか、地元食材を使ったおかずを販売。米測りゲーム",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061498.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061498.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-09",
@@ -1140,7 +2335,15 @@
    "title": "令和7年11月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "中央・西公民館、西谷会館、ピピアめふ1",
    "desc": "テーマについて参加者と市長が語り合います。11月のテーマは「行財政改革について(令和7年中に方向性を出すことを検討している事業について)」です。申し込みは不要ですので、当日会場まで",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057930/1060973.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000042/1057919/1057930/1060973.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-14",
@@ -1148,7 +2351,15 @@
    "title": "税に関する作品の展示をします(会場:宝塚市立文化芸術センター)",
    "place": "",
    "desc": "宝塚市立文化芸術センター 1階ライブラリーにて、市内の小・中・高校生の税に関する作文や書道作品等の展示を実施します。※同展示は、下記施設でも実施します。&nbsp;&nbsp; 施",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061702.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061702.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-15",
@@ -1156,7 +2367,16 @@
    "title": "読書会 in 旧山田家住宅「宮沢賢治」",
    "place": "旧山田家住宅(国登録有形文化財)住所:宝塚市南口2丁目12-37",
    "desc": "大正時代の民家でゆったり読書会をしませんか大正10年に建築された近代和風住宅で、宮沢 賢治(みやざわ けんじ)の作品を語りませんか。童話・詩・短歌などどんな作品でも大丈夫です。(本",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061502.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061502.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-20",
@@ -1164,7 +2384,16 @@
    "title": "フラワーアレンジメント",
    "place": "中央公民館",
    "desc": "造花を使ったオリジナルフラワーアレンジメント。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061220.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061220.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-22",
@@ -1172,7 +2401,15 @@
    "title": "きずきの森の仲間たち展",
    "place": "雲雀滝山荘(雲雀丘2丁目4-25)(阪急宝塚線雲雀丘花屋敷駅徒歩10分)",
    "desc": "保全作業ボランティアきずな会のメンバーによる動植物の写真、バードカービングなどと一緒にカヤネズミの巣などを展示。小さな木工細工も体験いただけます。※申し込み不要",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061061.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057904/1061061.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-26",
@@ -1180,7 +2417,15 @@
    "title": "第1回 消費者力パワーアップ講座 「最近の葬儀サービスとお墓事情を知る~葬儀サービス・お墓をめぐる消費者トラブル~」",
    "place": "ピピアめふ1 5階会議室宝塚市売布2丁目5番1号 阪急宝塚線「売布神社駅」下車 南に徒歩1分",
    "desc": "消費者トラブルから身を守るための知識を学ぶ講座「死」を迎える環境が変わる中、お葬式のこと、お墓のこと、トラブルを避けるために知っておきたいことは?",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057943/1061131.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057943/1061131.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-14"
   },
   {
    "date": "2025-11-30",
@@ -1188,7 +2433,15 @@
    "title": "西谷収穫祭を開催します",
    "place": "西谷ふれあい夢プラザ",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061601/1043599/1061288.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061601/1043599/1061288.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-30",
@@ -1196,7 +2449,15 @@
    "title": "素盞嗚神社(高司)本殿・相殿 特別公開",
    "place": "素盞嗚神社(すさのおじんじゃ)住所:宝塚市高司2丁目14-6",
    "desc": "県指定重要有形文化財 素盞嗚神社(高司)の本殿と相殿2棟の修理が完了しました&nbsp;素盞嗚神社は、高司2丁目(旧:蔵人村(くらんどむら))の住宅街の一角にある緑豊かな社叢に包ま",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061166.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1057906/1057917/1061166.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-11-30",
@@ -1204,7 +2465,15 @@
    "title": "第15回 武庫川流域圏ネットワーク活動報告会",
    "place": "ピピアめふ5階 会議室",
    "desc": "ミニシンポジウム「武庫川流域でのオオキンケイギクの駆除を考える」(基調講演1題、報告4件)および一般公演(2題)。詳細は添付のプログラム参照。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057943/1061732.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057943/1061732.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-29"
   },
   {
    "date": "2025-12-03",
@@ -1212,7 +2481,15 @@
    "title": "第2回 消費者力パワーアップ講座 「旅行の前に知っておきたい!ネット予約の注意点」",
    "place": "ピピアめふ1 5階会議室宝塚市売布2丁目5番1号 阪急宝塚線「売布神社駅」下車 南に徒歩1分",
    "desc": "消費者トラブルから身を守るための知識を学ぶ講座いつでもどこでもネットで旅行の予約ができる時代。でも、知らないとトラブルになることもあるんです。旅行のネット予約で注意するポイントを学",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1061138.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1061138.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-21"
   },
   {
    "date": "2025-12-06",
@@ -1220,7 +2497,16 @@
    "title": "誰しもが使いやすい避難所へ~障がい者の方と一緒に考える避難所バリアフリーデザイン",
    "place": "宝塚市総合福祉センター 3階大ホール",
    "desc": "防災講和+避難所運営HUGゲーム、防災展示",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1061470.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1061470.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-20"
   },
   {
    "date": "2025-12-07",
@@ -1228,7 +2514,15 @@
    "title": "たからづか市民環境フォーラム2025を開催します",
    "place": "宝塚市立中央公民館ホール",
    "desc": "(1)開会あいさつ(2)環境啓発ポスター表彰式(3)環境衛生実践功労者表彰式(4)市内環境保全団体による活動発表(5)講演「昆虫たちから自然環境のことを教えてもらう」 講師:昆虫ハ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1043480.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1043480.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-28"
   },
   {
    "date": "2025-12-10",
@@ -1236,7 +2530,15 @@
    "title": "第3回 消費者力パワーアップ講座「クーリング・オフについての基礎知識」",
    "place": "ピピアめふ1 5階会議室宝塚市売布2丁目5番1号 阪急宝塚線「売布神社駅」下車 南に徒歩1分",
    "desc": "消費者トラブルから身を守るための知識を学ぶ講座クーリング・オフは、一定期間内であれば無条件で契約の申し込みを撤回したり、契約を解除したりできる制度です。でも、通信販売や店舗購入には",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1061145.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1057932/1057944/1061145.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2025-11-28"
   },
   {
    "date": "2025-12-16",
@@ -1244,7 +2546,15 @@
    "title": "【終了しました】第11回 つながりカフェTaCoLAB",
    "place": "まちかど農園POSTo 3Fフリースペース住所:宝塚市野上1丁目1-8",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061679.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061679.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2025-12-21",
@@ -1252,7 +2562,21 @@
    "title": "宝塚自然の家イベント(12月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)里山の冬支度~しめ縄作り~(12月21日(日曜日)13時~15時30分)(2)里山の冬支度~かがみ餅作り~(12月27日(土曜日)10時30分~13時)&nbsp;&nbsp",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057905/1061894.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057905/1061894.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-11",
@@ -1260,7 +2584,15 @@
    "title": "令和8年宝塚市消防出初式を開催します",
    "place": "式典(宝塚市中央公民館ホール) 車両展示(末広中央公園内) 一斉放水(武庫川河川敷※観覧場所は末広中央公園側)",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/1008153/1008918/1039818/1057716.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/1008153/1008918/1039818/1057716.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-11",
@@ -1268,7 +2600,15 @@
    "title": "令和8年1月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "西谷中学校・西公民館・教育総合センター・ピピアめふ1",
    "desc": "テーマについて参加者と市長が語り合います。1月のテーマは「公立学校園では日本初!西谷地区で国際バカロレア(IB)教育を通した幼稚園から中学校まで一貫した探究型学習の取組へ」です。申",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061808/1062135.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061808/1062135.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-12",
@@ -1276,7 +2616,21 @@
    "title": "宝塚自然の家イベント(1月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)大とんどとお餅つき(1月12日(月祝)13時~15時)(2)里山の冬の暮らし~味噌作り~(1月17日(土曜日)11時~12時半)&nbsp;&nbsp;&nbsp;&nbsp",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1062243.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1062243.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-16",
@@ -1284,7 +2638,15 @@
    "title": "1.17たからづかシェイクアウト一斉訓練",
    "place": "各自の場所で",
    "desc": "令和8年1月16日(金曜日)午前10時に、安心メールやYahoo!防災速報アプリ、エフエム宝塚、コスモキャストで訓練実施の合図をします。その場で約1分間、安全確保行動「DROP(ま",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1004620/1049575.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1004620/1049575.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-01-30"
   },
   {
    "date": "2026-01-16",
@@ -1292,7 +2654,15 @@
    "title": "宝塚「生(せい)」の祈り2026(阪神・淡路大震災追悼ライトアップ)",
    "place": "(1)「生」石積みオブジェのライトアップ..武庫川河川内(宝塚観光ダム直下中洲)(2)「生」金属製モニュメントのライトアップ..宝塚大橋南詰西側(いずれも、阪急宝塚南口駅下車北へすぐ)※(1)については、宝塚大橋から上流側に向かってご覧ください。※下記、添付ファイルの実施場所位置図をご参照ください。",
    "desc": "【主催者からのメッセージ】未曾有の大災害、阪神・淡路大震災から31年目を迎えます。はたして街やひとの心は再生されたのでしょうか。わが街、宝塚市も119名(※1)の尊い命が犠牲となり",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061808/1062249.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061808/1062249.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-16",
@@ -1300,7 +2670,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061940/1062214.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061940/1062214.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-17",
@@ -1308,7 +2686,15 @@
    "title": "阪神・淡路大震災追悼行事",
    "place": "ゆずり葉緑地",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013225/1011510/1001475/1027876.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013225/1011510/1001475/1027876.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-18",
@@ -1316,7 +2702,15 @@
    "title": "令和7年度第2回『歯の無料健診と相談』のお知らせ",
    "place": "口腔保健相談センター(逆瀬川1丁目13番1号 アピア3-2階)",
    "desc": "口腔内診査、歯および口腔に関する相談・指導",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061940/1062212.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061940/1062212.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-01-23"
   },
   {
    "date": "2026-01-22",
@@ -1324,7 +2718,15 @@
    "title": "(1/22)宝塚市就職フェア",
    "place": "",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058595.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058595.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-22",
@@ -1332,7 +2734,15 @@
    "title": "【終了しました】第12回 つながりカフェTaCoLAB",
    "place": "ピピアめふ 2Fフリースペース",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061680.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1061680.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-01-25",
@@ -1340,7 +2750,16 @@
    "title": "〈申込終了〉宝塚歌劇 青少年向け2階席市民貸切公演",
    "place": "宝塚大劇場",
    "desc": "【宝塚大劇場 星組公演】≪主演≫暁 千星(あかつき ちせい)、詩 ちづる(うた ちづる)ビート・シアター『恋する天動説』-The Wand'rin' Stars-作・演出/大野 拓",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1047880.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1047880.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2025-12-09"
   },
   {
    "date": "2026-01-25",
@@ -1348,7 +2767,15 @@
    "title": "ガールスカウト 体験集会",
    "place": "中央公民館",
    "desc": "ゲームやクラフトを通じてガールスカウトの体験をします。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1062231.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061805/1062231.html",
+   "target": [
+    "1"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-01-24"
   },
   {
    "date": "2026-02-01",
@@ -1356,7 +2783,15 @@
    "title": "宝塚市消防署 隊員 阪神淡路大震災未来へ繋ぐ展示",
    "place": "(市立中央公民館)",
    "desc": "・宝塚市消防署拝借 写真パネル(阪神淡路大震災)展示・防災併発のための資料配布+啓発有・市民からの質問~宝塚市消防署隊員アンケート掲示・宝塚市民からの2026一言年メッセージ掲示・",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1062433.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1062433.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-03",
@@ -1364,7 +2799,15 @@
    "title": "(2/3)シニア世代向け就職支援セミナー",
    "place": "宝塚市栄町2-1-2 ソリオ2 4階",
    "desc": "シニア世代の就職状況 自己理解を深める 履歴書や職務経歴書作成のポイント 面接マナーの確認(模擬面接も実施予定)※雇用保険受給中の方は就職活動の実績になります。【申し込み方法】宝塚",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058588.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058588.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-04",
@@ -1372,7 +2815,15 @@
    "title": "たからづか学校応援団ボランティア研修会",
    "place": "中央公民館 1階ホール[中央公民館 施設概要]",
    "desc": "たからづか学校応援団は市立学校園からの依頼に基づき、できることを無理のない範囲でお手伝いいただく無償のボランティアです。学校応援団の様々な活動について知っていただくイベントです。タ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062465.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062465.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-03"
   },
   {
    "date": "2026-02-07",
@@ -1380,7 +2831,15 @@
    "title": "まちを楽しくするまちづくりワークショップ",
    "place": "第4回 宝塚文化創造館(宝塚市武庫川町6番12号)",
    "desc": "武庫川河川敷などの公共空間(宝塚駅から宝塚南口駅)を活用して、一人一人の「やってみたい」を実現するためのワークショップ。「マルシェをしたい」「たき火をしたい」「音楽イベントをしたい",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1061127.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1061127.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-07",
@@ -1388,7 +2847,15 @@
    "title": "【参加者募集中!】公開講座「サクラの移植とその後の管理技術について」",
    "place": "",
    "desc": "「サクラの移植とその後の管理技術について」をテーマとした講演 「櫻守の会のヤマザクラの育成」の紹介",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061809/1047327.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061809/1047327.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-01-31"
   },
   {
    "date": "2026-02-07",
@@ -1396,7 +2863,15 @@
    "title": "「第13回 宝塚医療福祉市民フォーラム」を開催します",
    "place": "宝塚ホテル 2階「琥珀」",
    "desc": "演題「宝塚市における医療・介護福祉行政の展望」手話通訳・要約筆記あり&nbsp;【受付開始日】12月1日(月曜日)から予約申し込みは、市医師会へ。(電話 0797-86-1114 ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1061982.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1061982.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-08",
@@ -1404,7 +2879,15 @@
    "title": "第27回宝塚「田村麻呂杯」弓道大会",
    "place": "山本綜合園芸流通センター 特設遠的射場",
    "desc": "9時30分 開会式 9時45分 矢渡し10時00分 競技開始(学生)13時15分 競技開始(一般)15時46分 閉会式※進行状況により多少の変更が生じる可能性があります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1049642.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1049642.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-08",
@@ -1412,7 +2895,16 @@
    "title": "令和8年2月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "総合福祉センター、ぷらざこむ1、西公民館、西谷会館",
    "desc": "テーマについて参加者と市長が語り合います。2月のテーマは「地域共生社会の実現に向けて ~宝塚福祉コミュニティプラザを、すべての人が集い交流し、多様性を認め合う福祉の拠点に~」です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061809/1062428.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061809/1062428.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-16",
@@ -1420,7 +2912,15 @@
    "title": "【2月9日まで募集中】1歳児きらきら子育て講座(3回連続講座)",
    "place": "【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85-3862)",
    "desc": "大学と共催の講座です。講話と参加者同士の意見交換を通して、心・ことばなどの発達について学び、1歳の子どもの理解を深めましょう。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061798/1011763.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061798/1011763.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-09"
   },
   {
    "date": "2026-02-19",
@@ -1428,7 +2928,15 @@
    "title": "ちょっとスペシャルな妊婦さん講座(管理栄養士)(1回単独講座)",
    "place": "子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "管理栄養士による妊娠期から離乳食を見越した食事や栄養のお話。※広報たからづか2月号23ページにも掲載しています",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1011550.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1011550.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-16"
   },
   {
    "date": "2026-02-20",
@@ -1436,7 +2944,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1062516.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1062516.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-22",
@@ -1444,7 +2960,15 @@
    "title": "外国人のための「日本文化を楽しむ会」What&#39;s Noh?",
    "place": "こくさいぶんかセンター国際・文化センター(阪急宝塚南口駅下車すぐ サンビオラ1番館3F)Takarazuka International and Cultural Center(3rd floor of Sunviola 1-bankan, located right next to Takarazuka-Minamiguchi Sta, Hankyu Railway Imazu Line)",
    "desc": "能とは何か?ちょっとのぞいてみませんか?中野洋介氏が日本の伝統文化の魅力についてお話します。参加された人に著書「Noh 5 scripts in English」のプレゼントがあり",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061821/1062294.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061821/1062294.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-23",
@@ -1452,7 +2976,15 @@
    "title": "子ども会~親子で楽しく学ぼう災~防災まちあるき2025in宝塚市",
    "place": "203・204学習室",
    "desc": "地域の大人や子どもたちが、防災・減災の視点で自分たちが住むまち・施設を見て歩き、新たな発見を通して、災害に強いまちやそこでの暮らし方を住民の立場で考えます。また、防災食の試食や明石",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1060669.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013224/1027363/1060669.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-16"
   },
   {
    "date": "2026-02-23",
@@ -1460,7 +2992,15 @@
    "title": "ピピアめふ公益施設「第29回こども将棋大会」",
    "place": "ピピアめふ公益施設 6階和風ホール他",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062049.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062049.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-25",
@@ -1468,7 +3008,15 @@
    "title": "令和7年度第2回市民教養講座を開催します",
    "place": "宝塚市立中央公民館(阪急逆瀬川駅徒歩12分)",
    "desc": "高市政権と日本の政治の行方",
-   "url": "https://www.city.takarazuka.hyogo.jp/senkan/senkankeihatsu/1021770.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/senkan/senkankeihatsu/1021770.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-26",
@@ -1476,7 +3024,15 @@
    "title": "【終了しました】第13回 つながりカフェTaCoLAB",
    "place": "まちかど農園POSTo 3Fフリースペース住所:宝塚市野上1丁目1-8",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062580.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062580.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-02-28",
@@ -1484,7 +3040,15 @@
    "title": "市民歯の健康講座",
    "place": "西公民館2階ホール",
    "desc": "「のばそう健康寿命」~オーラルフレイル予防で、健口から健康に!~人生100年時代と言われる現代、健康で長生き出来る ゙ヒント ゙を歯科的な観点からお話しします。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1062520.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061939/1062520.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-02-27"
   },
   {
    "date": "2026-03-05",
@@ -1492,7 +3056,16 @@
    "title": "令和7年度宝塚市自殺対策強化月間講演会を開催します",
    "place": "宝塚市立中央公民館ホール",
    "desc": "講演内容 今年度の講演会は、日本自殺予防学会理事である阪中 順子氏をお招きし「子どものいのちを守るために私たちができること」と題し、ご講演いただきます。【プロフィール】公立小中学校",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/jisatsuyobo/1049693.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/jisatsuyobo/1049693.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-27"
   },
   {
    "date": "2026-03-06",
@@ -1500,7 +3073,15 @@
    "title": "「コスト削減ができる!会社と地球を変える経営セミナー」を開催します",
    "place": "市立中央公民館 2階 203・204学習室 →1階ホールに変更となりました※ご来場には公共交通機関をご利用ください",
    "desc": "宝塚市は、2050年ゼロカーボンシティを表明し、脱炭素化の実現を目指しています。その取組の一環として、市内事業者向けに「脱炭素」や「脱炭素経営」について、まずは知ってもらい、「脱炭",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061913/1062260.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061913/1062260.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2026-03-02"
   },
   {
    "date": "2026-03-11",
@@ -1508,7 +3089,15 @@
    "title": "「令和7年度 宝塚市 市民文化賞・市民スポーツ賞・すみれ賞」の受賞者を決定しました。",
    "place": "市立中央公民館ホール",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/1060720/1061627/1044729.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/1060720/1061627/1044729.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-03-15",
@@ -1516,7 +3105,15 @@
    "title": "第43回 武庫川河川敷お掃除会の開催について(武庫川流域圏ネットワーク)",
    "place": "仁川合流点周辺の武庫川河川敷と水辺※集合場所は仁川国際霊園南側にある歩道橋の東側(報徳学園の北側)アクセス方法...仁川駅から川沿い下流へ徒歩20分、または阪急バス「仁川口橋」「田近野」より徒歩5分",
    "desc": "河川敷と水辺におけるごみ拾い、オオキンケイギク駆除",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1019780.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1019780.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-03-14"
   },
   {
    "date": "2026-03-15",
@@ -1524,7 +3121,15 @@
    "title": "古民家で聴く落語",
    "place": "宝塚市立歴史民俗資料館 旧和田家住宅[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "旧和田家住宅は約300年前に建てられた、市内で現存する最も古い邸宅の1つです。古民家ならではの趣ある空間で落語を楽しむイベントです。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062498.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062498.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-03-10"
   },
   {
    "date": "2026-03-16",
@@ -1532,7 +3137,15 @@
    "title": "【終了しました】第14回 つながりカフェTaCoLAB",
    "place": "まちのつどいば ここぉる住所:宝塚市鶴の荘19-15",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062581.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062581.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-03-22",
@@ -1540,7 +3153,21 @@
    "title": "宝塚自然の家イベント(3月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!竹の弓矢当て&にしたにカレー(3月22日(日曜日)10時~12時(雨天中止))(2)ギフチョウ観察会(3月28日(土曜日)10時、13時(各1時間30分))&n",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061803/1062708.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061803/1062708.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-03-22",
@@ -1548,7 +3175,15 @@
    "title": "多文化交流ひろば 「タンゴ探訪・体験 Vol.2」",
    "place": "国際・文化センター",
    "desc": "昨年に続く第2弾イベント!! 一緒に音楽を感じ、体験しながら奥深いタンゴの世界を覗いてみませんか?本場ブエノスアイレスのアルゼンチンタンゴを踊りましょう!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062449.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062449.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-03-25",
@@ -1556,7 +3191,15 @@
    "title": "春の鋳造体験講座",
    "place": "3月25日(水曜日)中央公民館3月26日(木曜日)西公民館3月31日(火曜日)中央図書館鋳造体験に関する詳しい情報は下記リンク先をご参照ください。",
    "desc": "低い温度で溶ける合金(低融点合金)をIHコンロで溶かして鋳型に流し込み、古代の青銅器のミニチュアを作ります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062507.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062507.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-03-31"
   },
   {
    "date": "2026-03-27",
@@ -1564,7 +3207,15 @@
    "title": "阪神競馬場で子ども無料招待イベントを開催します",
    "place": "JRA阪神競馬場(宝塚市駒の町1-1)※東門よりご入場ください。 車で来場する場合は、東門の無料駐車場をご利用いただけます。",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061803/1058413.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061803/1058413.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-11"
   },
   {
    "date": "2026-03-27",
@@ -1572,7 +3223,15 @@
    "title": "Quest Camp 2026 in 神戸",
    "place": "神戸市立自然の家",
    "desc": "中学生を対象としたキャリア教育プログラム。自分を知り、探求すること、先輩との交流、国際交流、企業からの課題に挑戦、社会見学、地域を超えた同年代の交流の6つを軸としてプログラムを行い",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062326.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061804/1062326.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-02-13"
   },
   {
    "date": "2026-03-28",
@@ -1580,7 +3239,15 @@
    "title": "古民家で茶道をやってみよう!",
    "place": "宝塚市立歴史民俗資料館 旧和田家住宅[宝塚市立歴史民俗資料館 旧和田家住宅]",
    "desc": "旧和田家住宅は約300年前に建てられた、市内で現存する最も古い邸宅の1つです。古民家ならではの趣ある空間で茶道を楽しむイベントです。初心者の方も安心してご参加いただけます。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062500.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061822/1062500.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-03-27"
   },
   {
    "date": "2026-03-29",
@@ -1588,7 +3255,15 @@
    "title": "Artisun&#39;s Garden",
    "place": "山本新池公園・あいあいパーク",
    "desc": "植木の街宝塚の山本から始まる新しい1日。さまざまな作り手が丁寧に作った雑貨やこだわりのフードを満喫できるマーケット。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1062615.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1062615.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-01",
@@ -1596,7 +3271,16 @@
    "title": "成福院のヘタっ子お茶会",
    "place": "成福院",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1061412.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1061412.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-01",
@@ -1604,7 +3288,15 @@
    "title": "視覚障碍者生活訓練の受講者を募集しています",
    "place": "自宅訪問",
    "desc": "日常生活動作訓練(身辺処理、家事、居室内での立ち居動作の基本から) 歩行訓練(白杖を使用しての単独歩行訓練) コミュニケーション訓練(点字の読み書きの基本、音声パソコンの操作等) ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1015661.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1015661.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2027-03-31"
   },
   {
    "date": "2026-04-03",
@@ -1612,7 +3304,15 @@
    "title": "福祉のお仕事探しを応援します!",
    "place": "宝塚市総合福祉センター[市総合福祉センター(社会福祉協議会)]",
    "desc": "資格や経験のない方、ブランクのある方など、どなたでもご相談ください。介護、障碍、児童など、様々な分野の福祉のお仕事に関する情報提供や、資格取得に関するアドバイスも行います。次の4つ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/boshu/1061631/1057269.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/boshu/1061631/1057269.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-03",
@@ -1620,7 +3320,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061938/1062637.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061938/1062637.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-05",
@@ -1628,7 +3336,15 @@
    "title": "JR福知山線廃線敷ハイキング(4月)",
    "place": "武田尾廃線敷",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055604.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055604.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-03-31"
   },
   {
    "date": "2026-04-05",
@@ -1636,7 +3352,15 @@
    "title": "Mothers talk",
    "place": "福井・亀井自治会館4月5日(日曜日)、8月2日(日曜日)、12月6日(日曜日)は美幸会館",
    "desc": "子育て中のママ・パパの居場所と遊び場子育てイベントと子ども食堂",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062806.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062806.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-05",
@@ -1644,7 +3368,15 @@
    "title": "坐禅を楽しむ坐禅塾",
    "place": "さらら仁川南館3階集会所",
    "desc": "毎週日曜日に坐禅会を開催自宅でできる継続的で合理的な瞑想法としての坐禅。誰でも易しく坐れる坐禅を実施(イス禅も有)。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1062295.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1062295.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-07",
@@ -1652,7 +3384,15 @@
    "title": "イズミヤショッピングセンター小林で開催 大人の体力測定会・加圧サイクル®トレーニング体験会",
    "place": "イズミヤショッピングセンター小林 1階催事場",
    "desc": "大人の体力測定会のメニューは、握力測定、長座体前屈、片足開眼立ち、椅子立ち上がりです。1人10分程度で測定できます。加圧サイクル®トレーニング体験会は、加圧バンドを腕に着用し、簡単",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/1061588/kenko/1062130.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/1061588/kenko/1062130.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-10",
@@ -1660,7 +3400,15 @@
    "title": "かみしばいワクワク安倉(コープ安倉開催)",
    "place": "コープ安倉1階",
    "desc": "四季折々のテーマの紙芝居。紙芝居は、語りと対話を通して参加者同士が感じ、考え、共有する参加型コミュニケーション活動です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062650.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062650.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-11",
@@ -1668,7 +3416,15 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【御殿山児童館】",
    "place": "【開催場所】御殿山児童館【申し込み・問い合わせ】御殿山児童館(電話:0797-85-5155)へ。[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子ふれあいあそび、フリートーク等を通しての仲間作り。専門職からのアドバイスもあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1011493.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1011493.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-11",
@@ -1676,7 +3432,17 @@
    "title": "令和8年4月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "西公民館、西谷会館、中央公民館、東公民館",
    "desc": "テーマについて参加者と市長が語り合います。4月のテーマは「持続可能な子育て・教育にかかる助成のあり方について(学童保育、私立保育所助成、乳幼児・こども医療費助成、学校給食、母子保健",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1062821.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1062821.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-11",
@@ -1684,7 +3450,16 @@
    "title": "知的障碍者(児)親子体操教室",
    "place": "毎月第2土曜日13時~14時に開催します。※3月のみ第1土曜日となっていますので、ご注意ください。月によってスポーツセンター内の実施場所が変わります。詳しくは下記の年間予定表をご確認ください。",
    "desc": "スポーツ推進員によるボール遊びやボッチャなどを月替わりで実施",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1061914/1062996.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1061914/1062996.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "1",
+    "10"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-12",
@@ -1692,7 +3467,15 @@
    "title": "【参加者募集】野鳥の観察(2026年4月)",
    "place": "4月12日→甲山森林公園4月26日→大阪城公園",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1055599.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061811/1055599.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-13",
@@ -1700,7 +3483,16 @@
    "title": "令和8年度「夢のかけはしクラブ」参加者募集(大型児童センター)",
    "place": "大型児童センター(電話:0797-85-3861・ファクス:0797-85-3882)[じどうかんだより]",
    "desc": "&nbsp; 日程 時間 人数 対象者 全8回分の参加費 囲碁 毎月第2土曜日(全8回) 開始日:6月13日(土曜日)から 午後1時30分から3時まで 20人 小学1年生から高校3",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1056214.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1056214.html",
+   "target": [
+    "2",
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-04-30"
   },
   {
    "date": "2026-04-15",
@@ -1708,7 +3500,15 @@
    "title": "令和8年度どうぶつ絵本読み聞かせ会",
    "place": "兵庫県動物愛護センター 愛護館ライブラリー",
    "desc": "どうぶつ絵本の読み聞かせ会パネルシアター簡単なクラフト",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060714/1061610/shiiku/1026407/1030726.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060714/1061610/shiiku/1026407/1030726.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-17",
@@ -1716,7 +3516,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061937/1062991.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061937/1062991.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-19",
@@ -1724,7 +3532,21 @@
    "title": "宝塚自然の家イベント(4月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)にしたに先生!大八車体験とにしたにカレー(2)春の野草を知って食べよう!&nbsp;&nbsp;&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062997.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062997.html",
+   "target": [
+    "6",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-20",
@@ -1732,7 +3554,15 @@
    "title": "たからづか子ども食堂(総合福祉センター開催)",
    "place": "宝塚市総合福祉センター[市総合福祉センター(社会福祉協議会)]",
    "desc": "平成28年(2016年)10月から毎月2回、宝塚市総合福祉センターにて市内の子どもと保護者を対象にした子ども食堂を開催しています。家庭の事情で孤食の子どもたちに手作りの食事と居場所",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1036209.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1036209.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-20",
@@ -1740,7 +3570,15 @@
    "title": "かみしばいワクワク安倉(総合福祉センター開催)",
    "place": "宝塚市総合福祉センター 2階教養娯楽室",
    "desc": "四季折々のテーマの紙芝居。紙芝居は、語りと対話を通して参加者同士が感じ、考え、共有する参加型コミュニケーション活動です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062651.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062651.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-24",
@@ -1748,7 +3586,15 @@
    "title": "【終了しました】第15回 つながりカフェTaCoLAB",
    "place": "まちかど農園POSTo3Fフリースペース住所:宝塚市野上1丁目1-8",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062947.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062947.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-24",
@@ -1756,7 +3602,15 @@
    "title": "みんなのほっこり食堂",
    "place": "宝塚市立くらんど人権文化センター",
    "desc": "月1回夕方に子どもも大人もどなたでも参加できる食事会です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062795.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062795.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2027-03-20"
   },
   {
    "date": "2026-04-25",
@@ -1764,7 +3618,15 @@
    "title": "令和8年度開園情報(宝塚市立長谷牡丹園)",
    "place": "宝塚市立長谷牡丹園",
    "desc": "開園期間:4月25日(土曜日)~5月20日(水曜日)",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1043598/1028664.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060711/1061602/1043598/1028664.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-25",
@@ -1772,7 +3634,15 @@
    "title": "わたしをすくうエッセイマンガの処方箋展",
    "place": "京都国際マンガミュージアム2階 ギャラリー1・2・3",
    "desc": "今日、SNSを中心に多様な広がりを見せるエッセイマンガ。描かれていないテーマはもはや皆無なのではと思うほど膨大かつ多彩です。エッセイマンガは、なぜこんなに人気なのでしょうか?そもそ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1062782.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1062782.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-25",
@@ -1780,7 +3650,15 @@
    "title": "たからづか子ども食堂(まいたに人権文化センター開催)",
    "place": "まいたに人権文化センター[まいたに人権文化センター]",
    "desc": "市内の子どもと保護者を対象にした子ども食堂を開催しています。家庭の事情で孤食の子どもたちに手作りの食事と居場所を提供しています。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1049215.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1049215.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-25",
@@ -1788,7 +3666,15 @@
    "title": "外国人のための日本語教室 Japanese classes for foreign residents",
    "place": "・場所(ばしょ):くらんど人権文化センター(くらんどじんけんぶんかセンター) Place:Kurand Jinken Bunka Center・住所(じゅうしょ):宝塚市中野町22番19号(たからづかし なかのちょう 22-19) address:22-19 Nakano-cho, Takarazuka-shi",
    "desc": "・日(ひ):土曜日(どようび) ※年末年始、8月、祝日、第5土曜日は休み Day of week:Saturdays ※except for Dec 28th-Jan 3rd, A",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061823/1060162.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061823/1060162.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-04-25",
@@ -1796,7 +3682,15 @@
    "title": "文化創造館すみれミュージアム企画展「宝塚歌劇を彩る魔法~小道具・大道具の世界~」",
    "place": "",
    "desc": "宝塚歌劇の華やかな舞台を彩ってきた小道具・大道具を実物と写真で紹介。舞台美術の奥深さや職人の技術とともに、こだわり抜かれた「タカラヅカらしさ」をお伝えします。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061823/1062952.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061823/1062952.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-02",
@@ -1804,7 +3698,15 @@
    "title": "みんなで乗ろう!ドクターイエローロードトレイン",
    "place": "ソリオ1 GFメインプラザ",
    "desc": "ドクターイエローロードトレインは、時間帯によって別ルートで館内を走行します。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1059962.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000040/1057893/1057898/1059962.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-02",
@@ -1812,7 +3714,16 @@
    "title": "原作出版80周年 きかんしゃトーマスの世界展 はたらく機関車たちのおはなし",
    "place": "文化芸術センター 2階メインギャラリー",
    "desc": "シリーズの原点となる絵本の原画、テレビアニメーション撮影用の模型など、貴重な資料の数々を展示します。展覧会場でしか手に入らないオリジナルグッズもお見逃しなく!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1062609.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1062609.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-09",
@@ -1820,7 +3731,18 @@
    "title": "KIDSフェスinたからづか",
    "place": "中央公民館・末広中央公園",
    "desc": "親子ミニ四駆工作教室&予選会・ミニ四駆チャレンジカップ ミニ四駆販売&フリー走行コース同時設置 まち健 まちかど健康フェス いろいろな運動にチャレンジ こども縁日 コープこうべの宅",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063313.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063313.html",
+   "target": [
+    "1",
+    "2",
+    "3"
+   ],
+   "category": [
+    "1",
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-09",
@@ -1828,7 +3750,15 @@
    "title": "“STワールド” がいこくにルーツのある子どもたちのためのがくしゅうルーム ST World - Study room for the children who have roots in foreign countries",
    "place": "ばしょ:くらんど人権文化センター(くらんどじんけんぶんかせんたー)宝塚市中野町22番19号(たからづかし なかのちょう 22-19)",
    "desc": "がいこくにルーツのあるこどもたちに、にほんごのせんせいやだいがくせいが、がっこうのしゅくだいやべんきょうのおてつだいをしたり、にほんごをおしえたりします。いっしょにたのしくべんきょ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1060151.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1060151.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-10",
@@ -1836,7 +3766,15 @@
    "title": "JR福知山線廃線敷ハイキング(5月)",
    "place": "武田尾廃線敷",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055865.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1055865.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-04-30"
   },
   {
    "date": "2026-05-10",
@@ -1844,7 +3782,15 @@
    "title": "【参加者募集】野鳥の観察(2026年5月)",
    "place": "5月10日→道場・塩田八幡宮コース5月24日→妙見・初谷渓谷",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1055600.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1055600.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-11",
@@ -1852,7 +3798,16 @@
    "title": "令和8年5月「市民と市長の対話ひろば~もりりんと語ろう、宝塚市の未来~」",
    "place": "西公民館、西谷会館、東公民館、文化創造館",
    "desc": "テーマについて参加者と市長が語り合います。5月のテーマは「文化芸術センター(たからば)・手塚治虫記念館周辺のにぎわいづくり」です。申し込みは不要ですので、当日会場までお越しください",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1063263.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1063263.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-14",
@@ -1860,7 +3815,15 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【安倉児童館】",
    "place": "【開催場所】安倉児童館(安倉南1丁目2-1)【申し込み・問い合わせ先】安倉児童館(電話:0797-86-1762)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "初めての子育てで困っていることはありませんか?親子ふれあい遊び、フリートーク等を通しての仲間作り。助産師・栄養士からのアドバイスもあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011488.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011488.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-09"
   },
   {
    "date": "2026-05-15",
@@ -1868,7 +3831,15 @@
    "title": "国登録有形文化財旧山田家住宅 一般公開",
    "place": "国登録有形文化財旧山田家住宅(宝塚市南口2丁目12-37)",
    "desc": "通常は公開していない国登録有形文化財旧山田家住宅を一般公開します。各日、午前11時から午後4時まで予約不要で自由見学ができます。会期中は解説付き見学(要申込)や宝塚市手工芸協会によ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1062953.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1062953.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-15",
@@ -1876,7 +3847,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061936/1063294.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061936/1063294.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-16",
@@ -1884,7 +3863,16 @@
    "title": "第1回ECO講座「オオキンケイギク駆除大作戦!」開催しました",
    "place": "逆瀬川中流(宝塚市逆瀬川2丁目あたり)に現地集合(実施場所で職員が立っています)",
    "desc": "9:30~ 講義(駆除する場所で講義を行います)9:40~ 駆除開始指導 宝塚市自然保護協会",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062793.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062793.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-05-29"
   },
   {
    "date": "2026-05-17",
@@ -1892,7 +3880,15 @@
    "title": "ひらりんタカラヅカフェスティバル",
    "place": "平林寺、宝寿院、西光院、成就院、小林会館",
    "desc": "ベイゴマ、ダーツ、お琴の無料体験。他に射的、輪投げ、お茶席、占い、落語など。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063278.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063278.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-20",
@@ -1900,7 +3896,15 @@
    "title": "わくわく保護者会",
    "place": "JR・阪急宝塚駅下車すぐの「ソリオ2」4階※専用駐車場がないので、公共交通機関か、近隣の有料駐車場をご利用ください。",
    "desc": "不登校の子どもを持つ保護者が集い、子どもの心を理解するとともに、互いに励まし合う会。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/1060720/1061626/soshiki/1001495/1001509/1058390.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/1060720/1061626/soshiki/1001495/1001509/1058390.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-13"
   },
   {
    "date": "2026-05-20",
@@ -1908,7 +3912,15 @@
    "title": "(5/20)女性のための就職支援セミナー",
    "place": "",
    "desc": "就職活動の進め方や職種の選び方 応募書類作成や面接対策のポイントなど※雇用保険受給中の方は就職活動の実績になります。&nbsp;【申し込み方法】電話:0797-77-2071二次元",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058593.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060684/1060712/1009617/1045294/1058593.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-22",
@@ -1916,7 +3928,15 @@
    "title": "※締め切りました。憲法週間記念事業「劇場版 心の傷を癒すということ」上映会&講演会",
    "place": "中央公民館 ホール",
    "desc": "5月3日の憲法記念日を中心とした5月1日から7日までの1週間を「憲法週間」としており、憲法週間を記念して、映画「劇場版 心の傷を癒すということ」上映会及び映画の主人公である安克昌さ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062858.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062858.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-23",
@@ -1924,7 +3944,16 @@
    "title": "ハッピースマイル2026",
    "place": "五月山 他(プログラムにより異なる)",
    "desc": "登山や野外炊飯など野外活動",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063251.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063251.html",
+   "target": [
+    "2"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2027-02-21"
   },
   {
    "date": "2026-05-23",
@@ -1932,7 +3961,15 @@
    "title": "ウエルみんな食堂",
    "place": "仁川ウエル保育園",
    "desc": "温かい食事を食べ、安心して楽しく過ごせる場を提供する地域食堂です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063178.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1063178.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2027-01-15"
   },
   {
    "date": "2026-05-23",
@@ -1940,7 +3977,15 @@
    "title": "なるほど!“産前・産後”あかちゃん講座~臨床心理士と学ぶ親子のきずなづくり~(2回連続講座)",
    "place": "【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "臨床心理士によるお話。(1)温かい親子関係をつくるコツ(2)赤ちゃんの心理学(3)産後のパパ・ママの役割",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011553.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011553.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-18"
   },
   {
    "date": "2026-05-26",
@@ -1948,7 +3993,15 @@
    "title": "一時保育付き 子育てをひと休み 読書の時間",
    "place": "",
    "desc": "子育て、仕事に追われて本を読む時間が無い方へ、お子さんを保育に預けて、ゆっくり読書をしませんか。センターの情報コーナーから好きな本、雑誌、漫画を選びゆっくり読んでいただけます。★一",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1062927.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1062927.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-27",
@@ -1956,7 +4009,15 @@
    "title": "【終了しました】第16回 つながりカフェTaCoLAB",
    "place": "ピピアめふ2Fフリースペース",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062948.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1062948.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-27",
@@ -1964,7 +4025,15 @@
    "title": "ちょっとスペシャルな妊婦さん講座(1回単独講座)【助産師】",
    "place": "【開催場所】フレミラ宝塚【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "助産師が、衣類選びなど出産準備や出産期の過ごし方についてアドバイスします。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011552.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011552.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-22"
   },
   {
    "date": "2026-05-29",
@@ -1972,7 +4041,15 @@
    "title": "【定員に達した為、申し込み締め切りました】お母さんのための骨盤ケア~産後ママの骨盤体操~",
    "place": "【開催場所】フレミラ宝塚【申し込み・問合わせ】子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "バランスボールで子どもと一緒に体を動かしながら産後の心身のケアをしましょう。参加者同士の子育ての情報交換や交流もあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057891/1053349.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057891/1053349.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-22"
   },
   {
    "date": "2026-05-29",
@@ -1980,7 +4057,15 @@
    "title": "こもたのひろば~あつまれ!0・1・2才さん!~",
    "place": "",
    "desc": "ハイハイレース、親子遊び、大型絵本の読み聞かせなど。&nbsp;&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1043045.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1043045.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-30",
@@ -1988,7 +4073,15 @@
    "title": "神戸レインボーフェスタ2026",
    "place": "神戸メリケンパーク(兵庫県神戸市中央区波止場町2)",
    "desc": "セクシュアル・マイノリティの存在に対する社会の認知を広め、自らの”性”について考えるきっかけを作るイベント。ブース出展・ステージ出演などを通して各々の活動を周知・交流する。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1063298.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1063298.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-05-30",
@@ -1996,7 +4089,15 @@
    "title": "第1回アフタヌーンコンサート",
    "place": "東公民館",
    "desc": "吹奏楽による演奏会。演奏曲はWe Are Confidence Man、昭和歌謡メドレー、ファミリーアニメコレクションほか。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1063193.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061824/1063193.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-01",
@@ -2004,7 +4105,15 @@
    "title": "宝塚ユース保健室(子ども・若者の健康相談)を開設しています",
    "place": "宝塚市立男女共同参画センター・エル",
    "desc": "子ども・若者が性や体の悩み、生活の悩みを無料相談できます(申込不要)。からだ:不調・悩み性:月経・妊娠・性自認こころ:ストレス・不眠・心配人間関係:友達・家族・学校・仕事 「病院に",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062169.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061802/1062169.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-02",
@@ -2012,7 +4121,15 @@
    "title": "親子ふれあい講座~イヤイヤ期をうまくのりこえよう~(4回連続講座)【山本山手子ども館】",
    "place": "【開催場所】山本山手子ども館【申し込み・問い合わせ】山本山手子ども館(電話・ファクス:0797-89-3322)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子遊び、グループワークを通して子どもの自己主張と向き合うヒントを見つけましょう。大学と共同開発した「親育ち支援プログラム」を基にした講座です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011559.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011559.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-25"
   },
   {
    "date": "2026-06-02",
@@ -2020,7 +4137,16 @@
    "title": "2026宝塚市民カレッジ",
    "place": "中央・東・西公民館",
    "desc": "コース一覧・西洋近代絵画を楽しむコース・CDとレコードで楽しむ洋楽ヒットコレクション・韓国の豆知識で韓国の旅を楽しめるコース・英語を身近に楽しもうコース・花と緑の魅力コース・政治、",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1062670.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1062670.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-04-09"
   },
   {
    "date": "2026-06-03",
@@ -2028,7 +4154,15 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【くらんど人権文化センター・わかくさ保育所】",
    "place": "【申し込み・問い合わせ】地域子育て支援センターすこやか(わかくさ保育所内)(電話:0797-73-1133・ファクス:0797-77-3096)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子ふれあい遊び、フリートークなどを通しての仲間づくり、助産師・調理員からのアドバイス、簡単なおもちゃ作り、離乳食の試食もあります。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011513.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011513.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-27"
   },
   {
    "date": "2026-06-06",
@@ -2036,7 +4170,15 @@
    "title": "宝塚バル2026",
    "place": "10地域(阪急電鉄市内全駅界隈)",
    "desc": "クーポンがついたマップ付ガイドマップを持って市内の様々な飲食店を巡ってみよう!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063609.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063609.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-06",
@@ -2044,7 +4186,15 @@
    "title": "おひとり様の老後対策セミナー",
    "place": "男女共同参画センター (阪急宝塚駅前 ソリオ2 4階 学習交流室)なお、各開催日の交流室番号についてはお問い合わせください。",
    "desc": "相続、遺言、任意後見、死後事務の手続きなど誰もが気になる老後に関するセミナーを開催します。セミナー終了後質疑応答もあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1022158.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1022158.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-06",
@@ -2052,7 +4202,15 @@
    "title": "水道週間 小浜浄水場施設見学会 6/6 ~きれいな水道水ができるまで~ ※多くの方々のご来場ありがとうございました!",
    "place": "小浜浄水場(住所:小浜3丁目5-20 電話:84-5535)",
    "desc": "県や市、各市の水道事業者などは、毎年6月1日~6月7日を「水道週間」と定め、水道について理解と関心を高める取り組みを行っています。宝塚市上下水道局では、この期間にあわせて小浜浄水場",
-   "url": "https://www.city.takarazuka.hyogo.jp/suido/1062732/1062739/1051652.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/suido/1062732/1062739/1051652.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-07",
@@ -2060,7 +4218,15 @@
    "title": "男女共同参画スタディーズ 「人として人とともに社会を考える」",
    "place": "",
    "desc": "違いや分断、差別や孤立を越えた共生社会のあり方を考える、ジェンダーの基礎講座。1回でも参加可。★一時保育あり(1歳以上の未就学児 先着10人、5/29(金曜日)までに要予約)",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1061893.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1061893.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-09",
@@ -2068,7 +4234,15 @@
    "title": "【6月2日まで募集中】幼児期から学齢期の知っとこ!セミナー(3回連続講座)",
    "place": "【開催場所】フレミラ宝塚【申し込み・問い合わせ】子ども家庭支援センター(フレミラ宝塚内)売布東の町12-8(阪急売布神社駅・中山観音駅徒歩10分)電話:0797-85-3862[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "幼児期や学齢期に入って、子どもとの距離を感じていませんか?「聞きたい!話したい!」そんなあなたのための講座です。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011764.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011764.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-06-02"
   },
   {
    "date": "2026-06-09",
@@ -2076,7 +4250,15 @@
    "title": "親子ふれあい講座~イヤイヤ期をうまくのりこえよう~(4回連続講座)【野上児童館】",
    "place": "【開催場所】野上児童館【申し込み・問い合わせ】野上児童館(電話・ファクス:0797-76-4501)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子遊び、グループワークを通して子どもの自己主張と向き合うヒントを見つけましょう。大学と共同開発した「親育ち支援プログラム」を基にした講座です。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011561.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011561.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-05-23"
   },
   {
    "date": "2026-06-13",
@@ -2084,7 +4266,16 @@
    "title": "令和8年度「たからづか私立保育園就職フェア」",
    "place": "第一回就職フェア(6月13日)宝塚市立中央公民館1階 ホール(宝塚市末広町3番53号)第二回就職フェア(8月8日)宝塚市西公民館2階ホール(宝塚市小林2丁目7-30)",
    "desc": "保育士として働くことを考えていらっしゃる方に、市内の私立保育園をよりよく知っていただくため、宝塚市と宝塚私立保育園連盟、ほいくーる兵庫県保育士・保育所支援センターの共催で開催します",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1036222/1036224.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1036222/1036224.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-13",
@@ -2092,7 +4283,16 @@
    "title": "宝塚景色×芝ヨガ@武庫川右岸河川敷",
    "place": "武庫川河川敷右岸広場 宝塚歌劇場対岸",
    "desc": "朝日が昇る早朝の美しい宝塚の景色心地よい気温と芝の香りの中、ヨガで体を動かし清々しい1日を体験しましょう申し込みは不要です",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1063536.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1063536.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-14",
@@ -2100,7 +4300,15 @@
    "title": "第44回 武庫川河川敷お掃除会の開催について(武庫川流域圏ネットワーク)",
    "place": "仁川合流点周辺の武庫川河川敷と水辺※集合場所は仁川国際霊園南側にある歩道橋の東側(報徳学園の北側)アクセス方法...仁川駅から川沿い下流へ徒歩20分、または阪急バス「仁川口橋」「田近野」より徒歩5分",
    "desc": "河川敷と水辺におけるごみ拾い、オオキンケイギク駆除",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063691.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063691.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-06-13"
   },
   {
    "date": "2026-06-14",
@@ -2108,7 +4316,15 @@
    "title": "【参加者募集】野鳥の観察(2026年6月)",
    "place": "6/14:新三田~福島大池・有馬富士公園コース6/28:三田~新三田コース",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1054900.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1054900.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-14",
@@ -2116,7 +4332,15 @@
    "title": "令和8年度第1回『歯の無料健診と相談』のお知らせ",
    "place": "口腔保健相談センター(逆瀬川1丁目13番1号 アピア3-2階)",
    "desc": "口腔内診査、歯および口腔に関する相談・指導",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063549.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063549.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-06-19"
   },
   {
    "date": "2026-06-16",
@@ -2124,7 +4348,15 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【米谷保育所】",
    "place": "【開催場所】米谷保育所【申し込み・問合わせ】地域子育て支援センターすくすく(米谷保育所内)(電話:0797-84-0063)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子ふれあい遊び、フリートークなどを通しての仲間作り。助産師・調理員からのアドバイス、簡単なおもちゃ作り・離乳食の試食もあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011463.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011463.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-19",
@@ -2132,7 +4364,15 @@
    "title": "オトナの食育講座",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/chuo/event/25139/"
+   "url": "https://www.takarazuka-kominkan.jp/chuo/event/25139/",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-06-10"
   },
   {
    "date": "2026-06-19",
@@ -2140,7 +4380,15 @@
    "title": "市民のためのオルガンコンサート~光と色の世界へ~",
    "place": "",
    "desc": "フランスのオルガン音楽は、バロックの時代からロマン派、さらに近現代へと広がります。さまざまな光と色を求めた作曲家たちの世界をお楽しみ下さい。L.ボエルマン:ゴシック組曲L.ヴィエル",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062606.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062606.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-19",
@@ -2148,7 +4396,15 @@
    "title": "歯科保健相談",
    "place": "口腔保健相談センター※逆瀬川1丁目13番1号(アピア3内2階)",
    "desc": "歯の健診と相談",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063541.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063541.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-20",
@@ -2156,7 +4412,16 @@
    "title": "ファミリーサポートセンター「子どもの送迎などを手助けしてくれる人を募集」6月開催の無料講座参加者を募集します",
    "place": "【申し込み・問い合わせ】ファミリー宝塚市ファミリーサポートセンター(電話:0797-85-4535)日曜・祝日は除く。[ファミリーサポートセンター(育児)]",
    "desc": "子育てのお手伝いをしてみませんか?【ファミリーサポートセンター無料講座】ファミリーサポートセンターは、子育て世帯など「子育ての手助けをして欲しい人」と「空いた時間でお手伝いをしたい",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1026334.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1026334.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-20",
@@ -2164,7 +4429,15 @@
    "title": "RE:PEACE マルシェ",
    "place": "宝塚市立文化芸術センター",
    "desc": "RE:PEACE marche は、地域のものづくり作家・アーティスト・パフォーマーが集まり、みんなで「人とモノと、自然と。\"未来につながる今をつくる\"」をコンセプトにしたマルシェ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063498.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063498.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-20",
@@ -2172,7 +4445,18 @@
    "title": "宝塚自然の家イベント(6月)",
    "place": "宝塚市立宝塚自然の家",
    "desc": "(1)野外で食育~竹筒ご飯&ところ天作り~(10時~13時30分)※小雨決行子どもたちが主役となって、竹筒でごはんを焚いて、ところてんも作ってみましょう!竹を切るところから始め、火",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063559.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063559.html",
+   "target": [
+    "1",
+    "2",
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-21",
@@ -2180,7 +4464,16 @@
    "title": "6月の絵本を使って手話を学ぼう!「絵本で楽しむ手話の世界」を開催します。",
    "place": "宝塚市立西図書館 1階 集会室 住所 :宝塚市小林2-7-30 でんわ :0797-77-1222 ファクス:0797-77-2199",
    "desc": "絵本を使って手話を学ぶ「絵本で楽しむ手話の世界」を開催します。絵本に出てくる「ことば」の手話を、直接ろう者から教えていただいたり、表現してみたりします。絵本を通して手話に親しむ、手",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060705/1021420/1044061.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060705/1021420/1044061.html",
+   "target": [
+    "6",
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-21",
@@ -2188,7 +4481,15 @@
    "title": "たからづか市民ふれあい大会",
    "place": "総合体育館メインアリーナ",
    "desc": "たからづか市民ふれあい大会(ボッチャ・カローリング)を開催します。グループ参加はもちろん、即席チームを作りますので、お一人でも参加可能です。お申し込みは、電子申請のみです。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1041827.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060710/1061599/1021829/1041827.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "10"
+   ],
+   "application": false,
+   "deadline": "2026-06-15"
   },
   {
    "date": "2026-06-21",
@@ -2196,7 +4497,15 @@
    "title": "第11回宝塚きづな亭桂三語落語会",
    "place": "宝塚市中山寺会館",
    "desc": "宝塚市民の方々に落語を楽しんでいただけたらと思います。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063418.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063418.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-06-20"
   },
   {
    "date": "2026-06-21",
@@ -2204,7 +4513,15 @@
    "title": "能登を応援します。チャリティーコンサート",
    "place": "ピピアめふ",
    "desc": "宝塚アンサンブルによるチャリティーコンサートです。アメージンググレイスや春の声/ヨハンシュトラウス2.など",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063044.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063044.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-21",
@@ -2212,7 +4529,16 @@
    "title": "声で効果音!?電車アニメに面白い音をつけてみよう",
    "place": "文化芸術センター",
    "desc": "電車が走る時、どんな音がしたら面白いかな? 電車アニメに、みんなで面白い音をつけてみよう。ひとり一人の声で効果音を作るワークショップです。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063166.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063166.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-22",
@@ -2220,7 +4546,16 @@
    "title": "6月の手話による読み聞かせ「手話で楽しむ絵本の世界」を開催します。",
    "place": "宝塚市立中央図書館 2階 集会室 住所 :宝塚市清荒神1-2-18 でんわ :0797-84-6121 ファクス:0797-81-0598",
    "desc": "「手話で楽しむ絵本の世界」子どもたちだけでなく、大人のろう者の皆さんにも、本に触れ本のおもしろさを皆さんとご一緒に感じる、楽しい時間にしたいと思っています。手話に興味のある方、手話",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060705/1021420/1028252.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060705/1021420/1028252.html",
+   "target": [
+    "6",
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-22",
@@ -2228,7 +4563,15 @@
    "title": "ちょっとスペシャルな妊婦さん講座~管理栄養士~(1回単独講座)",
    "place": "【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85‐3862)売布東の町12-8(阪急売布神社駅・中山観音駅徒歩10分)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "管理栄養士による出産準備や過ごし方のお話。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011545.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1011545.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-06-17"
   },
   {
    "date": "2026-06-24",
@@ -2236,7 +4579,15 @@
    "title": "第17回 つながりカフェTaCoLAB",
    "place": "まちかど農園POSTo 3Fフリースペース(宝塚市野上1丁目1-8)",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1063686.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1063686.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-25",
@@ -2244,7 +4595,15 @@
    "title": "【6月22日まで募集中!】もぐもぐかみかみタイム(2回連続講座)",
    "place": "【開催場所】フレミラ宝塚【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "管理栄養士や作業療法士による幼児食に向けてのアドバイス。保育士による親子遊び、参加者同士の交流もあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1026337.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1026337.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-06-22"
   },
   {
    "date": "2026-06-25",
@@ -2252,7 +4611,15 @@
    "title": "宝塚美術協会展2026",
    "place": "国際・文化センター",
    "desc": "宝塚美術協会会員による絵画、彫刻、立体造形などの作品展示。※当日会場へ直接お越しください。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062894.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062894.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-25",
@@ -2260,7 +4627,15 @@
    "title": "健康大学講座",
    "place": "宝塚医療会館",
    "desc": "正しい知識で病気の予防や早期発見について学ぶ。(1)「せぼねの骨折の話~骨折をくりかえさない為に~」(2)「乳癌・消化器癌のABC」",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063380.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063380.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-05-29"
   },
   {
    "date": "2026-06-26",
@@ -2268,7 +4643,15 @@
    "title": "ユース食堂が開催されます(中学生から30歳まで)",
    "place": "シングルマザーハウスWith",
    "desc": "保健師・看護師がご飯を作ります学校のこと、仕事のこと、からだのこと、ちょっときになっていたけど・・・ということ何でも話ができますよ!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063690.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063690.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-27",
@@ -2276,7 +4659,16 @@
    "title": "こうみんかん宵まちコンサート",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/"
+   "url": "https://www.takarazuka-kominkan.jp/",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-27",
@@ -2284,7 +4676,15 @@
    "title": "ピピアめふ公益施設「親子ミニ四駆タイムアタック」",
    "place": "ピピアめふ公益施設 4階ロビー",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063142.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063142.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-27",
@@ -2292,7 +4692,15 @@
    "title": "ピピアめふ公益施設「親子ミニ四駆工作教室&レース」",
    "place": "ピピアめふ公益施設 4階ロビー",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063141.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063141.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-27",
@@ -2300,7 +4708,15 @@
    "title": "第35回村野藤吾賞受賞記念講演会",
    "place": "4階 大会議室",
    "desc": "村野藤吾記念会と市の共催で、第35回村野藤吾賞受賞記念講演会を開催します。村野藤吾賞は日本現代建築に多大な功績を残した建築家・村野藤吾を記念し、建築界に感銘を与えた建築家を毎年ひと",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063270.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063270.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-27",
@@ -2308,7 +4724,15 @@
    "title": "0歳からのクラシックコンサート 1時間の小さな演奏会 One hour Concert 楽しい弦楽器の世界",
    "place": "東リいたみホール 中ホール",
    "desc": "弦楽四重奏による、未就学児とその保護者向けのクラシックコンサートを開催します。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062776.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062776.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-06-27"
   },
   {
    "date": "2026-06-27",
@@ -2316,7 +4740,15 @@
    "title": "宝塚・西宮ピアノサロン詩音 弾き合い会・ランチタイムコンサート",
    "place": "西公民館ホール",
    "desc": "参加者のピアノ弾き合い会と、宝塚アーティスト協会協賛によるトリオコンサートを開催します。午前10時から午後5時までの開催時間のうち、12時から午後1時まではコンサートになります。い",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063277.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063277.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-28",
@@ -2324,7 +4756,15 @@
    "title": "レインボープライドたからづか2026",
    "place": "宝塚市立文化芸術センター おおやね広場",
    "desc": "多様性を尊重するパレードやフェスティバルを開催。12:30~ 交流ブース13:00~ アピール14:30~ パレード",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063605.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063605.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-28",
@@ -2332,7 +4772,15 @@
    "title": "ピピアめふ公益施設「昼下がりのJAZZコンサートinピピアめふ vol.5」",
    "place": "ピピアめふ公益施設 6階和風ホール",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063146.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063146.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-28",
@@ -2340,7 +4788,15 @@
    "title": "親子で参加でき講座&ワークショップ 7か国語で話そう。",
    "place": "男女共同参画センター",
    "desc": "(1)多言語活動の紹介 (2)言語交流研究所員による講演 (3)ことばの習得についてのディスカッション",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063121.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063121.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-07-10"
   },
   {
    "date": "2026-06-28",
@@ -2348,7 +4804,15 @@
    "title": "中山観音寄席",
    "place": "大本山 中山寺 紫雲閣講堂",
    "desc": "落語会を開催します。出演者: 桂 白鹿ほか",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062909.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062909.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-06-26"
   },
   {
    "date": "2026-06-28",
@@ -2356,7 +4820,15 @@
    "title": "宝塚演奏家連盟若手アーティストによる「0歳から大人まで楽しめるクラシックコンサート」Vol.4",
    "place": "西公民館",
    "desc": "宝塚演奏家連盟の音楽を学ぶ若手会員たちが企画立案し、0歳から大人まで音楽を楽しめる場として、声楽・ピアノ・ピアノ連弾・二重唱等によるクラシックから童謡まで演奏するコンサートを開催し",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062840.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062840.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-06-28"
   },
   {
    "date": "2026-06-28",
@@ -2364,7 +4836,15 @@
    "title": "~懐かしの活弁ライブ 活弁映画へようこそ!",
    "place": "",
    "desc": "活動写真弁士の大森くみこさんと音楽家のイマイ アキさんによるサイレント映画「ピーター・パン」の上映会を開催します。受付開始:令和7年4月24日(金曜日)10時~&nbsp;&nbs",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062605.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062605.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-28",
@@ -2372,7 +4852,16 @@
    "title": "たからば ガーデニングセミナー「ブルーベリーの試食と解説」",
    "place": "文化芸術センター ガーデンハウス(メインガーデン内)",
    "desc": "&nbsp;6月のテーマ「ブルーベリーの試食と解説」人気の果樹ブルーベリー。育て方の解説や、収穫したての実の実食をとおして、品種ごとの特徴や違いを分かりやすく紹介します。&nbsp",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062726.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062726.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-29",
@@ -2380,7 +4869,15 @@
    "title": "ベガにオーケストラがやってきた!",
    "place": "",
    "desc": "神戸女学院大学音楽学部の学生による演奏会です。29日は吹奏楽、30日はオーケストラの演奏を行います。※申込開始日:令和8年5月8日(金曜日)10時から",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062808.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1062808.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-30",
@@ -2388,7 +4885,15 @@
    "title": "大人の体力測定会",
    "place": "宝塚市立健康センター 1階",
    "desc": "メニューは、握力測定、長座体前屈、片足開眼立ち、椅子立ち上がりです。1人10分程度で測定できます。ゴールドジムのスタッフからアドバイスがもらえます。予約不要。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/1061588/kenko/1060668.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060702/1061588/kenko/1060668.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-06-30",
@@ -2396,7 +4901,16 @@
    "title": "一時保育付き 子育てをひと休み 映画の時間",
    "place": "",
    "desc": "子育てから少し離れて、映画をゆっくり観ませんか?【上映作品】『Coda(コーダ)あいのうた』(2021年/アメリカ・フランス・カナダ合作/1時間52分)&nbsp;★一時保育あり(",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1062450.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1062450.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-01",
@@ -2404,7 +4918,15 @@
    "title": "【日程変更】7月1日 午前11時 Jアラート全国一斉情報伝達試験を実施します",
    "place": "",
    "desc": "7月1日(水曜日)午前11時にJアラートの全国一斉情報伝達試験が行われます。宝塚市では、以下の試験を行います。・防災行政無線(すみれ防災スピーカー)の自動起動試験・エフエム宝塚のラ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025914/1046150.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025914/1046150.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-01",
@@ -2412,7 +4934,15 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【高司児童館】",
    "place": "【場所】高司児童館【申し込み・問い合わせ】高司児童館 電話:0797-76-0205[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "親子ふれあい遊びや仲間づくり、助産師・栄養士からのアドバイスもあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1011516.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1011516.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-06-24"
   },
   {
    "date": "2026-07-02",
@@ -2420,7 +4950,15 @@
    "title": "“女性だから”って誰かのケアを背負いすぎていませんか?",
    "place": "",
    "desc": "家事、育児、介護など、ケアが女性ばかりに担わされてきた背景を知り、これからは無理せず、自分の事も大切にした関わり方を考えませんか★一時保育あり(1歳以上の未就学児 先着10人、6/",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1061266.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1061266.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-02",
@@ -2428,7 +4966,15 @@
    "title": "さらら仁川公益施設「アイスティーとイギリスの夏のデザート作り」",
    "place": "さらら仁川公益施設 3階クッキングルーム",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063151.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063151.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-02",
@@ -2436,7 +4982,15 @@
    "title": "ピピアめふ公益施設「【腸活×糀】~塩こうじ編~腸内環境を整えるのは食事から」",
    "place": "ピピアめふ公益施設 4階キッチンスタジオ",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063147.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063147.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-02",
@@ -2444,7 +4998,15 @@
    "title": "宝塚AIゼロイチセミナー【6Days集中コース】",
    "place": "宝塚商工会議所 多目的ホール",
    "desc": "生成AIを活用して、業務改善や新たなアイデア創出につなげたい方に向けた連続セミナーを開催します。AIをこれから学びたい方にも分かりやすく、実務に役立つ内容を中心に構成しています。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061909/1063503.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061909/1063503.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2026-06-30"
   },
   {
    "date": "2026-07-04",
@@ -2452,7 +5014,15 @@
    "title": "ゆかたで夏祭",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/nishi/event/25652/"
+   "url": "https://www.takarazuka-kominkan.jp/nishi/event/25652/",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-04",
@@ -2460,7 +5030,16 @@
    "title": "名人が教える凧をつくって凧を揚げる",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/"
+   "url": "https://www.takarazuka-kominkan.jp/",
+   "target": [
+    "2"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-04",
@@ -2468,7 +5047,15 @@
    "title": "みんなで考える災害ボランティアセンター",
    "place": "ぷらざこむ1(売布東の町12-7)",
    "desc": "災害ボランティアセンターの在り方について話し合う場に参加する方を募集します。",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060707/1061594/1062781.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060707/1061594/1062781.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-04",
@@ -2476,7 +5063,15 @@
    "title": "ピピアめふ公益施設「大切な資産と家族の笑顔を守るために 相続対策勉強会」",
    "place": "ピピアめふ公益施設 5階会議室AB",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062797.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061812/1062797.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-04",
@@ -2484,7 +5079,15 @@
    "title": "子どものための七夕コンサート",
    "place": "神戸女学院エミリー・ホワイト・スミス記念講堂",
    "desc": "生演奏ならではの豊かな音色や迫力を通じて、 心に残る特別な音楽体験をお届けします。&nbsp;Webにてお申込み(下記の外部リンクより)※申込開始日:令和8年5月29日(金曜日)",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063027.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063027.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-04",
@@ -2492,7 +5095,15 @@
    "title": "市民歯の健康講座",
    "place": "西公民館2階ホール",
    "desc": "演題:「生命予後を左右する?!そのイビキ、放っておいて大丈夫?~歯科から考える睡眠時無呼吸症候群~」概要:「閉塞性睡眠時無呼吸症候群(OSA)」は、ただの寝不足だと思っていませんか",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063543.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061935/1063543.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-07-03"
   },
   {
    "date": "2026-07-05",
@@ -2500,7 +5111,15 @@
    "title": "【6月30日まで募集中】子どもの心理・発達無料特別相談のお知らせ(甲子園発達・臨床心理センター)",
    "place": "甲子園大学発達・臨床心理センター宝塚市紅葉ガ丘10-1電話:0797-87-8524(電話受付のみ)申し込み曜日・時間:月曜日から木曜日(午前10時から午後4時)",
    "desc": "臨床心理学の立場から子どもに関する悩みに答えます。※詳しいチラシは、下記の「子どもの心理・発達無料特別相談(甲子園大学発達・臨床心理センター主催)」をクリックしてご覧ください&nb",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063410.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063410.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-06-30"
   },
   {
    "date": "2026-07-05",
@@ -2508,7 +5127,17 @@
    "title": "七夕ハンドメイドマルシェ",
    "place": "文化芸術センター キューブホール、ホワイエ",
    "desc": "阪神間で活動する作家を中心に、個性豊かなハンドメイド作品が集まるマルシェです。【出店者】BARK•BOND、Fleur mariage、Leaf&Moon宝塚、MYRTUS、Sta",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061814/1063522.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061814/1063522.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-05",
@@ -2516,7 +5145,15 @@
    "title": "宝塚ビオラクラリネットクワイアー 第9回定期演奏会",
    "place": "",
    "desc": "クラリネットアンサンブル集団による演奏会を行います。【曲目】J.S.バッハ作曲: 小フーガト短調G.ホルスト作曲: 吹奏楽のための第一組曲からインターメッツォF.サルトーリ作曲:T",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062966.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062966.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-05",
@@ -2524,7 +5161,16 @@
    "title": "季節のモチーフで仕上げるアイシングクッキー",
    "place": "文化芸術センター アトリエ",
    "desc": "季節のデザインをアイシングで体験!型抜きクッキーとアイシングはあらかじめ用意しているので、簡単にかわいいクッキーが作れます。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1061684.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1061684.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-07",
@@ -2532,7 +5178,15 @@
    "title": "さらら仁川公益施設「【腸活×糀】~塩こうじ編~腸内環境を整えるのは食事から」",
    "place": "さらら仁川公益施設 3階クッキングルーム",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063149.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063149.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-09",
@@ -2540,7 +5194,15 @@
    "title": "【7月2日まで受付中!】思春期講座(2回連続講座)",
    "place": "【申し込み・問い合わせ】子ども家庭支援センター 電話:0797-85-3862[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "大学と共催の講座です。講話と参加者同士の意見交換を通して、思春期の子どもが何を考えているのかを学びましょう。質問の時間もあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1026339.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1026339.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-07-02"
   },
   {
    "date": "2026-07-09",
@@ -2548,7 +5210,15 @@
    "title": "シネマ イン ソリオ「TOKYOタクシー」",
    "place": "",
    "desc": "名匠・山田洋次監督が倍賞千恵子と木村拓哉を主演に迎え、フランス映画「パリタクシー」を原作に人生の喜びを描いたヒューマンドラマです。&nbsp;詳細は、宝塚市文化財団のHPをご確認く",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062807.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062807.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-11",
@@ -2556,7 +5226,15 @@
    "title": "避難所宿泊体験",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/chuo/event/26080/"
+   "url": "https://www.takarazuka-kominkan.jp/chuo/event/26080/",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-11",
@@ -2564,7 +5242,15 @@
    "title": "宝塚里山マルシェ",
    "place": "宝塚市立文化芸術センター おおやね広場",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1056687.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060685/1060715/1061674/1056208/1056687.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-11",
@@ -2572,7 +5258,16 @@
    "title": "夏のわくわくアウトドアイベント",
    "place": "7月11日、9月5日 甲山キャンプ場(西宮市)8月8日 鎌倉峡(神戸市)",
    "desc": "7月11日 水鉄砲でウォーターバトル8月8日 川遊び&スイカ割り9月5日 流しそうめん体験&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063555.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063555.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-11",
@@ -2580,7 +5275,15 @@
    "title": "宝塚創業塾【2Days集中コース】",
    "place": "宝塚商工会議所",
    "desc": "起業に必要な知識や生成AIを活用した計画書作りについて学べます。また、経営・財務・人材育成・販路開拓の「ビジネスの柱」をバランスよく学ぶことができます!修了者には、法人設立時の登録",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061909/1063504.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061909/1063504.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2026-07-10"
   },
   {
    "date": "2026-07-12",
@@ -2588,7 +5291,16 @@
    "title": "たからば かみしばい",
    "place": "文化芸術センター 1階キッズコーナー前",
    "desc": "毎月第2日曜日に、紙芝居サークル「ちょうちょ」による紙芝居をおこないます。季節に合わせた演目もあります。昔懐かしい紙芝居をどうぞお楽しみ下さい。申し込み不要、どなたでもご参加いただ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1051325.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1051325.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-12",
@@ -2596,7 +5308,17 @@
    "title": "たからばのいちにち",
    "place": "文化芸術センター おおやね広場、みんなの広場",
    "desc": "たからば朝市 ーTAKARABA TABLEー宝塚で育まれた新鮮な野菜と、毎日の食卓に欠かせないパン。西谷の農家や文化芸術センター周辺のベーカリーを中心に、宝塚の食の魅力を楽しめる",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061814/1045138.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061814/1045138.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-12",
@@ -2604,7 +5326,16 @@
    "title": "宝塚スターリービーツオーケストラ サマーコンサート",
    "place": "西公民館",
    "desc": "ビッグバンドによるジャズやラテン音楽の演奏&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062833.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062833.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-12",
@@ -2612,7 +5343,15 @@
    "title": "タカラヅカ トーク&amp;ライブ",
    "place": "",
    "desc": "元宝塚歌劇団星組トップスター瀬戸内美八さん、鈴鹿照さんほかを迎え、宝塚歌劇トークと素敵なライブをお届けします!&nbsp;受付開始:令和8年5月15日(金曜日)10時~&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062816.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062816.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-13",
@@ -2620,7 +5359,15 @@
    "title": "ZEHセミナーを開催します",
    "place": "第二庁舎 会議室A・B",
    "desc": "脱炭素社会の実現に向けた住宅の省エネルギー化推進の流れは加速しており、2025年4月以降に着工する住宅などに省エネ基準への適合が義務化されました。また、国は2030年に新築住宅の平",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061911/1063276.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1061400/1061401/1061911/1063276.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "25"
+   ],
+   "application": false,
+   "deadline": "2026-07-09"
   },
   {
    "date": "2026-07-15",
@@ -2628,7 +5375,15 @@
    "title": "ウィルキンソンの日のイベントを実施します",
    "place": "マーケットスクエア中山寺(JR中山駅前)",
    "desc": "ウィルキンソン タンサンのサンプリング(500mlペットボトル)とうちわを無料配布します。※ウィルキンソンのサンプリング配布はなくなり次第終了となります。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1063432.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1063432.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-17",
@@ -2636,7 +5391,16 @@
    "title": "展覧会「星野尚 木の絵画タラセア 45年の歩み」",
    "place": "文化芸術センター 2階メインギャラリー",
    "desc": "タラセアは、天然木から切り取った木片を組み合わせて模様や風景を描き出す、スペインの伝統的な技法です。チーク、桜、ケヤキなど約80種類の木を使い、着色せず自然の質感や色彩を生かして表",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063355.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063355.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-18",
@@ -2644,7 +5408,15 @@
    "title": "なるほど!“産前・産後”あかちゃん講座(2回連続講座)",
    "place": "【開催場所】東公民館【申し込み・問い合わせ】子ども家庭支援センター(電話:0797-85-3862)[地域に発信する子ども家庭支援センターのプログラム【6月以降の講座案内】]",
    "desc": "臨床心理士によるお話。 温かい親子関係をつくるコツ 赤ちゃんの心理学 産後のパパ・ママの役割",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1039346.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1039346.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-07-13"
   },
   {
    "date": "2026-07-18",
@@ -2652,7 +5424,15 @@
    "title": "宝塚国際室内合唱コンクール・特別演奏会",
    "place": "",
    "desc": "国内外、全国各地の合唱団が宝塚に集結し、歌声を競います。今年は、海外からは韓国・台湾から4団体が出場予定です。19日はコンクール上位入賞団体による特別演奏会が開催されます!【全席自",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063512.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063512.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-18",
@@ -2660,7 +5440,15 @@
    "title": "「宝塚こども落語教室」参加者募集",
    "place": "",
    "desc": "夏休みは「落語」にチャレンジしませんか?落語だけでなく礼儀作法も身につくと好評の教室です。教室の最終回にはソリオホールでお稽古の成果を発表します。開講日 7月18日・25日・8月1",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062607.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062607.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-07-07"
   },
   {
    "date": "2026-07-19",
@@ -2668,7 +5456,15 @@
    "title": "宝塚タイフェスティバル",
    "place": "メイン会場:ギャラリー六軒茶屋サブ会場:清荒神参道・市場の参加店舗",
    "desc": "タイ料理飲食店や雑貨店を出店するほか、清荒神参道にあるお店でもタイ風料理を楽しんでいただけます!ステージでは、タイの音楽やムエタイなどを楽しめます。ぜひタイの雰囲気を、清荒神で感じ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1063414.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1051358/1063414.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-19",
@@ -2676,7 +5472,15 @@
    "title": "さらら仁川公益施設「人博コラボ講座 里山の生き物」",
    "place": "さらら仁川公益施設 3階多目的ホール",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063150.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063150.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-19",
@@ -2684,7 +5488,15 @@
    "title": "ピピアめふ公益施設「第149回めふ乃寄席」",
    "place": "ピピアめふ公益施設 6階めふの間",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063145.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063145.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-20",
@@ -2692,7 +5504,16 @@
    "title": "レッツゴー!サマースクール",
    "place": "",
    "desc": "",
-   "url": "https://www.takarazuka-kominkan.jp/news/25708/"
+   "url": "https://www.takarazuka-kominkan.jp/news/25708/",
+   "target": [
+    "2"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-06-14"
   },
   {
    "date": "2026-07-20",
@@ -2700,7 +5521,16 @@
    "title": "シーズン夏",
    "place": "カルディアキャンプ場(奈良県) 他(プログラムにより異なる)",
    "desc": "川遊び、ラフティング 他(プログラムにより異なる)",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063350.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063350.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-20",
@@ -2708,7 +5538,15 @@
    "title": "ピピアめふ公益施設「親子で入門・初級者の交流戦」",
    "place": "ピピアめふ公益施設 5階会議室AB",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063143.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063143.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-20",
@@ -2716,7 +5554,15 @@
    "title": "オープンセミナー「貝の今を知ろう -海の環境と恵み-」",
    "place": "東洋食品研究所",
    "desc": "テーマ オープンセミナー「貝の今を知ろう -海の環境と恵み-」 貝類を題材に近年の食資源と環境の関係を把握し、海の食料生産の現状を理解するとともに、今後の対応や食品を有効に利用する",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061934/1063280.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061934/1063280.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "1"
+   ],
+   "application": false,
+   "deadline": "2026-06-30"
   },
   {
    "date": "2026-07-22",
@@ -2724,7 +5570,16 @@
    "title": "TOPサマーキャンプ2026",
    "place": "兵庫県立いえしま自然体験センター 他(プログラムにより異なる)",
    "desc": "海遊び、ラフティング 他(プログラムにより異なる)",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063252.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061800/1063252.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-07-17"
   },
   {
    "date": "2026-07-23",
@@ -2732,7 +5587,15 @@
    "title": "小学生の救命講座&amp;着衣水泳体験",
    "place": "ティップネス宝塚(兵庫県宝塚市栄町1-8-26)駐車場料金は3時間まで無料です。駐車券を店舗までお持ちください。",
    "desc": "(1)市消防本部の応急手当指導員による救命講習(2)ティップネスのコーチによる着衣水泳体験※着衣水泳体験は、身長130cm以上でクロールが泳げる(または練習中)のお子さまが対象です",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063550.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063550.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-07-16"
   },
   {
    "date": "2026-07-24",
@@ -2740,7 +5603,17 @@
    "title": "体験型人権学習会追加募集のお知らせ",
    "place": "らいとぴあ21(箕面市萱野中央人権文化センター)大阪府箕面市萱野1-19-4",
    "desc": "ひらい人権文化センターから、バスで「らいとぴあ21(箕面市)」に行きましょう。そこで、「一般社団法人 和太鼓 絆(きずな)」による和太鼓演奏、和太鼓体験、人権講演会を体験・学習しよ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1002665/1009705/1056755.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1002665/1009705/1056755.html",
+   "target": [
+    "2",
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-06-25"
   },
   {
    "date": "2026-07-24",
@@ -2748,7 +5621,15 @@
    "title": "第18回 つながりカフェTaCoLAB",
    "place": "まちのつどいば ここぉる(宝塚市鶴の荘19-15)",
    "desc": "カフェのようなゆったりとした雰囲気でお菓子やお茶などを持ち寄って交流する場です。エリアや所属を超えて立場関係なく、どなたでもご自由にご参加ください!お申込みはチラシ掲載の二次元コー",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1063687.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/shingikai/1055212/1063687.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-24",
@@ -2756,7 +5637,16 @@
    "title": "パスカルサマーキャンプ",
    "place": "関西学院大学千刈キャンプ",
    "desc": "夏休みの宿題のスタートダッシュに加え、野外飯盒炊爨やピザ作り体験",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063556.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063556.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-07-23"
   },
   {
    "date": "2026-07-25",
@@ -2764,7 +5654,16 @@
    "title": "2026年度夏休み子どもキャンプ",
    "place": "",
    "desc": "",
-   "url": "https://noac.jp/index.html"
+   "url": "https://noac.jp/index.html",
+   "target": [
+    "1",
+    "2"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": true,
+   "deadline": "2026-07-12"
   },
   {
    "date": "2026-07-25",
@@ -2772,7 +5671,15 @@
    "title": "税理士弁護士等の専門家による相続無料相談会",
    "place": "宝塚商工会議所",
    "desc": "弁護士、税理士、司法書士等の各専門家による相続に関する無料相談会により、相続に関するあらゆる悩みや問題への横断的かつ同時対応を可能にすることで、宝塚市民の悩みや問題解決の一助となる",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1043337.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061810/1043337.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-25",
@@ -2780,7 +5687,16 @@
    "title": "和菓子づくりにチャレンジ!",
    "place": "文化芸術センター アトリエ",
    "desc": "御菓子司 虎屋吉末店主を講師に迎え、ねりきりづくりに挑戦!形を整えて職人顔負けのお菓子を作ろう!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063362.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063362.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-25",
@@ -2788,7 +5704,16 @@
    "title": "食育を体験しよう in 逆瀬川アピア",
    "place": "逆瀬川アピア1 2階ふれあい広場",
    "desc": "「骨密度測定」「野菜摂取状況の簡易チェック」「栄養バランスに関するパネル展示」 & 「パネルクイズ」 など参加された方には、西谷産野菜やキウイフルーツ等をプレゼント(先着 各150",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061934/1063608.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061934/1063608.html",
+   "target": [
+    "3"
+   ],
+   "category": [
+    "1",
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-26",
@@ -2796,7 +5721,18 @@
    "title": "4歳~小学2年生までの包括的性教育 性の健康ワークショップ",
    "place": "",
    "desc": "4歳~小学2年生までの包括的性教育。子どもたちが間違った情報に触れる前に、自分と相手を尊重する性の考え方を一緒に育んでみませんか。※子どもさんが参加する場合は、必ず保護者(おとな向",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1063542.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1061587/1030351/1030353/1063542.html",
+   "target": [
+    "1",
+    "2",
+    "3"
+   ],
+   "category": [
+    "1",
+    "2"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-26",
@@ -2804,7 +5740,17 @@
    "title": "たからば ガーデニングセミナー「食虫植物の楽しみ方」",
    "place": "文化芸術センター ガーデンハウス(メインガーデン内)",
    "desc": "&nbsp;7月のテーマ「食虫植物の楽しみ方」お子さまにも大人気の食虫植物。ハエトリ草やウツボカズラなどの育て方を、実際に捕食するところを見ながら解説します。セミナー終了後(午後2",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062611.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062611.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-26",
@@ -2812,7 +5758,17 @@
    "title": "木片でつくるモザイク画",
    "place": "文化芸術センター キューブホール",
    "desc": "素材の色や形を考えながら、天然木の小さなピースを自由に組み合わせて、自分だけのモザイク画を作ろう。メインギャラリーで開催中の展覧会「星野尚 木の絵画タラセア 45年の歩み」に合わせ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063361.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063361.html",
+   "target": [
+    "1",
+    "2"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-27",
@@ -2820,7 +5776,15 @@
    "title": "ゆめ広場ふれあい夏まつり",
    "place": "阪急宝塚駅前 ソリオ宝塚ゆめ広場一帯",
    "desc": "ステージでは千吉踊りやフラダンス・タップダンスなどを行います。本部では、枝豆や焼き鳥なども販売していますよ。消費者協会宝塚によるリサイクル品の販売もあります♪一夜限りの夏の時間を一",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1063688.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1063688.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-29",
@@ -2828,7 +5792,15 @@
    "title": "ピピアめふ公益施設「笑い飯哲夫の楽しい写経教室」",
    "place": "ピピアめふ公益施設 6階和風ホール",
    "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063144.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063144.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-07-31",
@@ -2836,7 +5808,16 @@
    "title": "竹であそぼう!手づくりおもちゃ工房",
    "place": "文化芸術センター アトリエ",
    "desc": "竹を加工し、竹てっぽうを作ります。自然の素材に触れながら、工作を楽しもう。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063363.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1063363.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-01",
@@ -2844,7 +5825,16 @@
    "title": "第2回ECO講座 地球温暖化防止講演会を開催します",
    "place": "宝塚市立中央公民館203・204学習室",
    "desc": "地球温暖化が及ぼす影響と地球の未来について、講師の豊田さんからお話しいただきます。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061815/1063207.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061815/1063207.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-07-29"
   },
   {
    "date": "2026-08-01",
@@ -2852,7 +5842,15 @@
    "title": "コンサート「吉川二郎 コンサートフラメンコギターとギタルパの調べ」",
    "place": "ベガ・ホール",
    "desc": "ギタルパは、吉川二郎が発案したギターとハープを融合させた新しい楽器です。星野尚(たかし)によるタラセア装飾がはめ込まれたギタルパと、コンサートフラメンコギターの共演をお楽しみくださ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063356.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063356.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-02",
@@ -2860,7 +5858,15 @@
    "title": "木片でつくるモザイク画【高校生以上対象】",
    "place": "文化芸術センター キューブホール",
    "desc": "天然木の小さなピースを組み合わせて、自分だけのモザイク画を作ります。メインギャラリーで開催中の展覧会「星野尚 木の絵画タラセア 45年の歩み」に合わせた関連企画です。(展覧会への入",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063697.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063697.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-02",
@@ -2868,7 +5874,16 @@
    "title": "高齢者安全運転健康教室",
    "place": "宝塚市立中央公民館1階ホール[中央公民館]",
    "desc": "当日の講座内容 項目 内容 講話 加齢による脳・体の変化と自動車運転への影響 〜運転できなくなったらどうする?〜 脳と体のチェックと体験コーナー 脳と体のチェック(握力・歩行能力・",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061933/1063510.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000038/1061698/1061933/1063510.html",
+   "target": [
+    "4"
+   ],
+   "category": [
+    "1",
+    "6"
+   ],
+   "application": false,
+   "deadline": "2026-07-23"
   },
   {
    "date": "2026-08-06",
@@ -2876,7 +5891,16 @@
    "title": "「ことばの教室」吃音交流会のお知らせ",
    "place": "宝塚市役所第二庁舎1階 会議室A",
    "desc": "吃音のある子どもたちが、楽しく話すことを目的に交流会を実施します。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057888/1056137.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1057880/1057888/1056137.html",
+   "target": [
+    "1",
+    "2"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-08-05"
   },
   {
    "date": "2026-08-08",
@@ -2884,7 +5908,15 @@
    "title": "市民のためのオルガンコンサート アルモニア 天に輝く光の調和~オルガンと歌のハーモニー~",
    "place": "",
    "desc": "親しみやすいラターのメロディ、心穏やかなフォーレの祈りの音楽など、天に輝く光のような空間をお届けします。&nbsp;曲目&nbsp;J.S.バッハ:おお、人よ汝の罪の大いなるを嘆け",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063513.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063513.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-08",
@@ -2892,7 +5924,16 @@
    "title": "あけてびっくり!ピアノのひみつ",
    "place": "文化芸術センター キューブホール",
    "desc": "普段は見られないピアノの内部を大公開!専門家の解説付きで、ピアノの仕組みや音の秘密を間近で体感できます。※解体するピアノはアップライトピアノです",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063364.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063364.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-09",
@@ -2900,7 +5941,15 @@
    "title": "令和8年度 宝塚歌劇市民貸切公演",
    "place": "宝塚大劇場",
    "desc": "公演内容宝塚大劇場 雪組公演ミュージカル・ゴシック『ポーの一族』原作/萩尾望都「ポーの一族」(小学館「フラワーコミックス」刊)脚本・演出/小池 修一郎&nbsp;「雪組主演直筆サイ",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1063194.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1051314/1063194.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-06-21"
   },
   {
    "date": "2026-08-09",
@@ -2908,7 +5957,16 @@
    "title": "かえっこバザール in たからば",
    "place": "文化芸術センター 1階キューブホール",
    "desc": "遊ばなくなったおもちゃをカエルポイントに換えて、別のおもちゃと交換しよう!",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061798/1062855.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061798/1062855.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-09",
@@ -2916,7 +5974,16 @@
    "title": "文化庁伝統文化親子教室事業 伝統文化子ども作法教室",
    "place": "宝塚市立国際・文化センター",
    "desc": "伝統文化の継承、伝統文化への関心を高め、豊かな人間性を育み、親子で伝統文化を理解する機会の増加を目的とする。礼、挨拶言葉、自己紹介、お箸とお椀の扱い、風呂敷の由来や使い方等実技中心",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063696.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063696.html",
+   "target": [
+    "2"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-10",
@@ -2924,7 +5991,16 @@
    "title": "後援事業",
    "place": "宝塚市立西公民館 セミナー室・ギャラリー・調理室・パーティールーム[西公民館]",
    "desc": "人権・平和に関するパネル展DVD上映紙芝居平和ピアノコンサート平和吹奏楽コンサート戦時中の食(すいとん)試食体験",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1000113/1028466/1060868.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060681/1000113/1028466/1060868.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-11",
@@ -2932,7 +6008,15 @@
    "title": "星野尚ギャラリートーク",
    "place": "文化芸術センター メインギャラリー",
    "desc": "メインギャラリーで開催中の展覧会「星野尚(たかし) 木の絵画タラセア 45年の歩み」にあわせ、作者が参加者と作品を鑑賞しながら制作背景を語ります。参加には展覧会への入場が必要です(",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063656.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063656.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-14",
@@ -2940,7 +6024,15 @@
    "title": "デュオ ロゼワ リサイタル",
    "place": "西宮市プレラホール",
    "desc": "バイオリンとピアノのデュオ曲・ソロ曲でのリサイタルです。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063491.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063491.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-14",
@@ -2948,7 +6040,15 @@
    "title": "第36回宝塚混声合唱団音楽会",
    "place": "兵庫県立芸術文化センターKOBELCO大ホール",
    "desc": "定期公演として第36回音楽会を開催します。演奏曲目:メンデルスゾーン オラトリオ「パウロ」&nbsp;※下記の電話番号へお電話、もしくはメールにてお申込ください。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1062826.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1062826.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-08-12"
   },
   {
    "date": "2026-08-23",
@@ -2956,7 +6056,17 @@
    "title": "たからば ガーデニングセミナー「多肉植物のポットアレンジメント」",
    "place": "文化芸術センター ガーデンハウス(メインガーデン内)",
    "desc": "&nbsp;8月のテーマ「多肉植物のポットアレンジメント」多肉植物の寄せ植えに挑戦! 思いおもいにアレンジして楽しむワークショップです。親子でもお楽しみいただけます。ワークショップ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063358.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063358.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4",
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-08-30",
@@ -2964,7 +6074,16 @@
    "title": "たからば しぜんかんさつかい",
    "place": "文化芸術センター庭園",
    "desc": "自然観察員と一緒に、たからばの庭園で生き物をさがそう!(小雨決行・荒天中止)※観察した生き物は持ち帰ることができません",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063360.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061827/1063360.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-09-09",
@@ -2972,7 +6091,15 @@
    "title": "大人のための紙芝居づくり講座~創る・描く・演じる",
    "place": "文化芸術センター",
    "desc": "紙芝居の基礎から創作・実演までを学ぶ連続講座です。受講生が各自で題材を持参し、オリジナル紙芝居作品を制作します。発表は3月の講座時を予定しています。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061828/1063394.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061828/1063394.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-07-31"
   },
   {
    "date": "2026-09-23",
@@ -2980,7 +6107,16 @@
    "title": "ひょうご演劇祭 昭和庶民伝「きらめく星座」",
    "place": "兵庫県立芸術文化センター 阪急中ホール",
    "desc": "戦後81年間、平和が続く日本ですが、いまや大きな戦争が勃発しかねない世界情勢です。いま一度、井上ひさし氏の名作である昭和庶民伝「きらめく星座」の上演により、戦争に明け暮れた昭和の時",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061828/1063397.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061828/1063397.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
   },
   {
    "date": "2026-09-26",
@@ -2988,7 +6124,15 @@
    "title": "令和8年度「保育士として働くための講座」(令和8年9月26日(土曜日)10時~12時)",
    "place": "宝塚市立中央公民館 203.204会議室(宝塚市末広町3番53号)",
    "desc": "保育士のお仕事に興味がある方、保育士として働くことを考えていらっしゃる方を対象に、保育士の専門性や保育士としての心得、保育士の役割等について学ぶ研修会を開催します。近々又は、来年度",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1063374.html"
+   "url": "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/gakkoshisetsu/1000105/1063374.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2"
+   ],
+   "application": false,
+   "deadline": "2026-09-25"
   }
  ]
 }

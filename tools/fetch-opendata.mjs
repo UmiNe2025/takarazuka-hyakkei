@@ -324,6 +324,10 @@ const tasks = {
         place: stripTags(e.place2),
         desc: stripTags(e.description).slice(0, 90),
         url: href,
+        target: (e.target || []).map(String),
+        category: (e.category || []).map(String),
+        application: String(e.application || "") === "1",
+        deadline: toIso(e.offer_endday),
       });
     }
     items.sort((a, b) => a.date.localeCompare(b.date));

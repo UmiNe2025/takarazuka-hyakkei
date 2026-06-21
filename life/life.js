@@ -191,6 +191,157 @@
   }
 
   /* ==========================================================================
+     local-life desk — area, children, care, and a printable disaster card
+     No address or contact detail is written to storage.
+     ========================================================================== */
+  var lifeToolsDataEl = document.getElementById("life-tools-data");
+  if (lifeToolsDataEl) {
+    var lifeToolsData = null;
+    try { lifeToolsData = JSON.parse(lifeToolsDataEl.textContent || "{}"); } catch (err) { lifeToolsData = null; }
+    if (lifeToolsData && Array.isArray(lifeToolsData.areas)) {
+      var profileKey = "takarazuka-life-profile-v1";
+      var areaSelect = document.getElementById("local-area");
+      var childAgeSelect = document.getElementById("local-child-age");
+      var profileSave = document.getElementById("local-profile-save");
+      var profileReset = document.getElementById("local-profile-reset");
+      var profileStatus = document.getElementById("local-profile-status");
+      var districtLede = document.getElementById("district-lede");
+      var districtResult = document.getElementById("district-result");
+      var careAreaResult = document.getElementById("care-area-result");
+      var disasterAreaResult = document.getElementById("disaster-area-result");
+      var childWeekLede = document.getElementById("child-week-lede");
+      var childWeekList = document.getElementById("child-week-list");
+      var printCard = document.getElementById("print-disaster-card");
+      var areas = lifeToolsData.areas;
+      var events = Array.isArray(lifeToolsData.events) ? lifeToolsData.events : [];
+      var shelters = Array.isArray(lifeToolsData.shelters) ? lifeToolsData.shelters : [];
+      var toolUrls = lifeToolsData.urls || {};
+      var childTerms = ["子ども", "親子", "乳幼児", "幼児", "児童", "赤ちゃん", "保護者", "ファミリー", "子育て", "小学生", "中学生", "高校生", "夏休み", "育児"];
+      var ageTerms = {
+        pregnancy: ["妊娠", "妊婦", "プレママ", "出産", "赤ちゃん", "親子"],
+        baby: ["赤ちゃん", "乳児", "乳幼児", "0歳", "1歳", "2歳", "親子", "子育て"],
+        preschool: ["幼児", "未就学", "親子", "子ども", "子育て", "年長"],
+        school: ["小学生", "児童", "夏休み", "子ども", "親子"],
+        teen: ["中学生", "高校生", "中高生", "学生", "子ども"],
+      };
+
+      function todayJst() { return new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); }
+      function formatDate(date) {
+        var parts = String(date || "").split("-");
+        return parts.length === 3 ? Number(parts[1]) + "/" + Number(parts[2]) : "日程未定";
+      }
+      function readProfile() {
+        try {
+          var saved = JSON.parse(window.localStorage.getItem(profileKey) || "{}");
+          return {
+            area: areas.some(function (area) { return area.id === saved.area; }) ? saved.area : "",
+            childAge: ageTerms[saved.childAge] ? saved.childAge : "",
+          };
+        } catch (err) { return { area: "", childAge: "" }; }
+      }
+      function writeProfile(profile) {
+        try { window.localStorage.setItem(profileKey, JSON.stringify(profile)); } catch (err) { /* storage may be disabled */ }
+      }
+      function activeEvent(event, day) { return (event.dateEnd || event.date || "") >= day; }
+      function eventText(event) { return String(event.title || "") + " " + String(event.place || "") + " " + String(event.desc || "") + " " + (Array.isArray(event.target) ? event.target.join(" ") : ""); }
+      function areaEventText(event) { return String(event.title || "") + " " + String(event.place || ""); }
+      function childEvent(event, age) {
+        var text = eventText(event);
+        var terms = age && ageTerms[age] ? ageTerms[age] : childTerms;
+        return terms.some(function (term) { return text.indexOf(term) !== -1; });
+      }
+      function areaById(id) { return areas.filter(function (area) { return area.id === id; })[0] || null; }
+      function safeLink(url) { return /^https?:\/\//i.test(String(url || "")) || String(url || "").indexOf("/") === 0 ? String(url) : ""; }
+      function eventMarkup(event) {
+        var url = safeLink(event.url);
+        var deadline = event.application && event.deadline && event.deadline >= todayJst() ? " <small>申込締切 " + escHtml(formatDate(event.deadline)) + "</small>" : "";
+        return "<li><span>" + escHtml(formatDate(event.date)) + "</span><div>" +
+          (url ? '<a href="' + escHtml(url) + '" rel="noopener">' + escHtml(event.title) + "</a>" : escHtml(event.title)) +
+          (event.place ? '<small class="tool-event-place">' + escHtml(event.place) + "</small>" : "") + deadline + "</div></li>";
+      }
+      function renderChildWeek(profile) {
+        if (!childWeekList) return;
+        var now = todayJst();
+        var end = new Date(now + "T00:00:00+09:00"); end.setDate(end.getDate() + 7);
+        var endKey = end.getFullYear() + "-" + String(end.getMonth() + 1).padStart(2, "0") + "-" + String(end.getDate()).padStart(2, "0");
+        var matching = events.filter(function (event) { return activeEvent(event, now) && childEvent(event, profile.childAge); });
+        var thisWeek = matching.filter(function (event) { return event.date <= endKey; }).slice(0, 4);
+        var visible = thisWeek.length ? thisWeek : matching.slice(0, 4);
+        if (!visible.length) {
+          childWeekList.innerHTML = "<li>今週・近日の該当イベントは見つかりませんでした。公式の子育て情報をご確認ください。</li>";
+          if (childWeekLede) childWeekLede.textContent = "年齢に合う公式イベントを毎週の更新データから探します。";
+          return;
+        }
+        childWeekList.innerHTML = visible.map(eventMarkup).join("");
+        if (childWeekLede) childWeekLede.textContent = thisWeek.length ? "今週の候補です。申込要否・対象年齢はリンク先で確認してください。" : "今週の候補が少ないため、次に予定されているものを表示しています。";
+      }
+      function renderArea(profile) {
+        var area = areaById(profile.area);
+        if (!area) {
+          if (districtLede) districtLede.textContent = "地域を選ぶと、介護の相談先と近隣候補の避難所をこの場に出します。";
+          if (districtResult) districtResult.hidden = true;
+          if (careAreaResult) careAreaResult.textContent = "地域を設定すると、最初に相談する窓口を表示します。";
+          if (disasterAreaResult) disasterAreaResult.textContent = "地域を設定すると、近隣候補の避難所を最大3件表示します。";
+          return;
+        }
+        var careUrl = safeLink(toolUrls.care);
+        var careLink = careUrl ? '<a href="' + escHtml(careUrl) + '" rel="noopener">公式一覧で担当地区を確認</a>' : "";
+        var careHtml = "<strong>最初の相談先: " + escHtml(area.care) + "</strong><br>電話 <a href=\"tel:" + escHtml(String(area.phone || "").replace(/[^0-9+]/g, "")) + "\">" + escHtml(area.phone) + "</a><br><small>町名によって担当が分かれる場合があります。" + careLink + "</small>";
+        var nearbyEvents = events.filter(function (event) {
+          return activeEvent(event, todayJst()) && area.keywords.some(function (keyword) { return areaEventText(event).indexOf(keyword) !== -1; });
+        }).slice(0, 2);
+        var localEvents = nearbyEvents.length ? '<div class="area-events"><b>この地区に関係する予定</b><ul>' + nearbyEvents.map(function (event) {
+          var url = safeLink(event.url);
+          var title = url ? '<a href="' + escHtml(url) + '" rel="noopener">' + escHtml(event.title) + "</a>" : escHtml(event.title);
+          return "<li>" + title + "<span>" + escHtml(formatDate(event.date)) + "</span></li>";
+        }).join("") + "</ul></div>" : "";
+        if (districtLede) districtLede.textContent = area.label + "を表示しています。ごみの収集日は町名単位で確認してください。";
+        if (districtResult) { districtResult.hidden = false; districtResult.innerHTML = careHtml + localEvents; }
+        if (careAreaResult) careAreaResult.innerHTML = careHtml;
+        var nearby = shelters.filter(function (shelter) {
+          var text = String(shelter.name || "") + " " + String(shelter.address || "");
+          return area.keywords.some(function (keyword) { return text.indexOf(keyword) !== -1; });
+        }).slice(0, 3);
+        if (!nearby.length) {
+          if (disasterAreaResult) disasterAreaResult.innerHTML = "<strong>避難所候補を自動で絞り込めませんでした。</strong><br><a href=\"" + escHtml(safeLink(toolUrls.disaster)) + "\">避難所一覧から確認する</a>";
+          return;
+        }
+        var shelterLinks = nearby.map(function (shelter) {
+          var query = encodeURIComponent((shelter.name || "") + " " + (shelter.address || "") + " 宝塚市");
+          return '<a href="https://www.google.com/maps/search/?api=1&amp;query=' + query + '" rel="noopener">' + escHtml(shelter.name) + "</a>";
+        }).join("");
+        if (disasterAreaResult) disasterAreaResult.innerHTML = "<strong>" + escHtml(area.label) + "の近隣候補</strong><br><span class=\"area-links\">" + shelterLinks + "</span><small>開設状況と対応災害は、必ず市の発表で確認してください。</small>";
+      }
+      function renderProfile(profile) {
+        if (areaSelect) areaSelect.value = profile.area;
+        if (childAgeSelect) childAgeSelect.value = profile.childAge;
+        if (profileReset) profileReset.hidden = !(profile.area || profile.childAge);
+        renderArea(profile); renderChildWeek(profile);
+      }
+      var profile = readProfile();
+      renderProfile(profile);
+      if (profileSave) profileSave.addEventListener("click", function () {
+        profile = { area: areaSelect ? areaSelect.value : "", childAge: childAgeSelect ? childAgeSelect.value : "" };
+        writeProfile(profile); renderProfile(profile);
+        if (profileStatus) profileStatus.textContent = "この端末に設定を保存しました。";
+      });
+      if (profileReset) profileReset.addEventListener("click", function () {
+        profile = { area: "", childAge: "" };
+        try { window.localStorage.removeItem(profileKey); } catch (err) { /* storage may be disabled */ }
+        renderProfile(profile);
+        if (profileStatus) profileStatus.textContent = "設定を消しました。";
+      });
+      if (areaSelect) areaSelect.addEventListener("change", function () { renderArea({ area: areaSelect.value, childAge: childAgeSelect ? childAgeSelect.value : "" }); });
+      if (childAgeSelect) childAgeSelect.addEventListener("change", function () { renderChildWeek({ area: areaSelect ? areaSelect.value : "", childAge: childAgeSelect.value }); });
+      if (printCard) {
+        var clearPrintMode = function () { document.body.classList.remove("print-disaster"); };
+        window.addEventListener("afterprint", clearPrintMode);
+        printCard.addEventListener("click", function () { document.body.classList.add("print-disaster"); window.setTimeout(function () { window.print(); }, 0); });
+      }
+    }
+  }
+
+  /* ==========================================================================
      open-data table / event filters
      ========================================================================== */
   Array.prototype.slice.call(document.querySelectorAll("[data-odfilter]")).forEach(function (box) {

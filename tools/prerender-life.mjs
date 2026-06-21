@@ -379,6 +379,97 @@ function savedGuides() {
   </section>`;
 }
 
+/* ---------- hub: a local-only desk for the recurring parts of life ---------- */
+const livingAreas = [
+  { id: "kobayashi", label: "小林・仁川・高司", care: "小林地域包括支援センター", phone: "0797-74-3863", keywords: ["小林", "仁川", "高司", "末成", "光明", "良元", "福井"] },
+  { id: "sakasegawa", label: "逆瀬川・西山", care: "逆瀬川地域包括支援センター", phone: "0797-76-2830", keywords: ["逆瀬川", "中州", "末広", "伊孑志", "野上", "西山", "ゆずり葉", "社町"] },
+  { id: "gotenyama", label: "宝塚・御殿山", care: "御殿山地域包括支援センター", phone: "0797-83-1336", keywords: ["御殿山", "すみれ", "清荒神", "売布", "美座", "川面"] },
+  { id: "obama", label: "小浜・安倉", care: "小浜地域包括支援センター", phone: "0797-86-3707", keywords: ["小浜", "安倉", "美幸", "御所", "金井"] },
+  { id: "nagao", label: "長尾・山本", care: "長尾地域包括支援センター", phone: "0797-80-2941", keywords: ["山本", "長尾", "丸橋", "口谷", "中筋", "中山寺", "泉町"] },
+  { id: "hanayashiki", label: "花屋敷・山手台・中山台", care: "花屋敷地域包括支援センター", phone: "072-740-3555", keywords: ["花屋敷", "山手台", "中山台", "切畑", "長尾台", "桜台"] },
+  { id: "nishitani", label: "西谷", care: "西谷地域包括支援センター", phone: "0797-83-5080", keywords: ["西谷", "大原野", "波豆", "佐曽利", "玉瀬", "香合", "境野", "長谷"] },
+];
+const childTerms = ["子ども", "親子", "乳幼児", "幼児", "児童", "赤ちゃん", "保護者", "ファミリー", "子育て", "小学生", "中学生", "高校生", "夏休み", "育児"];
+const childLike = (e) => childTerms.some((term) => `${e.title} ${e.place || ""} ${e.desc || ""}`.includes(term));
+
+function lifeTools() {
+  const eventData = od.events ? upcomingEvents(od.events, 90).map((e) => ({
+    date: e.date, dateEnd: e.dateEnd || "", title: e.title, place: e.place || "", desc: e.desc || "", url: e.url || "",
+    target: e.target || [], application: Boolean(e.application), deadline: e.deadline || "",
+  })) : [];
+  const starterEvents = eventData.filter(childLike).slice(0, 3);
+  const starterList = starterEvents.length ? starterEvents.map((e) => `<li><span>${esc(fmtMd(e.date))}</span>${safeUrl(e.url) ? `<a href="${esc(safeUrl(e.url))}" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</li>`).join("") :
+    '<li>いま掲載できる子ども向けイベントはありません。子育て・教育の案内をご覧ください。</li>';
+  const data = {
+    updated: newest,
+    areas: livingAreas,
+    events: eventData,
+    shelters: (od.shelters?.items || []).map((s) => ({ name: s.name, address: s.address, hazards: s.hazards || "" })),
+    urls: {
+      garbage: "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html",
+      care: "/life/welfare/",
+      careApply: "/life/welfare/",
+      childcare: "/life/childcare/",
+      events: "/life/events/",
+      hazard: "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html",
+      disaster: "/life/disaster/",
+      safetyMail: "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html",
+    },
+  };
+  return `<section class="life-tools" id="life-tools" aria-labelledby="life-tools-h">
+    <div class="tools-intro">
+      <div><p class="tools-kicker">A DESK FOR ORDINARY DAYS</p><h2 id="life-tools-h">わたしの宝塚、今日の机</h2></div>
+      <p>地域と家族の状況を選ぶと、今日見るべき入口を整えます。設定はこの端末にだけ保存され、住所や連絡先は保存しません。</p>
+    </div>
+    <form class="local-profile" id="local-profile" aria-describedby="local-profile-note">
+      <div class="profile-fields">
+        <label>お住まいに近い地域
+          <select id="local-area" name="area"><option value="">選ばない</option>${livingAreas.map((a) => `<option value="${esc(a.id)}">${esc(a.label)}</option>`).join("")}</select>
+        </label>
+        <label>子どもの年齢・状況
+          <select id="local-child-age" name="childAge"><option value="">選ばない</option><option value="pregnancy">妊娠中・これから</option><option value="baby">0〜2歳</option><option value="preschool">3〜5歳</option><option value="school">小学生</option><option value="teen">中高生</option></select>
+        </label>
+        <button id="local-profile-save" type="button">この端末に設定</button>
+        <button id="local-profile-reset" class="profile-reset" type="button" hidden>設定を消す</button>
+      </div>
+      <p id="local-profile-note">地域包括支援センターの担当は町名によって分かれる場合があります。表示内容は目安として、必ず公式一覧で確認してください。</p>
+      <p id="local-profile-status" class="profile-status" aria-live="polite"></p>
+    </form>
+
+    <div class="tool-grid">
+      <section class="tool-card tool-district" aria-labelledby="district-h">
+        <p class="tool-overline">MY AREA</p><h3 id="district-h">マイ地区・今日の宝塚</h3>
+        <p id="district-lede">地域を選ぶと、介護の相談先と近隣候補の避難所をこの場に出します。</p>
+        <div id="district-result" class="district-result" hidden></div>
+        <div class="tool-actions"><a id="district-garbage" href="https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html" rel="noopener">町名からごみ収集日を確認</a><a href="/life/facility/">公共施設を探す</a></div>
+      </section>
+
+      <section class="tool-card tool-child" id="child-week" aria-labelledby="child-week-h">
+        <p class="tool-overline">CHILDREN THIS WEEK</p><h3 id="child-week-h">子どもと今週</h3>
+        <p id="child-week-lede">市の更新データから、親子・子ども向けの近い日程を抜き出します。</p>
+        <ul id="child-week-list" class="mini-event-list">${starterList}</ul>
+        <div class="tool-actions"><a href="/life/childcare/">子育て・教育の案内</a><a href="/life/events/">すべてのイベント</a></div>
+      </section>
+
+      <section class="tool-card tool-care" id="care-start" aria-labelledby="care-start-h">
+        <p class="tool-overline">STARTING CARE</p><h3 id="care-start-h">親の介護をはじめる</h3>
+        <ol class="care-steps"><li><b>まず相談</b><span>介護の必要性が決まっていなくても、地域包括支援センターへ。</span></li><li><b>認定を申請</b><span>必要になったら、要介護認定の申請へ進みます。</span></li><li><b>退院前に連携</b><span>病院の相談員と地域の相談先を早めにつなぎます。</span></li></ol>
+        <div id="care-area-result" class="care-area-result">地域を設定すると、最初に相談する窓口を表示します。</div>
+        <div class="tool-actions"><a href="/life/welfare/">高齢者・福祉の案内</a><a href="/life/welfare/">地域包括支援センターの案内</a></div>
+      </section>
+
+      <section class="tool-card tool-disaster family-card" id="family-disaster" aria-labelledby="family-disaster-h">
+        <p class="tool-overline">FAMILY EMERGENCY CARD</p><h3 id="family-disaster-h">わが家の防災カード</h3>
+        <p>平時に決めて、印刷しておくための一枚です。入力した集合場所・連絡方法は保存されません。</p>
+        <div class="disaster-fields"><label>家族の集合場所<input id="family-meeting" type="text" autocomplete="off" placeholder="例: ○○公園の入口"></label><label>連絡方法・連絡先<input id="family-contact" type="text" autocomplete="off" placeholder="例: 災害用伝言ダイヤル 171"></label></div>
+        <div id="disaster-area-result" class="disaster-area-result">地域を設定すると、近隣候補の避難所を最大3件表示します。</div>
+        <div class="tool-actions"><a href="https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html" rel="noopener">自宅周辺のハザードを確認</a><button id="print-disaster-card" type="button">このカードを印刷</button></div>
+      </section>
+    </div>
+    <script id="life-tools-data" type="application/json">${safeJson(data)}</script>
+  </section>`;
+}
+
 /* ==========================================================================
    page: category
    ========================================================================== */
@@ -497,7 +588,7 @@ ${lis}
     <p class="hero-updated">データ更新日: <b>${newest}</b>（オープンデータは毎週自動更新）</p>
   </div>
   <div class="hero-art" aria-hidden="true">
-    <img src="/life/assets/hero.svg" alt="" width="1200" height="480" loading="eager">
+    <img src="/life/assets/hero.png" alt="" width="1983" height="793" loading="eager">
   </div>
 </div>
 
@@ -505,6 +596,7 @@ ${sosFull()}
 
 <main id="main">
   <div class="wrap">
+    ${lifeTools()}
     ${savedGuides()}
     ${quickRoutes()}
     <section class="cat-cards" aria-labelledby="cats-h">
