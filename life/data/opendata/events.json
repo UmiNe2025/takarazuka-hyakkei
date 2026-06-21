@@ -2,7 +2,7 @@
  "id": "events",
  "title": "宝塚市のイベント情報",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成。今後開催されるものを開催日順に表示しています。申込方法・詳細は各リンク先で確認を",
- "fetched": "2026-06-21",
+ "fetched": "2026-06-22",
  "sourcePage": "https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html",
  "type": "events",
  "items": [
@@ -4490,22 +4490,6 @@
    ],
    "application": false,
    "deadline": "2026-06-15"
-  },
-  {
-   "date": "2026-06-21",
-   "dateEnd": "",
-   "title": "第11回宝塚きづな亭桂三語落語会",
-   "place": "宝塚市中山寺会館",
-   "desc": "宝塚市民の方々に落語を楽しんでいただけたらと思います。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063418.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "4"
-   ],
-   "application": false,
-   "deadline": "2026-06-20"
   },
   {
    "date": "2026-06-21",
