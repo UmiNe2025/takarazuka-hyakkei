@@ -40,6 +40,18 @@ const LIFE_EXCLUDE = new Set(["data", "README.md"]);
   }
 })(path.join(ROOT, "life"), path.join(PUB, "life"));
 
+/* guide/ （宝塚さんぽ・おでかけガイド = 広告あり層）も丸ごとコピー */
+(function copyGuide(srcDir, dstDir) {
+  if (!fs.existsSync(srcDir)) { console.error("MISSING: guide/"); process.exitCode = 1; return; }
+  fs.mkdirSync(dstDir, { recursive: true });
+  for (const ent of fs.readdirSync(srcDir, { withFileTypes: true })) {
+    const s = path.join(srcDir, ent.name);
+    const d = path.join(dstDir, ent.name);
+    if (ent.isDirectory()) copyGuide(s, d);
+    else fs.copyFileSync(s, d);
+  }
+})(path.join(ROOT, "guide"), path.join(PUB, "guide"));
+
 const list = [];
 (function walk(d) {
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {

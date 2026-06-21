@@ -88,6 +88,9 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), md);
 
 /* ---------- 4. sitemap.xml ---------- */
 const today = new Date().toISOString().slice(0, 10);
+/* guide/（宝塚さんぽ・おでかけガイド）のURLもsitemapに含める。tools/build-guide.mjs と対応。 */
+const guideSitemap = ["", "nakayamadera-anzan", "kiyoshikojin-guide", "takarazuka-revue-first", "half-day-course", "jisha-goshuin", "takarazuka-history"]
+  .map((s) => `  <url>\n    <loc>${BASE}guide/${s ? s + ".html" : ""}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
 `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -97,6 +100,7 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+${guideSitemap}
 </urlset>
 `);
 /* 注: /life/ 系のURLは tools/prerender-life.mjs が後段で追記する（deploy順: prerender → prerender-life）。 */

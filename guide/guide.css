@@ -1,0 +1,57 @@
+:root{--ink:#241d3f;--ink-soft:#5a5170;--paper:#fffdf7;--cream:#f7f1e6;--line:#e6ddcb;--purple:#38285c;--violet:#7a5cb8;--gold:#c19a3f;--gold-d:#9a7826}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.9;font-size:16px}
+a{color:var(--purple)}
+.skip-link{position:fixed;left:12px;top:8px;z-index:20;background:var(--purple);color:#fff;padding:8px 12px;border-radius:8px;transform:translateY(-150%)}
+.skip-link:focus{transform:none}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+.site-head{background:var(--purple);color:#f3ecdc}
+.site-head .wrap{display:flex;align-items:center;gap:14px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#f3ecdc}
+.brand .crest{width:34px;height:34px;flex:none}
+.brand b{font-family:"Zen Old Mincho",serif;font-size:18px;letter-spacing:.05em;display:block;line-height:1.2}
+.brand small{font-size:10px;letter-spacing:.18em;color:#c8b58a}
+.head-links{margin-left:auto;display:flex;gap:16px;font-size:12.5px;flex-wrap:wrap}
+.head-links a{color:#d9cba6;text-decoration:none}
+.head-links a:hover{color:#fff;text-decoration:underline}
+.breadcrumb{background:var(--cream);font-size:12px}
+.breadcrumb ol{display:flex;gap:6px;list-style:none;margin:0;padding:9px 0;flex-wrap:wrap;color:var(--ink-soft)}
+.breadcrumb a{color:var(--ink-soft)}
+.guide-hero{background:linear-gradient(180deg,#efe7f3,var(--paper));border-bottom:1px solid var(--line);padding:30px 0 22px}
+.eyebrow{color:var(--gold-d);font-size:12px;font-weight:700;letter-spacing:.12em;margin:0 0 8px}
+.guide-hero h1{font-family:"Zen Old Mincho",serif;font-weight:700;font-size:27px;line-height:1.45;margin:0 0 10px}
+.guide-hero .lead{color:var(--ink-soft);font-size:15px;margin:0}
+main{padding:26px 0 10px}
+.doc h2{font-family:"Zen Old Mincho",serif;font-size:20px;margin:34px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.doc h3{font-size:16px;margin:22px 0 4px;color:var(--purple)}
+.doc p,.doc li{font-size:15px;line-height:1.95}
+.doc ul,.doc ol{padding-left:22px}.doc li{margin:5px 0}
+.box{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:14px 18px;margin:18px 0}
+.box.access{border-left-color:var(--violet)}
+.box h3{margin:0 0 6px}
+.note{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:18px 0;font-size:13.5px;color:var(--ink-soft);line-height:1.85}
+.course{list-style:none;padding:0;margin:14px 0}
+.course li{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.course .t{flex:none;width:64px;font-weight:700;color:var(--gold-d);font-size:13.5px}
+.course .c b{display:block}
+.qa{background:#fff;border:1px solid var(--line);border-radius:14px;padding:6px 18px;margin:14px 0}
+.qa dt{font-weight:700;margin:14px 0 4px;color:var(--purple)}
+.qa dd{margin:0 0 12px;font-size:14.5px}
+.sources{font-size:12.5px;color:var(--ink-soft);border-top:1px dashed var(--line);margin-top:22px;padding-top:12px}
+.sources a{color:var(--ink-soft)}
+.rel{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:22px 0 0}
+.rel b{font-size:14px}.rel ul{margin:6px 0 0}
+.cta{display:inline-block;margin:18px 0 4px;background:var(--purple);color:#f3ecdc;border-radius:10px;padding:11px 20px;font-weight:700;text-decoration:none}
+.cta:hover{background:#2a1f47}
+.backlink{display:inline-block;margin:6px 0;font-weight:700;text-decoration:none}
+.cards{display:grid;gap:14px;margin:8px 0 0}
+.card{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s,box-shadow .15s}
+.card:hover{border-color:var(--violet);transform:translateY(-1px);box-shadow:0 8px 20px rgba(56,40,92,.10)}
+.card .k{font-size:11.5px;font-weight:700;letter-spacing:.08em;color:var(--gold-d)}
+.card h2{font-family:"Zen Old Mincho",serif;font-size:18px;margin:5px 0 5px;border:0;padding:0}
+.card p{font-size:13.5px;color:var(--ink-soft);margin:0;line-height:1.7}
+.site-foot{background:var(--purple);color:#cbb88f;margin-top:34px;padding:26px 0}
+.site-foot .wrap{font-size:12.5px;line-height:1.8}
+.site-foot .ft{font-family:"Zen Old Mincho",serif;color:#f3ecdc;font-size:16px;margin:0 0 4px}
+.site-foot a{color:#d9cba6}
+@media(max-width:560px){.guide-hero h1{font-size:23px}.head-links{width:100%;margin:0}}
