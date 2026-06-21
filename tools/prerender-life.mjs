@@ -54,6 +54,7 @@ const I = {
   external: '<path d="M14 4h6v6M20 4l-9 9M19 13v6H5V5h6"/>',
   list: '<path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/>',
   home: '<path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/>',
+  bookmark: '<path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-3.8L6 21Z"/>',
   arrowR: '<path d="M5 12h14M13 6l6 6-6 6"/>',
   search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/>',
 };
@@ -207,7 +208,8 @@ function footer() {
 function factRow(ic, label, html) {
   return `<div class="i-fact">${icon(ic)}<span class="f-label">${label}</span><span>${html}</span></div>`;
 }
-function renderItem(it, catId, idx) {
+function renderItem(it, cat, idx) {
+  const itemId = `${cat.id}-${idx + 1}`;
   const facts = [];
   if (it.phone) facts.push(factRow("phone", "電話",
     `<a class="tel-link" href="${telHref(it.phone)}">${esc(it.phone)}</a>${it.phoneNote ? ` <small>（${esc(it.phoneNote)}）</small>` : ""}`));
@@ -219,11 +221,14 @@ function renderItem(it, catId, idx) {
     ? `<a class="i-link" href="${esc(safeUrl(it.url))}" rel="noopener">${esc(it.urlLabel || "市公式ページで詳しく")} ${icon("external")}</a>` : "";
   const tags = it.tags && it.tags.length
     ? `<span class="i-tags">${it.tags.map((t) => `<span class="i-tag">${esc(t)}</span>`).join("")}</span>` : "";
-  return `<article class="item-card" id="${catId}-${idx + 1}">
+  const save = `<button class="save-item" type="button" data-save-item hidden aria-pressed="false"
+    data-save-id="${esc(itemId)}" data-save-title="${esc(it.title)}" data-save-url="${catUrl(cat.id)}#${itemId}"
+    data-save-category="${esc(cat.title)}" data-save-color="${esc(cat.color)}">${icon("bookmark")}<span>あとで見る</span></button>`;
+  return `<article class="item-card" id="${itemId}">
   <h3>${it.important ? '<span class="badge-imp">重要</span>' : ""}${esc(it.title)}</h3>
   <p class="i-sum">${esc(it.summary)}</p>
   ${facts.length ? `<div class="i-facts">${facts.join("")}</div>` : ""}${steps}
-  <div class="i-foot">${link}${tags}</div>
+  <div class="i-foot">${link}${save}${tags}</div>
 </article>`;
 }
 
@@ -309,6 +314,71 @@ function categoryCard(c) {
 </a>`;
 }
 
+/* ---------- hub: routes for the situations residents actually arrive with ---------- */
+function quickRoutes() {
+  const routes = [
+    {
+      tone: "emergency", label: "いま困っている", title: "救急車を呼ぶか、受診するか迷う",
+      lead: "命の危険を感じたら、迷わず119番へ。判断に迷うときは救急相談につながれます。",
+      primary: { href: "tel:#7119", text: "#7119 に電話して相談する", note: "救急相談（24時間）" },
+      links: [{ href: "/life/emergency/", text: "緊急の連絡先をすべて見る" }, { href: "/life/medical/", text: "休日・夜間の診療先を探す" }],
+    },
+    {
+      tone: "procedure", label: "引越し", title: "転入・転出・転居をまとめて進める",
+      lead: "役所の届出だけで終わりません。水道と、出し切れないごみも先に段取りしておくと安心です。",
+      primary: { href: "/life/procedure/#procedure-1", text: "まず住民異動の手続きを確認", note: "転入・転出・転居" },
+      links: [{ href: "/life/lifeline/#lifeline-1", text: "水道の開始・中止を申し込む" }, { href: "/life/garbage/", text: "粗大ごみ・持込みを調べる" }],
+    },
+    {
+      tone: "garbage", label: "今日のごみ", title: "分け方・出し方や粗大ごみを知りたい",
+      lead: "収集日・分別は地域ごとに違います。出す前に公式の分別検索と収集日を確認できます。",
+      primary: { href: "/life/garbage/", text: "ごみ・リサイクルの案内へ", note: "分別・収集日・粗大ごみ" },
+      links: [{ href: "/life/garbage/#garbage-3", text: "粗大ごみの出し方を確認" }],
+    },
+    {
+      tone: "childcare", label: "子ども", title: "子どもの急な体調不良・子育ての相談",
+      lead: "夜間・休日の急な症状は小児救急の電話相談へ。ふだんの支援や保育の情報もひとつにあります。",
+      primary: { href: "tel:#8000", text: "#8000 に電話して相談する", note: "小児救急医療電話相談" },
+      links: [{ href: "/life/childcare/", text: "子育て・教育の案内へ" }, { href: "/life/medical/", text: "休日・夜間の受診先を探す" }],
+    },
+    {
+      tone: "disaster", label: "備える", title: "自宅周辺の災害リスクと避難先を確認",
+      lead: "武庫川の水害、山際の土砂災害、地震。平時にハザードマップと避難所を見ておくと行動が早くなります。",
+      primary: { href: "/life/disaster/", text: "ハザードマップ・避難所を確認", note: "防災情報と避難先" },
+      links: [{ href: "/life/emergency/", text: "災害時の連絡先も確認する" }],
+    },
+    {
+      tone: "welfare", label: "相談する", title: "暮らし・契約・法律の困りごとを相談",
+      lead: "ひとりで抱え込まず、内容に合う相談先へ。消費者トラブル、生活の困りごと、福祉の案内をまとめています。",
+      primary: { href: "/life/events/#events-1", text: "契約・悪質商法の相談先へ", note: "消費生活センター・188" },
+      links: [{ href: "/life/welfare/", text: "生活・福祉の相談先を探す" }, { href: "/life/events/#events-2", text: "無料法律相談を確認する" }],
+    },
+  ];
+  return `<section class="quick-routes" aria-labelledby="routes-h">
+    <div class="route-heading">
+      <div><p class="route-kicker">WHAT DO YOU NEED TODAY?</p><h2 id="routes-h">困りごとから、次にすることへ</h2></div>
+      <p>複数の窓口が関わることほど、最初の一手をひとつに絞りました。</p>
+    </div>
+    <div class="route-grid">
+${routes.map((r) => `      <article class="route-card" style="--route: var(--c-${r.tone})">
+        <p class="route-label">${esc(r.label)}</p>
+        <h3>${esc(r.title)}</h3>
+        <p class="route-lead">${esc(r.lead)}</p>
+        <a class="route-primary" href="${esc(r.primary.href)}"><span>${esc(r.primary.text)}</span><small>${esc(r.primary.note)}</small>${icon("arrowR")}</a>
+        <div class="route-links">${r.links.map((l) => `<a href="${esc(l.href)}">${esc(l.text)}</a>`).join("")}</div>
+      </article>`).join("\n")}
+    </div>
+  </section>`;
+}
+
+function savedGuides() {
+  return `<section class="saved-guides" id="saved-guides" aria-labelledby="saved-guides-h" hidden>
+    <div class="saved-head"><div><p class="route-kicker">ON THIS DEVICE</p><h2 id="saved-guides-h">あとで見る</h2></div><button class="saved-clear" id="saved-clear" type="button">すべて消す</button></div>
+    <p class="saved-note">保存した案内は、この端末のブラウザにだけ保存されます。</p>
+    <ul class="saved-list" id="saved-list" aria-live="polite"></ul>
+  </section>`;
+}
+
 /* ==========================================================================
    page: category
    ========================================================================== */
@@ -339,7 +409,7 @@ function categoryPage(c) {
   const isEmergency = c.id === "emergency";
   const others = guide.categories.filter((x) => x.id !== c.id);
 
-  const items = `<div class="item-grid">\n${c.items.map((it, i) => renderItem(it, c.id, i)).join("\n")}\n</div>`;
+  const items = `<div class="item-grid">\n${c.items.map((it, i) => renderItem(it, c, i)).join("\n")}\n</div>`;
   const odBlocks = (c.opendata || []).map(renderOd).join("\n");
 
   const body = `${isEmergency ? "" : sosStrip()}
@@ -435,6 +505,8 @@ ${sosFull()}
 
 <main id="main">
   <div class="wrap">
+    ${savedGuides()}
+    ${quickRoutes()}
     <section class="cat-cards" aria-labelledby="cats-h">
       <div class="sec-head"><h2 id="cats-h">${icon("list")} カテゴリから探す</h2></div>
       <div class="cat-card-grid">

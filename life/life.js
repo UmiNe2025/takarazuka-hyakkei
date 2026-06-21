@@ -109,6 +109,88 @@
   }
 
   /* ==========================================================================
+     saved guides — a small personal dashboard, stored in this browser only
+     ========================================================================== */
+  var savedKey = "takarazuka-life-saved-v1";
+  var saveButtons = Array.prototype.slice.call(document.querySelectorAll("[data-save-item]"));
+  var savedPanel = document.getElementById("saved-guides");
+  var savedList = document.getElementById("saved-list");
+  var savedClear = document.getElementById("saved-clear");
+
+  function readSaved() {
+    try {
+      var raw = JSON.parse(window.localStorage.getItem(savedKey) || "[]");
+      return Array.isArray(raw) ? raw.filter(function (item) {
+        return item && typeof item.id === "string" && typeof item.title === "string" &&
+          typeof item.url === "string" && item.url.indexOf("/life/") === 0;
+      }).slice(0, 24) : [];
+    } catch (err) {
+      return [];
+    }
+  }
+  function writeSaved(items) {
+    try { window.localStorage.setItem(savedKey, JSON.stringify(items.slice(0, 24))); } catch (err) { /* storage can be disabled */ }
+  }
+  function saveData(button) {
+    return {
+      id: button.getAttribute("data-save-id") || "",
+      title: button.getAttribute("data-save-title") || "",
+      url: button.getAttribute("data-save-url") || "",
+      category: button.getAttribute("data-save-category") || "生活情報",
+      color: button.getAttribute("data-save-color") || "procedure"
+    };
+  }
+  function isSaved(id, saved) {
+    return saved.some(function (item) { return item.id === id; });
+  }
+  function updateSaveButtons(saved) {
+    saveButtons.forEach(function (button) {
+      var active = isSaved(button.getAttribute("data-save-id"), saved);
+      button.hidden = false;
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+      button.setAttribute("aria-label", active ? "あとで見るから削除" : "あとで見るに保存");
+      var label = button.querySelector("span");
+      if (label) label.textContent = active ? "保存済み" : "あとで見る";
+    });
+  }
+  function renderSaved(saved) {
+    if (!savedPanel || !savedList) return;
+    savedPanel.hidden = !saved.length;
+    if (!saved.length) { savedList.innerHTML = ""; return; }
+    savedList.innerHTML = saved.map(function (item) {
+      return '<li style="--saved-color: var(--c-' + escHtml(item.color) + ')">' +
+        '<a class="saved-link" href="' + escHtml(item.url) + '">' +
+        '<span class="saved-title">' + escHtml(item.title) + '</span>' +
+        '<span class="saved-category">' + escHtml(item.category) + '</span></a>' +
+        '<button class="saved-remove" type="button" data-remove-saved="' + escHtml(item.id) + '" aria-label="' + escHtml(item.title) + 'を削除">×</button></li>';
+    }).join("");
+    Array.prototype.slice.call(savedList.querySelectorAll("[data-remove-saved]")).forEach(function (button) {
+      button.addEventListener("click", function () {
+        var next = readSaved().filter(function (item) { return item.id !== button.getAttribute("data-remove-saved"); });
+        writeSaved(next); updateSaveButtons(next); renderSaved(next);
+      });
+    });
+  }
+  if (saveButtons.length || savedPanel) {
+    var initialSaved = readSaved();
+    updateSaveButtons(initialSaved);
+    renderSaved(initialSaved);
+    saveButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var current = readSaved();
+        var item = saveData(button);
+        var next = isSaved(item.id, current)
+          ? current.filter(function (saved) { return saved.id !== item.id; })
+          : [item].concat(current);
+        writeSaved(next); updateSaveButtons(next); renderSaved(next);
+      });
+    });
+    if (savedClear) savedClear.addEventListener("click", function () {
+      writeSaved([]); updateSaveButtons([]); renderSaved([]);
+    });
+  }
+
+  /* ==========================================================================
      open-data table / event filters
      ========================================================================== */
   Array.prototype.slice.call(document.querySelectorAll("[data-odfilter]")).forEach(function (box) {
