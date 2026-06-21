@@ -8,6 +8,35 @@
 (function () {
   "use strict";
 
+  /* Hub-only motion stays decorative: all content remains available without it. */
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduceMotion && document.body.classList.contains("page-hub")) {
+    var revealTargets = Array.prototype.slice.call(document.querySelectorAll(
+      ".page-hub .life-tools, .page-hub .quick-routes, .page-hub .cat-cards, .page-hub .hub-events, .page-hub .sos"
+    ));
+    if ("IntersectionObserver" in window) {
+      revealTargets.forEach(function (target) { target.classList.add("motion-reveal"); });
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealTargets.forEach(function (target) { revealObserver.observe(target); });
+    }
+  }
+
+  Array.prototype.slice.call(document.querySelectorAll("[data-focus-search]")).forEach(function (trigger) {
+    trigger.addEventListener("click", function () {
+      var input = document.getElementById("q");
+      if (!input) return;
+      input.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+      window.setTimeout(function () { input.focus(); }, reduceMotion ? 0 : 280);
+    });
+  });
+
   /* ---------- text normalize: 全角→半角 / カタカナ→ひらがな / 小文字 ---------- */
   function norm(s) {
     return (s || "")

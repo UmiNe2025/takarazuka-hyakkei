@@ -71,6 +71,10 @@ const newest = updatedDates[updatedDates.length - 1] || today;
    ========================================================================== */
 function docStart(o) {
   const ogTitle = o.ogTitle || o.title;
+  const primaryNavIds = ["procedure", "childcare", "medical", "garbage", "disaster", "welfare", "transport", "events"];
+  const primaryNav = primaryNavIds
+    .map((id) => guide.categories.find((category) => category.id === id))
+    .filter(Boolean);
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -115,7 +119,7 @@ ${o.ld || ""}
 
 <div class="topbar">
   <div class="wrap">
-    <a class="tb-home" href="/life/">${icon("home")}<span>便利帳トップ</span></a>
+    <a class="tb-home" href="/life/">${icon("building")}<span>宝塚で暮らす</span></a>
     <div class="tb-search" role="search">
       <label class="sr-only" for="q">生活情報を検索</label>
       ${icon("search")}
@@ -124,7 +128,13 @@ ${o.ld || ""}
     </div>
   </div>
   <div class="search-results" id="q-results" role="listbox" aria-label="検索結果" hidden></div>
-</div>`;
+</div>
+
+<nav class="topic-nav" aria-label="生活テーマ">
+  <div class="wrap">
+${primaryNav.map((category) => `    <a href="${catUrl(category.id)}" style="--topic: var(--c-${category.color})">${icon(category.icon)}<span>${esc(category.title)}</span></a>`).join("\n")}
+  </div>
+</nav>`;
 }
 
 function breadcrumb(trail) {
@@ -354,7 +364,7 @@ function quickRoutes() {
       links: [{ href: "/life/welfare/", text: "生活・福祉の相談先を探す" }, { href: "/life/events/#events-2", text: "無料法律相談を確認する" }],
     },
   ];
-  return `<section class="quick-routes" aria-labelledby="routes-h">
+  return `<section class="quick-routes" id="quick-routes" aria-labelledby="routes-h">
     <div class="route-heading">
       <div><p class="route-kicker">WHAT DO YOU NEED TODAY?</p><h2 id="routes-h">困りごとから、次にすることへ</h2></div>
       <p>複数の窓口が関わることほど、最初の一手をひとつに絞りました。</p>
@@ -578,19 +588,42 @@ ${lis}
   })() : "";
 
   const body = `
-<div class="hero">
+<div class="hero hero--living-map">
   <div class="hero-inner">
-    <h1>
-      <span class="hero-kicker">TAKARAZUKA LIVING GUIDE</span>
-      宝塚くらしの便利帳
-    </h1>
-    <p class="hero-lede">ごみの出し方から夜間の救急まで。宝塚市で暮らすのに必要な情報の「入口」を、テーマ別にまとめました。上の検索か、下のカテゴリからお探しください。</p>
-    <p class="hero-updated">データ更新日: <b>${newest}</b>（オープンデータは毎週自動更新）</p>
+    <div class="hero-copy">
+      <p class="hero-kicker">TAKARAZUKA / EVERYDAY</p>
+      <h1><span class="hero-name">宝塚くらしの便利帳</span><span class="hero-statement">今日の暮らしを、<br>迷わず次へ。</span></h1>
+      <p class="hero-lede">ごみの出し方から夜間の救急まで。宝塚市で暮らす人が、必要な窓口へまっすぐ進むための生活案内です。</p>
+      <div class="hero-actions">
+        <button class="hero-action hero-search-trigger" type="button" data-focus-search>${icon("search")}<span>生活情報を検索</span></button>
+        <a class="hero-action hero-route-trigger" href="#quick-routes"><span>困りごとから探す</span>${icon("arrowR")}</a>
+      </div>
+      <p class="hero-updated"><span>データ更新</span><b>${newest}</b><span>市のオープンデータを定期反映</span></p>
+    </div>
+    <aside class="hero-stage-nav" aria-labelledby="stage-nav-title">
+      <p>FIND BY LIFE STAGE</p>
+      <h2 id="stage-nav-title">ライフステージから探す</h2>
+      <div class="stage-grid">
+        <a class="stage-link stage-home" href="/life/procedure/">${icon("stamp")}<span>引越し・<br>住まい</span></a>
+        <a class="stage-link stage-child" href="/life/childcare/">${icon("child")}<span>子育て・<br>教育</span></a>
+        <a class="stage-link stage-health" href="/life/medical/">${icon("medcross")}<span>健康・<br>医療</span></a>
+        <a class="stage-link stage-safety" href="/life/disaster/">${icon("shield")}<span>防災・<br>安全</span></a>
+        <a class="stage-link stage-care" href="/life/welfare/">${icon("heart")}<span>高齢者・<br>福祉</span></a>
+      </div>
+    </aside>
   </div>
-  <div class="hero-art" aria-hidden="true">
+  <div class="hero-art hero-scene" aria-hidden="true">
     <img src="/life/assets/hero.png" alt="" width="1983" height="793" loading="eager">
   </div>
 </div>
+
+<nav class="arrival-strip wrap" aria-label="目的から探す">
+  <div class="arrival-intro"><p>IMPORTANT</p><strong>重要なお知らせ・<br>緊急のご案内</strong><small>いつもの安心と、いざという時のために</small></div>
+  <a class="arrival-link arrival-urgent" href="/life/disaster/">${icon("shield")}<span>防災・災害情報</span><small>避難所・ハザード</small>${icon("arrowR")}</a>
+  <a class="arrival-link arrival-medical" href="/life/medical/">${icon("medcross")}<span>休日・夜間診療</span><small>受診先を探す</small>${icon("arrowR")}</a>
+  <a class="arrival-link arrival-child" href="tel:#8000">${icon("child")}<span>子どもの救急</span><small>#8000 に電話</small>${icon("arrowR")}</a>
+  <a class="arrival-link arrival-safety" href="/life/emergency/">${icon("siren")}<span>防犯・安全情報</span><small>緊急の連絡先</small>${icon("arrowR")}</a>
+</nav>
 
 ${sosFull()}
 
