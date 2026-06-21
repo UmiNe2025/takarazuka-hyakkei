@@ -84,6 +84,61 @@
 
 <main id="main">
   <div class="wrap">
+    <section class="saved-guides" id="saved-guides" aria-labelledby="saved-guides-h" hidden>
+    <div class="saved-head"><div><p class="route-kicker">ON THIS DEVICE</p><h2 id="saved-guides-h">あとで見る</h2></div><button class="saved-clear" id="saved-clear" type="button">すべて消す</button></div>
+    <p class="saved-note">保存した案内は、この端末のブラウザにだけ保存されます。</p>
+    <ul class="saved-list" id="saved-list" aria-live="polite"></ul>
+  </section>
+    <section class="quick-routes" aria-labelledby="routes-h">
+    <div class="route-heading">
+      <div><p class="route-kicker">WHAT DO YOU NEED TODAY?</p><h2 id="routes-h">困りごとから、次にすることへ</h2></div>
+      <p>複数の窓口が関わることほど、最初の一手をひとつに絞りました。</p>
+    </div>
+    <div class="route-grid">
+      <article class="route-card" style="--route: var(--c-emergency)">
+        <p class="route-label">いま困っている</p>
+        <h3>救急車を呼ぶか、受診するか迷う</h3>
+        <p class="route-lead">命の危険を感じたら、迷わず119番へ。判断に迷うときは救急相談につながれます。</p>
+        <a class="route-primary" href="tel:#7119"><span>#7119 に電話して相談する</span><small>救急相談（24時間）</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/emergency/">緊急の連絡先をすべて見る</a><a href="/life/medical/">休日・夜間の診療先を探す</a></div>
+      </article>
+      <article class="route-card" style="--route: var(--c-procedure)">
+        <p class="route-label">引越し</p>
+        <h3>転入・転出・転居をまとめて進める</h3>
+        <p class="route-lead">役所の届出だけで終わりません。水道と、出し切れないごみも先に段取りしておくと安心です。</p>
+        <a class="route-primary" href="/life/procedure/#procedure-1"><span>まず住民異動の手続きを確認</span><small>転入・転出・転居</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/lifeline/#lifeline-1">水道の開始・中止を申し込む</a><a href="/life/garbage/">粗大ごみ・持込みを調べる</a></div>
+      </article>
+      <article class="route-card" style="--route: var(--c-garbage)">
+        <p class="route-label">今日のごみ</p>
+        <h3>分け方・出し方や粗大ごみを知りたい</h3>
+        <p class="route-lead">収集日・分別は地域ごとに違います。出す前に公式の分別検索と収集日を確認できます。</p>
+        <a class="route-primary" href="/life/garbage/"><span>ごみ・リサイクルの案内へ</span><small>分別・収集日・粗大ごみ</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/garbage/#garbage-3">粗大ごみの出し方を確認</a></div>
+      </article>
+      <article class="route-card" style="--route: var(--c-childcare)">
+        <p class="route-label">子ども</p>
+        <h3>子どもの急な体調不良・子育ての相談</h3>
+        <p class="route-lead">夜間・休日の急な症状は小児救急の電話相談へ。ふだんの支援や保育の情報もひとつにあります。</p>
+        <a class="route-primary" href="tel:#8000"><span>#8000 に電話して相談する</span><small>小児救急医療電話相談</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/childcare/">子育て・教育の案内へ</a><a href="/life/medical/">休日・夜間の受診先を探す</a></div>
+      </article>
+      <article class="route-card" style="--route: var(--c-disaster)">
+        <p class="route-label">備える</p>
+        <h3>自宅周辺の災害リスクと避難先を確認</h3>
+        <p class="route-lead">武庫川の水害、山際の土砂災害、地震。平時にハザードマップと避難所を見ておくと行動が早くなります。</p>
+        <a class="route-primary" href="/life/disaster/"><span>ハザードマップ・避難所を確認</span><small>防災情報と避難先</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/emergency/">災害時の連絡先も確認する</a></div>
+      </article>
+      <article class="route-card" style="--route: var(--c-welfare)">
+        <p class="route-label">相談する</p>
+        <h3>暮らし・契約・法律の困りごとを相談</h3>
+        <p class="route-lead">ひとりで抱え込まず、内容に合う相談先へ。消費者トラブル、生活の困りごと、福祉の案内をまとめています。</p>
+        <a class="route-primary" href="/life/events/#events-1"><span>契約・悪質商法の相談先へ</span><small>消費生活センター・188</small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="route-links"><a href="/life/welfare/">生活・福祉の相談先を探す</a><a href="/life/events/#events-2">無料法律相談を確認する</a></div>
+      </article>
+    </div>
+  </section>
     <section class="cat-cards" aria-labelledby="cats-h">
       <div class="sec-head"><h2 id="cats-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg> カテゴリから探す</h2></div>
       <div class="cat-card-grid">
