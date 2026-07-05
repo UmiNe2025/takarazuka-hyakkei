@@ -89,7 +89,7 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), md);
 /* ---------- 4. sitemap.xml ---------- */
 const today = new Date().toISOString().slice(0, 10);
 /* guide/（宝塚さんぽ・おでかけガイド）のURLもsitemapに含める。tools/build-guide.mjs と対応。 */
-const guideSitemap = ["", "nakayamadera-anzan", "kiyoshikojin-guide", "takarazuka-revue-first", "half-day-course", "jisha-goshuin", "takarazuka-history", "haisenshiki-hiking"]
+const guideSitemap = ["", "nakayamadera-anzan", "kiyoshikojin-guide", "takarazuka-revue-first", "half-day-course", "jisha-goshuin", "takarazuka-history", "haisenshiki-hiking", "tezuka-museum"]
   .map((s) => `  <url>\n    <loc>${BASE}guide/${s}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
 `<?xml version="1.0" encoding="UTF-8"?>
