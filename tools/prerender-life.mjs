@@ -117,6 +117,7 @@ ${o.ld || ""}
     </button>
     <nav class="head-links" aria-label="関連サイト">
       <a href="/">宝塚百景（観光・魅力）</a>
+      <a href="/about">このサイトについて</a>
       <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a>
     </nav>
   </div>
@@ -199,8 +200,10 @@ function footer() {
         <h2>関連リンク</h2>
         <p>
           <a href="/">宝塚百景 — 100 Views of Takarazuka</a><br>
+          <a href="/guide/">宝塚さんぽガイド</a><br>
+          <a href="/about">このサイトについて</a><br>
           <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a><br>
-          <a href="/privacy.html">プライバシーポリシー</a>
+          <a href="/privacy">プライバシーポリシー</a>
         </p>
       </div>
     </div>

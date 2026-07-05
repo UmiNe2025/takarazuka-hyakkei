@@ -90,7 +90,7 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), md);
 const today = new Date().toISOString().slice(0, 10);
 /* guide/（宝塚さんぽ・おでかけガイド）のURLもsitemapに含める。tools/build-guide.mjs と対応。 */
 const guideSitemap = ["", "nakayamadera-anzan", "kiyoshikojin-guide", "takarazuka-revue-first", "half-day-course", "jisha-goshuin", "takarazuka-history"]
-  .map((s) => `  <url>\n    <loc>${BASE}guide/${s ? s + ".html" : ""}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
+  .map((s) => `  <url>\n    <loc>${BASE}guide/${s}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
 `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -101,19 +101,19 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>${BASE}about.html</loc>
+    <loc>${BASE}about</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>${BASE}monthly/2026-07.html</loc>
+    <loc>${BASE}monthly/2026-07</loc>
     <lastmod>${today}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>${BASE}observations/2026-07-nakayamadera.html</loc>
+    <loc>${BASE}observations/2026-07-nakayamadera</loc>
     <lastmod>${today}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
