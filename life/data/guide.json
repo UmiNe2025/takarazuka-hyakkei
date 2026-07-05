@@ -3,12 +3,36 @@
   "sos": {
     "title": "緊急のとき — まずここ",
     "buttons": [
-      { "num": "119", "label": "火事・救急・救助", "tel": "119" },
-      { "num": "110", "label": "事件・事故", "tel": "110" },
-      { "num": "#7119", "label": "救急相談（24時間）", "tel": "#7119" },
-      { "num": "#8000", "label": "子ども医療相談（夜間休日）", "tel": "#8000" },
-      { "num": "0797-73-1119", "label": "受診先案内（24時間自動音声）", "tel": "0797-73-1119" },
-      { "num": "0797-81-0003", "label": "休日応急診療所（内科）", "tel": "0797-81-0003" }
+      {
+        "num": "119",
+        "label": "火事・救急・救助",
+        "tel": "119"
+      },
+      {
+        "num": "110",
+        "label": "事件・事故",
+        "tel": "110"
+      },
+      {
+        "num": "#7119",
+        "label": "救急相談（24時間）",
+        "tel": "#7119"
+      },
+      {
+        "num": "#8000",
+        "label": "子ども医療相談（夜間休日）",
+        "tel": "#8000"
+      },
+      {
+        "num": "0797-73-1119",
+        "label": "受診先案内（24時間自動音声）",
+        "tel": "0797-73-1119"
+      },
+      {
+        "num": "0797-81-0003",
+        "label": "休日応急診療所（内科）",
+        "tel": "0797-81-0003"
+      }
     ],
     "note": "※ #7119・#8000 はダイヤル回線・IP電話等からつながらない場合があります（#7119→078-331-7119、#8000→078-304-8899）。迷ったら、ためらわず119へ。"
   },
@@ -29,8 +53,13 @@
           "phoneNote": "24時間365日",
           "url": "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008515/1009034/index.html",
           "urlLabel": "119番のかけ方（市公式）",
-          "tags": ["火事", "救急車"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008515/1009034/index.html"]
+          "tags": [
+            "火事",
+            "救急車"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008515/1009034/index.html"
+          ]
         },
         {
           "title": "110番 — 事件・事故（宝塚警察署）",
@@ -40,8 +69,13 @@
           "phoneNote": "宝塚警察署（緊急は110）",
           "url": "https://www.police.pref.hyogo.lg.jp/ps/21takaraduka/index3.htm",
           "urlLabel": "宝塚警察署（兵庫県警）",
-          "tags": ["警察", "交番"],
-          "sources": ["https://www.police.pref.hyogo.lg.jp/ps/21takaraduka/index3.htm"]
+          "tags": [
+            "警察",
+            "交番"
+          ],
+          "sources": [
+            "https://www.police.pref.hyogo.lg.jp/ps/21takaraduka/index3.htm"
+          ]
         },
         {
           "title": "救急安心センターひょうご #7119 — 救急車を呼ぶか迷ったら",
@@ -51,8 +85,12 @@
           "phoneNote": "24時間365日／直通 078-331-7119",
           "url": "https://web.pref.hyogo.lg.jp/kk43/7119.html",
           "urlLabel": "救急安心センターひょうご（兵庫県）",
-          "tags": ["救急相談"],
-          "sources": ["https://web.pref.hyogo.lg.jp/kk43/7119.html"]
+          "tags": [
+            "救急相談"
+          ],
+          "sources": [
+            "https://web.pref.hyogo.lg.jp/kk43/7119.html"
+          ]
         },
         {
           "title": "子ども医療電話相談 #8000 — 夜間・休日の子どもの急病",
@@ -63,8 +101,13 @@
           "hours": "平日・土曜 18:00〜翌朝8:00／日祝・年末年始 8:00〜翌朝8:00",
           "url": "https://web.pref.hyogo.lg.jp/kf15/hw11_000000013.html",
           "urlLabel": "子ども医療電話相談（兵庫県）",
-          "tags": ["小児救急", "子ども"],
-          "sources": ["https://web.pref.hyogo.lg.jp/kf15/hw11_000000013.html"]
+          "tags": [
+            "小児救急",
+            "子ども"
+          ],
+          "sources": [
+            "https://web.pref.hyogo.lg.jp/kf15/hw11_000000013.html"
+          ]
         },
         {
           "title": "救急医療テレホンガイド — 今すぐ診てもらえる病院を探す",
@@ -74,8 +117,12 @@
           "phoneNote": "24時間・自動音声",
           "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
           "urlLabel": "休日・夜間の救急診療（市公式）",
-          "tags": ["受診先案内"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+          "tags": [
+            "受診先案内"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"
+          ]
         },
         {
           "title": "夜間の急病 — 市内の救急告示病院（5院）",
@@ -89,8 +136,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000064/5001087.html",
           "urlLabel": "救急告示病院一覧（市公式FAQ）",
-          "tags": ["夜間救急", "病院"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000064/5001087.html"]
+          "tags": [
+            "夜間救急",
+            "病院"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000064/5001087.html"
+          ]
         }
       ],
       "faq": [
@@ -121,8 +173,13 @@
           "hours": "日曜・祝日 10:00〜12:30／年末年始 10:00〜14:30",
           "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
           "urlLabel": "休日・夜間の救急診療（市公式）",
-          "tags": ["休日診療", "内科"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+          "tags": [
+            "休日診療",
+            "内科"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"
+          ]
         },
         {
           "title": "阪神北広域こども急病センター（15歳以下・夜間休日）",
@@ -134,8 +191,13 @@
           "hours": "平日 19:30〜翌6:30／土曜 14:30〜翌6:30／日祝 8:30〜翌6:30",
           "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
           "urlLabel": "休日・夜間の救急診療（市公式）",
-          "tags": ["小児救急", "子ども"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+          "tags": [
+            "小児救急",
+            "子ども"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"
+          ]
         },
         {
           "title": "休日の歯科診療（市立歯科診療所）",
@@ -145,8 +207,13 @@
           "hours": "日曜・祝日・年末年始 10:00〜12:30",
           "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
           "urlLabel": "休日・夜間の救急診療（市公式）",
-          "tags": ["歯科", "休日診療"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+          "tags": [
+            "歯科",
+            "休日診療"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"
+          ]
         },
         {
           "title": "夜間・休日の眼科・耳鼻咽喉科（尼崎市立休日夜間急病診療所）",
@@ -156,8 +223,13 @@
           "hours": "土曜 18:00〜20:30（耳鼻のみ）／日祝 9:00〜16:00／年末年始 9:00〜翌朝5:30",
           "url": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html",
           "urlLabel": "休日・夜間の救急診療（市公式）",
-          "tags": ["眼科", "耳鼻科"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"]
+          "tags": [
+            "眼科",
+            "耳鼻科"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060686/1060716/kyukyu/1001097.html"
+          ]
         },
         {
           "title": "宝塚市立病院",
@@ -167,16 +239,42 @@
           "hours": "救急外来 17:00〜翌8:30",
           "url": "https://www.takarazukacity-hp.com/",
           "urlLabel": "宝塚市立病院 公式サイト",
-          "tags": ["総合病院"],
-          "sources": ["https://www.takarazukacity-hp.com/"]
+          "tags": [
+            "総合病院"
+          ],
+          "sources": [
+            "https://www.takarazukacity-hp.com/"
+          ]
         },
         {
           "title": "かかりつけ医・専門医を探す（医療情報ネット）",
           "summary": "診療科目・診療日・対応疾患などから全国の医療機関・薬局を検索できる厚生労働省のシステム。従来の兵庫県医療機関情報システムは2024年3月末で廃止され、こちらに移行しました。",
           "url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2310/initialize?pref=28",
           "urlLabel": "医療情報ネット（兵庫県の検索入口）",
-          "tags": ["病院検索", "薬局"],
-          "sources": ["https://web.pref.hyogo.lg.jp/kf15/hw11_000000044.html"]
+          "tags": [
+            "病院検索",
+            "薬局"
+          ],
+          "sources": [
+            "https://web.pref.hyogo.lg.jp/kf15/hw11_000000044.html"
+          ]
+        },
+        {
+          "title": "特定健診・がん検診",
+          "summary": "宝塚市国民健康保険に加入し、年度初め(4月1日)時点で40〜74歳の方は特定健診の対象です。がん検診は、大腸がん・肺がん・子宮頸がん・乳がん・肝炎ウイルス検診(健康センターまたは市内の実施医療機関)と、胃がん検診(健康センターでのバリウム検査)があります。子宮頸がん検診は20歳以上の女性市民が対象で費用1,000円・年度内1回、乳がん検診は40歳以上の女性市民が対象で2年度に1回(費用は集団検診1,500円、個別検診は40歳代2,500円・50歳以上1,800円)。年度によっては無料クーポンの対象になる方もいます。受診券の発行・再発行は健康推進課(電話)または兵庫県電子申請システム「e-ひょうご」で申し込めます。対象年齢・費用・実施期間は検診の種類ごとに異なるため、市の健(検)診ページでご確認ください。",
+          "phone": "0797-86-0056",
+          "phoneNote": "健康推進課(市立健康センター)",
+          "url": "https://www.city.takarazuka.hyogo.jp/kenkofukushi/kenshin/1027253/1000613.html",
+          "urlLabel": "健(検)診のご案内（市公式）",
+          "tags": [
+            "健診",
+            "がん検診",
+            "特定健診",
+            "健康"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kenkofukushi/kenshin/1027253/1000613.html"
+          ]
         }
       ],
       "faq": [
@@ -185,7 +283,9 @@
           "a": "大人（15歳以上）の内科は宝塚市立休日応急診療所（0797-81-0003、日祝10:00〜12:30）。子どもは阪神北広域こども急病センター（072-770-9988）。受診先に迷ったら24時間の救急医療テレホンガイド（0797-73-1119）か #7119 へ。"
         }
       ],
-      "opendata": ["aed"]
+      "opendata": [
+        "aed"
+      ]
     },
     {
       "id": "disaster",
@@ -203,8 +303,14 @@
           "phoneNote": "総合防災課",
           "url": "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html",
           "urlLabel": "たからづか防災マップ（市公式）",
-          "tags": ["ハザードマップ", "洪水", "土砂災害"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html"]
+          "tags": [
+            "ハザードマップ",
+            "洪水",
+            "土砂災害"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1009171/hazardmap.html"
+          ]
         },
         {
           "title": "安心メール・ひょうご防災ネット — 避難情報を受け取る",
@@ -217,8 +323,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html",
           "urlLabel": "安心メールの登録方法（市公式）",
-          "tags": ["防災メール", "アプリ"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html"]
+          "tags": [
+            "防災メール",
+            "アプリ"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025911/1000416.html"
+          ]
         },
         {
           "title": "防災行政無線「すみれ防災スピーカー」— 聞き逃したら再聴取ダイヤル",
@@ -227,16 +338,25 @@
           "phoneNote": "放送内容の再聴取",
           "url": "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025909/1023299.html",
           "urlLabel": "すみれ防災スピーカー（市公式）",
-          "tags": ["防災無線", "FM宝塚"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025909/1023299.html"]
+          "tags": [
+            "防災無線",
+            "FM宝塚"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1013056/1013222/1025907/1025909/1023299.html"
+          ]
         },
         {
           "title": "避難所のしくみ — 指定避難所・予備避難所・避難地",
           "summary": "「指定避難所」は災害時に市が優先的に開設する施設（主に小・中学校）。「予備避難所」は高齢者・障害者など要援護者向けに二次的に開設、「避難地」は火災等から一時的に身を守る空地です。下の一覧（自動更新）で最寄りの避難場所を確認しておきましょう。",
           "url": "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1001112.html",
           "urlLabel": "避難所・避難地一覧（市公式）",
-          "tags": ["避難所"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1001112.html"]
+          "tags": [
+            "避難所"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1001112.html"
+          ]
         },
         {
           "title": "断水・災害時の給水拠点（耐震性貯水槽8か所）",
@@ -251,8 +371,13 @@
           "phoneNote": "消防本部警防課",
           "url": "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008505/1017911.html",
           "urlLabel": "耐震性貯水槽（市公式）",
-          "tags": ["給水", "断水"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008505/1017911.html"]
+          "tags": [
+            "給水",
+            "断水"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/anzen/shobo/1008505/1017911.html"
+          ]
         },
         {
           "title": "消防署への問い合わせ（緊急でないとき）",
@@ -264,8 +389,14 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/1008153/",
           "urlLabel": "宝塚市消防本部",
-          "tags": ["消防"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1008153/index.html", "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1052854.html", "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1042611.html"]
+          "tags": [
+            "消防"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1008153/index.html",
+            "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1052854.html",
+            "https://www.city.takarazuka.hyogo.jp/1008153/1002632/1042611.html"
+          ]
         },
         {
           "title": "住まいの地震対策 — 耐震診断3,150円・改修補助",
@@ -274,8 +405,14 @@
           "phoneNote": "建築指導課",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1003865.html",
           "urlLabel": "簡易耐震診断推進事業（市公式）",
-          "tags": ["耐震", "補助金"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1003865.html", "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1000400.html"]
+          "tags": [
+            "耐震",
+            "補助金"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1003865.html",
+            "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1010169/1000400.html"
+          ]
         }
       ],
       "faq": [
@@ -284,7 +421,9 @@
           "a": "宝塚市の「安心メール」（takarazuka@bosai.net へ空メールで登録）、アプリ「ひょうご防災ネット」、緊急速報メール、FM宝塚（83.5MHz）、市公式SNSなど複数の手段を組み合わせるのが確実です。"
         }
       ],
-      "opendata": ["shelters"]
+      "opendata": [
+        "shelters"
+      ]
     },
     {
       "id": "garbage",
@@ -308,8 +447,14 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002043.html",
           "urlLabel": "ごみの出し方・分け方（市公式）",
-          "tags": ["分別", "可燃ごみ", "プラ"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002043.html"]
+          "tags": [
+            "分別",
+            "可燃ごみ",
+            "プラ"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002043.html"
+          ]
         },
         {
           "title": "収集日の調べ方（地区別カレンダー）",
@@ -317,8 +462,13 @@
           "summary": "収集曜日は町名ごと（全18地区）に異なります。市サイトの「ごみ収集カレンダー」で自分の町名を選んで確認を。2026年度からWebの隔月カレンダー掲載は終了予定のため、アプリ「さんあ〜る」や市公式LINEの収集日通知の利用がおすすめです。出すのは収集日の朝8時までに、決められたごみステーションへ。",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html",
           "urlLabel": "ごみ収集カレンダー（市公式）",
-          "tags": ["収集日", "カレンダー"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html"]
+          "tags": [
+            "収集日",
+            "カレンダー"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1010940.html"
+          ]
         },
         {
           "title": "粗大ごみ — 申込制（電話・ネット）",
@@ -333,8 +483,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html",
           "urlLabel": "粗大ごみの出し方（市公式）",
-          "tags": ["粗大ごみ"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002046.html"]
+          "tags": [
+            "粗大ごみ"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html",
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002046.html"
+          ]
         },
         {
           "title": "クリーンセンターへの持ち込み（粗大ごみのみ）",
@@ -344,40 +499,67 @@
           "hours": "月〜金（祝日含む）・毎月第3土曜 8:00〜11:00／12:00〜15:00",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/index.html",
           "urlLabel": "クリーンセンター（市公式）",
-          "tags": ["持ち込み"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/notice/1054460.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html"]
+          "tags": [
+            "持ち込み"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/notice/1054460.html",
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html"
+          ]
         },
         {
           "title": "家電4品目・パソコンは市で処理できません",
           "summary": "エアコン・テレビ・冷蔵庫/冷凍庫・洗濯機/衣類乾燥機は家電リサイクル法対象で、購入店への引き取り依頼か指定引取場所への持ち込みが必要（リサイクル料金＋収集運搬料金）。パソコンはメーカー回収（PCリサイクルマーク付きは無料）、リネットジャパン宅配回収（PC本体を含む回収は無料）、または市内9か所の小型家電回収ボックス（ノートPC・タブレット可）へ。",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002039.html",
           "urlLabel": "家電リサイクル（市公式）",
-          "tags": ["家電", "パソコン"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002039.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002037.html"]
+          "tags": [
+            "家電",
+            "パソコン"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002039.html",
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002037.html"
+          ]
         },
         {
           "title": "小型家電回収ボックス（市内9か所・無料）",
           "summary": "携帯電話・デジカメ・ゲーム機・ドライヤーなど400品目以上を無料で回収（投入口 横30cm×縦20cm以内）。設置場所: クリーンセンター管理課／市役所本庁1階／西谷庁舎／消費生活センター（ピピアめふ1・5階）／あいあいパーク／仁川駅前サービスステーション／宝塚駅前サービスステーション（ソリオ1・3階）／ダイエー宝塚中山店／西図書館2階。",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1001131.html",
           "urlLabel": "小型家電リサイクル（市公式）",
-          "tags": ["小型家電", "リサイクル"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1001131.html"]
+          "tags": [
+            "小型家電",
+            "リサイクル"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1001131.html"
+          ]
         },
         {
           "title": "分別に迷ったら — 分別検索・アプリ・ハンドブック",
           "summary": "市サイトの「ごみ分別検索」では約1,500品目以上の分別区分を品目名から調べられます。アプリ「さんあ〜る」（無料）は収集日カレンダー・前日通知・品目検索に対応。保存版の「家庭ごみの減量と出し方・分け方ハンドブック」（2026年4月改訂）は英語・中国語・韓国語・ポルトガル語版もあります。",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/index.html",
           "urlLabel": "ごみ分別検索・ハンドブック（市公式）",
-          "tags": ["分別検索", "さんあ〜る"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/index.html", "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1014257.html"]
+          "tags": [
+            "分別検索",
+            "さんあ〜る"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/index.html",
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1014257.html"
+          ]
         },
         {
           "title": "きずな収集 — ごみ出しが困難な方への戸別収集",
           "summary": "ごみステーションまでの持ち出しが難しい高齢者や障害のある方を対象に、自宅玄関前などで収集する制度です。申込みは随時受付。",
           "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1000651.html",
           "urlLabel": "きずな収集（市公式）",
-          "tags": ["高齢者", "戸別収集"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1000651.html"]
+          "tags": [
+            "高齢者",
+            "戸別収集"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1000651.html"
+          ]
         }
       ],
       "faq": [
@@ -404,6 +586,25 @@
       "icon": "stamp",
       "items": [
         {
+          "title": "おくやみ — 死亡届とご遺族の手続き",
+          "important": true,
+          "summary": "死亡届は、死亡の事実を知った日から7日以内(当日を含む)に届け出ます(多くは葬儀業者が葬儀前に提出)。届け出により埋火葬許可証が交付され、住民登録の抹消・戸籍への記載が行われます。市役所2階の窓口サービス課には「おくやみ手続き案内コーナー」(予約不要)があり、必要な手続きと担当窓口の案内、主な申請書の一括作成をしてもらえます。「おくやみ手続きハンドブック」やWeb版「くらしの手続きガイド」(3〜5分)も利用可。届出は本庁舎2階窓口サービス課・各サービスセンター/ステーション(9:00〜17:00、土日祝・年末年始を除く)、時間外は本庁舎1階の警備防災センターで受け付けます。",
+          "phone": "0797-77-2050",
+          "phoneNote": "窓口サービス課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1039221.html",
+          "urlLabel": "おくやみ手続き（市公式）",
+          "tags": [
+            "おくやみ",
+            "死亡届",
+            "相続",
+            "ご遺族の手続き"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1039221.html",
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1000066/1000156.html"
+          ]
+        },
+        {
           "title": "宝塚市役所 本庁舎",
           "important": true,
           "summary": "各種手続きの中心窓口。2026年1月5日から受付終了時間が17時30分→17時に変わりました。最寄りは阪急逆瀬川駅（徒歩約15分）またはバス「宝塚市役所前」。混雑しやすいのは11時〜14時、月曜・金曜・連休前後・3月下旬〜4月上旬です。",
@@ -413,8 +614,13 @@
           "hours": "平日 9:00〜17:00（土日祝・12/29〜1/3 休み）",
           "url": "https://www.city.takarazuka.hyogo.jp/about/annnai/index.html",
           "urlLabel": "市役所案内（市公式）",
-          "tags": ["市役所", "開庁時間"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/annnai/index.html"]
+          "tags": [
+            "市役所",
+            "開庁時間"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/annnai/index.html"
+          ]
         },
         {
           "title": "サービスセンター・サービスステーション（市内7か所の出先窓口）",
@@ -431,8 +637,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1000162.html",
           "urlLabel": "出先窓口一覧（市公式）",
-          "tags": ["サービスセンター", "窓口"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1000162.html"]
+          "tags": [
+            "サービスセンター",
+            "窓口"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1000162.html"
+          ]
         },
         {
           "title": "引越しの手続き — 転入・転出・転居",
@@ -440,8 +651,15 @@
           "summary": "市外から越してきたら「転入届」を引越しから14日以内に（転出証明書またはマイナンバーカード、本人確認書類を持参）。市外へ出るときの「転出届」は約14日前から手続きでき、窓口のほか郵送・マイナポータルのオンライン申請も可能。市内の引越しは「転居届」を14日以内に。手数料はいずれも無料。窓口は本庁舎2階窓口サービス課または各サービスセンター・ステーション。",
           "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060694/1061544/1060199/1000158.html",
           "urlLabel": "引越しの手続き（市公式）",
-          "tags": ["転入", "転出", "引越し"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060679/1060694/1061544/1060199/1000158.html", "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1060199/1000157.html"]
+          "tags": [
+            "転入",
+            "転出",
+            "引越し"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060679/1060694/1061544/1060199/1000158.html",
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1060199/1000157.html"
+          ]
         },
         {
           "title": "住民票・戸籍・印鑑証明（窓口での取得）",
@@ -451,16 +669,27 @@
           "hours": "平日 9:00〜17:00（宝塚駅前は土曜も一部対応）",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/index.html",
           "urlLabel": "証明書の取得（市公式）",
-          "tags": ["住民票", "戸籍", "印鑑証明"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043500/1043584.html"]
+          "tags": [
+            "住民票",
+            "戸籍",
+            "印鑑証明"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043500/1043584.html"
+          ]
         },
         {
           "title": "コンビニ交付 — 窓口より安く、夜23時まで",
           "summary": "マイナンバーカードがあれば、全国のコンビニのマルチコピー機で住民票・印鑑証明・戸籍謄抄本・課税証明などを取得できます。手数料は窓口より安く、住民票・印鑑証明200円、戸籍謄抄本350円。利用時間は6:30〜23:00（年末年始・メンテナンス日除く）。※2026年10月に手数料改定の予定が告知されています。",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1015691.html",
           "urlLabel": "コンビニ交付（市公式）",
-          "tags": ["コンビニ交付", "住民票"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1015691.html"]
+          "tags": [
+            "コンビニ交付",
+            "住民票"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/madoguchi/1015691.html"
+          ]
         },
         {
           "title": "マイナンバーカード — 申請・受け取り",
@@ -469,32 +698,101 @@
           "phoneNote": "マイナンバーコールセンター（平日9:00〜17:00）",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1042552.html",
           "urlLabel": "マイナンバーカード（市公式）",
-          "tags": ["マイナンバー"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1042552.html", "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1013581.html"]
+          "tags": [
+            "マイナンバー"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1042552.html",
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1012210/1013581.html"
+          ]
         },
         {
           "title": "印鑑登録",
           "summary": "本庁舎2階窓口サービス課または各サービスセンター・ステーションで。顔写真付き本人確認書類（マイナンバーカード・運転免許証等）があれば即日登録できます。転入すると前住所の印鑑登録は無効になる（宝塚から転出すると自動抹消される）ため、引越し後は再登録が必要です。",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000067/1000170.html",
           "urlLabel": "印鑑登録（市公式）",
-          "tags": ["印鑑登録"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1000067/1000170.html"]
+          "tags": [
+            "印鑑登録"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000067/1000170.html"
+          ]
         },
         {
           "title": "パスポート — 市役所では取り扱いなし",
           "summary": "宝塚市役所ではパスポートの申請・受け取りはできません。兵庫県旅券事務所（神戸市・078-222-8700）または尼崎出張所（06-6428-7600）で申請します。申請書は外務省サイトからダウンロードできます。",
           "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5001056/5000012/5000492.html",
           "urlLabel": "パスポートの申請先（市公式FAQ）",
-          "tags": ["パスポート"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5001056/5000012/5000492.html"]
+          "tags": [
+            "パスポート"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/faq/5000002/5001056/5000012/5000492.html"
+          ]
         },
         {
           "title": "オンラインでできる手続き — スマート申請・混雑確認",
           "summary": "マイナンバーカードがあれば戸籍謄抄本・課税証明などの証明書をオンラインで郵送請求できます（クレジット払い・郵送料実費）。住民票はコンビニ交付を利用。窓口サービス課のリアルタイム混雑状況も市サイトから確認できます。",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043117.html",
           "urlLabel": "スマート申請（市公式）",
-          "tags": ["オンライン申請"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043117.html", "https://www.city.takarazuka.hyogo.jp/1060679/1060693/1045353.html"]
+          "tags": [
+            "オンライン申請"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/shomei/1043117.html",
+            "https://www.city.takarazuka.hyogo.jp/1060679/1060693/1045353.html"
+          ]
+        },
+        {
+          "title": "婚姻届・離婚届",
+          "summary": "婚姻届・離婚届は、本庁舎2階の窓口サービス課、各サービスセンター/ステーションで受け付けます(9:00〜17:00、土日祝・年末年始を除く)。時間外は本庁舎1階の警備防災センターでも受け付け、重大な不備がなければ受付日が受理日になります(日中連絡が取れる電話番号の記入が必要)。婚姻届には届出人2名と証人2名の署名、本人確認書類が必要(外国籍の方は婚姻要件具備証明書)。協議離婚の届出には夫婦と成人の証人2名の署名・本人確認書類が必要で、裁判離婚は調停調書の謄本や審判書の謄本と確定証明書などを添えます。",
+          "phone": "0797-77-2050",
+          "phoneNote": "窓口サービス課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1000066/1000154.html",
+          "urlLabel": "婚姻届（市公式）",
+          "tags": [
+            "婚姻届",
+            "離婚届",
+            "戸籍",
+            "ライフイベント"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000028/1000066/1000154.html",
+            "https://www.city.takarazuka.hyogo.jp/1060679/1060694/1000066/1000155.html"
+          ]
+        },
+        {
+          "title": "犬の登録・狂犬病予防注射",
+          "summary": "生後91日以上の犬の飼い主は、生涯に1回の登録(鑑札の交付)が法律で義務づけられています。また毎年6月30日までにその年度の狂犬病予防注射を受けさせ、注射済票を装着する必要があります。費用は新規登録(鑑札交付)3,000円、鑑札再交付1,600円、注射済票交付550円、再交付340円。引越しなどの住所変更時は「登録事項変更届」、犬が亡くなったときは「死亡届」(電話でも受付可)を提出します。手続きは市役所の生活環境課窓口、宝塚市獣医師会加入の動物病院などで行え、郵送も可能です。",
+          "phone": "0797-77-2074",
+          "phoneNote": "生活環境課",
+          "url": "https://www.city.takarazuka.hyogo.jp/kankyo/shiiku/1000741.html",
+          "urlLabel": "犬の飼い方・登録（市公式）",
+          "tags": [
+            "ペット",
+            "犬",
+            "狂犬病予防注射",
+            "鑑札"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kankyo/shiiku/1000741.html"
+          ]
+        },
+        {
+          "title": "選挙 — 期日前投票",
+          "summary": "仕事や旅行、冠婚葬祭などで投票日に投票所へ行けない場合は、期日前投票が利用できます。宝塚市役所2階市民ホール(告示・公示の翌日から投票日前日、8:30〜20:00)のほか、ソリオ・山本会館・西谷庁舎・雲雀丘・仁川駅前・東公民館などに期日前投票所が開設されます(場所により期間・時間が異なります)。期日前投票所の場所・期間・時間は選挙ごとに変わるため、選挙管理委員会の各選挙の案内ページで最新情報をご確認ください。",
+          "phone": "0797-77-2032",
+          "phoneNote": "選挙管理委員会",
+          "url": "https://www.city.takarazuka.hyogo.jp/senkan/1028224.html",
+          "urlLabel": "選挙・期日前投票（市公式）",
+          "tags": [
+            "選挙",
+            "期日前投票",
+            "投票"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/senkan/1028224.html"
+          ]
         }
       ],
       "faq": [
@@ -505,6 +803,10 @@
         {
           "q": "市役所は土日も開いていますか？",
           "a": "基本は平日9:00〜17:00のみです。ただし宝塚駅前サービスステーション（ソリオ1・3階）は土曜も証明書交付など一部業務を行っています。マイナンバーカードの受け取りは原則毎月第4土曜に予約制の臨時窓口があります。"
+        },
+        {
+          "q": "身近な人が亡くなったら、まず何をすればいいですか？",
+          "a": "死亡届を7日以内に提出します(多くは葬儀業者が代行)。その後、市役所2階の「おくやみ手続き案内コーナー」(予約不要)で、国民健康保険・後期高齢者医療・年金・介護・こども関連などの必要な手続きの案内と申請書の一括作成をしてもらえます。"
         }
       ]
     },
@@ -525,8 +827,13 @@
           "hours": "平日 9:00〜18:00",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1049741/index.html",
           "urlLabel": "あのね（市公式）",
-          "tags": ["子育て相談", "発達相談"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1049741/index.html"]
+          "tags": [
+            "子育て相談",
+            "発達相談"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1049741/index.html"
+          ]
         },
         {
           "title": "妊娠届・母子健康手帳の交付",
@@ -535,8 +842,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kodomokenko/1039269.html",
           "urlLabel": "母子健康手帳（市公式）",
-          "tags": ["妊娠", "母子手帳"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kodomokenko/1039269.html"]
+          "tags": [
+            "妊娠",
+            "母子手帳"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/kodomokenko/1039269.html"
+          ]
         },
         {
           "title": "こども医療費助成 — 中学3年生まで自己負担0円",
@@ -544,8 +856,13 @@
           "summary": "保険診療分の医療費は、0歳から中学3年生まで自己負担がゼロです（2024年1月から所得制限も廃止）。小3までは「乳幼児等医療費助成」、小4からは「こども医療費助成」に自動的に切り替わります。健康診断・予防接種・入院時食事代などは対象外。",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1041227/1040013.html",
           "urlLabel": "こども医療費助成（市公式）",
-          "tags": ["医療費", "助成"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1041227/1040013.html"]
+          "tags": [
+            "医療費",
+            "助成"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1041227/1040013.html"
+          ]
         },
         {
           "title": "児童手当",
@@ -554,8 +871,12 @@
           "phoneNote": "子育て応援課（本庁舎2階）",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/teate/1000197.html",
           "urlLabel": "児童手当（市公式）",
-          "tags": ["児童手当"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/teate/1000197.html"]
+          "tags": [
+            "児童手当"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/teate/1000197.html"
+          ]
         },
         {
           "title": "保育所・認定こども園の入所申込",
@@ -565,8 +886,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1027922/index.html",
           "urlLabel": "保育所の入所申込（市公式）",
-          "tags": ["保育所", "こども園"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1027922/index.html"]
+          "tags": [
+            "保育所",
+            "こども園"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1027922/index.html"
+          ]
         },
         {
           "title": "幼稚園（市立・私立）",
@@ -575,8 +901,12 @@
           "phoneNote": "学事課",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1042410/index.html",
           "urlLabel": "幼稚園のご案内（市公式）",
-          "tags": ["幼稚園"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1042410/1056724.html"]
+          "tags": [
+            "幼稚園"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1042410/1056724.html"
+          ]
         },
         {
           "title": "学童保育（地域児童育成会）",
@@ -585,8 +915,13 @@
           "phoneNote": "アフタースクール課",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1009267/1059137.html",
           "urlLabel": "学童保育（市公式）",
-          "tags": ["学童", "育成会"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1009267/1059137.html"]
+          "tags": [
+            "学童",
+            "育成会"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateshien/1009267/1059137.html"
+          ]
         },
         {
           "title": "小・中学校の転校手続き",
@@ -595,8 +930,14 @@
           "phoneNote": "学事課（就学担当）",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoikuiinkai/1045390/1047592.html",
           "urlLabel": "転校手続き（市公式）",
-          "tags": ["転校", "小学校", "中学校"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoikuiinkai/1045390/1047592.html"]
+          "tags": [
+            "転校",
+            "小学校",
+            "中学校"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoikuiinkai/1045390/1047592.html"
+          ]
         },
         {
           "title": "親子の居場所 — きらきらひろば・児童館",
@@ -606,16 +947,27 @@
           "address": "宝塚市売布東の町12番8号（フレミラ宝塚内）",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html",
           "urlLabel": "きらきらひろば（市公式）",
-          "tags": ["児童館", "親子"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html", "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/1009372/1009339.html"]
+          "tags": [
+            "児童館",
+            "親子"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html",
+            "https://www.city.takarazuka.hyogo.jp/1060680/1060698/1061552/1061560/1009372/1009339.html"
+          ]
         },
         {
           "title": "子育て情報の集め方 — ガイド「たからばこ」・公式LINE",
           "summary": "子育てガイド「たからばこ」は母子健康手帳交付時や転入手続き時に配布（電子版は「わが街辞典」アプリで無料閲覧可）。子ども家庭支援センターの公式LINEで月2回程度イベント・講座情報が届くほか、Instagram（@takarazuka_kosodate）でも発信しています。",
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateinfo/1000570.html",
           "urlLabel": "子育て情報（市公式）",
-          "tags": ["たからばこ", "LINE"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateinfo/1000570.html"]
+          "tags": [
+            "たからばこ",
+            "LINE"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/kosodateinfo/1000570.html"
+          ]
         }
       ],
       "faq": [
@@ -628,7 +980,10 @@
           "a": "市役所本庁舎1階の保育事業課窓口のみで受け付けています（0797-77-2037）。サービスセンターや郵送では申し込めません。翌年度4月入所の1次申込は毎年秋〜冬ごろです。"
         }
       ],
-      "opendata": ["babystations", "kindergartens"]
+      "opendata": [
+        "babystations",
+        "kindergartens"
+      ]
     },
     {
       "id": "welfare",
@@ -653,8 +1008,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/kenkofukushi/koreisha/1053174/1000636.html",
           "urlLabel": "地域包括支援センター一覧（市公式）",
-          "tags": ["高齢者", "介護相談"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kenkofukushi/koreisha/1053174/1000636.html"]
+          "tags": [
+            "高齢者",
+            "介護相談"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kenkofukushi/koreisha/1053174/1000636.html"
+          ]
         },
         {
           "title": "介護保険 — 要介護認定の申請",
@@ -664,8 +1024,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/kenkofukushi/kaigohoken/1008582/1000283.html",
           "urlLabel": "要介護認定（市公式）",
-          "tags": ["介護保険", "要介護認定"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kenkofukushi/kaigohoken/1008582/1000283.html"]
+          "tags": [
+            "介護保険",
+            "要介護認定"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kenkofukushi/kaigohoken/1008582/1000283.html"
+          ]
         },
         {
           "title": "障害者手帳・障害福祉サービス",
@@ -675,8 +1040,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001503/1001908.html",
           "urlLabel": "障碍福祉課（市公式）",
-          "tags": ["障害者手帳", "障害福祉"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001503/1001908.html"]
+          "tags": [
+            "障害者手帳",
+            "障害福祉"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001503/1001908.html"
+          ]
         },
         {
           "title": "生活にこまったら — せいかつ応援センター",
@@ -686,8 +1056,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/1060682/1060706/seikatsushien/1051449/index.html",
           "urlLabel": "生活困窮の相談（市公式）",
-          "tags": ["生活困窮", "生活保護"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060682/1060706/seikatsushien/1051449/index.html"]
+          "tags": [
+            "生活困窮",
+            "生活保護"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060682/1060706/seikatsushien/1051449/index.html"
+          ]
         }
       ],
       "faq": [
@@ -713,8 +1088,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001866.html",
           "urlLabel": "市民税課（市公式）",
-          "tags": ["住民税", "軽自動車税"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001866.html"]
+          "tags": [
+            "住民税",
+            "軽自動車税"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001866.html"
+          ]
         },
         {
           "title": "固定資産税・都市計画税 — 資産税課",
@@ -724,8 +1104,12 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001867.html",
           "urlLabel": "資産税課（市公式）",
-          "tags": ["固定資産税"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001867.html"]
+          "tags": [
+            "固定資産税"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001498/1001867.html"
+          ]
         },
         {
           "title": "市税の納付方法 — コンビニ・スマホ決済・口座振替",
@@ -734,8 +1118,13 @@
           "phoneNote": "市税収納課",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000029/1000077/1039355/index.html",
           "urlLabel": "市税の納付方法（市公式）",
-          "tags": ["納付", "スマホ決済"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/1000029/1000077/1039355/index.html"]
+          "tags": [
+            "納付",
+            "スマホ決済"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000029/1000077/1039355/index.html"
+          ]
         },
         {
           "title": "国民健康保険",
@@ -745,8 +1134,12 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/kokuho/index.html",
           "urlLabel": "国民健康保険（市公式）",
-          "tags": ["国保"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/kokuho/1029717/1029725/1000503.html"]
+          "tags": [
+            "国保"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/kokuho/1029717/1029725/1000503.html"
+          ]
         },
         {
           "title": "後期高齢者医療制度（75歳以上）",
@@ -756,8 +1149,12 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1000081/1000519.html",
           "urlLabel": "後期高齢者医療（市公式）",
-          "tags": ["後期高齢者"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1000081/1000519.html"]
+          "tags": [
+            "後期高齢者"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/nenkin/1000081/1000519.html"
+          ]
         },
         {
           "title": "国民年金",
@@ -767,8 +1164,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/1060679/1060696/1000080/1000514.html",
           "urlLabel": "国民年金（市公式）",
-          "tags": ["年金"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001499/1001871.html", "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000003/5001258/5000522.html"]
+          "tags": [
+            "年金"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001499/1001871.html",
+            "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000003/5001258/5000522.html"
+          ]
         }
       ],
       "faq": [
@@ -795,8 +1197,13 @@
           "hours": "平日 9:00〜17:30（土日祝・年末年始休）",
           "url": "https://www.city.takarazuka.hyogo.jp/suido/",
           "urlLabel": "上下水道局（市公式）",
-          "tags": ["水道", "引越し"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/suido/1062732/1062736/index.html"]
+          "tags": [
+            "水道",
+            "引越し"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/suido/1062732/1062736/index.html"
+          ]
         },
         {
           "title": "漏水・水道トラブルの連絡先",
@@ -806,16 +1213,26 @@
           "phoneNote": "工務課",
           "url": "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000073/5000355.html",
           "urlLabel": "漏水のとき（市公式FAQ）",
-          "tags": ["漏水", "緊急"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000073/5000355.html"]
+          "tags": [
+            "漏水",
+            "緊急"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/faq/5000002/5000007/5000073/5000355.html"
+          ]
         },
         {
           "title": "電気・ガスの手続き",
           "summary": "宝塚市域の電気は主に関西電力、都市ガスは大阪ガスが供給しています（自由化により他事業者も選択可）。引越し時の使用開始・停止は各事業者のWebサイトかコールセンターで手続きします。",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1000381.html",
           "urlLabel": "住宅関連リンク集（市公式）",
-          "tags": ["電気", "ガス"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1000381.html"]
+          "tags": [
+            "電気",
+            "ガス"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1000381.html"
+          ]
         },
         {
           "title": "市営住宅・県営住宅",
@@ -824,8 +1241,14 @@
           "phoneNote": "住まいづくり推進課",
           "url": "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1008342/index.html",
           "urlLabel": "市営住宅の募集（市公式）",
-          "tags": ["市営住宅", "県営住宅"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1008342/index.html", "https://www.hyogo-jk.or.jp/"]
+          "tags": [
+            "市営住宅",
+            "県営住宅"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/sumai/1008342/index.html",
+            "https://www.hyogo-jk.or.jp/"
+          ]
         }
       ],
       "faq": [
@@ -848,8 +1271,14 @@
           "summary": "市内には3路線・10駅。阪急宝塚線（宝塚・清荒神・売布神社・中山観音・山本）、阪急今津線（宝塚・宝塚南口・逆瀬川・小林・仁川）、JR宝塚線＝福知山線（宝塚・中山寺・武田尾）。宝塚駅は阪急・JR共通のターミナルで、大阪梅田へ阪急約33分・JR快速約25分です。時刻・運賃は各社サイトで確認を。",
           "url": "https://www.city.takarazuka.hyogo.jp/about/profile/1001191.html",
           "urlLabel": "宝塚への交通（市公式）",
-          "tags": ["阪急", "JR", "駅"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/profile/1001191.html"]
+          "tags": [
+            "阪急",
+            "JR",
+            "駅"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/profile/1001191.html"
+          ]
         },
         {
           "title": "バス — 阪急バス・阪神バス・ランランバス",
@@ -858,8 +1287,13 @@
           "phoneNote": "交通政策課",
           "url": "https://www.city.takarazuka.hyogo.jp/anzen/1009510/1017015/1017013.html",
           "urlLabel": "市内のバス一覧（市公式）",
-          "tags": ["バス", "ランランバス"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/1009510/1017015/1055942.html"]
+          "tags": [
+            "バス",
+            "ランランバス"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/anzen/1009510/1017015/1055942.html"
+          ]
         },
         {
           "title": "市立駐輪場（自転車等駐車場）",
@@ -868,8 +1302,13 @@
           "phoneNote": "防犯交通安全課",
           "url": "https://www.city.takarazuka.hyogo.jp/anzen/1009491/1009710/1049759.html",
           "urlLabel": "市立自転車駐車場（市公式）",
-          "tags": ["駐輪場", "自転車"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/anzen/1009491/1009710/1049759.html"]
+          "tags": [
+            "駐輪場",
+            "自転車"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/anzen/1009491/1009710/1049759.html"
+          ]
         }
       ],
       "faq": []
@@ -890,8 +1329,12 @@
           "hours": "9:30〜18:00（金曜・7〜8月の土曜は19:00まで）／水曜・第2金曜・年末年始休館",
           "url": "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004491.html",
           "urlLabel": "中央図書館（市公式）",
-          "tags": ["図書館"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004491.html"]
+          "tags": [
+            "図書館"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004491.html"
+          ]
         },
         {
           "title": "西図書館",
@@ -901,8 +1344,12 @@
           "hours": "9:30〜18:00（金曜・7〜8月の土曜は19:00まで）／水曜・毎月1日・年末年始休館",
           "url": "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004509.html",
           "urlLabel": "西図書館（市公式）",
-          "tags": ["図書館"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004509.html"]
+          "tags": [
+            "図書館"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1061541/1004509.html"
+          ]
         },
         {
           "title": "公民館（中央・東・西）— 部屋を借りる",
@@ -914,8 +1361,13 @@
           ],
           "url": "https://www.city.takarazuka.hyogo.jp/kyoiku/kominkan/index.html",
           "urlLabel": "公民館（市公式）",
-          "tags": ["公民館", "貸室"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1010939/1023261.html"]
+          "tags": [
+            "公民館",
+            "貸室"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060678/1060692/shisetsu/1061539/1010939/1023261.html"
+          ]
         },
         {
           "title": "市立スポーツセンター",
@@ -924,8 +1376,14 @@
           "address": "宝塚市小浜1丁目1番11号",
           "url": "https://www.shisetsu.city.takarazuka.hyogo.jp/",
           "urlLabel": "施設予約システム",
-          "tags": ["スポーツ", "プール", "体育館"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/kyoiku/sports/1021828/1003519.html"]
+          "tags": [
+            "スポーツ",
+            "プール",
+            "体育館"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kyoiku/sports/1021828/1003519.html"
+          ]
         }
       ],
       "faq": [
@@ -934,7 +1392,11 @@
           "a": "中央図書館は毎週水曜と第2金曜、西図書館は毎週水曜と毎月1日（1日が水曜の場合は2日）。どちらも年末年始も休館です。開館は9:30〜18:00（金曜と夏の土曜は19:00まで）。"
         }
       ],
-      "opendata": ["libraries", "wifi", "toilets"]
+      "opendata": [
+        "libraries",
+        "wifi",
+        "toilets"
+      ]
     },
     {
       "id": "events",
@@ -953,8 +1415,13 @@
           "hours": "平日 9:00〜17:00",
           "url": "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001506/1001923.html",
           "urlLabel": "消費生活センター（市公式）",
-          "tags": ["消費生活", "悪質商法"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001506/1001923.html"]
+          "tags": [
+            "消費生活",
+            "悪質商法"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/about/1014688/soshiki/1001489/1001506/1001923.html"
+          ]
         },
         {
           "title": "無料法律相談（弁護士）・市民相談",
@@ -964,12 +1431,37 @@
           "hours": "相談: 月・水・金・第1火 13:00〜16:00",
           "url": "https://www.city.takarazuka.hyogo.jp/1060678/1059162/1059163.html",
           "urlLabel": "市民相談・法律相談（市公式）",
-          "tags": ["法律相談", "無料相談"],
-          "sources": ["https://www.city.takarazuka.hyogo.jp/1060678/1059162/1059163.html"]
+          "tags": [
+            "法律相談",
+            "無料相談"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/1060678/1059162/1059163.html"
+          ]
+        },
+        {
+          "title": "外国人市民の相談・多言語支援",
+          "summary": "宝塚市外国人相談室(宝塚市立国際・文化センター内/阪急「宝塚南口」駅前サンビオラ1番館3階)で、生活の困りごとの相談ができます。対応言語はやさしい日本語(ひらがな)・英語・韓国朝鮮語・中国語・ポルトガル語。相談日時は月・火・木・金の10:00〜12:00、土曜の10:00〜12:00と13:00〜15:00(祝日・年末年始を除く)。相談室での相談は予約不要です(市役所での相談は事前予約が必要:電話0797-77-2009)。市公式サイトは英語・中国語・韓国語・ポルトガル語など複数言語の自動翻訳に対応し、やさしい日本語での生活情報も提供されています。",
+          "phone": "0797-76-5917",
+          "phoneNote": "外国人相談室",
+          "url": "https://www.city.takarazuka.hyogo.jp/kurashi/1000068/1039988/index.html",
+          "urlLabel": "外国人市民のための情報（市公式）",
+          "tags": [
+            "外国人",
+            "多言語",
+            "やさしい日本語",
+            "相談"
+          ],
+          "sources": [
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000068/1039988/index.html",
+            "https://www.city.takarazuka.hyogo.jp/kurashi/1000068/1039988/1039049.html"
+          ]
         }
       ],
       "faq": [],
-      "opendata": ["events"]
+      "opendata": [
+        "events"
+      ]
     }
   ]
 }
