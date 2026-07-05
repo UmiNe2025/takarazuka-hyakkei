@@ -2,7 +2,7 @@
  "id": "wifi",
  "title": "公衆無線LAN（フリーWi-Fi）スポット",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成",
- "fetched": "2026-07-05",
+ "fetched": "2026-07-06",
  "sourcePage": "https://www.geospatial.jp/ckan/dataset/takarazuka-wifi",
  "type": "table",
  "map": true,
