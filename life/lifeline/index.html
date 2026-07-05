@@ -21,8 +21,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/life/life.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://takarazuka.jun-nakatani.com/life/lifeline/","url":"https://takarazuka.jun-nakatani.com/life/lifeline/","name":"住まい・ライフライン｜宝塚くらしの便利帳","description":"宝塚市の住まい・ライフラインに関する生活情報。水道・電気・ガスの手続きと、住まいの相談先。 水道の開始・中止・漏水・水道トラブルの連絡先・電気・ガスの手続き・市営住宅・県営住宅 など、窓口・連絡先・手続きを出典付きでまとめています。","inLanguage":"ja","dateModified":"2026-06-22","isPartOf":{"@type":"WebSite","name":"宝塚くらしの便利帳","url":"https://takarazuka.jun-nakatani.com/life/"},"about":{"@type":"City","name":"宝塚市","sameAs":"https://www.city.takarazuka.hyogo.jp/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"宝塚百景","item":"https://takarazuka.jun-nakatani.com/"},{"@type":"ListItem","position":2,"name":"宝塚くらしの便利帳","item":"https://takarazuka.jun-nakatani.com/life/"},{"@type":"ListItem","position":3,"name":"住まい・ライフライン","item":"https://takarazuka.jun-nakatani.com/life/lifeline/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"引越しのとき水道の手続きはどうすればいい？","acceptedAnswer":{"@type":"Answer","text":"上下水道局お客さまセンター（0797-73-3988・平日9:00〜17:30）への電話か、市サイトのWebフォームで開栓・閉栓を申し込めます。電気は契約中の電力会社、ガスは大阪ガスなどへそれぞれ連絡してください。"}}]}]}</script>
+<link rel="stylesheet" href="/life/life.css?v=20260622c">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://takarazuka.jun-nakatani.com/life/lifeline/","url":"https://takarazuka.jun-nakatani.com/life/lifeline/","name":"住まい・ライフライン｜宝塚くらしの便利帳","description":"宝塚市の住まい・ライフラインに関する生活情報。水道・電気・ガスの手続きと、住まいの相談先。 水道の開始・中止・漏水・水道トラブルの連絡先・電気・ガスの手続き・市営住宅・県営住宅 など、窓口・連絡先・手続きを出典付きでまとめています。","inLanguage":"ja","dateModified":"2026-07-05","isPartOf":{"@type":"WebSite","name":"宝塚くらしの便利帳","url":"https://takarazuka.jun-nakatani.com/life/"},"about":{"@type":"City","name":"宝塚市","sameAs":"https://www.city.takarazuka.hyogo.jp/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"宝塚百景","item":"https://takarazuka.jun-nakatani.com/"},{"@type":"ListItem","position":2,"name":"宝塚くらしの便利帳","item":"https://takarazuka.jun-nakatani.com/life/"},{"@type":"ListItem","position":3,"name":"住まい・ライフライン","item":"https://takarazuka.jun-nakatani.com/life/lifeline/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"引越しのとき水道の手続きはどうすればいい？","acceptedAnswer":{"@type":"Answer","text":"上下水道局お客さまセンター（0797-73-3988・平日9:00〜17:30）への電話か、市サイトのWebフォームで開栓・閉栓を申し込めます。電気は契約中の電力会社、ガスは大阪ガスなどへそれぞれ連絡してください。"}}]}]}</script>
 </head>
 <body class="page-cat">
 <a class="skip-link" href="#main">本文へスキップ</a>
@@ -33,6 +33,10 @@
       <span class="b-main">宝塚くらしの便利帳</span>
       <span class="b-sub">TAKARAZUKA LIVING GUIDE</span>
     </a>
+    <button class="menu-toggle" id="topic-menu-toggle" type="button" aria-expanded="false" aria-controls="topic-nav">
+      <span class="sr-only">生活テーマのメニューを開く</span>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
     <nav class="head-links" aria-label="関連サイト">
       <a href="/">宝塚百景（観光・魅力）</a>
       <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a>
@@ -53,7 +57,7 @@
   <div class="search-results" id="q-results" role="listbox" aria-label="検索結果" hidden></div>
 </div>
 
-<nav class="topic-nav" aria-label="生活テーマ">
+<nav class="topic-nav" id="topic-nav" aria-label="生活テーマ">
   <div class="wrap">
     <a href="/life/procedure/" style="--topic: var(--c-procedure)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6v5a3 3 0 0 0 3 3h1v4H5v-4h1a3 3 0 0 0 3-3Z"/><path d="M5 20h14"/></svg><span>届出・手続き</span></a>
     <a href="/life/childcare/" style="--topic: var(--c-childcare)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="3.2"/><path d="M5.5 21c.6-4 3-6.5 6.5-6.5s5.9 2.5 6.5 6.5"/></svg><span>子育て・教育</span></a>
@@ -258,7 +262,7 @@
       </div>
       <div>
         <h2>データについて</h2>
-        <p>施設・避難所・イベント等の一覧は<a href="https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html" rel="noopener">宝塚市オープンデータ</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）を加工して作成し、定期的に自動更新しています。最終データ取得日: 2026-06-21。</p>
+        <p>施設・避難所・イベント等の一覧は<a href="https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html" rel="noopener">宝塚市オープンデータ</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）を加工して作成し、定期的に自動更新しています。最終データ取得日: 2026-07-05。</p>
       </div>
       <div>
         <h2>関連リンク</h2>
@@ -277,6 +281,6 @@
   <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m5 14 7-7 7 7"/></svg>
 </button>
 
-<script src="/life/life.js" defer></script>
+<script src="/life/life.js?v=20260622c" defer></script>
 </body>
 </html>

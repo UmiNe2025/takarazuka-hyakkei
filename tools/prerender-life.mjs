@@ -15,6 +15,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LIFE = path.join(ROOT, "life");
 const SITE = "https://takarazuka.jun-nakatani.com";
 const LIFEBASE = SITE + "/life/";
+const ASSET_VERSION = "20260622c";
 
 const guide = JSON.parse(fs.readFileSync(path.join(LIFE, "data", "guide.json"), "utf8"));
 const odDir = path.join(LIFE, "data", "opendata");
@@ -98,7 +99,7 @@ function docStart(o) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/life/life.css">
+<link rel="stylesheet" href="/life/life.css?v=${ASSET_VERSION}">
 ${o.ld || ""}
 </head>
 <body${o.bodyClass ? ` class="${o.bodyClass}"` : ""}>
@@ -110,6 +111,10 @@ ${o.ld || ""}
       <span class="b-main">宝塚くらしの便利帳</span>
       <span class="b-sub">TAKARAZUKA LIVING GUIDE</span>
     </a>
+    <button class="menu-toggle" id="topic-menu-toggle" type="button" aria-expanded="false" aria-controls="topic-nav">
+      <span class="sr-only">生活テーマのメニューを開く</span>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
     <nav class="head-links" aria-label="関連サイト">
       <a href="/">宝塚百景（観光・魅力）</a>
       <a href="https://www.city.takarazuka.hyogo.jp/" rel="noopener">宝塚市公式サイト</a>
@@ -130,7 +135,7 @@ ${o.ld || ""}
   <div class="search-results" id="q-results" role="listbox" aria-label="検索結果" hidden></div>
 </div>
 
-<nav class="topic-nav" aria-label="生活テーマ">
+<nav class="topic-nav" id="topic-nav" aria-label="生活テーマ">
   <div class="wrap">
 ${primaryNav.map((category) => `    <a href="${catUrl(category.id)}" style="--topic: var(--c-${category.color})">${icon(category.icon)}<span>${esc(category.title)}</span></a>`).join("\n")}
   </div>
@@ -207,7 +212,7 @@ function footer() {
   <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m5 14 7-7 7 7"/></svg>
 </button>
 
-<script src="/life/life.js" defer></script>
+<script src="/life/life.js?v=${ASSET_VERSION}" defer></script>
 </body>
 </html>`;
 }

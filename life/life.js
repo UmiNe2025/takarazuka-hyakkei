@@ -37,6 +37,27 @@
     });
   });
 
+  /* Mobile primary navigation: the same topic links stay compact until requested. */
+  var topicMenuToggle = document.getElementById("topic-menu-toggle");
+  var topicMenu = document.getElementById("topic-nav");
+  if (topicMenuToggle && topicMenu) {
+    function setTopicMenu(open) {
+      topicMenu.classList.toggle("is-open", open);
+      topicMenuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      var label = topicMenuToggle.querySelector(".sr-only");
+      if (label) label.textContent = open ? "生活テーマのメニューを閉じる" : "生活テーマのメニューを開く";
+    }
+    topicMenuToggle.addEventListener("click", function () {
+      setTopicMenu(!topicMenu.classList.contains("is-open"));
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && topicMenu.classList.contains("is-open")) {
+        setTopicMenu(false);
+        topicMenuToggle.focus();
+      }
+    });
+  }
+
   /* ---------- text normalize: 全角→半角 / カタカナ→ひらがな / 小文字 ---------- */
   function norm(s) {
     return (s || "")

@@ -2,127 +2,145 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://takarazuka.jun-nakatani.com/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://takarazuka.jun-nakatani.com/about.html</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://takarazuka.jun-nakatani.com/monthly/2026-07.html</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://takarazuka.jun-nakatani.com/observations/2026-07-nakayamadera.html</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/nakayamadera-anzan.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/kiyoshikojin-guide.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/takarazuka-revue-first.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/half-day-course.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/jisha-goshuin.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/guide/takarazuka-history.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/emergency/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/medical/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/disaster/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/garbage/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/procedure/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/childcare/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/welfare/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/tax/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/lifeline/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/transport/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/facility/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://takarazuka.jun-nakatani.com/life/events/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

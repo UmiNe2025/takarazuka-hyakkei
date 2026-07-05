@@ -100,6 +100,24 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>${BASE}about.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>${BASE}monthly/2026-07.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>${BASE}observations/2026-07-nakayamadera.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
 ${guideSitemap}
 </urlset>
 `);

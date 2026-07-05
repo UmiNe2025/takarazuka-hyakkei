@@ -11,7 +11,7 @@ fs.rmSync(PUB, { recursive: true, force: true });
 fs.mkdirSync(PUB, { recursive: true });
 
 const files = [
-  "index.html", "privacy.html", "404.html", "_headers",
+  "index.html", "about.html", "privacy.html", "404.html", "_headers",
   "llms.txt", "llms-full.txt", "llms-life.txt", "robots.txt", "sitemap.xml",
   "css/style.css", "css/policy.css",
   "js/views-data.js", "js/main.js", "js/consent.js", "js/lang-lite.js",
@@ -51,6 +51,22 @@ const LIFE_EXCLUDE = new Set(["data", "README.md"]);
     else fs.copyFileSync(s, d);
   }
 })(path.join(ROOT, "guide"), path.join(PUB, "guide"));
+
+/* monthly/ 月次活動レポート、observations/ 定点観測ノート も丸ごとコピー(存在する場合のみ) */
+for (const sub of ["monthly", "observations"]) {
+  const srcDir = path.join(ROOT, sub);
+  const dstDir = path.join(PUB, sub);
+  if (!fs.existsSync(srcDir)) continue;
+  (function copyDir(s, d) {
+    fs.mkdirSync(d, { recursive: true });
+    for (const ent of fs.readdirSync(s, { withFileTypes: true })) {
+      const sp = path.join(s, ent.name);
+      const dp = path.join(d, ent.name);
+      if (ent.isDirectory()) copyDir(sp, dp);
+      else fs.copyFileSync(sp, dp);
+    }
+  })(srcDir, dstDir);
+}
 
 const list = [];
 (function walk(d) {

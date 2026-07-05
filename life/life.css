@@ -117,6 +117,7 @@ header, main, footer, nav { position: relative; z-index: 1; }
 .head-links { margin-left: auto; display: flex; gap: 6px 16px; flex-wrap: wrap; }
 .head-links a { color: #cfc3e6; font-size: .82rem; }
 .head-links a:hover { color: #fff; }
+.menu-toggle { display: none; }
 
 /* ==========================================================================
    sticky topbar (home + cross-page search) — all pages
@@ -254,14 +255,14 @@ header, main, footer, nav { position: relative; z-index: 1; }
 /* ==========================================================================
    hub refinement — a civic guide with a visual scene and direct life-stage paths
    ========================================================================== */
-.hero--living-map { background: #07434d; padding-top: 48px; }
+.hero--living-map { min-height: 830px; background: #07434d; padding-top: 34px; padding-bottom: 445px; }
 .hero--living-map::before { display: none; }
-.hero-inner { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(390px, .9fr); align-items: end; gap: 46px; }
-.hero-copy { max-width: 620px; padding-bottom: 52px; }
+.hero-inner { z-index: 2; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(390px, .9fr); align-items: end; gap: 46px; }
+.hero-copy { max-width: 620px; padding-bottom: 20px; }
 .hero-name { font-size: 2rem; letter-spacing: .08em; }
 .hero-statement { margin-top: 12px; font-size: 3.85rem; }
 .hero .hero-lede { max-width: 31em; color: #d0e1db; }
-.hero-stage-nav { align-self: center; padding-bottom: 48px; }
+.hero-stage-nav { align-self: center; padding-bottom: 18px; }
 .hero-stage-nav > p { margin: 0 0 4px; color: #a5d3c6; font-size: .66rem; font-weight: 700; letter-spacing: .14em; }
 .hero-stage-nav h2 { margin: 0 0 11px; color: #fff; font-family: var(--serif-ja); font-size: 1.2rem; letter-spacing: .05em; }
 .stage-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 7px; }
@@ -269,8 +270,8 @@ header, main, footer, nav { position: relative; z-index: 1; }
 .stage-link svg { width: 26px; height: 26px; }
 .stage-link:hover, .stage-link:focus { color: #fff; text-decoration: none; transform: translateY(-4px); border-color: rgba(255,255,255,.72); }
 .stage-home { background: #287d86; }.stage-child { background: #b75d78; }.stage-health { background: #407e98; }.stage-safety { background: #637b58; }.stage-care { background: #87689a; }
-.hero-art { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
-.hero-scene img { border-radius: 20px 20px 0 0; box-shadow: 0 -12px 30px rgba(0, 23, 30, .24); }
+.hero-art { position: absolute; z-index: 1; top: 465px; left: 50%; width: min(1060px, calc(100% - 40px)); margin: 0; padding: 0; transform: translateX(-50%); }
+.hero-scene img { border-radius: 20px; box-shadow: 0 16px 34px rgba(0, 23, 30, .26); }
 
 .arrival-strip.wrap { z-index: 5; grid-template-columns: minmax(205px, 1.3fr) repeat(4, minmax(150px, 1fr)); gap: 0; margin-top: -1px; padding: 0; background: var(--white); border: 1px solid #d9e0da; border-radius: 8px; box-shadow: 0 18px 38px rgba(28, 53, 57, .12); overflow: hidden; }
 .arrival-intro { display: flex; flex-direction: column; justify-content: center; min-height: 120px; padding: 17px 20px; background: #fffaf4; border-right: 1px solid #eadfd5; }
@@ -885,10 +886,12 @@ table.od-table { border-collapse: collapse; width: 100%; font-size: .86rem; }
 .page-hub .sos-note { margin-top: 6px; font-size: .66rem; }
 
 @media (max-width: 800px) {
+  .hero--living-map { min-height: 0; padding-top: 38px; padding-bottom: 0; }
   .hero-inner { grid-template-columns: 1fr; }
   .hero-copy { padding-bottom: 28px; }
   .hero-stage-nav { padding-bottom: 30px; }
   .stage-grid { max-width: 620px; }
+  .hero-art { position: relative; top: auto; left: auto; width: auto; margin: 0 auto; padding: 0 20px; transform: none; }
   .arrival-strip.wrap { grid-template-columns: minmax(190px, 1.15fr) repeat(2, minmax(0, 1fr)); }
   .page-hub .cat-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
@@ -903,9 +906,19 @@ table.od-table { border-collapse: collapse; width: 100%; font-size: .86rem; }
   .brand .b-sub { display: none; }
   .head-links { margin: 3px 0 0; gap: 8px 14px; }
   .head-links a { font-size: .72rem; }
+  .menu-toggle { display: grid; width: 38px; height: 38px; margin-left: auto; padding: 9px; border: 1px solid rgba(255,255,255,.5); border-radius: 6px; background: transparent; }
+  .menu-toggle span:not(.sr-only) { display: block; height: 2px; background: #fff; transition: transform .2s ease, opacity .2s ease; }
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(2) { transform: translateY(7px) rotate(45deg); }
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(3) { opacity: 0; }
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(4) { transform: translateY(-7px) rotate(-45deg); }
+  .head-links { display: none; }
   .topic-nav .wrap { gap: 2px; padding-left: 12px; padding-right: 12px; }
   .topic-nav a { min-height: 32px; padding: 3px 7px; font-size: .69rem; }
   .topic-nav svg { width: 14px; height: 14px; }
+  .topic-nav { display: none; border-top: 1px solid var(--line); }
+  .topic-nav.is-open { display: block; }
+  .topic-nav.is-open .wrap { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; padding-top: 9px; padding-bottom: 10px; overflow: visible; }
+  .topic-nav.is-open a { min-height: 42px; justify-content: flex-start; white-space: normal; }
   .hero--living-map { padding-top: 36px; }
   .hero-name { font-size: 1.8rem; letter-spacing: .06em; white-space: nowrap; }
   .hero-statement { font-size: 2.35rem; }
