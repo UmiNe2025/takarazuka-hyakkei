@@ -72,6 +72,12 @@
 - **ガイド記事数 6→11**。全14主要URL 200 / sitemap guide 12件 / 全38 JSON-LDブロック valid / ハブ11カード表示 / 内部リンク切れゼロ を本番確認。
 - 生活側コンテンツは prerender-life.mjs / guide.json が駆動源(週次botも実行)のため、構造改変は blast radius 大。今後の生活側追加は「データ項目追加(item schema: title/important/summary/phone/url/urlLabel/tags/sources)」の低リスク手法を推奨。
 
+## セッション追記(第3弾: 2026-07-06)生活側監査 + 名物・温泉
+- **生活側(くらしの便利帳)を全12カテゴリ監査**: garbage 8 / procedure 9 / childcare 10 / disaster 7 / medical 6 / emergency 6 / tax 6 / welfare 4 / lifeline 4 / transport 3 / facility 4 / events 2。→ **既に網羅的**。競合分析が挙げた「ゴミ逆引き/粗大ごみ/ライフイベント手続き」は既存項目でカバー済みと確認。**水増しを避け追加せず**(AIジャンク回避の観点)。
+- **新ガイド⑥ 名物・お土産と温泉「炭酸の町」** (炭酸せんべい黄金家1897・ウィルキンソン発祥1889・宝塚温泉 金宝泉/銀宝泉・武田尾温泉)。distinctive な切り口で真の観光ギャップを補完。(commit d5a7fb3)
+- **ガイド記事数 11→12**。全12ガイド200 / JSON-LD 39/39 valid / 内部リンク切れ0 / ハブ12カード / git クリーン を本番確認。
+- **到達点の所見**: 生活側は網羅的、観光ガイドも12本で主要テーマを一巡。**これ以上のページ量産は限界効用が低下し品質希釈のリスク**。残る最大レバーはコンテンツ追加でなく #1(Cloudflare AI解除・ユーザー操作)。
+
 ## 次にやるなら(残バックログ・優先度順)
 1. **[最重要・要ユーザー操作] Cloudflare AI Crawl Control 解除**(GPTBot/ClaudeBot/Google-Extended等の遮断解除)。コード不可・最大インパクト。
 2. 生活側の実コンテンツ強化(guide.json へのデータ項目追加): ライフイベント手続きチェックリスト / 粗大ごみ申込・料金の調べ方 / ゴミ分別逆引き。※料金等は公式に遡って確認 or リンク誘導。
