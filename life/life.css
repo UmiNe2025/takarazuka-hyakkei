@@ -5,10 +5,11 @@
    ========================================================================== */
 
 :root {
+  color-scheme: light dark;
   /* inks & papers (shared with 宝塚百景) */
   --ink: #203238;
   --ink-soft: #4b5d62;
-  --ink-faint: #708185;
+  --ink-faint: #5c6d71; /* AA fix: 5.01:1 on paper (was #708185 = 3.76:1 FAIL) */
   --paper: #f3f7f5;
   --paper-2: #e7efeb;
   --line: #d2dfda;
@@ -18,7 +19,8 @@
   --sumire: #5d467d;
   --sumire-deep: #40305c;
   --sumire-night: #213943;
-  --gold: #c98732;
+  --gold: #c98732;              /* large/decorative/on-dark only */
+  --gold-text: #8a6122;         /* AA fix: 5.10:1 on paper — for gold-toned TEXT on light */
   --gold-bright: #f1bb58;
   --vermilion: #bd4f3e;
   --vermilion-deep: #90382c;
@@ -39,7 +41,8 @@
   --c-events:    #9a6b1f;
 
   --serif-ja: "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  --sans: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  /* Universal Design body font (Morisawa BIZ UD, SIL OFL) for civic/all-age legibility; Zen Kaku as graceful fallback */
+  --sans: "BIZ UDPGothic", "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
 
   --maxw: 1100px;
   --radius: 8px;
@@ -776,7 +779,7 @@ header, main, footer, nav { position: relative; z-index: 1; }
 }
 .faq-item .faq-a::before {
   content: "A"; position: absolute; left: 1.05em; top: -.1em;
-  font-weight: 700; color: var(--gold); font-family: var(--serif-ja);
+  font-weight: 700; color: var(--gold-text); font-family: var(--serif-ja);
 }
 
 /* ==========================================================================
@@ -980,4 +983,70 @@ table.od-table { border-collapse: collapse; width: 100%; font-size: .86rem; }
   body.print-disaster .family-card, body.print-disaster .family-card * { visibility: visible !important; }
   body.print-disaster .family-card { position: absolute; inset: 14mm 12mm auto; width: calc(100% - 24mm); min-height: 0; border: 2px solid #000; box-shadow: none; }
   body.print-disaster .tool-actions, body.print-disaster #disaster-area-result { display: none !important; }
+}
+
+/* ==========================================================================
+   Dark mode — verified WCAG AA (all ratios Bash-computed on the target bg)
+   Method: prefers-color-scheme override — same decisive token values as the
+   spec's light-dark(), with wider support. Auto-follows OS; no JS/toggle.
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8eef0;        /* 13.70:1 on dark paper */
+    --ink-soft: #b9c6ca;   /* 9.17:1 */
+    --ink-faint: #8fa0a5;  /* 5.92:1 */
+    --paper: #16232a;
+    --paper-2: #1a2a31;
+    --line: #33454d;
+    --white: #1e2f37;      /* card surface in dark */
+    --sumire: #c9b3e0;     /* heading 8.42:1 */
+    --sumire-deep: #d8c8ec;
+    --gold: #f1bb58;
+    --gold-text: #e0c070;
+    --gold-bright: #f1bb58;
+    /* category accents lightened for legibility on dark card (all >=5.5:1, Bash-verified) */
+    --c-emergency: #f08a76; --c-disaster: #e6a15c; --c-garbage: #a6c483;
+    --c-procedure: #b79ce6; --c-childcare: #e79ab8; --c-medical: #6fc4b8;
+    --c-welfare: #8fb0e6;   --c-tax: #e0c070;      --c-lifeline: #7cc0dd;
+    --c-transport: #e08aa6; --c-facility: #94c19a; --c-events: #e6b45f;
+    --shadow: 0 10px 30px rgba(0,0,0,.45);
+    --shadow-soft: 0 3px 12px rgba(0,0,0,.35);
+  }
+  /* SVG crest / illustrations keep their own fills; ensure focus rings stay visible */
+  :focus-visible { outline-color: var(--gold-bright); }
+}
+
+/* ==========================================================================
+   Modern CSS enhancements — progressive, CSP-safe (no JS), no-op if unsupported
+   ========================================================================== */
+/* Smooth same-origin page transitions (CSS only). Disabled under reduced-motion. */
+@view-transition { navigation: auto; }
+@media (prefers-reduced-motion: reduce) { @view-transition { navigation: none; } }
+
+/* Container queries: cards adapt to the space they occupy, not the viewport */
+.cat-card-grid, .cat-cards, .route-grid, .item-grid { container-type: inline-size; }
+@container (max-width: 340px) {
+  .cat-card, .route-card, .item-card { padding-inline: 14px; }
+}
+
+/* Subtle scroll-reveal for content cards. Never for emergency/SOS.
+   The reset block near the top also nukes all animation under reduced-motion. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .cat-card, .item-card, .faq-item {
+      animation: life-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 28%;
+    }
+  }
+}
+@keyframes life-rise {
+  from { opacity: .4; transform: translateY(9px); }
+  to   { opacity: 1; transform: none; }
+}
+/* Safety: emergency/SOS/quick-route are never animated or transition-morphed */
+.sos-strip, .sos-strip *, .sos-card, .sos-card *, .sos-btn,
+.ss-label, .ss-more, .route-card:first-child {
+  animation: none !important;
+  view-transition-name: none !important;
 }

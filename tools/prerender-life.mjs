@@ -15,7 +15,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LIFE = path.join(ROOT, "life");
 const SITE = "https://takarazuka.jun-nakatani.com";
 const LIFEBASE = SITE + "/life/";
-const ASSET_VERSION = "20260622c";
+const ASSET_VERSION = "20260706d";
 
 const guide = JSON.parse(fs.readFileSync(path.join(LIFE, "data", "guide.json"), "utf8"));
 const odDir = path.join(LIFE, "data", "opendata");
@@ -84,7 +84,8 @@ function docStart(o) {
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}">
 <link rel="canonical" href="${esc(o.canonical)}">
-<meta name="theme-color" content="#241d3f">
+<meta name="theme-color" content="#241d3f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16232a" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <meta property="og:type" content="website">
@@ -98,7 +99,7 @@ function docStart(o) {
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/life/life.css?v=${ASSET_VERSION}">
 ${o.ld || ""}
 </head>
