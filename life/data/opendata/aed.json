@@ -2,7 +2,7 @@
  "id": "aed",
  "title": "AED設置場所（まちかど救急ステーション）",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成。「24時間ステーション」はコンビニ等で24時間利用できる設置場所です",
- "fetched": "2026-07-13",
+ "fetched": "2026-07-20",
  "sourcePage": "https://www.city.takarazuka.hyogo.jp/1060686/1060716/1008153/1011278/1057271/1029611.html",
  "type": "table",
  "map": true,

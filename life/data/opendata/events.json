@@ -2,7 +2,7 @@
  "id": "events",
  "title": "宝塚市のイベント情報",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成。今後開催されるものを開催日順に表示しています。申込方法・詳細は各リンク先で確認を",
- "fetched": "2026-07-13",
+ "fetched": "2026-07-20",
  "sourcePage": "https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html",
  "type": "events",
  "items": [
@@ -3152,7 +3152,7 @@
    "title": "新米ママ・パパのふれあいタイム(2回連続講座)【安倉児童館】",
    "place": "【開催場所】安倉児童館(安倉南1丁目2-1)【申し込み・問い合わせ先】安倉児童館(電話:0797-86-1762)[地域に発信する子ども家庭支援センターのプログラム【7月以降の講座案内】]",
    "desc": "初めての子育てで困っていることはありませんか?親子ふれあい遊び、フリートーク等を通しての仲間作り。助産師・栄養士からのアドバイスもあります。",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061801/1011488.html",
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061797/1011488.html",
    "target": [
     "5"
    ],
@@ -3796,22 +3796,6 @@
    "deadline": ""
   },
   {
-   "date": "2026-06-28",
-   "dateEnd": "2026-07-11",
-   "title": "親子で参加でき講座&ワークショップ 7か国語で話そう。",
-   "place": "男女共同参画センター",
-   "desc": "(1)多言語活動の紹介 (2)言語交流研究所員による講演 (3)ことばの習得についてのディスカッション",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061825/1063121.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "4"
-   ],
-   "application": false,
-   "deadline": "2026-07-10"
-  },
-  {
    "date": "2026-06-30",
    "dateEnd": "",
    "title": "大人の体力測定会",
@@ -3864,7 +3848,7 @@
    "dateEnd": "2027-03-19",
    "title": "みんなのほっこり茶の間 みんほこ学ビバ",
    "place": "みんなのあゆみ(谷口町1-17)",
-   "desc": "2026年7月2日から2027年3月19日までの第1木曜日と第3金曜日に自宅ではない場所で自主学習をしたい子どもたちが利用できる場所。現役大学生や卒業生、元教師などが見守り、学校の",
+   "desc": "2026年7月2日から2027年3月19日までの第1木曜日と第3金曜日に自宅ではない場所で自主学習をしたい子どもたちが利用できる場所。地域の有志などが見守り、学校の授業の復習やテス",
    "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1063677.html",
    "target": [
     "2"
@@ -4091,57 +4075,6 @@
    "deadline": ""
   },
   {
-   "date": "2026-07-12",
-   "dateEnd": "",
-   "title": "たからば かみしばい",
-   "place": "文化芸術センター 1階キッズコーナー前",
-   "desc": "毎月第2日曜日に、紙芝居サークル「ちょうちょ」による紙芝居をおこないます。季節に合わせた演目もあります。昔懐かしい紙芝居をどうぞお楽しみ下さい。申し込み不要、どなたでもご参加いただ",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061799/1051325.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "2",
-    "4"
-   ],
-   "application": false,
-   "deadline": ""
-  },
-  {
-   "date": "2026-07-12",
-   "dateEnd": "2027-03-14",
-   "title": "たからばのいちにち",
-   "place": "文化芸術センター おおやね広場、みんなの広場など",
-   "desc": "たからば朝市 ーTAKARABA TABLEー宝塚で育まれた新鮮な野菜と、毎日の食卓に欠かせないパン。西谷の農家や文化芸術センター周辺のベーカリーを中心に、宝塚の食の魅力を楽しめる",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061814/1045138.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "2",
-    "4",
-    "6"
-   ],
-   "application": false,
-   "deadline": ""
-  },
-  {
-   "date": "2026-07-12",
-   "dateEnd": "",
-   "title": "タカラヅカ トーク&amp;ライブ",
-   "place": "",
-   "desc": "元宝塚歌劇団星組トップスター瀬戸内美八さん、鈴鹿照さんほかを迎え、宝塚歌劇トークと素敵なライブをお届けします!&nbsp;受付開始:令和8年5月15日(金曜日)10時~&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061826/1062816.html",
-   "target": [
-    "5"
-   ],
-   "category": [
-    "4"
-   ],
-   "application": false,
-   "deadline": ""
-  },
-  {
    "date": "2026-07-13",
    "dateEnd": "",
    "title": "ZEHセミナーを開催します",
@@ -4188,22 +4121,6 @@
    ],
    "application": false,
    "deadline": "2026-07-14"
-  },
-  {
-   "date": "2026-07-15",
-   "dateEnd": "",
-   "title": "ウィルキンソンの日のイベントを実施します",
-   "place": "マーケットスクエア中山寺(JR中山駅前)",
-   "desc": "ウィルキンソン タンサンのサンプリング(500mlペットボトル)とうちわを無料配布します。※ウィルキンソンのサンプリング配布はなくなり次第終了となります。&nbsp;",
-   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1063432.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "4"
-   ],
-   "application": false,
-   "deadline": ""
   },
   {
    "date": "2026-07-17",
@@ -4330,38 +4247,6 @@
    ],
    "category": [
     "4"
-   ],
-   "application": false,
-   "deadline": ""
-  },
-  {
-   "date": "2026-07-19",
-   "dateEnd": "",
-   "title": "さらら仁川公益施設「人博コラボ講座 里山の生き物」",
-   "place": "さらら仁川公益施設 3階多目的ホール",
-   "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063150.html",
-   "target": [
-    "5"
-   ],
-   "category": [
-    "6"
-   ],
-   "application": false,
-   "deadline": ""
-  },
-  {
-   "date": "2026-07-19",
-   "dateEnd": "",
-   "title": "ピピアめふ公益施設「第149回めふ乃寄席」",
-   "place": "ピピアめふ公益施設 6階めふの間",
-   "desc": "",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061813/1063145.html",
-   "target": [
-    "5"
-   ],
-   "category": [
-    "6"
    ],
    "application": false,
    "deadline": ""
@@ -5427,6 +5312,23 @@
   {
    "date": "2026-08-09",
    "dateEnd": "",
+   "title": "たからば かみしばい",
+   "place": "文化芸術センター 1階キッズコーナー前",
+   "desc": "毎月第2日曜日に、紙芝居サークル「ちょうちょ」による紙芝居をおこないます。季節に合わせた演目もあります。昔懐かしい紙芝居をどうぞお楽しみ下さい。申し込み不要、どなたでもご参加いただ",
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000039/1061699/1061798/1051325.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": ""
+  },
+  {
+   "date": "2026-08-09",
+   "dateEnd": "",
    "title": "さらら仁川公益施設「NISAで賢く資産形成!お金の勉強会~教育費・住宅ローン対策まで~」",
    "place": "さらら仁川公益施設 3階多目的ホール",
    "desc": "",
@@ -5435,6 +5337,24 @@
     "5"
    ],
    "category": [
+    "6"
+   ],
+   "application": false,
+   "deadline": ""
+  },
+  {
+   "date": "2026-08-09",
+   "dateEnd": "2027-03-14",
+   "title": "たからばのいちにち",
+   "place": "文化芸術センター おおやね広場、みんなの広場など",
+   "desc": "たからば朝市 ーTAKARABA TABLEー宝塚で育まれた新鮮な野菜と、毎日の食卓に欠かせないパン。西谷の農家や文化芸術センター周辺のベーカリーを中心に、宝塚の食の魅力を楽しめる",
+   "url": "https://www.city.takarazuka.hyogo.jp/event/1000043/1061701/1061815/1045138.html",
+   "target": [
+    "6"
+   ],
+   "category": [
+    "2",
+    "4",
     "6"
    ],
    "application": false,
@@ -5585,6 +5505,23 @@
    ],
    "application": false,
    "deadline": "2026-08-11"
+  },
+  {
+   "date": "2026-08-22",
+   "dateEnd": "",
+   "title": "【ひょうごフィールドパビリオン】「にしたにで流しそうめん」が開催されます!",
+   "place": "西谷の森公園",
+   "desc": "",
+   "url": "https://www.city.takarazuka.hyogo.jp/1060683/1060708/1062145/1058686/1063184.html",
+   "target": [
+    "5"
+   ],
+   "category": [
+    "2",
+    "4"
+   ],
+   "application": false,
+   "deadline": "2026-07-31"
   },
   {
    "date": "2026-08-23",

@@ -2,7 +2,7 @@
  "id": "libraries",
  "title": "市内の図書館",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成（G空間情報センター掲載データ）。休館日等の詳細は各館ページで確認を",
- "fetched": "2026-07-13",
+ "fetched": "2026-07-20",
  "sourcePage": "https://www.geospatial.jp/ckan/dataset/takarazuka-library",
  "type": "table",
  "map": true,
