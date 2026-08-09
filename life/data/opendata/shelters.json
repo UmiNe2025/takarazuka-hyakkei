@@ -2,7 +2,7 @@
  "id": "shelters",
  "title": "指定緊急避難場所・指定避難所",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成。「対応災害」はその災害のときに避難できることを示します。開設状況は災害時の市の発表で確認してください",
- "fetched": "2026-08-03",
+ "fetched": "2026-08-10",
  "sourcePage": "https://www.city.takarazuka.hyogo.jp/1013056/1001456/1002647/1021476.html",
  "type": "table",
  "map": true,
