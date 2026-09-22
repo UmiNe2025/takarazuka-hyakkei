@@ -1,0 +1,13 @@
+ok
+ok
+✔ fetch failures persist without replacing data; retries do not become failed weeks; success resets (1065.4858ms)
+✔ alerts create once, comment on exact existing issue, and do nothing below two weeks (1.2947ms)
+✔ failed publication commits only status; same-day retry still publishes changed data (3292.5309ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3394.4632

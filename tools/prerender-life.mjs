@@ -22,7 +22,7 @@ const guide = JSON.parse(fs.readFileSync(path.join(LIFE, "data", "guide.json"), 
 const odDir = path.join(LIFE, "data", "opendata");
 const od = {};
 if (fs.existsSync(odDir)) {
-  for (const f of fs.readdirSync(odDir).filter((f) => f.endsWith(".json"))) {
+  for (const f of fs.readdirSync(odDir).filter((f) => f.endsWith(".json") && !f.startsWith("_"))) {
     const b = JSON.parse(fs.readFileSync(path.join(odDir, f), "utf8"));
     od[b.id] = b;
   }
@@ -98,6 +98,7 @@ const guideCatDates = (() => {
 /* サイト全体(ハブ)の本文変更日 = 全カテゴリ・全オープンデータの最大値 */
 const updatedDates = [guide.updated, ...Object.values(guideCatDates), ...Object.values(od).map(contentDate)].filter(Boolean).sort();
 const newest = updatedDates[updatedDates.length - 1] || today;
+const latestFetch = Object.values(od).map((b) => b.fetched).filter(Boolean).sort().pop() || "—";
 /* カテゴリ単位の本文変更日 = guide.json 内の当該カテゴリの変更日と、そのカテゴリが使うオープンデータの changed の最大値 */
 const categoryDate = (c) => [guideCatDates[c.id] || guide.updated, ...(c.opendata || []).map((id) => od[id] && contentDate(od[id]))].filter(Boolean).sort().pop() || newest;
 
@@ -230,7 +231,7 @@ function footer() {
       </div>
       <div>
         <h2>データについて</h2>
-        <p>施設・避難所・イベント等の一覧は<a href="https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html" rel="noopener">宝塚市オープンデータ</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）を加工して作成し、定期的に自動更新しています。最終データ取得日: ${newest}。</p>
+        <p>施設・避難所・イベント等の一覧は<a href="https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html" rel="noopener">宝塚市オープンデータ</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）を加工して作成し、定期的に自動更新しています。最終データ取得日: ${latestFetch}。各一覧の取得日は一覧ごとに記載しています。</p>
       </div>
       <div>
         <h2>関連リンク</h2>
@@ -528,6 +529,7 @@ function lifeTools() {
    page: category
    ========================================================================== */
 function categoryDescription(c) {
+  if (c.description) return c.description;
   const names = c.items.slice(0, 4).map((it) => it.title.split(/[ —（(]/)[0]).join("・");
   return `宝塚市の${c.title}に関する生活情報。${c.tagline} ${names} など、窓口・連絡先・手続きを出典付きでまとめています。`;
 }

@@ -6,20 +6,24 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import XLSX from "xlsx";
+import { updateDatasetStatus } from "./opendata-status.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const OUT = path.join(ROOT, "life", "data", "opendata");
+const DEFAULT_OUT = path.join(ROOT, "life", "data", "opendata");
+const OUT = process.env.OPENDATA_OUTPUT_DIR ? path.resolve(process.env.OPENDATA_OUTPUT_DIR) : DEFAULT_OUT;
+if (process.env.OPENDATA_TEST_DATE && OUT === DEFAULT_OUT) throw new Error("OPENDATA_TEST_DATE requires a separate OPENDATA_OUTPUT_DIR");
 fs.mkdirSync(OUT, { recursive: true });
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) takarazuka-life-guide/1.0 (+https://takarazuka.jun-nakatani.com/life/)";
-const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
+const today = process.env.OPENDATA_TEST_DATE || new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
+if (!/^\d{4}-\d{2}-\d{2}$/.test(today) || new Date(today).toISOString().slice(0, 10) !== today) throw new Error("Invalid date");
 const CITY = "https://www.city.takarazuka.hyogo.jp";
 
 async function get(url, tries = 3) {
   let err;
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: { "User-Agent": UA } });
+      const r = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(30000) });
       if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
       return Buffer.from(await r.arrayBuffer());
     } catch (e) { err = e; await new Promise((res) => setTimeout(res, 1500 * (i + 1))); }
@@ -388,10 +392,23 @@ function parseCsv(text) {
 }
 
 /* ---------- run all ---------- */
+const statusFile = path.join(OUT, "_status.json");
+let status = { version: 1, datasets: {} };
+if (fs.existsSync(statusFile)) status = JSON.parse(fs.readFileSync(statusFile, "utf8"));
+if (status.version !== 1 || !status.datasets || typeof status.datasets !== "object") throw new Error("Invalid open-data status file");
+const selected = process.env.OPENDATA_DATASETS ? process.env.OPENDATA_DATASETS.split(",") : Object.keys(tasks);
+if (!selected.length || selected.some((name) => !Object.hasOwn(tasks, name))) throw new Error("Unknown OPENDATA_DATASETS");
+const forced = new Set((process.env.OPENDATA_FORCE_FAIL || "").split(","));
 let failed = 0;
-for (const [name, fn] of Object.entries(tasks)) {
-  try { await fn(); }
-  catch (e) { failed++; console.error(`✗ ${name}: ${e.message}（既存データを維持します）`); }
+for (const name of selected) {
+  let error = null;
+  try {
+    if (forced.has("all") || forced.has(name)) throw new Error("Forced failure (OPENDATA_FORCE_FAIL)");
+    await tasks[name]();
+  } catch (e) { error = e; failed++; console.error(`✗ ${name}: ${e.message}（既存データを維持します）`); }
+  status.datasets[name] = updateDatasetStatus(status.datasets[name], today, error);
+  fs.writeFileSync(statusFile + ".tmp", JSON.stringify(status, null, 2) + "\n");
+  fs.renameSync(statusFile + ".tmp", statusFile);
 }
 console.log(failed ? `done with ${failed} failure(s)` : "all datasets updated");
-if (failed === Object.keys(tasks).length) process.exit(1); // 全滅時のみ失敗扱い
+if (failed === selected.length) process.exit(1); // 状態を保存してから全滅を報告

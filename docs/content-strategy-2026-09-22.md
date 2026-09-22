@@ -64,3 +64,50 @@
 | 46〜90日 | GSC に兆候が出た領域だけ新規ページ | 需要の兆候が先 | 非指名クリック |
 
 撤退基準: 90日でページ単位の表示・生成AI機能の表示とも伸びなければ、新規追加を止めて既存ページの正確さ維持に専念する。クリックが小さい間は CTR の変化を成果と断定しない。
+
+## 6. T4 実装・ローカル検証（2026-09-23）
+
+独立レビューで公開失敗時の保存と通知障害の扱いを指摘され、下記のとおり修正。デプロイ・GitHub Actions 手動実行・GSC URL 検査はこの記録時点では未実施。
+
+- **T4-a**: トップ title、description、OGP を改訂案 A に変更。ja/en/x-default が同一 URL の hreflang を削除。WebSite の name を「宝塚百景」、description をページの説明と揃え、TouristDestination を日本語表記に整理。実装には同一 URL 内の日英切替があるため、JSON-LD の inLanguage は ja/en を維持。
+- **T4-b**: facility の description を guide.json で明示し、categoryDescription() が採用。図書館・公衆トイレ・無料 Wi-Fi、図書館の開館時間、取得確認日・公式確認先を説明。件数の直書きなし。
+- **T4-c**: 粗大ごみを申込→料金→収集→間違えやすい点に再構成。持ち込みにも予約が必要と明記し、窓口を予約・受付センター 0797-87-3363 に修正。確認日 2026-09-23、粗大ごみ FAQ 3問を追加（既存の一般ごみ FAQ 2問は維持）。持ち込み期限、初回電話登録、月曜収集の期限、処理券と現金の違いを掲載。
+- **T4-d**: `_status.json` にデータセットごとの連続失敗回数・連続失敗週数・最終成功日を記録。週は JST の月曜開始、同週の再実行は週数を増やさず、欠測週は連続扱いしない。成功で両カウントをゼロにする。失敗時は前回 JSON と fetched/changed を保持する。2週以上で gh issue create、同じ件名の未解決 Issue があれば comment。全データ取得失敗でも通知と状態保存が走る workflow に変更し、issues: write と同時実行制御を追加。通知本文は stdin 渡し。HTTP 取得に30秒のタイムアウトを追加。
+- **取得日表示**: フッターが本文変更日を「最終データ取得日」としていた箇所を修正。実際の fetched の最大日を表示し、各一覧に個別取得日があることを案内。内部の `_status.json` はプリレンダ入力から除外（data/ 全体は既存ビルドで公開対象外）。
+
+### 一次資料（2026-09-23 に Web で確認）
+
+| 確認対象 | 市公式資料 |
+|---|---|
+| 予約、期限、収集・持込日、初回登録、支払い、搬入条件 | [粗大ごみの収集・持ち込み方法](https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002040.html) |
+| 料金例と予約時に金額確認が必要なこと（9/15更新） | [粗大ごみ品目別収集料金表](https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1002046.html) |
+| 通常の家庭ごみは持ち込めない | [家庭ごみの持ち込みは粗大ごみのみ](https://www.city.takarazuka.hyogo.jp/cleancenter/notice/1054460.html) |
+
+### 検証証跡
+
+- `node --test qa/opendata-status.test.mjs qa/workflow-persistence.test.mjs`: 3 tests / 3 pass。OS の一時フォルダだけで失敗注入（OPENDATA_FORCE_FAIL）、同週再試行、翌週失敗、欠測週、成功リセット、部分失敗、前回 JSON の byte 一致、Issue 作成・既存追記の mock を確認。本番データ8ファイルには変更なし。一時 bare Git repository で workflow の実際の保存 shell を実行し、公開失敗時は status のみ保存、同日再実行でもデータ差分が残り、公開検証成功後にデータ・HTML を保存できることを検証。通知障害は continue-on-error で公開と切り離し、状態保存後に最終ステップでエラーを報告。YAML parse も成功（11 steps）。
+- ビルド: `node tools/prerender.mjs` → `node tools/prerender-life.mjs` → `node tools/build-public.mjs` の順に成功。100 cards、hub + 12 category pages、75 items、8 opendata blocks。
+- 生成物 smoke: title、metadata、hreflang 削除、facility 文言、粗大ごみ・FAQ・確認日、公開物に data/ がないことを確認。
+- Edge headless: 1280px / 390px で garbage と facility を確認。横はみ出しなし、JavaScript 例外なし、FAQ の開閉成功。`qa/t4-garbage-1280.png` / `qa/t4-garbage-390.png`（ローカル QA 画像、git 対象外）。
+- 残り: 独立レビュー → 指定順ビルドとデプロイ → `gh workflow run update-data.yml` の成功確認 → トップ・garbage・facility の GSC 登録リクエスト。Issue API の書き込みはローカル mock のみで、実際の失敗通知の配信を実証したものではない。
+
+
+## 7. 検索ボリューム実測（2026-09-23 / T7）
+
+Google広告「宝塚書房」既存アカウントで取得。日本・すべての言語・Google、2025年9月〜2026年8月の月間平均範囲。再有効化や広告配信は行っていない。検索操作で調査プランのみ自動保存された。
+
+| 入力語 | 月間平均検索ボリューム |
+|---|---:|
+| 宝塚 初心者 観劇 持ち物 | — |
+| 宝塚駅 授乳室 | 10〜100 |
+| 宝塚大劇場 授乳室 | — |
+| 宝塚市 転入 手続き | 10〜100 |
+| 宝塚 御朱印 | 100〜1,000 |
+| 宝塚市 イベント 今週末 子供 | — |
+| 宝塚市 粗大ごみ | 1,000〜1万 |
+| 宝塚市 粗大ごみ 持ち込み | 100〜1,000 |
+| 粗大ごみ | 1万〜10万 |
+| #7119 宝塚市 | 10〜100 |
+| 中山寺 戌の日 | 100〜1,000 |
+
+取得元: [Keyword Planner保存済み調査プラン](https://ads.google.com/aw/keywordplanner/plan/keywords/historical?ocid=67198746&planId=1439695477&authuser=1)。全20行と他サイトの値は `_portfolio/docs/KEYWORD_VOLUME_2026-09-23.md` に保存。「—」は数値非表示でゼロではない。範囲の中点を実数とみなさず、広告競合性をSEO難易度に読み替えない。粗大ごみ節を先行する判断を補強するが、御朱印などの写真制約・競合上の優先度は変えない。
