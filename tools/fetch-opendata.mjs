@@ -34,6 +34,18 @@ async function sheetRows(url) {
   return XLSX.utils.sheet_to_json(ws, { header: 1, defval: "" });
 }
 
+/* 市の添付ファイル名は更新のたびに変わる（例: 20260210.xlsx → matikadokoukyou20260730.xlsx）。
+   掲載ページの HTML から .xlsx リンクを探して解決し、見つからなければ従来URLにフォールバックする。 */
+async function resolveXlsx(pageUrl, pattern, fallback) {
+  try {
+    const html = (await get(pageUrl)).toString("utf8");
+    const links = [...html.matchAll(/href="([^"]+.xlsx)"/gi)].map((m) => new URL(m[1], pageUrl).href);
+    const hit = links.find((u) => pattern.test(u));
+    if (hit) { if (hit !== fallback) console.log(`  ↪ ${path.basename(fallback)} → ${path.basename(hit)}（掲載ページから解決）`); return hit; }
+  } catch (e) { console.log(`  ! 掲載ページ取得失敗 ${pageUrl}: ${e.message}`); }
+  return fallback;
+}
+
 /* NFKC: 互換漢字（U+FA10「塚」等）・全角英数を正規化してから整形 */
 const norm = (s) => String(s ?? "").normalize("NFKC").replace(/\s+/g, " ").trim();
 const stripCity = (s) => norm(s).replace(/^兵庫県/, "").replace(/^宝塚市/, "");
@@ -57,10 +69,20 @@ function headerMap(rows) {
   return { idx: (name) => h.findIndex((c) => c.includes(name)), header: h };
 }
 
+/* 取得確認日(fetched)と本文変更日(changed)を分ける。
+   fetched は毎回更新する（「いつ確認したか」を利用者に示す）。
+   changed は items/columns/note 等の実内容が前回ファイルと異なるときだけ更新する。
+   prerender-life は changed を dateModified / sitemap lastmod に使う（毎週ビルド日で塗り替えない）。 */
 function write(block) {
   if (!block.items.length) throw new Error("0 items");
-  fs.writeFileSync(path.join(OUT, `${block.id}.json`), JSON.stringify(block, null, 1));
-  console.log(`✓ ${block.id}: ${block.items.length} items`);
+  const file = path.join(OUT, `${block.id}.json`);
+  const strip = (b) => JSON.stringify({ ...b, fetched: undefined, changed: undefined });
+  let prev = null;
+  try { prev = JSON.parse(fs.readFileSync(file, "utf8")); } catch { /* 初回 */ }
+  const same = prev && strip(prev) === strip(block);
+  block.changed = same ? (prev.changed || prev.fetched || block.fetched) : block.fetched;
+  fs.writeFileSync(file, JSON.stringify(block, null, 1));
+  console.log(`✓ ${block.id}: ${block.items.length} items${same ? " (内容変更なし)" : " (内容更新)"}`);
 }
 
 const ATTRIB = "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成";
@@ -98,9 +120,11 @@ const tasks = {
 
   /* ---------- AED設置場所（24h + 公共施設） ---------- */
   async aed() {
+    const AED_PAGE = `${CITY}/1060686/1060716/1008153/1011278/1057271/1029611.html`;
+    const AED_DIR = `${CITY}/_res/projects/default_project/_page_/001/029/611/`;
     const srcs = [
-      { url: `${CITY}/_res/projects/default_project/_page_/001/029/611/24h.xlsx`, kind: "24時間ステーション" },
-      { url: `${CITY}/_res/projects/default_project/_page_/001/029/611/20260210.xlsx`, kind: "公共施設等" },
+      { url: await resolveXlsx(AED_PAGE, /24h[^/]*\.xlsx$/i, `${AED_DIR}24h.xlsx`), kind: "24時間ステーション" },
+      { url: await resolveXlsx(AED_PAGE, /(matikado|\d{8})[^/]*\.xlsx$/i, `${AED_DIR}20260210.xlsx`), kind: "公共施設等" },
     ];
     const items = [];
     for (const s of srcs) {
@@ -175,7 +199,7 @@ const tasks = {
 
   /* ---------- 赤ちゃんの駅 ---------- */
   async babystations() {
-    const url = `${CITY}/_res/projects/default_project/_page_/001/000/562/emotosika.xlsx`;
+    const url = await resolveXlsx(`${CITY}/1060680/1060698/1061552/1009331/1000562.html`, /\.xlsx$/i, `${CITY}/_res/projects/default_project/_page_/001/000/562/emotosika.xlsx`);
     const rows = await sheetRows(url);
     const { idx } = headerMap(rows);
     const [iName, iAddr, iDays, iHours, iNyu, iOmu] =

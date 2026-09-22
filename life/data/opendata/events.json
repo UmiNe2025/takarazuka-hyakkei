@@ -2,7 +2,7 @@
  "id": "events",
  "title": "宝塚市のイベント情報",
  "note": "出典: 宝塚市オープンデータ（CC BY 4.0）を加工して作成。今後開催されるものを開催日順に表示しています。申込方法・詳細は各リンク先で確認を",
- "fetched": "2026-09-21",
+ "fetched": "2026-09-22",
  "sourcePage": "https://www.city.takarazuka.hyogo.jp/1060687/1060729/1014984/index.html",
  "type": "events",
  "items": [
@@ -4159,22 +4159,6 @@
    "deadline": ""
   },
   {
-   "date": "2026-09-20",
-   "dateEnd": "",
-   "title": "ヴィルタス・オーケストラ・オオサカ 第2回定期演奏会",
-   "place": "",
-   "desc": "オーケストラのコンサート本格的なクラシック名曲をお届けアマチュアでは希少なプログラムの演奏です",
-   "url": "https://www.city.takarazuka.hyogo.jp/event/1000041/1061700/1061828/1063943.html",
-   "target": [
-    "6"
-   ],
-   "category": [
-    "4"
-   ],
-   "application": false,
-   "deadline": "2026-09-19"
-  },
-  {
    "date": "2026-09-23",
    "dateEnd": "",
    "title": "ピピアめふ公益施設「森信雄七段杯争奪 将棋大会」",
@@ -6207,5 +6191,6 @@
    "application": false,
    "deadline": "2026-12-25"
   }
- ]
+ ],
+ "changed": "2026-09-22"
 }

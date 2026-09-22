@@ -64,8 +64,13 @@ const icon = (name, cls) =>
 
 /* ---------- updated date ---------- */
 const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // JST
-const updatedDates = [guide.updated, ...Object.values(od).map((b) => b.fetched)].filter(Boolean).sort();
+/* 本文変更日 = guide.json の updated と各オープンデータの changed（内容差分があった日）。
+   fetched（取得確認日）は表示用にのみ使い、dateModified / lastmod には使わない。 */
+const contentDate = (b) => b.changed || b.fetched;
+const updatedDates = [guide.updated, ...Object.values(od).map(contentDate)].filter(Boolean).sort();
 const newest = updatedDates[updatedDates.length - 1] || today;
+/* カテゴリ単位の本文変更日 = guide.updated と、そのカテゴリが使うオープンデータの changed の最大値 */
+const categoryDate = (c) => [guide.updated, ...(c.opendata || []).map((id) => od[id] && contentDate(od[id]))].filter(Boolean).sort().pop() || newest;
 
 /* ==========================================================================
    shared layout
@@ -503,7 +508,7 @@ function categoryPage(c) {
   const desc = categoryDescription(c);
 
   const ld = [
-    { "@type": "WebPage", "@id": canonical, url: canonical, name: `${c.title}｜宝塚くらしの便利帳`, description: desc, inLanguage: "ja", dateModified: today, isPartOf: { "@type": "WebSite", name: "宝塚くらしの便利帳", url: LIFEBASE }, about: { "@type": "City", name: "宝塚市", sameAs: "https://www.city.takarazuka.hyogo.jp/" } },
+    { "@type": "WebPage", "@id": canonical, url: canonical, name: `${c.title}｜宝塚くらしの便利帳`, description: desc, inLanguage: "ja", dateModified: categoryDate(c), isPartOf: { "@type": "WebSite", name: "宝塚くらしの便利帳", url: LIFEBASE }, about: { "@type": "City", name: "宝塚市", sameAs: "https://www.city.takarazuka.hyogo.jp/" } },
     { "@type": "BreadcrumbList", itemListElement: [
       { "@type": "ListItem", position: 1, name: "宝塚百景", item: SITE + "/" },
       { "@type": "ListItem", position: 2, name: "宝塚くらしの便利帳", item: LIFEBASE },
@@ -512,7 +517,7 @@ function categoryPage(c) {
     ...(c.faq && c.faq.length ? [{ "@type": "FAQPage", mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }] : []),
     ...(c.opendata || []).filter((id) => od[id]).map((id) => {
       const b = od[id];
-      return { "@type": "Dataset", name: `宝塚市オープンデータ: ${b.title}`, description: b.note, url: b.sourcePage, license: "https://creativecommons.org/licenses/by/4.0/deed.ja", creator: { "@type": "GovernmentOrganization", name: "宝塚市" }, dateModified: b.fetched };
+      return { "@type": "Dataset", name: `宝塚市オープンデータ: ${b.title}`, description: b.note, url: b.sourcePage, license: "https://creativecommons.org/licenses/by/4.0/deed.ja", creator: { "@type": "GovernmentOrganization", name: "宝塚市" }, dateModified: contentDate(b) };
     }),
   ];
   const ldTag = `<script type="application/ld+json">${safeJson({ "@context": "https://schema.org", "@graph": ld })}</script>`;
@@ -725,7 +730,7 @@ if (fs.existsSync(sitemapPath)) {
   const lifeUrls = [
     `  <url>\n    <loc>${LIFEBASE}</loc>\n    <lastmod>${newest}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>`,
     ...guide.categories.map((c) =>
-      `  <url>\n    <loc>${LIFEBASE}${c.id}/</loc>\n    <lastmod>${newest}</lastmod>\n    <changefreq>${(c.opendata || []).length ? "weekly" : "monthly"}</changefreq>\n    <priority>0.8</priority>\n  </url>`),
+      `  <url>\n    <loc>${LIFEBASE}${c.id}/</loc>\n    <lastmod>${categoryDate(c)}</lastmod>\n    <changefreq>${(c.opendata || []).length ? "weekly" : "monthly"}</changefreq>\n    <priority>0.8</priority>\n  </url>`),
   ].join("\n");
   sm = sm.replace(/\s*<\/urlset>\s*$/, "\n" + lifeUrls + "\n</urlset>\n");
   fs.writeFileSync(sitemapPath, sm);
