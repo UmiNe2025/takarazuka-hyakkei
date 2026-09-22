@@ -89,7 +89,7 @@
 - ビルド: `node tools/prerender.mjs` → `node tools/prerender-life.mjs` → `node tools/build-public.mjs` の順に成功。100 cards、hub + 12 category pages、75 items、8 opendata blocks。
 - 生成物 smoke: title、metadata、hreflang 削除、facility 文言、粗大ごみ・FAQ・確認日、公開物に data/ がないことを確認。
 - Edge headless: 1280px / 390px で garbage と facility を確認。横はみ出しなし、JavaScript 例外なし、FAQ の開閉成功。`qa/t4-garbage-1280.png` / `qa/t4-garbage-390.png`（ローカル QA 画像、git 対象外）。
-- 残り: 独立レビュー → 指定順ビルドとデプロイ → `gh workflow run update-data.yml` の成功確認 → トップ・garbage・facility の GSC 登録リクエスト。Issue API の書き込みはローカル mock のみで、実際の失敗通知の配信を実証したものではない。
+- 公開完了（2026-09-23 JST）: 独立レビューで指摘された失敗時保存・通知障害の2件を修正し、再レビュー3/3 PASS。実装commit `5a76ceb`、sitemap commit `6f749df`。指定順ビルド→Pages deploy `a146bb8a`。手動週次更新 [run 35794020854](https://github.com/UmiNe2025/takarazuka-hyakkei/actions/runs/35794020854) は全step成功、全データ取得成功、Pages `8131ad5b`、bot commit `46148f5`。mainを同期済み。
 
 
 ## 7. 検索ボリューム実測（2026-09-23 / T7）
@@ -111,3 +111,9 @@ Google広告「宝塚書房」既存アカウントで取得。日本・すべ�
 | 中山寺 戌の日 | 100〜1,000 |
 
 取得元: [Keyword Planner保存済み調査プラン](https://ads.google.com/aw/keywordplanner/plan/keywords/historical?ocid=67198746&planId=1439695477&authuser=1)。全20行と他サイトの値は `_portfolio/docs/KEYWORD_VOLUME_2026-09-23.md` に保存。「—」は数値非表示でゼロではない。範囲の中点を実数とみなさず、広告競合性をSEO難易度に読み替えない。粗大ごみ節を先行する判断を補強するが、御朱印などの写真制約・競合上の優先度は変えない。
+
+### 公開後の受入結果（2026-09-23 JST）
+
+- カスタムドメインのトップ・garbage・facilityはHTTP 200。指定title/description、hreflang削除、JSON-LD整合、予約電話・確認日・現金払い・施設説明を直接GETで確認。pages.devとカスタムドメイン計6URLでverify-live PASS。
+- GSC URL検査はトップが登録済み、garbageは「検出 - インデックス未登録」、facilityは「クロール済み - インデックス未登録」（前回2026/09/14 8:46:45）だった。3URLすべてで「インデックス登録をリクエスト済み」「URL を優先クロール キューに追加しました。」を確認。登録完了や検索順位改善の証拠ではない。
+- 証跡: `_portfolio/docs/t4-live-evidence-2026-09-23.json`、`_portfolio/docs/t4-gsc-requests-2026-09-23.json`。手動Actionsの取得結果は8データセットとも成功・失敗回数0。実際の失敗Issue送信は故意に発生させず、作成/追記はmockで検証。将来の初回障害時の到達確認は運用上残る。
