@@ -101,6 +101,7 @@ function docStart(o) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/life/life.css?v=${ASSET_VERSION}">
+<script src="/js/consent.js"></script>
 ${o.ld || ""}
 </head>
 <body${o.bodyClass ? ` class="${o.bodyClass}"` : ""}>
