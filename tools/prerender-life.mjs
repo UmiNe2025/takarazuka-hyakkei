@@ -10,6 +10,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "child_process";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LIFE = path.join(ROOT, "life");
@@ -67,10 +68,38 @@ const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // J
 /* 本文変更日 = guide.json の updated と各オープンデータの changed（内容差分があった日）。
    fetched（取得確認日）は表示用にのみ使い、dateModified / lastmod には使わない。 */
 const contentDate = (b) => b.changed || b.fetched;
-const updatedDates = [guide.updated, ...Object.values(od).map(contentDate)].filter(Boolean).sort();
+/* guide.json のカテゴリごとの本文変更日。guide.updated は項目追加時に更新し忘れやすい
+   （2026-07-06 に6項目追加したが 06-13 のままだった）ため、git 履歴から
+   「現在のカテゴリ内容が最初に現れたコミット日」を求める。未コミットの変更があれば today。
+   git が使えない環境では guide.updated にフォールバック。CI は fetch-depth: 0。 */
+const GUIDE_REL = "life/data/guide.json";
+const guideCatDates = (() => {
+  const dates = {};
+  const cur = Object.fromEntries(guide.categories.map((c) => [c.id, JSON.stringify(c)]));
+  let log;
+  try {
+    log = execSync(`git log --format="%H %cs" -- ${GUIDE_REL}`, { cwd: ROOT, stdio: ["ignore", "pipe", "ignore"] })
+      .toString().trim().split("\n").filter(Boolean).map((l) => l.split(" "));
+  } catch { return dates; }
+  const open = new Set(Object.keys(cur));
+  for (const [sha, date] of log) {
+    if (!open.size) break;
+    let cats;
+    try { cats = JSON.parse(execSync(`git show ${sha}:${GUIDE_REL}`, { cwd: ROOT, stdio: ["ignore", "pipe", "ignore"], maxBuffer: 32 << 20 }).toString()).categories || []; }
+    catch { break; }
+    const at = Object.fromEntries(cats.map((c) => [c.id, JSON.stringify(c)]));
+    for (const id of [...open]) {
+      if (at[id] === cur[id]) dates[id] = date;          // まだ同じ内容 → さらに過去へ
+      else { if (!dates[id]) dates[id] = today; open.delete(id); } // HEAD と異なる = 未コミット変更
+    }
+  }
+  return dates;
+})();
+/* サイト全体(ハブ)の本文変更日 = 全カテゴリ・全オープンデータの最大値 */
+const updatedDates = [guide.updated, ...Object.values(guideCatDates), ...Object.values(od).map(contentDate)].filter(Boolean).sort();
 const newest = updatedDates[updatedDates.length - 1] || today;
-/* カテゴリ単位の本文変更日 = guide.updated と、そのカテゴリが使うオープンデータの changed の最大値 */
-const categoryDate = (c) => [guide.updated, ...(c.opendata || []).map((id) => od[id] && contentDate(od[id]))].filter(Boolean).sort().pop() || newest;
+/* カテゴリ単位の本文変更日 = guide.json 内の当該カテゴリの変更日と、そのカテゴリが使うオープンデータの changed の最大値 */
+const categoryDate = (c) => [guideCatDates[c.id] || guide.updated, ...(c.opendata || []).map((id) => od[id] && contentDate(od[id]))].filter(Boolean).sort().pop() || newest;
 
 /* ==========================================================================
    shared layout
