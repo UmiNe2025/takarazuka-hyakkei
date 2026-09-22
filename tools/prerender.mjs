@@ -7,6 +7,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "child_process";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BASE = "https://takarazuka.jun-nakatani.com/";
@@ -88,33 +89,42 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), md);
 
 /* ---------- 4. sitemap.xml ---------- */
 const today = new Date().toISOString().slice(0, 10);
+/* lastmod は「ビルド日」ではなく各ソースHTMLの最終コミット日（git 履歴が無ければ mtime → today）。
+   全URLを同日で塗ると Google が lastmod を信用しなくなるため。CI 側は fetch-depth: 0 で履歴を取得する。 */
+function lastmodOf(rel) {
+  try {
+    const d = execSync(`git log -1 --format=%cs -- "${rel}"`, { cwd: ROOT, stdio: ["ignore", "pipe", "ignore"] }).toString().trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
+  } catch { /* git 不在・履歴なし */ }
+  try { return fs.statSync(path.join(ROOT, rel)).mtime.toISOString().slice(0, 10); } catch { return today; }
+}
 /* guide/（宝塚さんぽ・おでかけガイド）のURLもsitemapに含める。tools/build-guide.mjs と対応。 */
 const guideSitemap = ["", "nakayamadera-anzan", "kiyoshikojin-guide", "takarazuka-revue-first", "half-day-course", "jisha-goshuin", "takarazuka-history", "haisenshiki-hiking", "tezuka-museum", "annual-events", "flowers-seasons", "family-outings", "meibutsu-onsen"]
-  .map((s) => `  <url>\n    <loc>${BASE}guide/${s}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
+  .map((s) => `  <url>\n    <loc>${BASE}guide/${s}</loc>\n    <lastmod>${lastmodOf(`guide/${s || "index"}.html`)}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${s ? "0.7" : "0.9"}</priority>\n  </url>`).join("\n");
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"),
 `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${BASE}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmodOf("index.html")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>${BASE}about</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmodOf("about.html")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>${BASE}monthly/2026-07</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmodOf("monthly/2026-07.html")}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>${BASE}observations/2026-07-nakayamadera</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmodOf("observations/2026-07-nakayamadera.html")}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
