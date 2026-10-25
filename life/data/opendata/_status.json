@@ -2,64 +2,64 @@
   "version": 1,
   "datasets": {
     "shelters": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "aed": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "toilets": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "babystations": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "kindergartens": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "libraries": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "wifi": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
       "lastError": null
     },
     "events": {
-      "lastAttempt": "2026-10-19",
-      "lastSuccess": "2026-10-19",
+      "lastAttempt": "2026-10-26",
+      "lastSuccess": "2026-10-26",
       "consecutiveFailures": 0,
       "consecutiveFailedWeeks": 0,
       "lastFailureWeek": null,
